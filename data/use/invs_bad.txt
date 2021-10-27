@@ -1,0 +1,21 @@
+HsInv0200	Few reads (suspicious)
+HsInv0335	Few reads (suspicious)
+HsInv0968	Few reads (suspicious)
+HsInv1146	Few reads (suspicious)
+HsInv1153	Few reads (suspicious)
+HsInv1313	Few reads (suspicious)
+HsInv1122	Many incorrect genotypes
+HsInv1798	Many incorrect genotypes
+HsInv1848	Many incorrect genotypes
+HsInv0181	Many individuals with 0 reads
+HsInv0191	Many individuals with 0 reads
+HsInv0212	Many individuals with 0 reads
+HsInv1127	Many individuals with 0 reads
+HsInv1143	Many individuals with 0 reads
+HsInv1875	Many individuals with 0 reads
+HsInv0044	Many reads (suspicious)
+HsInv0091	Many reads (suspicious)
+HsInv1065	Many reads (suspicious)
+HsInv1141	Many reads (suspicious)
+HsInv1306	Many reads (suspicious)
+HsInv1421	Many reads (suspicious)

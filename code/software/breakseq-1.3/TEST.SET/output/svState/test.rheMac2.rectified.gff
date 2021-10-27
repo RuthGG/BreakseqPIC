@@ -1,0 +1,7 @@
+chr1	test	Deletion	75615485	75620889	.	.	.	Mech "NAHR"; Rect "0"
+chr1	test	Deletion	109988692	109992923	.	.	.	Mech "NAHR"; Rect "0"
+chr2	test	Inversion	138723408	138725276	.	.	.	Mech "NHR"; Rect "0"
+chr2	test	Inversion	234136103	234138708	.	.	.	Mech "NHR"; Rect "0"
+chr1	test	Insertion	1574409	1574410	.	.	.	Mech "NAHR_EXT"; Rect "0"
+chr1	test	Insertion	6725208	6725209	.	.	.	Mech "VNTR"; Rect "0"
+chr1	HAVANA	Deletion	511232	513696	.	.	.	Mech "NHR"; Rect "0"

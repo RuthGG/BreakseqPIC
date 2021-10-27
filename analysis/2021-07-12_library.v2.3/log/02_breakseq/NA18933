@@ -1,0 +1,26 @@
+Start looping samples
+# Running BreakSeq on NA18933.
+Breakseq log
+## Breakpoint Library Mapping started at Mon Jul 12 01:35:25 CEST 2021 ##
+## Processing query analysis/2021-07-12_library.v2.3/01_download//NA18933/selected_regions.fastq ##
+## Aligning the query against the library ##
+## Filtering hits for breakpoint coverage ##
+## Converting hits to Fastq ##
+## Aligning the hits against the reference ##
+## Splitting hits for uniqueness ##
+## Scoring and reporting calls ##
+## Breakpoint Library Mapping ended at Mon Jul 12 01:36:50 CEST 2021 ##
+Breakseq err
+[W::sam_hdr_parse] Duplicated sequence 'ANCHsInv1874BP3CHM13'
+1515772 reads; of these:
+  1515772 (100.00%) were unpaired; of these:
+    1506027 (99.36%) aligned 0 times
+    4377 (0.29%) aligned exactly 1 time
+    5368 (0.35%) aligned >1 times
+0.64% overall alignment rate
+690 reads; of these:
+  690 (100.00%) were unpaired; of these:
+    135 (19.57%) aligned 0 times
+    487 (70.58%) aligned exactly 1 time
+    68 (9.86%) aligned >1 times
+80.43% overall alignment rate

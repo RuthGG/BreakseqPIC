@@ -1,0 +1,1 @@
+NA12399	CEU	EUR	male

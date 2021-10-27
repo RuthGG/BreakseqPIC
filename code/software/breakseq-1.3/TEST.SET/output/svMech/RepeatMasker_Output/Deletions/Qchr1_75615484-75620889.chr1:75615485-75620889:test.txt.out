@@ -1,0 +1,9 @@
+   SW  perc perc perc  query      position in query           matching       repeat              position in  repeat
+score  div. del. ins.  sequence    begin     end    (left)    repeat         class/family         begin  end (left)   ID
+
+.9949	3.6	0.8	0.0	chr1	1	374	(6031)	+	L1PA2	LINE/L1	127	1395	(4760)	1636988
+8870	0.9	0.0	0.0	chr1	375	1342	(5063)	+	LTR5_Hs	LTR/ERVK	1	968	(0)	1636989
+21865	1.0	0.0	0.0	chr1	1343	3886	(2519)	+	HERVK-int	LTR/ERVK	1	2543	(4993)	1636989
+1571	4.0	0.0	0.0	chr1	3871	4069	(2336)	+	HERVK-int	LTR/ERVK	5336	5534	(2002)	1636989
+14836	0.7	0.0	0.0	chr1	4069	5779	(626)	+	HERVK-int	LTR/ERVK	5826	7536	(0)	1636989
+8870	0.9	0.0	0.0	chr1	5780	6405	(0)	+	LTR5_Hs	LTR/ERVK	1	968	(0)	1636989

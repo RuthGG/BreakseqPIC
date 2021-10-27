@@ -1,0 +1,1 @@
+ChrNo.	Start	End	LeftFlankingSequence	RightFlankingSequence	Name	ID	Class	Names	nmhNo.	nmhSeq	polyAonCorrStrand	StrandElement	TSD	ClassLabel	RTnames	strandPolyAtail

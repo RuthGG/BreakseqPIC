@@ -1,0 +1,17 @@
+#!/bin/sh
+
+if [ $# -lt 4 ]
+then
+	echo "`basename $0` <output dirname/basename> <min_cover> <lib_len> <query>..."
+	exit 0
+fi
+
+BIN=`cd \`dirname $0\`; pwd`
+
+PREFIX=$1
+MIN_COVER=$2 # cambia, 15, 20...
+LIB_LEN=$3
+SCORE_MIN=$4
+shift 4
+
+sh $BIN/svMap/svMap.sh h_sapiens_asm bplib $PREFIX $MIN_COVER $LIB_LEN $SCORE_MIN $*

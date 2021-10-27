@@ -1,0 +1,26 @@
+#!/bin/sh
+
+if [ $# -lt 1 ]
+then 
+	echo "$0 <annotate|identify> [arguments]"
+	exit 0
+fi
+
+base=`cd \`dirname $0\`; pwd`
+bin=$base/bin
+lib=$base/lib
+prog=$1
+shift
+
+PYTHONHOME=`grep PYTHON $bin/Config.txt | sed 's/.*="\(.*\)"/\1/'`
+
+export PATH=$PYTHONHOME:$PATH
+export PYTHONPATH=$lib
+
+if [ -e $bin/$prog ]
+then
+	$bin/$prog $*
+	exit 0
+fi
+
+echo "Unknown program '$prog' specified. Try running $0 without arguments for possible options."

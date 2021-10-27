@@ -1,0 +1,13 @@
+executable = /bin/singularity
+args = "exec \
+--bind /data/bioinfo/common/bowtie2_index:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index \
+/data/bioinfo/software/rgomez_breakseq.sif \
+bash 20210325_breakseq/runall.sh processaligned -a analysis/02_breakseq/2021-05-11/min_20/ -s data/use/static_dataset_list.txt -m $(Item) -t min_20_$(Item) -n min_20_$(Item)"
+
+output = condor.out
+error = condor.err
+log = condor.log
+
+request_cpus = 1
+
+queue 1 in (0)

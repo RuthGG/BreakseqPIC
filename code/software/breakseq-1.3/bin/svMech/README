@@ -1,0 +1,25 @@
+This version has the following updates compared to Previous version
+1. Adapted for SVs of sizes <200 and >=50
+2. Repeatmasker -s mode for insertions
+3. Excecutables gone
+4. Keep track of the inserted sequence and output it in the final file
+5. output all the debug messages to the stdout, and leave the
+stderr to report only errors and critical messages
+6. For checking Config.txt, in addition to assume its in the executing
+script dir, can you do one more check so that if Config.txt does not
+exist in the executing script dir, then also check if its in one upper
+dir? For example, if its not in Executales(any name)/Config.txt, then
+check Executales/../Config.txt before it raises an error.
+7. Requiring an addtional column: unique ID as input
+
+
+For SVs >=200bp, recommend the following parameters:
+Breakpoint_Classification_Pipeline_XJM_Jan122010.pl perl Data/new.del.txt        Data/new.ins.txt        Data/new.inv.txt        0.5     200     50      85      200      150      New_Feb062010 New
+
+For SVs of 50<=SV_Size <200bp, recommend the following parameters
+Breakpoint_Classification_Pipeline_XJM_Jan122010.pl perl Data/new.del.txt        Data/new.ins.txt        Data/new.inv.txt        0.5     200     50      85      50      50      New_Feb062010 New
+
+
+
+
+

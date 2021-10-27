@@ -1,0 +1,25 @@
+Start looping samples
+# Running BreakSeq on NA19121.
+Breakseq log
+## Breakpoint Library Mapping started at Thu Jul 22 12:52:02 CEST 2021 ##
+## Processing query analysis/2021-07-22_library.v2.3.2/01_download//NA19121/selected_regions.fastq ##
+## Aligning the query against the library ##
+## Filtering hits for breakpoint coverage ##
+## Converting hits to Fastq ##
+## Aligning the hits against the reference ##
+## Splitting hits for uniqueness ##
+## Scoring and reporting calls ##
+## Breakpoint Library Mapping ended at Thu Jul 22 12:53:51 CEST 2021 ##
+Breakseq err
+1704666 reads; of these:
+  1704666 (100.00%) were unpaired; of these:
+    1691198 (99.21%) aligned 0 times
+    6290 (0.37%) aligned exactly 1 time
+    7178 (0.42%) aligned >1 times
+0.79% overall alignment rate
+1065 reads; of these:
+  1065 (100.00%) were unpaired; of these:
+    209 (19.62%) aligned 0 times
+    740 (69.48%) aligned exactly 1 time
+    116 (10.89%) aligned >1 times
+80.38% overall alignment rate

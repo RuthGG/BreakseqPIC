@@ -1,0 +1,7 @@
+chr1	test	Deletion	75615485	75620889	.	.	.	Flex "10.3857142857"; GC "0.48"; Gene "ENSG00000137968"; Helix "1.92653061224"; Mech "NAHR"; Rect "0:0:0"
+chr1	test	Deletion	109988692	109992923	.	.	.	AncestralState "Deletion"; Flex "9.85816326531"; GC "0.61"; Gene ""; Helix "2.21836734694"; Mech "NAHR"; Rect "1:1:0"
+chr2	test	Inversion	138723408	138725276	.	.	.	Flex "11.4367346939"; GC "0.38"; Gene ""; Helix "1.77040816327"; Mech "NHR"; Rect "0:0:0"
+chr2	test	Inversion	234136103	234138708	.	.	.	Flex "11.0387755102"; GC "0.22"; Gene "ENSG00000085982"; Helix "1.69183673469"; Mech "NHR"; Rect "0:0:0"
+chr1	test	Insertion	1574409	1574410	.	.	.	Flex "10.2530612245"; GC "0.58"; Gene "ENSG00000008128"; Helix "2.1306122449"; Mech "NAHR_EXT"; Rect "0:0:0"
+chr1	test	Insertion	6725208	6725209	.	.	.	Flex "15.7683673469"; GC "0.06"; Gene ""; Helix "1.42142857143"; Mech "VNTR"; Rect "0:0:0"
+chr1	HAVANA	Deletion	511232	513696	.	.	.	Flex "10.1840561224"; GC "0.52"; Gene "ENSG00000231709,ENSG00000235146"; Helix "2.13754251701"; Mech "NHR"; Rect "0:0:0"

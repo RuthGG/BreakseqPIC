@@ -1,0 +1,9 @@
+   SW  perc perc perc  query      position in query           matching       repeat              position in  repeat
+score  div. del. ins.  sequence    begin     end    (left)    repeat         class/family         begin  end (left)   ID
+
+.296	15.3	11.0	1.4	chr1	850	919	(2546)	C	MER4D1	LTR/ERV1	(0)	900	824	1501242
+843	21.9	6.0	3.7	chr1	920	1351	(2114)	+	MER4A	LTR/ERV1	1	589	(5)	1501243
+4295	14.9	5.7	0.8	chr1	1348	2143	(1322)	C	MER4D1	LTR/ERV1	(64)	836	2	1501242
+205	33.0	2.3	0.0	chr1	2230	2317	(1148)	+	MIRb	SINE/MIR	90	179	(89)	1501244
+217	19.0	0.0	4.9	chr1	2579	2639	(826)	+	C-rich	Low_complexity	1	58	(0)	1501245
+223	24.6	0.0	0.0	chr1	3315	3375	(90)	+	(CA)n	Simple_repeat	1	61	(0)	1501246
