@@ -13,18 +13,18 @@ rm(list=ls())
 args = commandArgs(trailingOnly=TRUE)
 
 # Example
-# args[1]<-"tmp/2021-09-29_v2.3.2_deftest/02_breakseq/" # Path with ini fil uni xun
+# args[1]<-"tmp/2021-09-29_v2.3.2_deftest/04_qualityanalysis/" # Path with ini fil uni xun
 # args[2]<-"analysis/2021-09-29_v2.3.2_deftest/03_processaligned/Results_reads.txt"  # Final read counts
 # args[3]<-"analysis/2021-09-29_v2.3.2_deftest/04_qualityanalysis/" #Output path
 # args[4]<-"analysis/2021-09-29_v2.3.2_deftest/data/datos_librerias/bplib.fa"
 # 
 
 
+
 # # Test if there is at least one argument: if not, return an error
 if (length(args)<4) {
   stop("One input file, one sample names file, one reference genotypes file, one output directory, a coordinates file", call.=FALSE)
 }
-
 
 
 # LOAD PACKAGES
@@ -112,9 +112,17 @@ summary_probes$diagnosis<-gsub(",$" ,"", summary_probes$diagnosis)
 
 summary_probes$diagnosis1<-summary_probes$diagnosis2<-summary_probes$diagnosis3<-NULL
 
-# Sort and clean for manual analysis
+
+# Check which probes work less
 summary_probes$inversion<-substr(summary_probes$probe, 4, 12)
-summary_probes<-summary_probes[order(summary_probes$inversion, summary_probes$probe), c(8, 1:7)]
+summary_probes$orientation<-substr(summary_probes$probe, 1,3)
+maxima<-aggregate( count.qc ~ inversion + orientation , summary_probes, max )
+colnames(maxima)<-c("inversion", "orientation", "max.count.qc")
+summary_probes<-merge(summary_probes, maxima, all = T)
+summary_probes$efficiency.check<-summary_probes$count.qc/summary_probes$max.count.qc
+
+# Sort and clean for manual analysis
+summary_probes<-summary_probes[order(summary_probes$inversion, summary_probes$probe),c("inversion","orientation","probe","count.ini","count.fil","count.xun","count.uni","count.qc" , "efficiency.check","diagnosis" )]
 
 # Write
 

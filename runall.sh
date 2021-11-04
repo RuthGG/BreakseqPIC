@@ -693,11 +693,30 @@ if [ "$COMMAND" == "processaligned" ]; then
 
   # This is technically step 3.1
 
+
+  ############################################
+  ## CALCULATE GENOTYPES                    ##
+  ############################################
+
   cat ${TMPDIR}/*/z1 > $OUTDIR/Results_reads.txt
 
+  #Make probe quality control
+  FASTA="analysis/${NAME}/data/datos_librerias/bplib.fa"
+  
+  cat analysis/${NAME}/02_breakseq/*/*uni.sam | cut -f3 > ${TMPDIR}/unisam_summary
+  cat analysis/${NAME}/02_breakseq/*/*xun.sam | cut -f3 > ${TMPDIR}/xunsam_summary
+  cp analysis/${NAME}/02_breakseq/inisam_summary  ${TMPDIR}/inisam_summary
+  cp analysis/${NAME}/02_breakseq/filsam_summary  ${TMPDIR}/filsam_summary
+
+  Rscript code/rscript/04_filterSummary.R ${TMPDIR}/ $OUTDIR/Results_reads.txt $OUTDIR $FASTA
+
+  rm  ${TMPDIR}/unisam_summary ${TMPDIR}/xunsam_summary ${TMPDIR}/filsam_summary ${TMPDIR}/inisam_summary
+
+  # Infer genotypes
 
   Rscript code/rscript/03_inferGenotypes.R analysis/${NAME}/
 
+  # clean
 
   rm -r ${TMPDIR}
 
@@ -717,7 +736,6 @@ if [ "$COMMAND" == "qualityanalysis" ]; then
  # Make directories
   TMPDIR="tmp/${NAME}/${STEP}_${COMMAND}"
   OUTDIR="analysis/${NAME}/${STEP}_${COMMAND}"
-  FASTA="analysis/${NAME}/data/datos_librerias/bplib.fa"
 
   mkdir -p $OUTDIR $TMPDIR
 
@@ -727,21 +745,8 @@ if [ "$COMMAND" == "qualityanalysis" ]; then
   REF_GENOTYPES="data/raw/GlobalInvGenotypes_v3.2_132Invs_20210528_Genotypes.csv"
   DATADIR="analysis/${NAME}/data/datos_librerias/"
 
-  READS_FILE="${GENOTYPES_DIR}/Results_reads.txt"
+  # READS_FILE="${GENOTYPES_DIR}/Results_reads.txt"
   GENOTYPES_FILE="${GENOTYPES_DIR}/GTypes_FinalDataSet.txt"
-
-  ############################################
-  ## MAKE PROBE QUALITY CONTROL             ##
-  ############################################
-
-  cat analysis/${NAME}/02_breakseq/*/*uni.sam | cut -f3 > ${TMPDIR}/unisam_summary
-  cat analysis/${NAME}/02_breakseq/*/*xun.sam | cut -f3> ${TMPDIR}/xunsam_summary
-  cp analysis/${NAME}/02_breakseq/inisam_summary  ${TMPDIR}/inisam_summary
-  cp analysis/${NAME}/02_breakseq/filsam_summary  ${TMPDIR}/filsam_summary
-
-  Rscript code/rscript/04_filterSummary.R ${TMPDIR}/ $READS_FILE $OUTDIR $FASTA
-
-  rm  ${TMPDIR}/unisam_summary ${TMPDIR}/xunsam_summary ${TMPDIR}/filsam_summary ${TMPDIR}/inisam_summary
 
   ############################################
   ## COMPARE BS GTYPES WITH INVFEST PROJECT ##

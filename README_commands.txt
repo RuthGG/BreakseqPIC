@@ -43,7 +43,7 @@ condor_submit -interactive
 	/data/bioinfo/software/rgomez_breakseq.sif 
 
 # An example of a complete basic command
-	singularity shell /data/bioinfo/software/rgomez_breakseq.sif 
+	singularity shell data/bioinfo/software/rgomez_breakseq.sif 
 
 #------------------------------------------------------
 # Alternatively, execute from conda, as explained below
@@ -72,7 +72,17 @@ singularity pull --disable-cache --arch amd64 library://ruthgg/default/breakseq:
 
 	cd /data/bioinfo/software; rm rgomez_breakseq.sif; singularity pull --disable-cache shub://jmurga/bgd-pic:breakseq
 	cd /data/bioinfo/software; rm rgomez_breakseq.sif;  singularity pull --disable-cache library://ruthgg/default/breakseq:sha256.1a436eaca59c7a5026e9461f6332ef4b0860abbfea84617ff347aac4046f4753; mv breakseq_sha256.1a436eaca59c7a5026e9461f6332ef4b0860abbfea84617ff347aac4046f4753.sif rgomez_breakeq.sif
-	cd /data/bioinfo/software; rm rgomez_plots.sif;  singularity pull --disable-cache --arch amd64 library://ruthgg/default/plots:latest;mv plots_latest.sif rgomez_plots.sif 
+	cd /data/bioinfo/software; rm rgomez_plots.sif;  
+	singularity pull --disable-cache --arch amd64 library://ruthgg/default/plots:latest;mv plots_latest.sif rgomez_plots.sif 
+
+# =========================================================================== #
+# TO USE SRA TOOLS
+# =========================================================================== #
+singularity pull --disable-cache docker://ncbi/sra-tools
+condor_submit -interactive
+singularity shell \
+--bind /data/bioinfo/scratch/breakseq_fastqs/SRAfiles/:/nfs/pic.es/user/r/rgomez/local-file-caching/:rw \
+/data/bioinfo/software/sra-tools_latest.sif
 
 # =========================================================================== #
 # SETUP THE MAIN DIR

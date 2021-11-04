@@ -12,11 +12,12 @@
 args = commandArgs(trailingOnly=TRUE)
 
 # # # # Example
-# args[1]<-"analysis/2021-07-22_library.v2.3.2/03_processaligned/GTypes_FinalDataSet.txt" # File with results
-# args[2]<-"analysis/2021-07-22_library.v2.3.2/data/samples.txt"  # All sample names
+
+# args[1]<-"analysis/2021-09-29_v2.3.2_deftest/03_processaligned/GTypes_FinalDataSet.txt" # File with results
+# args[2]<-"analysis/2021-09-29_v2.3.2_deftest/data/samples.txt"  # All sample names
 # args[3]<-"data/raw/GlobalInvGenotypes_v3.2_132Invs_20210528_Genotypes.csv" #InvFEST genotypes
-# args[4]<- "analysis/2021-07-22_library.v2.3.2/04_qualityanalysis_bis"
-# args[5]<-"analysis/2021-07-22_library.v2.3.2/data/regions.txt"
+# args[4]<- "analysis/2021-09-29_v2.3.2_deftest/04_qualityanalysis"
+# args[5]<-"analysis/2021-09-29_v2.3.2_deftest/data/regions.txt"
 # args[6]<-0.03 # maximum error admitted
 
 # # Test if there is at least one argument: if not, return an error
@@ -62,7 +63,7 @@ invs<-read.table(args[5], stringsAsFactors = F)
   g.break<-g.break[which(g.break$Inv %in% invs$V1),]
   g.break.original<-g.break
 
-# HOW MANY INDIVIDUALS ARE GENOTYPES FOR EACH INV
+# HOW MANY INDIVIDUALS ARE GENOTYPED FOR EACH INV
 # =========================================================================== #
 
 # In experimental data

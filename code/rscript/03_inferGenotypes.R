@@ -12,14 +12,12 @@
 args = commandArgs(trailingOnly=TRUE)
 
 # Example
-# args[1]<-"analysis/2021-09-20_v2.3.2_downloadReadsCheck/"  # Final read counts
+# args[1]<-"analysis/2021-09-29_v2.3.2_deftest/"  # Final read counts
 
 # Test if there is at least one argument: if not, return an error
 if (length(args)<1) {
   stop("Please set input directory", call.=FALSE)
 }
-
-
 
 # CALCULATE
 # =========================================================================== #
@@ -31,15 +29,26 @@ colnames(reads)<-c("inversion", "genotype", "breakpoint", "individual", "Total_r
 reads<-reads[order(as.character(reads$genotype)),]
 
 # Find the probability to find each genotype
-fa<-read.table(paste0(args[1], "/data/datos_librerias/bplib.fa"))
-fa<-fa[grep(">", fa$V1),]
-fa<-as.character(fa)
-fa<-substr(fa, 2, 13)
 
-probecount<-data.frame(table(fa))
+      # Original strategy, all probes with the same p robability
+      # fa<-read.table(paste0(args[1], "/data/datos_librerias/bplib.fa"))
+      # fa<-fa[grep(">", fa$V1),]
+      # fa<-as.character(fa)
+      # fa<-substr(fa, 2, 13)
+      # 
+      # probecount<-data.frame(table(fa))
+      # rownames(probecount)<-probecount$fa
+      # 
+      # probecount$inv<-substr(probecount$fa, 4, 13)
+      # 
+      # invcount<-aggregate(Freq ~ inv, probecount, sum)
+      # rownames(invcount)<-invcount$inv
+
+# New strategy, each probe has a relative weight
+readfilter<-read.table(paste0(args[1],"03_processaligned/readFiltering.txt"), header = T, sep = "\t" ,fill = T)
+summarized<-data.frame(fa=paste0(readfilter$orientation, readfilter$inversion), Freq=readfilter$efficiency.check, inv = readfilter$inversion)
+probecount<-aggregate( Freq~ fa + inv,  summarized, sum)
 rownames(probecount)<-probecount$fa
-
-probecount$inv<-substr(probecount$fa, 4, 13)
 
 invcount<-aggregate(Freq ~ inv, probecount, sum)
 rownames(invcount)<-invcount$inv
