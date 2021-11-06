@@ -1,0 +1,247 @@
+Registered S3 methods overwritten by 'ggplot2':
+  method         from 
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+Error in data.frame(f = paste0(name), tmp_bis) : 
+  arguments imply differing number of rows: 1, 0
+Calls: rbind -> data.frame
+Execution halted
+tagSNPs for HsOth1794
+grep: analysis/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/genotypesClean.txt: No such file or directory
+[W::hts_idx_load2] The index file is older than the data file: data/raw/1KGP_data/vcf/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi
+[W::hts_idx_load2] The index file is older than the data file: data/raw/1KGP_data/vcf/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi
+Writing to /tmp/bcftools-sort.9VJErp
+Merging 1 temporary files
+Cleaning
+Done
+Error: subset called for sample that does not exist in header: "--force-samples". Use "--force-samples" to ignore this error.
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOth1794/haplotypes_filtered.vcf.gz
+	--chr 10
+	--out tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOth1794/genotypes_plink_format_filtered
+	--plink
+
+Using zlib version: 1.2.11
+After filtering, kept 0 out of 0 Individuals
+Error: Require Genotypes in VCF file in order to output as PLINK.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to plink.log.
+Options in effect:
+  --file genotypes_plink_format_filtered
+  --ld-snp HsOth1794
+  --ld-window 999999
+  --ld-window-kb 1000000
+  --ld-window-r2 0
+  --noweb
+  --r2
+
+Note: --noweb has no effect since no web check is implemented yet.
+64168 MB RAM detected; reserving 32084 MB for main workspace.
+Error: Failed to open genotypes_plink_format_filtered.map.
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOth1794/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOth1794/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOth1794/plink.ld (No such file or directory)
+tagSNPs for HsOth0987
+grep: analysis/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/genotypesClean.txt: No such file or directory
+Writing to /tmp/bcftools-sort.gtfSfC
+Merging 1 temporary files
+Cleaning
+Done
+Error: subset called for sample that does not exist in header: "--force-samples". Use "--force-samples" to ignore this error.
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOth0987/haplotypes_filtered.vcf.gz
+	--chr 2
+	--out tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOth0987/genotypes_plink_format_filtered
+	--plink
+
+Using zlib version: 1.2.11
+After filtering, kept 0 out of 0 Individuals
+Error: Require Genotypes in VCF file in order to output as PLINK.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to plink.log.
+Options in effect:
+  --file genotypes_plink_format_filtered
+  --ld-snp HsOth0987
+  --ld-window 999999
+  --ld-window-kb 1000000
+  --ld-window-r2 0
+  --noweb
+  --r2
+
+Note: --noweb has no effect since no web check is implemented yet.
+64168 MB RAM detected; reserving 32084 MB for main workspace.
+Error: Failed to open genotypes_plink_format_filtered.map.
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOth0987/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOth0987/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOth0987/plink.ld (No such file or directory)
+tagSNPs for HsInv1129
+grep: analysis/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/genotypesClean.txt: No such file or directory
+[W::hts_idx_load2] The index file is older than the data file: data/raw/1KGP_data/vcf/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi
+[W::hts_idx_load2] The index file is older than the data file: data/raw/1KGP_data/vcf/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi
+Writing to /tmp/bcftools-sort.4Y3yiz
+Merging 1 temporary files
+Cleaning
+Done
+Error: subset called for sample that does not exist in header: "--force-samples". Use "--force-samples" to ignore this error.
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv1129/haplotypes_filtered.vcf.gz
+	--chr 4
+	--out tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv1129/genotypes_plink_format_filtered
+	--plink
+
+Using zlib version: 1.2.11
+After filtering, kept 0 out of 0 Individuals
+Error: Require Genotypes in VCF file in order to output as PLINK.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to plink.log.
+Options in effect:
+  --file genotypes_plink_format_filtered
+  --ld-snp HsInv1129
+  --ld-window 999999
+  --ld-window-kb 1000000
+  --ld-window-r2 0
+  --noweb
+  --r2
+
+Note: --noweb has no effect since no web check is implemented yet.
+64168 MB RAM detected; reserving 32084 MB for main workspace.
+Error: Failed to open genotypes_plink_format_filtered.map.
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv1129/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv1129/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv1129/plink.ld (No such file or directory)
+tagSNPs for HsInv1127
+grep: analysis/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/genotypesClean.txt: No such file or directory
+[W::hts_idx_load2] The index file is older than the data file: data/raw/1KGP_data/vcf/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi
+[W::hts_idx_load2] The index file is older than the data file: data/raw/1KGP_data/vcf/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi
+Writing to /tmp/bcftools-sort.XnQLtd
+Merging 1 temporary files
+Cleaning
+Done
+Error: subset called for sample that does not exist in header: "--force-samples". Use "--force-samples" to ignore this error.
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv1127/haplotypes_filtered.vcf.gz
+	--chr 10
+	--out tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv1127/genotypes_plink_format_filtered
+	--plink
+
+Using zlib version: 1.2.11
+After filtering, kept 0 out of 0 Individuals
+Error: Require Genotypes in VCF file in order to output as PLINK.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to plink.log.
+Options in effect:
+  --file genotypes_plink_format_filtered
+  --ld-snp HsInv1127
+  --ld-window 999999
+  --ld-window-kb 1000000
+  --ld-window-r2 0
+  --noweb
+  --r2
+
+Note: --noweb has no effect since no web check is implemented yet.
+64168 MB RAM detected; reserving 32084 MB for main workspace.
+Error: Failed to open genotypes_plink_format_filtered.map.
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv1127/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv1127/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv1127/plink.ld (No such file or directory)
+tagSNPs for HsInv0164
+grep: analysis/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/genotypesClean.txt: No such file or directory
+[W::hts_idx_load2] The index file is older than the data file: data/raw/1KGP_data/vcf/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi
+[W::hts_idx_load2] The index file is older than the data file: data/raw/1KGP_data/vcf/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi
+Writing to /tmp/bcftools-sort.4cYlbi
+Merging 1 temporary files
+Cleaning
+Done
+Error: subset called for sample that does not exist in header: "--force-samples". Use "--force-samples" to ignore this error.
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv0164/haplotypes_filtered.vcf.gz
+	--chr 5
+	--out tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv0164/genotypes_plink_format_filtered
+	--plink
+
+Using zlib version: 1.2.11
+After filtering, kept 0 out of 0 Individuals
+Error: Require Genotypes in VCF file in order to output as PLINK.
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to plink.log.
+Options in effect:
+  --file genotypes_plink_format_filtered
+  --ld-snp HsInv0164
+  --ld-window 999999
+  --ld-window-kb 1000000
+  --ld-window-r2 0
+  --noweb
+  --r2
+
+Note: --noweb has no effect since no web check is implemented yet.
+64168 MB RAM detected; reserving 32084 MB for main workspace.
+Error: Failed to open genotypes_plink_format_filtered.map.
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv0164/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv0164/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsInv0164/plink.ld (No such file or directory)
+tagSNPs for HsOta1874
+grep: analysis/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/genotypesClean.txt: No such file or directory
+code/bash/05_tagsnps.sh: line 92: [: ==: unary operator expected
+[E::hts_open_format] Failed to open file data/raw/1KGP_data/vcf/ALL.chr.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz
+Failed to open data/raw/1KGP_data/vcf/ALL.chr.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz: No such file or directory
+code/bash/05_tagsnps.sh: line 106: [: ==: unary operator expected
+Writing to /tmp/bcftools-sort.KnCNH1
+[E::bcf_hdr_read] Input is not detected as bcf or vcf format
+code/bash/05_tagsnps.sh: line 37: 15676 Segmentation fault      bcftools sort ${TMPDIR}/${inv}/haplotypes_unsorted.vcf > ${TMPDIR}/${inv}/haplotypes.vcf
+Failed to open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOta1874/haplotypes.vcf: unknown file type
+
+
+Error: Unknown option: tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOta1874/genotypes_plink_format_filtered
+
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to plink.log.
+Options in effect:
+  --file genotypes_plink_format_filtered
+  --ld-snp HsOta1874
+  --ld-window 999999
+  --ld-window-kb 1000000
+  --ld-window-r2 0
+  --noweb
+  --r2
+
+Note: --noweb has no effect since no web check is implemented yet.
+64168 MB RAM detected; reserving 32084 MB for main workspace.
+Error: Failed to open genotypes_plink_format_filtered.map.
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOta1874/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOta1874/plink.ld (No such file or directory)
+awk: cannot open tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis/HsOta1874/plink.ld (No such file or directory)
+Registered S3 methods overwritten by 'ggplot2':
+  method         from 
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+null device 
+          1 
+rm: cannot remove 'tmp/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis': Is a directory
