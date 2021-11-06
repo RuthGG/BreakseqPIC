@@ -6,10 +6,10 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="v2.3.2_deftest"
+NAME="v2.3.2_smallinvs"
 
 # Manually set date, comment if we want it automatic
-DATE="2021-09-29"
+DATE="2021-11-06"
 
 # To override some parts
 
@@ -35,13 +35,13 @@ OVERRIDE=0 # This is the first process number we want to run, e.g. 2 will not ru
 
 # library seed name
 # this name must exist in data/raw/seed_librerias
-LIBRARY_SEED="v2.3.2.300"
+LIBRARY_SEED="v2.3.2.300_smallinvs"
 
 # This can be used in the future to automatically trim the original probes
 LIBRARY_LENGTH=300
 
 # Do we want to update all library or just to make the base files?
-LIBRARY_UPDATE="no"
+LIBRARY_UPDATE="yes"
 
 # STEP 01 - Download
 # =========================================================================== #
@@ -51,7 +51,7 @@ LIBRARY_UPDATE="no"
 SAMPLESFILE="data/use/static_dataset_list.txt"
 
 # inversions to test - it can be empty to analyze all
-INVSFILE=""
+INVSFILE="data/use/small_invs.txt"
 
 # Set whether I want to delete individual files (y or n)
 KEEP_DOWNLOADS="y"

@@ -118,12 +118,13 @@ fi
 
 if [[ -z $INVSFILE ]]; then
 	INVSFILE="${DATADIR}/datos_librerias/inversions_completeList.txt"
+fi
+
 	cp $INVSFILE "${DATADIR}/regions.txt"
 	cat $SAMPLESFILE | cut -f1 > "${DATADIR}/samples.txt"
 
 	INVSFILE="${DATADIR}/regions.txt"
 	SAMPLESFILE="${DATADIR}/samples.txt"
-fi
 
 #######################################################
 
