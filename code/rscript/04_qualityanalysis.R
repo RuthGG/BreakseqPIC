@@ -13,11 +13,11 @@ args = commandArgs(trailingOnly=TRUE)
 
 # # # # Example
 
-# args[1]<-"analysis/2021-09-29_v2.3.2_deftest/03_processaligned/GTypes_FinalDataSet.txt" # File with results
-# args[2]<-"analysis/2021-09-29_v2.3.2_deftest/data/samples.txt"  # All sample names
+# args[1]<-"analysis/2021-11-06_v2.3.2_smallinvs/03_processaligned/GTypes_FinalDataSet.txt" # File with results
+# args[2]<-"analysis/2021-11-06_v2.3.2_smallinvs/data/samples.txt"  # All sample names
 # args[3]<-"data/raw/GlobalInvGenotypes_v3.2_132Invs_20210528_Genotypes.csv" #InvFEST genotypes
-# args[4]<- "analysis/2021-09-29_v2.3.2_deftest/04_qualityanalysis"
-# args[5]<-"analysis/2021-09-29_v2.3.2_deftest/data/regions.txt"
+# args[4]<- "analysis/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis"
+# args[5]<-"analysis/2021-11-06_v2.3.2_smallinvs/data/regions.txt"
 # args[6]<-0.03 # maximum error admitted
 
 # # Test if there is at least one argument: if not, return an error
@@ -174,6 +174,7 @@ plot_compare<-ggplot(percentage) +
 # Plot 2.1
   readfilter<-c(0, 0.001, 0.01, 0.02, 0.03, 0.04, 0.05)
   goodbad<-data.frame()
+  comp.withref$Prediction<-as.factor(comp.withref$Prediction)
   for (n in readfilter) {
     
     name<-n
