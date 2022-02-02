@@ -6,10 +6,11 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="v2.3.2_smallinvs"
+NAME="v2.3.2_smallinvs2"
 
 # Manually set date, comment if we want it automatic
 DATE="2022-02-02"
+
 
 # To override some parts
 
@@ -35,7 +36,7 @@ OVERRIDE=0 # This is the first process number we want to run, e.g. 2 will not ru
 
 # library seed name
 # this name must exist in data/raw/seed_librerias
-LIBRARY_SEED="v2.3.2.300_smallinvs"
+LIBRARY_SEED="v2.3.2.300_smallinvs2"
 
 # This can be used in the future to automatically trim the original probes
 LIBRARY_LENGTH=300

@@ -1,0 +1,12 @@
+Start looping samples
+# Running BreakSeq on NA19238.
+Breakseq log
+code/bash/02_runBreakseq.sh: 35: code/bash/02_runBreakseq.sh: cat: not found
+Breakseq err
+code/bash/02_runBreakseq.sh: 37: code/bash/02_runBreakseq.sh: cat: not found
+code/bash/02_runBreakseq.sh: 39: code/bash/02_runBreakseq.sh: mv: not found
+code/bash/02_runBreakseq.sh: 40: code/bash/02_runBreakseq.sh: cat: not found
+code/bash/02_runBreakseq.sh: 40: code/bash/02_runBreakseq.sh: awk: not found
+code/bash/02_runBreakseq.sh: 41: code/bash/02_runBreakseq.sh: cat: not found
+code/bash/02_runBreakseq.sh: 41: code/bash/02_runBreakseq.sh: awk: not found
+code/bash/02_runBreakseq.sh: 44: code/bash/02_runBreakseq.sh: rm: not found
