@@ -9,7 +9,7 @@
 NAME="v2.3.2_smallinvs"
 
 # Manually set date, comment if we want it automatic
-DATE="2021-11-06"
+DATE="2022-02-02"
 
 # To override some parts
 
