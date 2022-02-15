@@ -230,151 +230,164 @@ if [ "$COMMAND" == "download" ]; then
     if [ -f ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt ] ; then
       rm ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt
     fi
-     
 
-    # Loop per inversion - align reads
-    for REGION in $REGIONS; do
+    # Check if sample data is in FASTQ or BAM format:
+    if [awk -F, '$3 == FASTQ']; then
+      # We select for each sample the fastq files and save them as the selected regions for breakseq.
+      (grep /data/bioinfo/scratch/breakseq_fastqs/2022_02_07_ancientGenomes/${SAMPLE}/*.fastq) >> selected_regions.fastq
+    else
+      # Loop per inversion - align reads
+      for REGION in $REGIONS; do
 
-      echo "---------------------"
-      echo "$REGION Mapped reads "
-      echo "---------------------"
-      date
-  
+        echo "---------------------"
+        echo "$REGION Mapped reads "
+        echo "---------------------"
+        date
+    
 
-      # Locate bam file link
-      # POP=$(grep $SAMPLE data/raw/1KGP_data/integrated_call_samples_v3.20130502.ALL.panel.txt | cut -f2)
-      BAM_FILE=$(grep $SAMPLE ${SCRIPTPATH}/data/raw/1KGP_data/20130502.phase3.low_coverage.alignment.index | grep '\.mapped' | cut -f1 | sed -e 's/data.*alignment\///g')
-      BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
+        # Locate bam file link
+        # POP=$(grep $SAMPLE data/raw/1KGP_data/integrated_call_samples_v3.20130502.ALL.panel.txt | cut -f2)
+        *'BAM_FILE=$(grep $SAMPLE ${SCRIPTPATH}/data/raw/1KGP_data/20130502.phase3.low_coverage.alignment.index | grep '\.mapped' | cut -f1 | sed -e 's/data.*alignment\///g')
+        BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
+        ' # Already downloaded the files. Only one is in format BAM. Others are FASTQ files.
+        # Locate the BAM file from the folder:
+        BAM_FILE= $(grep /data/bioinfo/scratch/breakseq_fastq/2022_02_07_ancientGenomes/chagyrskaya8_neanderthal/chr22.bam)
 
-      # Download reads - Importante! Rango de extracción alrededor de la inversión! He puesto 20kb, pero quizá podría ser otro rango
-      # Idealmente, habria que hacer una lista de coordenadas del alelo invertido para afinar esta region, pero todavia no existe
-      CHR_REGION=$(grep "$REGION" ${SCRIPTPATH}/${DATADIR}/datos_librerias/bplib.coords | cut -f2 | uniq)
-      START_REGION=$(grep  "$REGION" ${SCRIPTPATH}/${DATADIR}/datos_librerias/bplib.coords | cut -f3,4 | sed -e 's/\t/\n/g' | sort | head -n+1)
-      END_REGION=$(grep  "$REGION" ${SCRIPTPATH}/${DATADIR}/datos_librerias/bplib.coords | cut -f3,4 | sed -e 's/\t/\n/g' | sort | tail -n-1)
-      echo "Original coords: "$CHR_REGION":"$START_REGION"-"$END_REGION
-      
-      START_REGION=$(($START_REGION-20000))
-      END_REGION=$(($END_REGION+20000))
-      echo "Sampled coords: "$CHR_REGION":"$START_REGION"-"$END_REGION
-      
-      # This includes a loop to resume download in case it was interrupted
-      i=0
-      l=0
+        # Download reads - Importante! Rango de extracción alrededor de la inversión! He puesto 20kb, pero quizá podría ser otro rango
+        # Idealmente, habria que hacer una lista de coordenadas del alelo invertido para afinar esta region, pero todavia no existe
+        CHR_REGION=$(grep "$REGION" ${SCRIPTPATH}/${DATADIR}/datos_librerias/bplib.coords | cut -f2 | uniq)
+        START_REGION=$(grep  "$REGION" ${SCRIPTPATH}/${DATADIR}/datos_librerias/bplib.coords | cut -f3,4 | sed -e 's/\t/\n/g' | sort | head -n+1)
+        END_REGION=$(grep  "$REGION" ${SCRIPTPATH}/${DATADIR}/datos_librerias/bplib.coords | cut -f3,4 | sed -e 's/\t/\n/g' | sort | tail -n-1)
+        echo "Original coords: "$CHR_REGION":"$START_REGION"-"$END_REGION
+        
+        START_REGION=$(($START_REGION-20000))
+        END_REGION=$(($END_REGION+20000))
+        echo "Sampled coords: "$CHR_REGION":"$START_REGION"-"$END_REGION
+        
+        # This includes a loop to resume download in case it was interrupted
+        i=0
+        l=0
 
-      if [[ -z "$CHR_REGION" ]]; then
-        echo "Empty coordinates"
-        echo  "$SAMPLE","$REGION" >> ${SCRIPTPATH}/${TMPDIR}/failedregions.txt
-      else
+        if [[ -z "$CHR_REGION" ]]; then
+          echo "Empty coordinates"
+          echo  "$SAMPLE","$REGION" >> ${SCRIPTPATH}/${TMPDIR}/failedregions.txt
+        else
 
+          while [ $i -eq 0 ]; do
+            echo "# LOOP $l"
+
+            if [[ $l -eq 1000 ]]; then
+              echo "Maximum loop count! Aborting..."
+              echo  "$SAMPLE","$REGION" >> ${SCRIPTPATH}/${TMPDIR}/failedregions.txt
+            else
+
+              l=$((l+1))
+                
+
+              ERRS=$(( samtools view $BAM_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
+              echo $ERRS
+
+              # If tmp_download is not empty OR if tmp_download is empty but there were no errors and we tried more than 10 times already
+              if [ -s tmp_download.txt ] || ( [ -z "$ERRS" ] && [ ! -s tmp_download.txt ] && [ $l -gt 10 ] ); then 
+                echo "# Sucess!"
+                cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' >> selected_regions.fastq
+                READS=$(($(cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' | wc -l ) / 4)) 
+                echo "Reads: " $READS
+                echo "$SAMPLE,$REGION,$READS" >> ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt 
+                i=1
+              else
+                echo "# Fail!"
+                sleep 1
+              fi
+
+              echo "# Delete tmp file"
+              rm tmp_download.txt
+            fi
+          done
+        fi
+      done
+        # Unmapped reads
+
+        echo "---------------------"
+        echo " Unmapped reads "
+        echo "---------------------"
+        date
+        # Locate bam file link
+        # POP=$(grep $SAMPLE data/raw/1KGP_data/integrated_call_samples_v3.20130502.ALL.panel.txt | cut -f2)
+        *'BAM_FILE=$(grep $SAMPLE ${SCRIPTPATH}/data/raw/1KGP_data/20130502.phase3.low_coverage.alignment.index | grep '\.unmapped' | cut -f1 | sed -e 's/data.*alignment\///g')
+        BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
+        ' # Already downloaded the files. Only one is in format BAM. Others are FASTQ files.
+        # Locate the BAM file from the folder:
+        BAM_FILE= $(grep /data/bioinfo/scratch/breakseq_fastq/2022_02_07_ancientGenomes/chagyrskaya8_neanderthal/chr22.bam)
+        # Select the unmapped reads from the bam file:
+        BAM_FILE= $(samtools view -b -f 4 $BAM_FILE)
+
+        # This includes a loop to resume download in case it was interrupted
+        i=0
+        l=0
         while [ $i -eq 0 ]; do
           echo "# LOOP $l"
+          l=$((l+1))
 
-          if [[ $l -eq 1000 ]]; then
-            echo "Maximum loop count! Aborting..."
-            echo  "$SAMPLE","$REGION" >> ${SCRIPTPATH}/${TMPDIR}/failedregions.txt
+          # Work into tmp_download
+          samtools view $BAM_FILE > tmp_download.txt
+      
+          if [ -s tmp_download.txt ]; then 
+            # If file not empty, interrupt loop and concat to output file
+            echo "# Success!"
+            cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' >> selected_regions.fastq
+            READS=$(($(cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' | wc -l ) / 4)) 
+            echo "Reads: " $READS
+            echo "$SAMPLE,Unmapped,$READS" >> ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt 
+            i=1
           else
-
-            l=$((l+1))
-              
-
-            ERRS=$(( samtools view $BAM_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
-            echo $ERRS
-
-            # If tmp_download is not empty OR if tmp_download is empty but there were no errors and we tried more than 10 times already
-            if [ -s tmp_download.txt ] || ( [ -z "$ERRS" ] && [ ! -s tmp_download.txt ] && [ $l -gt 10 ] ); then 
-              echo "# Sucess!"
-              cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' >> selected_regions.fastq
-              READS=$(($(cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' | wc -l ) / 4)) 
-              echo "Reads: " $READS
-              echo "$SAMPLE,$REGION,$READS" >> ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt 
-              i=1
-            else
-              echo "# Fail!"
-              sleep 1
-            fi
-
-            echo "# Delete tmp file"
-            rm tmp_download.txt
+            echo "# Fail!"
+            sleep 1
           fi
+
+          echo "# Delete tmp file"
+          rm tmp_download.txt
+
         done
-      fi
-    done
-      # Unmapped reads
 
-      echo "---------------------"
-      echo " Unmapped reads "
-      echo "---------------------"
-      date
-      # Locate bam file link
-      # POP=$(grep $SAMPLE data/raw/1KGP_data/integrated_call_samples_v3.20130502.ALL.panel.txt | cut -f2)
-      BAM_FILE=$(grep $SAMPLE ${SCRIPTPATH}/data/raw/1KGP_data/20130502.phase3.low_coverage.alignment.index | grep '\.unmapped' | cut -f1 | sed -e 's/data.*alignment\///g')
-      BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
+        # Remove everything but the selected regions and return
+        ls | grep -v 'selected_regions.fastq' | xargs rm 
+        cd ${SCRIPTPATH}
 
-      # This includes a loop to resume download in case it was interrupted
-      i=0
-      l=0
-      while [ $i -eq 0 ]; do
-        echo "# LOOP $l"
-        l=$((l+1))
-
-        # Work into tmp_download
-        samtools view $BAM_FILE > tmp_download.txt
-    
-        if [ -s tmp_download.txt ]; then 
-          # If file not empty, interrupt loop and concat to output file
-          echo "# Success!"
-          cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' >> selected_regions.fastq
-          READS=$(($(cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' | wc -l ) / 4)) 
-          echo "Reads: " $READS
-          echo "$SAMPLE,Unmapped,$READS" >> ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt 
-          i=1
-        else
-          echo "# Fail!"
-          sleep 1
-        fi
-
-        echo "# Delete tmp file"
-        rm tmp_download.txt
-
-      done
-
-      # Remove everything but the selected regions and return
-      ls | grep -v 'selected_regions.fastq' | xargs rm 
-      cd ${SCRIPTPATH}
-
-      #  OBSOLETE! CHECK DIRECTORIES!!
-      if [ "$B_OPTION" == "y" ]; then
-        ## RUN BREAKSEQ
-      
-        echo "# Running BreakSeq on $SAMPLE."
-            
-        STEP_B=$(printf "%02d" $((${STEP}+1)))
-        COMMAND_B="breakseq"
-
-        OUTDIR_B="analysis/${STEP_B}_${COMMAND_B}/${DATE}/${NAME}"
-        TMPDIR_B="tmp/${STEP_B}_${COMMAND_B}/${DATE}/${NAME}"
-
-        echo "MIN_COVER = ${MIN_COVER}; LIB_LEN = ${LIB_LEN}" > ${OUTDIR_B}/README.txt
-
-        mkdir -p project/logfiles/${STEP_B}_${COMMAND_B}_${DATE}_${NAME}/
+        #  OBSOLETE! CHECK DIRECTORIES!!
+        if [ "$B_OPTION" == "y" ]; then
+          ## RUN BREAKSEQ
         
-        # Breakseq process 
-        # TMPDIR=$1     
-        # OUTDIR=$2  
-        # FASTQ_DIR=$3   
-        # MIN_COVER=$4
-        # LIB_LEN=$5
-        # SCORE_MIN=$6
-        # SAMPLE=$7
-        sh code/bash/02_runBreakseq.sh $TMPDIR_B $OUTDIR_B $FASTQ_DIR $MIN_COVER $LIB_LEN $SCORE_MIN $SAMPLE >> project/logfiles/${STEP_B}_${COMMAND_B}_${DATE}_${NAME}/${NAME}_${THREAD}
+          echo "# Running BreakSeq on $SAMPLE."
+              
+          STEP_B=$(printf "%02d" $((${STEP}+1)))
+          COMMAND_B="breakseq"
+
+          OUTDIR_B="analysis/${STEP_B}_${COMMAND_B}/${DATE}/${NAME}"
+          TMPDIR_B="tmp/${STEP_B}_${COMMAND_B}/${DATE}/${NAME}"
+
+          echo "MIN_COVER = ${MIN_COVER}; LIB_LEN = ${LIB_LEN}" > ${OUTDIR_B}/README.txt
+
+          mkdir -p project/logfiles/${STEP_B}_${COMMAND_B}_${DATE}_${NAME}/
+          
+          # Breakseq process 
+          # TMPDIR=$1     
+          # OUTDIR=$2  
+          # FASTQ_DIR=$3   
+          # MIN_COVER=$4
+          # LIB_LEN=$5
+          # SCORE_MIN=$6
+          # SAMPLE=$7
+          sh code/bash/02_runBreakseq.sh $TMPDIR_B $OUTDIR_B $FASTQ_DIR $MIN_COVER $LIB_LEN $SCORE_MIN $SAMPLE >> project/logfiles/${STEP_B}_${COMMAND_B}_${DATE}_${NAME}/${NAME}_${THREAD}
 
 
-      fi
-      
-      # Remove and Return
-      if [ "$D_OPTION" == "y" ]; then
-        rm -r ${TMPDIR}/${SAMPLE}
-      fi      
+        fi
+        
+        # Remove and Return
+        if [ "$D_OPTION" == "y" ]; then
+          rm -r ${TMPDIR}/${SAMPLE}
+        fi   
+    fi   
   done
 
 fi
