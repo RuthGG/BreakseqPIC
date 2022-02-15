@@ -6,10 +6,10 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="v2.3.2_smallinvs2"
+NAME="v1.ancientGenomes"
 
 # Manually set date, comment if we want it automatic
-DATE="2022-02-02"
+DATE="2022-02-15"
 
 
 # To override some parts
@@ -49,7 +49,7 @@ LIBRARY_UPDATE="yes"
 
 # individuals to test
 # SAMPLESFILE="data/use/static_dataset_list.txt"
-SAMPLESFILE="data/use/static_dataset_list.txt"
+SAMPLESFILE="data/use/sample_ancient_list.txt"
 
 # inversions to test - it can be empty to analyze all
 INVSFILE="data/use/small_invs.txt"
