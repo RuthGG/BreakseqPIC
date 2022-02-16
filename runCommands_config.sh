@@ -14,7 +14,7 @@ DATE="2022-02-16"
 
 # To override some parts
 
-OVERRIDE=2 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
+OVERRIDE=1 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
 
 # To override:
 	# 0 library -> nothing needed, library is always in the same place /data/bioinfo/scratch/breakseq_fastqs
