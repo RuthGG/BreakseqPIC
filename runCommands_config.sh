@@ -6,22 +6,22 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="v1.ancientGenomes"
+NAME="v2.ancientGenomes"
 
 # Manually set date, comment if we want it automatic
-DATE="2022-02-15"
+DATE="2022-02-16"
 
 
 # To override some parts
 
-OVERRIDE=0 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
+OVERRIDE=2 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
 
 # To override:
 	# 0 library -> nothing needed, library is always in the same place /data/bioinfo/scratch/breakseq_fastqs
 	# 1 download -> we can override it by just having a FASTQ variable, even with 0 value override
 		# If we want to override the download, we can set a directory with previous downloads
 		# It has to be the directory with individual directories
-		# READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2021-09-20_v2.3.2_downloadReadsCheck"
+		READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2022-02-07-ancientGenomes"
 	# 2 breakseq
 		# BREAKSEQ_RESULTS="analysis/02_breakseq/2021-06-03/smallinvs_min_20" 
 	# 3 alignment analysis - it can be automatically assigned!
