@@ -6,7 +6,7 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="v2.ancientGenomes"
+NAME="v3.ancientGenomes"
 
 # Manually set date, comment if we want it automatic
 DATE="2022-02-16"
