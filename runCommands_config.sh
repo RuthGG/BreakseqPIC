@@ -6,10 +6,10 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="v3.ancientGenomes"
+NAME="v4.ancientGenomes"
 
 # Manually set date, comment if we want it automatic
-DATE="2022-02-16"
+DATE="2022-02-17"
 
 
 # To override some parts
