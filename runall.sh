@@ -235,7 +235,7 @@ if [ "$COMMAND" == "download" ]; then
     FORMAT=$(cut -f3 $SAMPLE)
     if [$FORMAT == 'FASTQ']; then
       # We select for each sample the fastq files and save them as the selected regions for breakseq.
-      (grep /data/bioinfo/scratch/breakseq_fastqs/2022_02_07_ancientGenomes/${SAMPLE}/*.fastq) >> selected_regions.fastq
+      (grep /data/bioinfo/scratch/breakseq_fastqs/2022-02-07_ancientGenomes/${SAMPLE}/*.fastq) >> selected_regions.fastq
     else
       # Loop per inversion - align reads
       for REGION in $REGIONS; do
