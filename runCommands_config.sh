@@ -6,7 +6,7 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="v6.ancientGenomes"
+NAME="ancientGenomes"
 
 # Manually set date, comment if we want it automatic
 DATE="2022-02-18"
@@ -42,7 +42,7 @@ LIBRARY_SEED="v2.3.2.300_smallinvs2"
 LIBRARY_LENGTH=300
 
 # Do we want to update all library or just to make the base files?
-LIBRARY_UPDATE="yes"
+LIBRARY_UPDATE="no"
 
 # STEP 01 - Download
 # =========================================================================== #
