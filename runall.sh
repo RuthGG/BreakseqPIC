@@ -248,9 +248,9 @@ if [ "$COMMAND" == "download" ]; then
 
         # Locate bam file link
         # POP=$(grep $SAMPLE data/raw/1KGP_data/integrated_call_samples_v3.20130502.ALL.panel.txt | cut -f2)
-        *'BAM_FILE=$(grep $SAMPLE ${SCRIPTPATH}/data/raw/1KGP_data/20130502.phase3.low_coverage.alignment.index | grep '\.mapped' | cut -f1 | sed -e 's/data.*alignment\///g')
-        BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
-        ' # Already downloaded the files. Only one is in format BAM. Others are FASTQ files.
+        # BAM_FILE=$(grep $SAMPLE ${SCRIPTPATH}/data/raw/1KGP_data/20130502.phase3.low_coverage.alignment.index | grep '\.mapped' | cut -f1 | sed -e 's/data.*alignment\///g')
+        # BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
+        # Already downloaded the files. Only one is in format BAM. Others are FASTQ files.
         # Locate the BAM file from the folder:
         BAM_FILE= $(grep /data/bioinfo/scratch/breakseq_fastq/2022-02-07_ancientGenomes/CHAGYRSKAYA8/chr22.bam)
 
@@ -315,9 +315,9 @@ if [ "$COMMAND" == "download" ]; then
         date
         # Locate bam file link
         # POP=$(grep $SAMPLE data/raw/1KGP_data/integrated_call_samples_v3.20130502.ALL.panel.txt | cut -f2)
-        *'BAM_FILE=$(grep $SAMPLE ${SCRIPTPATH}/data/raw/1KGP_data/20130502.phase3.low_coverage.alignment.index | grep '\.unmapped' | cut -f1 | sed -e 's/data.*alignment\///g')
-        BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
-        ' # Already downloaded the files. Only one is in format BAM. Others are FASTQ files.
+        # BAM_FILE=$(grep $SAMPLE ${SCRIPTPATH}/data/raw/1KGP_data/20130502.phase3.low_coverage.alignment.index | grep '\.unmapped' | cut -f1 | sed -e 's/data.*alignment\///g')
+        # BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
+         # Already downloaded the files. Only one is in format BAM. Others are FASTQ files.
         # Locate the BAM file from the folder:
         BAM_FILE= $(grep /data/bioinfo/scratch/breakseq_fastq/2022-02-07_ancientGenomes/CHAGYRSKAYA8/chr22.bam)
         # Select the unmapped reads from the bam file:
