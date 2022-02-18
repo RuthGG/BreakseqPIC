@@ -6,10 +6,10 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="v4.ancientGenomes"
+NAME="v5.ancientGenomes"
 
 # Manually set date, comment if we want it automatic
-DATE="2022-02-17"
+DATE="2022-02-18"
 
 
 # To override some parts
@@ -21,7 +21,7 @@ OVERRIDE=1 # This is the first process number we want to run, e.g. 2 will not ru
 	# 1 download -> we can override it by just having a FASTQ variable, even with 0 value override
 		# If we want to override the download, we can set a directory with previous downloads
 		# It has to be the directory with individual directories
-		# READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2022-02-07_ancientGenomes"
+		# READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2022-02-07_ancientGenomes/"
 	# 2 breakseq
 		# BREAKSEQ_RESULTS="analysis/02_breakseq/2021-06-03/smallinvs_min_20" 
 	# 3 alignment analysis - it can be automatically assigned!
