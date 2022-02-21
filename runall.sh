@@ -203,9 +203,11 @@ if [ "$COMMAND" == "download" ]; then
   mkdir -p $OUTDIR $TMPDIR/readscount/
 
   # Take samples
+  echo "the file is $SAMPLESFILE"
+  echo "###"
   SAMPLES=$SAMPLES_FILE
   echo "Samples are: $SAMPLES"
-  echo "File is: $SAMPLES_FILE"
+  
 
   FORMAT=$(cut -f3 $SAMPLES_FILE)
   echo "Format is: $FORMAT"
@@ -219,7 +221,6 @@ if [ "$COMMAND" == "download" ]; then
   echo "Start looping samples"
 
   for SAMPLE in $SAMPLES; do
-    SAMPLE=$(cut -f1 $SAMPLE)
     echo "################"
     echo "$SAMPLE"
     echo "################"
