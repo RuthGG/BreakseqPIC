@@ -6,7 +6,7 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="ancientGenomes"
+NAME="prova_ancientGenomes"
 
 # Manually set date, comment if we want it automatic
 DATE="2022-02-21"
@@ -14,7 +14,7 @@ DATE="2022-02-21"
 
 # To override some parts
 
-OVERRIDE=1 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
+OVERRIDE=0 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
 
 # To override:
 	# 0 library -> nothing needed, library is always in the same place /data/bioinfo/scratch/breakseq_fastqs
@@ -42,7 +42,7 @@ LIBRARY_SEED="v2.3.2.300_smallinvs2"
 LIBRARY_LENGTH=300
 
 # Do we want to update all library or just to make the base files?
-LIBRARY_UPDATE="no"
+LIBRARY_UPDATE="yes"
 
 # STEP 01 - Download
 # =========================================================================== #
