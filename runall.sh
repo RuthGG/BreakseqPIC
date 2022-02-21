@@ -233,7 +233,7 @@ if [ "$COMMAND" == "download" ]; then
 
     # Check if sample data is in FASTQ or BAM format:
     FORMAT=$(cut -f3 $SAMPLE_LINE)
-    if [$FORMAT == 'FASTQ']; then
+    if [[$FORMAT == "FASTQ"]]; then
       # We select for each sample the fastq files and save them as the selected regions for breakseq.
       (grep /data/bioinfo/scratch/breakseq_fastqs/2022-02-07_ancientGenomes/${SAMPLE}/*.fastq) >> selected_regions.fastq
     else
