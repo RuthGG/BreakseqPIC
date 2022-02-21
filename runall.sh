@@ -204,9 +204,12 @@ if [ "$COMMAND" == "download" ]; then
 
   # Take samples
   SAMPLES=$SAMPLES_FILE
+  echo "Samples are: $SAMPLES"
+  echo "File is: $SAMPLES_FILE"
 
-  echo "$SAMPLES"
-
+  FORMAT=$(cut -f3 $SAMPLES_FILE)
+  echo "Format is: $FORMAT"
+  
   # Take regions
   echo "Take regions"
   # How to create a file with all invs
@@ -215,9 +218,8 @@ if [ "$COMMAND" == "download" ]; then
   ## Loop per sample - align reads
   echo "Start looping samples"
 
-  for SAMPLE_LINE in $SAMPLES; do
-    echo "sample line is $SAMPLE_LINE"
-    SAMPLE=$(cut -f1 $SAMPLE_LINE)
+  for SAMPLE in $SAMPLES; do
+    SAMPLE=$(cut -f1 $SAMPLE)
     echo "################"
     echo "$SAMPLE"
     echo "################"
