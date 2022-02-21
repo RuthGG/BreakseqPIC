@@ -212,8 +212,8 @@ if [ "$COMMAND" == "download" ]; then
 
   ## Loop per sample - align reads
   echo "Start looping samples"
-  for SAMPLE in $SAMPLES; do
-    SAMPLE=$(cut -f1 $SAMPLE)
+  for SAMPLE_LINE in $SAMPLES; do
+    SAMPLE=$(cut -f1 $SAMPLE_LINE)
     echo "################"
     echo "$SAMPLE"
     echo "################"
@@ -232,7 +232,7 @@ if [ "$COMMAND" == "download" ]; then
     fi
 
     # Check if sample data is in FASTQ or BAM format:
-    FORMAT=$(cut -f3 $SAMPLE)
+    FORMAT=$(cut -f3 $SAMPLE_LINE)
     if [$FORMAT == 'FASTQ']; then
       # We select for each sample the fastq files and save them as the selected regions for breakseq.
       (grep /data/bioinfo/scratch/breakseq_fastqs/2022-02-07_ancientGenomes/${SAMPLE}/*.fastq) >> selected_regions.fastq
