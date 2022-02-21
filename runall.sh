@@ -205,7 +205,9 @@ if [ "$COMMAND" == "download" ]; then
   # Take samples
   SAMPLES=$SAMPLES_FILE
   
+  # Sample file with individual name, species, file format
   MY_FILE="data/use/sample_ancient_list.txt"
+  # Generate new file with only the format column
   cat $MY_FILE | cut -f3 > "${DATADIR}/formats.txt"
 
   # Take regions
