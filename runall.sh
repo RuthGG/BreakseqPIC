@@ -203,15 +203,11 @@ if [ "$COMMAND" == "download" ]; then
   mkdir -p $OUTDIR $TMPDIR/readscount/
 
   # Take samples
-  echo "the file is $SAMPLESFILE"
-  echo "###"
   SAMPLES=$SAMPLES_FILE
-  echo "Samples are: $SAMPLES"
   
+  MY_FILE="data/use/sample_ancient_list.txt"
+  cat $MY_FILE | cut -f3 > "${DATADIR}/formats.txt"
 
-  FORMAT=$(cut -f3 $SAMPLES_FILE)
-  echo "Format is: $FORMAT"
-  
   # Take regions
   echo "Take regions"
   # How to create a file with all invs
