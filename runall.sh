@@ -209,7 +209,7 @@ if [ "$COMMAND" == "download" ]; then
   MY_FILE="data/use/sample_ancient_list.txt"
   # Generate new file with only the format column
   cat $MY_FILE | cut -f3 >> "${DATADIR}/formats.txt"
-  # FORMAT_FILE="${DATADIT}/formats.txt"
+  FORMAT_FILE="${DATADIR}/formats.txt"
 
   # Take regions
   echo "Take regions"
@@ -227,7 +227,7 @@ if [ "$COMMAND" == "download" ]; then
     date
 
     # Save the format of the individuals file 
-    FORMAT=$(sed -n "$format_line p" "${DATADIR}/formats.txt")
+    FORMAT=$(sed -n "$format_line p" ${FORMAT_FILE})
     echo "Format of sequence is: $FORMAT"
     # increase the line of the format by 1:
     format_line=$((format_line+1))
