@@ -219,18 +219,19 @@ if [ "$COMMAND" == "download" ]; then
   ## Loop per sample - align reads
   echo "Start looping samples"
 
-  format_line=0
+  format_line=1
   for SAMPLE in $SAMPLES; do
     echo "################"
     echo "$SAMPLE"
     echo "################"
     date
 
-    ((format_line=format_line+1))
     # Save the format of the individuals file 
     FORMAT=$(sed -n "$format_line p" ${FORMAT_FILE})
     echo "Format of sequence is: $FORMAT"
+    echo "$format_line line."
     # increase the line of the format by 1:
+    ((format_line=format_line+1))
 
     # Make a folder for the sample
     mkdir -p ${OUTDIR}/${NAME}/${SAMPLE} 
@@ -246,7 +247,10 @@ if [ "$COMMAND" == "download" ]; then
     fi
 
     # Check if sample data is in FASTQ or BAM format:
-    if [[ $FORMAT == "BAM" ]]; then
+    if [[ $FORMAT == "FASTQ" ]]; then
+      # We select for each sample the fastq files and save them as the selected regions for breakseq.
+      (cat "/data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/${SAMPLE}/*.fastq") >> selected_regions.fastq
+    else
       # Loop per inversion - align reads
       for REGION in $REGIONS; do
 
@@ -397,10 +401,7 @@ if [ "$COMMAND" == "download" ]; then
         # Remove and Return
         if [ "$D_OPTION" == "y" ]; then
           rm -r ${TMPDIR}/${SAMPLE}
-        fi  
-    else
-    # We select for each sample the fastq files and save them as the selected regions for breakseq.
-      (grep /data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/${SAMPLE}/*.fastq) >> selected_regions.fastq 
+        fi   
     fi   
   done
 
