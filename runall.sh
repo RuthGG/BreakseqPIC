@@ -219,18 +219,18 @@ if [ "$COMMAND" == "download" ]; then
   ## Loop per sample - align reads
   echo "Start looping samples"
 
-  format_line=1
+  format_line=0
   for SAMPLE in $SAMPLES; do
     echo "################"
     echo "$SAMPLE"
     echo "################"
     date
 
+    ((format_line=format_line+1))
     # Save the format of the individuals file 
     FORMAT=$(sed -n "$format_line p" ${FORMAT_FILE})
     echo "Format of sequence is: $FORMAT"
     # increase the line of the format by 1:
-    format_line=$((format_line+1))
 
     # Make a folder for the sample
     mkdir -p ${OUTDIR}/${NAME}/${SAMPLE} 
