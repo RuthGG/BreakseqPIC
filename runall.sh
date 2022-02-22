@@ -227,7 +227,7 @@ if [ "$COMMAND" == "download" ]; then
     date
 
     # Save the format of the individuals file 
-    FORMAT=$(sed -n $format_line $FORMAT_FILE)
+    FORMAT=$(sed -n "$format_line" $FORMAT_FILE)
     echo "Format of sequence is: $FORMAT"
     # increase the line of the format by 1:
     format_line=$((format_line+1))
