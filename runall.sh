@@ -246,10 +246,7 @@ if [ "$COMMAND" == "download" ]; then
     fi
 
     # Check if sample data is in FASTQ or BAM format:
-    if [[ $FORMAT == "FASTQ" ]]; then
-      # We select for each sample the fastq files and save them as the selected regions for breakseq.
-      (grep /data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/${SAMPLE}/*.fastq) >> selected_regions.fastq
-    else
+    if [[ $FORMAT == "BAM" ]]; then
       # Loop per inversion - align reads
       for REGION in $REGIONS; do
 
@@ -400,7 +397,10 @@ if [ "$COMMAND" == "download" ]; then
         # Remove and Return
         if [ "$D_OPTION" == "y" ]; then
           rm -r ${TMPDIR}/${SAMPLE}
-        fi   
+        fi  
+    else
+    # We select for each sample the fastq files and save them as the selected regions for breakseq.
+      (grep /data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/${SAMPLE}/*.fastq) >> selected_regions.fastq 
     fi   
   done
 
