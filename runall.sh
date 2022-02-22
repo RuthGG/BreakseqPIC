@@ -209,6 +209,7 @@ if [ "$COMMAND" == "download" ]; then
   MY_FILE="data/use/sample_ancient_list.txt"
   # Generate new file with only the format column
   cat $MY_FILE | cut -f3 > "${DATADIR}/formats.txt"
+  FORMAT_FILE="${DATADIT}/formats.txt"
 
   # Take regions
   echo "Take regions"
@@ -218,11 +219,19 @@ if [ "$COMMAND" == "download" ]; then
   ## Loop per sample - align reads
   echo "Start looping samples"
 
+  format_line=1
   for SAMPLE in $SAMPLES; do
     echo "################"
     echo "$SAMPLE"
     echo "################"
     date
+
+    # Save the format of the individuals file 
+    FORMAT=$(sed -n $format_line $FORMAT_FILE)
+    echo "Format of sequence is: $FORMAT"
+    # increase the line of the format by 1:
+    format_line=$((format_line+1))
+
     # Make a folder for the sample
     mkdir -p ${OUTDIR}/${NAME}/${SAMPLE} 
         
@@ -237,7 +246,6 @@ if [ "$COMMAND" == "download" ]; then
     fi
 
     # Check if sample data is in FASTQ or BAM format:
-    FORMAT=$(cut -f3 $SAMPLE_LINE)
     if [[ $FORMAT == "FASTQ" ]]; then
       # We select for each sample the fastq files and save them as the selected regions for breakseq.
       (grep /data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/${SAMPLE}/*.fastq) >> selected_regions.fastq
