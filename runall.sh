@@ -231,7 +231,6 @@ if [ "$COMMAND" == "download" ]; then
     # Save the format of the individuals file 
     FORMATS=$FORMAT_FILE
     FORMAT=$(sed -n "$lineNum p" ${FORMATS})
-    echo "Format of sequence is: $FORMAT"
     echo "$lineNum line."
 
     # Make a folder for the sample
@@ -249,9 +248,13 @@ if [ "$COMMAND" == "download" ]; then
 
     # Check if sample data is in FASTQ or BAM format:
     if [[ $FORMAT == "FASTQ" ]]; then
+      echo "Format of sequence is: fastq"
+ 
       # We select for each sample the fastq files and save them as the selected regions for breakseq.
       (cat "/data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/${SAMPLE}/*.fastq") >> selected_regions.fastq
+      
     else
+      echo "Format of sequence is: bam"
       # Loop per inversion - align reads
       for REGION in $REGIONS; do
 
