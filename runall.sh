@@ -225,7 +225,7 @@ if [ "$COMMAND" == "download" ]; then
     echo "################"
     date
 
-    lineNum="$(grep -n "$SAMPLE" $SAMPLES_FILE | head -n 1 | cut -d: -f1)"
+    lineNum="$(grep -n "$SAMPLE" ${DATADIR}/samples.txt | head -n 1 | cut -d: -f1)"
     echo "The individual $SAMPLE is in the line $lineNum"
 
     # Save the format of the individuals file 
