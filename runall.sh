@@ -231,7 +231,7 @@ if [ "$COMMAND" == "download" ]; then
 
     # Save the format of the individuals from the formats.txt file by using the position obtained
     FORMATS=$FORMAT_FILE
-    FORMAT=$(sed -n "$lineNum p" ${FORMATS})
+    FORMAT="$(sed -n "$lineNum p" ${FORMATS})"
     echo "$FORMAT"
 
     # Make a folder for the sample
@@ -248,7 +248,7 @@ if [ "$COMMAND" == "download" ]; then
     fi
 
     # Check if sample data is in FASTQ or BAM format:
-    if [[ $FORMAT == 'FASTQ' ]]; then
+    if [[ $FORMAT == "FASTQ" ]]; then
       echo "Format of sequence is: fastq"
  
       # We select for each sample the fastq files and save them as the selected regions for breakseq.
