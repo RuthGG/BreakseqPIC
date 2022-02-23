@@ -232,6 +232,7 @@ if [ "$COMMAND" == "download" ]; then
     echo "$format_line line."
     # increase the line of the format by 1:
     ((format_line=format_line+1))
+    echo "new line is $format_line"
 
     # Make a folder for the sample
     mkdir -p ${OUTDIR}/${NAME}/${SAMPLE} 
