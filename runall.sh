@@ -248,7 +248,7 @@ if [ "$COMMAND" == "download" ]; then
     fi
 
     # Check if sample data is in FASTQ or BAM format:
-    if [ "$FORMAT" == "FASTQ" ]; then
+    if [[ $FORMAT == F* ]]; then
       echo "Format of sequence is: fastq"
  
       # We select for each sample the fastq files and save them as the selected regions for breakseq.
