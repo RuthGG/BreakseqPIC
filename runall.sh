@@ -231,7 +231,7 @@ if [ "$COMMAND" == "download" ]; then
     # Save the format of the individuals file 
     FORMATS=$FORMAT_FILE
     FORMAT=$(sed -n "$lineNum p" ${FORMATS})
-    echo "type($FORMAT)"
+    type $FORMAT
     echo "$lineNum line."
 
     # Make a folder for the sample
