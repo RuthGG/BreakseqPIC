@@ -225,14 +225,13 @@ if [ "$COMMAND" == "download" ]; then
     echo "################"
     date
 
+    # Obtain the position this individual is on the list
     lineNum="$(grep -n "$SAMPLE" ${DATADIR}/samples.txt | head -n 1 | cut -d: -f1)"
     echo "The individual $SAMPLE is in the line $lineNum"
 
-    # Save the format of the individuals file 
+    # Save the format of the individuals from the formats.txt file by using the position obtained
     FORMATS=$FORMAT_FILE
     FORMAT=$(sed -n "$lineNum p" ${FORMATS})
-    type $FORMAT
-    echo "$lineNum line."
 
     # Make a folder for the sample
     mkdir -p ${OUTDIR}/${NAME}/${SAMPLE} 
@@ -248,7 +247,7 @@ if [ "$COMMAND" == "download" ]; then
     fi
 
     # Check if sample data is in FASTQ or BAM format:
-    if [[ $FORMAT == "FASTQ" ]]; then
+    if [[ $FORMAT == FASTQ ]]; then
       echo "Format of sequence is: fastq"
  
       # We select for each sample the fastq files and save them as the selected regions for breakseq.
