@@ -6,7 +6,7 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="prova_ancientGenomes"
+NAME="ancientGenomes"
 
 # Manually set date, comment if we want it automatic
 DATE="2022-02-21"
