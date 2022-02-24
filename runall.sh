@@ -271,7 +271,7 @@ if [ "$COMMAND" == "download" ]; then
         # BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
         # Already downloaded the files. Only one is in format BAM. Others are FASTQ files.
         # Locate the BAM file from the folder:
-        BAM_FILE="/data/bioinfo/scratch/breakseq_fastq/2022-02-21_ancientGenomes/${SAMPLE}/*"
+        BAM_FILE="/data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/${SAMPLE}/*"
 
         # Download reads - Importante! Rango de extracción alrededor de la inversión! He puesto 20kb, pero quizá podría ser otro rango
         # Idealmente, habria que hacer una lista de coordenadas del alelo invertido para afinar esta region, pero todavia no existe
@@ -338,7 +338,7 @@ if [ "$COMMAND" == "download" ]; then
         # BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
          # Already downloaded the files. Only one is in format BAM. Others are FASTQ files.
         # Locate the BAM file from the folder:
-        BAM_FILE="/data/bioinfo/scratch/breakseq_fastq/2022-02-21_ancientGenomes/${SAMPLE}/*"
+        BAM_FILE="/data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/${SAMPLE}/*"
         # Select the unmapped reads from the bam file:
         BAM_FILE=$(samtools view -b -f 4 $BAM_FILE)
 
