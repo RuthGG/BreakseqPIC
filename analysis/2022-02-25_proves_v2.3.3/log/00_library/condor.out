@@ -24,10 +24,10 @@ Writing header
 Reserving space for joined string
 Joining reference sequences
   Time to join reference sequences: 00:00:00
-bmax according to bmaxDivN setting: 52950
-Using parameters --bmax 39713 --dcv 1024
+bmax according to bmaxDivN setting: 38250
+Using parameters --bmax 28688 --dcv 1024
   Doing ahead-of-time memory usage test
-  Passed!  Constructing with these parameters: --bmax 39713 --dcv 1024
+  Passed!  Constructing with these parameters: --bmax 28688 --dcv 1024
 Constructing suffix-array element generator
 Building DifferenceCoverSample
   Building sPrime
@@ -51,33 +51,33 @@ Multikey QSorting 12 samples
 Calculating bucket sizes
 Splitting and merging
   Splitting and merging time: 00:00:00
-Avg bucket size: 211803 (target: 39712)
+Avg bucket size: 153001 (target: 28687)
 Converting suffix-array elements to index image
 Allocating ftab, absorbFtab
 Entering Ebwt loop
 Getting block 1 of 1
   No samples; assembling all-inclusive block
-  Sorting block of length 211803 for bucket 1
+  Sorting block of length 153001 for bucket 1
   (Using difference cover)
   Sorting block time: 00:00:00
-Returning block of 211804 for bucket 1
+Returning block of 153002 for bucket 1
 Exited Ebwt loop
 fchr[A]: 0
-fchr[C]: 63797
-fchr[G]: 107016
-fchr[T]: 149619
-fchr[$]: 211803
+fchr[C]: 45931
+fchr[G]: 77088
+fchr[T]: 107884
+fchr[$]: 153001
 Exiting Ebwt::buildToDisk()
 Returning from initFromVector
-Wrote 4291265 bytes to primary EBWT file: bplib.1.bt2
-Wrote 52956 bytes to secondary EBWT file: bplib.2.bt2
+Wrote 4264351 bytes to primary EBWT file: bplib.1.bt2
+Wrote 38256 bytes to secondary EBWT file: bplib.2.bt2
 Re-opening _in1 and _in2 as input streams
 Returning from Ebwt constructor
 Headers:
-    len: 211803
-    bwtLen: 211804
-    sz: 52951
-    bwtSz: 52951
+    len: 153001
+    bwtLen: 153002
+    sz: 38251
+    bwtSz: 38251
     lineRate: 6
     offRate: 4
     offMask: 0xfffffff0
@@ -86,16 +86,16 @@ Headers:
     eftabSz: 80
     ftabLen: 1048577
     ftabSz: 4194308
-    offsLen: 13238
-    offsSz: 52952
+    offsLen: 9563
+    offsSz: 38252
     lineSz: 64
     sideSz: 64
     sideBwtSz: 48
     sideBwtLen: 192
-    numSides: 1104
-    numLines: 1104
-    ebwtTotLen: 70656
-    ebwtTotSz: 70656
+    numSides: 797
+    numLines: 797
+    ebwtTotLen: 51008
+    ebwtTotSz: 51008
     color: 0
     reverse: 0
 Total time for call to driver() for forward index: 00:00:00
@@ -107,10 +107,10 @@ Reserving space for joined string
 Joining reference sequences
   Time to join reference sequences: 00:00:00
   Time to reverse reference sequence: 00:00:00
-bmax according to bmaxDivN setting: 52950
-Using parameters --bmax 39713 --dcv 1024
+bmax according to bmaxDivN setting: 38250
+Using parameters --bmax 28688 --dcv 1024
   Doing ahead-of-time memory usage test
-  Passed!  Constructing with these parameters: --bmax 39713 --dcv 1024
+  Passed!  Constructing with these parameters: --bmax 28688 --dcv 1024
 Constructing suffix-array element generator
 Building DifferenceCoverSample
   Building sPrime
@@ -134,33 +134,33 @@ Multikey QSorting 12 samples
 Calculating bucket sizes
 Splitting and merging
   Splitting and merging time: 00:00:00
-Avg bucket size: 211803 (target: 39712)
+Avg bucket size: 153001 (target: 28687)
 Converting suffix-array elements to index image
 Allocating ftab, absorbFtab
 Entering Ebwt loop
 Getting block 1 of 1
   No samples; assembling all-inclusive block
-  Sorting block of length 211803 for bucket 1
+  Sorting block of length 153001 for bucket 1
   (Using difference cover)
   Sorting block time: 00:00:00
-Returning block of 211804 for bucket 1
+Returning block of 153002 for bucket 1
 Exited Ebwt loop
 fchr[A]: 0
-fchr[C]: 63797
-fchr[G]: 107016
-fchr[T]: 149619
-fchr[$]: 211803
+fchr[C]: 45931
+fchr[G]: 77088
+fchr[T]: 107884
+fchr[$]: 153001
 Exiting Ebwt::buildToDisk()
 Returning from initFromVector
-Wrote 4291265 bytes to primary EBWT file: bplib.rev.1.bt2
-Wrote 52956 bytes to secondary EBWT file: bplib.rev.2.bt2
+Wrote 4264351 bytes to primary EBWT file: bplib.rev.1.bt2
+Wrote 38256 bytes to secondary EBWT file: bplib.rev.2.bt2
 Re-opening _in1 and _in2 as input streams
 Returning from Ebwt constructor
 Headers:
-    len: 211803
-    bwtLen: 211804
-    sz: 52951
-    bwtSz: 52951
+    len: 153001
+    bwtLen: 153002
+    sz: 38251
+    bwtSz: 38251
     lineRate: 6
     offRate: 4
     offMask: 0xfffffff0
@@ -169,16 +169,16 @@ Headers:
     eftabSz: 80
     ftabLen: 1048577
     ftabSz: 4194308
-    offsLen: 13238
-    offsSz: 52952
+    offsLen: 9563
+    offsSz: 38252
     lineSz: 64
     sideSz: 64
     sideBwtSz: 48
     sideBwtLen: 192
-    numSides: 1104
-    numLines: 1104
-    ebwtTotLen: 70656
-    ebwtTotSz: 70656
+    numSides: 797
+    numLines: 797
+    ebwtTotLen: 51008
+    ebwtTotSz: 51008
     color: 0
     reverse: 1
-Total time for backward call to driver() for mirror index: 00:00:01
+Total time for backward call to driver() for mirror index: 00:00:00
