@@ -203,14 +203,9 @@ if [ "$COMMAND" == "download" ]; then
   mkdir -p $OUTDIR $TMPDIR/readscount/
 
   # Take samples
+  echo "Take samples"
   SAMPLES=$SAMPLES_FILE
   
-  # Sample file with individual name, species, file format
-  MY_FILE="data/use/sample_ancient_list.txt"
-  # Generate new file with only the format column
-  cat $MY_FILE | cut -f3 >> "${DATADIR}/formats.txt"
-  FORMAT_FILE="${DATADIR}/formats.txt"
-
   # Take regions
   echo "Take regions"
   # How to create a file with all invs
@@ -225,14 +220,11 @@ if [ "$COMMAND" == "download" ]; then
     echo "################"
     date
 
-    # Obtain the position this individual is on the list
-    lineNum="$(grep -n "$SAMPLE" ${DATADIR}/samples.txt | head -n 1 | cut -d: -f1)"
-    echo "The individual $SAMPLE is in the line $lineNum"
+    # Take path for MAIN_FILE (mapped and/or unmapped fasta or bam) and OTHER_FILE (unmapped bam/general bam with all reads) from index 
+    MAIN_FILE=$(grep $SAMPLE ${DATADIR}/samples_pathIndex.txt | cut -f2)
+    OTHER_FILE=$(grep $SAMPLE ${DATADIR}/samples_pathIndex.txt | cut -f3)
 
-    # Save the format of the individuals from the formats.txt file by using the position obtained
-    FORMATS=$FORMAT_FILE
-    FORMAT="$(sed -n "$lineNum p" ${FORMATS})"
-    echo "$FORMAT"
+    MAIN_FORMAT=$(echo $FILE | cut -d'.' -f2)
 
     # Make a folder for the sample
     mkdir -p ${OUTDIR}/${NAME}/${SAMPLE} 
@@ -247,17 +239,15 @@ if [ "$COMMAND" == "download" ]; then
       rm ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt
     fi
 
-    # Bind 
-
     # Check if sample data is in FASTQ or BAM format:
-    if [[ $FORMAT == F* ]]; then
-      echo "Format of sequence is: fastq"
+    if [[ $MAIN_FORMAT == "fastq" ]]; then
+      echo "Processing fastq file $MAIN_FILE"
  
       # We select for each sample the fastq files and save them as the selected regions for breakseq.
-      cat /20210325_breakseq/${OUTDIR}/2022-02-21_ancientGenomes/${SAMPLE}/*.fastq >> selected_regions.fastq
+      cat $MAIN_FILE > selected_regions.fastq
 
     else
-      echo "Format of sequence is: bam"
+      echo "Format of sequence is bam file $MAIN_FILE"
       # Loop per inversion - align reads
       for REGION in $REGIONS; do
 
@@ -266,15 +256,6 @@ if [ "$COMMAND" == "download" ]; then
         echo "---------------------"
         date
     
-
-        # Locate bam file link
-        # POP=$(grep $SAMPLE data/raw/1KGP_data/integrated_call_samples_v3.20130502.ALL.panel.txt | cut -f2)
-        # BAM_FILE=$(grep $SAMPLE ${SCRIPTPATH}/data/raw/1KGP_data/20130502.phase3.low_coverage.alignment.index | grep '\.mapped' | cut -f1 | sed -e 's/data.*alignment\///g')
-        # BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
-        # Already downloaded the files. Only one is in format BAM. Others are FASTQ files.
-        # Locate the BAM file from the folder:
-        BAM_FILE="/20210325_breakseq/${OUTDIR}/2022-02-21_ancientGenomes/${SAMPLE}/*"
-
         # Download reads - Importante! Rango de extracción alrededor de la inversión! He puesto 20kb, pero quizá podría ser otro rango
         # Idealmente, habria que hacer una lista de coordenadas del alelo invertido para afinar esta region, pero todavia no existe
         CHR_REGION=$(grep "$REGION" ${SCRIPTPATH}/${DATADIR}/datos_librerias/bplib.coords | cut -f2 | uniq)
@@ -306,7 +287,7 @@ if [ "$COMMAND" == "download" ]; then
               l=$((l+1))
                 
 
-              ERRS=$(( samtools view $BAM_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
+              ERRS=$(( samtools view $MAIN_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
               echo $ERRS
 
               # If tmp_download is not empty OR if tmp_download is empty but there were no errors and we tried more than 10 times already
@@ -334,15 +315,6 @@ if [ "$COMMAND" == "download" ]; then
         echo " Unmapped reads "
         echo "---------------------"
         date
-        # Locate bam file link
-        # POP=$(grep $SAMPLE data/raw/1KGP_data/integrated_call_samples_v3.20130502.ALL.panel.txt | cut -f2)
-        # BAM_FILE=$(grep $SAMPLE ${SCRIPTPATH}/data/raw/1KGP_data/20130502.phase3.low_coverage.alignment.index | grep '\.unmapped' | cut -f1 | sed -e 's/data.*alignment\///g')
-        # BAM_FILE="ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/$SAMPLE/alignment/"$BAM_FILE
-         # Already downloaded the files. Only one is in format BAM. Others are FASTQ files.
-        # Locate the BAM file from the folder:
-        BAM_FILE="/20210325_breakseq/${OUTDIR}/2022-02-21_ancientGenomes/${SAMPLE}/*"
-        # Select the unmapped reads from the bam file:
-        BAM_FILE=$(samtools view -b -f 4 $BAM_FILE)
 
         # This includes a loop to resume download in case it was interrupted
         i=0
@@ -351,8 +323,8 @@ if [ "$COMMAND" == "download" ]; then
           echo "# LOOP $l"
           l=$((l+1))
 
-          # Work into tmp_download
-          samtools view $BAM_FILE > tmp_download.txt
+          # Work into tmp_download (-f 4 selects only unmapped reads in case the bam file provided was a general one)
+          samtools view -f 4 $OTHER_FILE > tmp_download.txt
       
           if [ -s tmp_download.txt ]; then 
             # If file not empty, interrupt loop and concat to output file

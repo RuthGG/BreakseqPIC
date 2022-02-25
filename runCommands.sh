@@ -120,11 +120,15 @@ if [[ -z $INVSFILE ]]; then
 	INVSFILE="${DATADIR}/datos_librerias/inversions_completeList.txt"
 fi
 
+	# This is to avoid touching raw data files + keeping log about the process
 	cp $INVSFILE "${DATADIR}/regions.txt"
-	cat $SAMPLESFILE | cut -f1 > "${DATADIR}/samples.txt"
+	cat $SAMPLESLIST | cut -f1 > "${DATADIR}/samples.txt"
+	cp $SAMPLESFILE "${DATADIR}/samples_index.txt"
 
 	INVSFILE="${DATADIR}/regions.txt"
-	SAMPLESFILE="${DATADIR}/samples.txt"
+	SAMPLESLIST="${DATADIR}/samples.txt"
+	SAMPLESFILE="${DATADIR}/samples_pathIndex.txt"
+
 
 #######################################################
 
@@ -138,7 +142,7 @@ if [[ $OVERRIDE -gt 1 ]] || [[ ! -z $READ_FASTQS ]]; then
 	cp ${READ_FASTQS}_readscount.txt ${OUTDIR}/01_download/readscount.txt
 else
 
-	mkdir -p ${LOGDIR}/01_download/ ${OUTDIR}/01_download/ ${TMPDIR}/01_download/
+	mkdir -p ${LOGDIR}/01_download/ ${OUTDIR}/01_download/ ${TMPDIR}/01_download/ ${DATADIR}/bamFiles/
 	
 	# make tmp file
 	if [[ $RESUME == "y" ]]; then
@@ -146,7 +150,7 @@ else
 		checkDownload 
 	else
 		echo "STARTING download (data replacement may occur)"
-		cp $SAMPLESFILE ${TMPDIR}/01_download/failednames
+		cp $SAMPLESLIST ${TMPDIR}/01_download/failednames
 		TOTEST=1
 	fi
 
@@ -154,6 +158,7 @@ else
 	echo "executable = /bin/singularity
 args = \"exec \\
 --bind /data/bioinfo/scratch/breakseq_fastqs:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${OUTDIR}/01_download/:rw \\
+--bind /data/bioinfo/scratch/breakseq_bam:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${DATADIR}/bamFiles/:rw \\
 /data/bioinfo/software/rgomez_breakseq.sif \\
 bash 20210325_breakseq/runall.sh download -r ${INVSFILE} -s \$(item) -t \$(item) -n ${DATE}_${NAME}\"
 
