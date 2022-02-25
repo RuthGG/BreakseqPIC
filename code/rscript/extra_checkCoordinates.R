@@ -29,8 +29,9 @@ if (length(args)<1) {
 samfile_original<-read.table("tmp/coordCheck/result", comment.char = "@", sep = "\t",fill = T, stringsAsFactors = F)
 samfile<-samfile_original[,c(1,3,4,6)]
 colnames(samfile)<-c("Probe", "Chromosome", "Coordinate", "CIGAR")
+# repeated<-samfile[samfile$Probe %in% samfile$Probe[duplicated(samfile$Probe)],]
 
-# The coordinates 
+The coordinates
 
 coords<-read.table(paste0("data/raw/seed_librerias/",args[1],"/bplib.coords"), stringsAsFactors = F)
 colnames(coords)<-c("Probe", "Chromosome", "Start", "End", "Length")
