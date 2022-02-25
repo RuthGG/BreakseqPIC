@@ -9,31 +9,17 @@
 # mkdir -p 20210325_breakseq/tmp/coordCheck/
 # cd  20210325_breakseq/tmp/coordCheck/
 # bowtie2 -f -x ../../data/use/bowtie_index/h_sapiens_asm -U ../../data/use/bowtie_index/bplib.fa > result
-# cd ../../
 # Rscript code/rscript/extra_checkCoordinates.R
 ###############################################################################
 
-# LOAD ARGUMENTS 
-# =========================================================================== #
-args = commandArgs(trailingOnly=TRUE)
-
-# Example
-# args[1]<-"v2.3.3.300"  # Library version
-
-# Test if there is at least one argument: if not, return an error
-if (length(args)<1) {
-  stop("Please set library version", call.=FALSE)
-}
-
-
-samfile_original<-read.table("tmp/coordCheck/result", comment.char = "@", sep = "\t",fill = T, stringsAsFactors = F)
+# Alignment
+samfile_original<-read.table("coordCheck/result", comment.char = "@", sep = "\t",fill = T, stringsAsFactors = F)
 samfile<-samfile_original[,c(1,3,4,6)]
 colnames(samfile)<-c("Probe", "Chromosome", "Coordinate", "CIGAR")
 # repeated<-samfile[samfile$Probe %in% samfile$Probe[duplicated(samfile$Probe)],]
 
-The coordinates
-
-coords<-read.table(paste0("data/raw/seed_librerias/",args[1],"/bplib.coords"), stringsAsFactors = F)
+# The coordinates
+coords<-read.table(paste0("bplib.coords"), stringsAsFactors = F)
 colnames(coords)<-c("Probe", "Chromosome", "Start", "End", "Length")
 
 # Merge
@@ -48,8 +34,8 @@ notREF<-notREF[!(notREF$CIGAR %in% c("*", "", " ", NA)),]
 notREF<-merge(notREF, samfile_original[,c(1,5)], by.x = "Probe", by.y = "V1", all.x = TRUE)
 colnames(notREF)[5]<-"MAPQ"
 
-write.table(check, "tmp/coordCheck/REF")
-write.table(notREF, "tmp/coordCheck/notREF")
+write.table(check, "coordCheck/REF", quote = FALSE, row.names = FALSE)
+write.table(notREF, "coordCheck/notREF", quote = FALSE, row.names = FALSE)
 
 # Interpretation
 

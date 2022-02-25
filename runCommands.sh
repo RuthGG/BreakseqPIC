@@ -68,7 +68,7 @@ if [[ $OVERRIDE -gt 0 ]]; then
 
 else
 
-	mkdir -p ${LOGDIR}/00_library/ ${DATADIR}/datos_librerias
+	mkdir -p ${LOGDIR}/00_library/ ${DATADIR}/datos_librerias 
 
 	cp data/raw/seed_librerias/${LIBRARY_SEED}/bplib* data/raw/seed_librerias/${LIBRARY_SEED}/ref* ${DATADIR}/datos_librerias
 	cd ${DATADIR}/datos_librerias
@@ -95,7 +95,7 @@ else
 args = \"exec \\
 --bind /data/bioinfo/common/bowtie2_index:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index:rw \\
 /data/bioinfo/software/rgomez_breakseq.sif \\
-bash 20210325_breakseq/code/bash/00_buildLibrary.sh ${BASEPATH} ${DATADIR}/datos_librerias/bplib.fa\"
+bash 20210325_breakseq/code/bash/00_buildLibrary.sh ${BASEPATH} ${DATADIR}/datos_librerias/\"
 
 output = ${LOGDIR}/00_library/condor.out
 error = ${LOGDIR}/00_library/condor.err
@@ -110,6 +110,8 @@ queue 1" > ${LOGDIR}/00_library.sub
 		condor_submit ${LOGDIR}/00_library.sub
 
 		waitForCondor 1 
+
+		cp -r ${DATADIR}/datos_librerias/coordCheck data/raw/seed_librerias/${LIBRARY_SEED}/
 	fi
 fi
 

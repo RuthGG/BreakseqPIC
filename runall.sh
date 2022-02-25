@@ -324,7 +324,14 @@ if [ "$COMMAND" == "download" ]; then
           l=$((l+1))
 
           # Work into tmp_download (-f 4 selects only unmapped reads in case the bam file provided was a general one)
-          samtools view -f 4 $OTHER_FILE > tmp_download.txt
+          if [[ $OTHER_FILE == $MAIN_FILE ]]; then
+            # Non specific unmapped file
+            samtools view -f 4 $OTHER_FILE > tmp_download.txt
+          else
+            # Specific unmapped file
+            samtools view $OTHER_FILE > tmp_download.txt
+          fi
+          
       
           if [ -s tmp_download.txt ]; then 
             # If file not empty, interrupt loop and concat to output file
