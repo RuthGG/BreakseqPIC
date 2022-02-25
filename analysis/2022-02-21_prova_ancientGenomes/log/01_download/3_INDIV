@@ -1,0 +1,10 @@
+Take regions
+Start looping samples
+################
+3_INDIV
+################
+Wed Feb 23 13:29:42 CET 2022
+The individual 3_INDIV is in the line 4
+FASTQ
+Format of sequence is: fastq
+cat: '/data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/3_INDIV/*.fastq': No such file or directory

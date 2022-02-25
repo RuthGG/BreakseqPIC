@@ -1,0 +1,10 @@
+Take regions
+Start looping samples
+################
+VINDIJA33.19
+################
+Thu Feb 24 15:42:41 CET 2022
+The individual VINDIJA33.19 is in the line 3
+FASTQ
+Format of sequence is: fastq
+cat: '/20210325_breakseq/analysis/2022-02-21_ancientGenomes/01_download/2022-02-21_ancientGenomes/VINDIJA33.19/*.fastq': No such file or directory

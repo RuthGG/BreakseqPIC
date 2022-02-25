@@ -1,0 +1,10 @@
+Take regions
+Start looping samples
+################
+DENISOVA2
+################
+Wed Feb 23 13:28:25 CET 2022
+The individual DENISOVA2 is in the line 7
+FASTQ
+Format of sequence is: fastq
+cat: '/data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/DENISOVA2/*.fastq': No such file or directory

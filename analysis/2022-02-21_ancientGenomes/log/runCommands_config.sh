@@ -6,10 +6,10 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="proves_v2.3.3"
+NAME="ancientGenomes"
 
 # Manually set date, comment if we want it automatic
-DATE="2022-02-25"
+DATE="2022-02-21"
 
 
 # To override some parts
@@ -42,7 +42,7 @@ LIBRARY_SEED="v2.3.3.300"
 LIBRARY_LENGTH=300
 
 # Do we want to update all library or just to make the base files?
-LIBRARY_UPDATE="yes"
+LIBRARY_UPDATE="no"
 
 # STEP 01 - Download
 # =========================================================================== #

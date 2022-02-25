@@ -6,10 +6,10 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="proves_v2.3.3"
+NAME="v2.3.2_smallinvs2"
 
 # Manually set date, comment if we want it automatic
-DATE="2022-02-25"
+DATE="2022-02-02"
 
 
 # To override some parts
@@ -21,7 +21,7 @@ OVERRIDE=0 # This is the first process number we want to run, e.g. 2 will not ru
 	# 1 download -> we can override it by just having a FASTQ variable, even with 0 value override
 		# If we want to override the download, we can set a directory with previous downloads
 		# It has to be the directory with individual directories
-		# READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2022-02-07_ancientGenomes/"
+		# READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2021-09-20_v2.3.2_downloadReadsCheck"
 	# 2 breakseq
 		# BREAKSEQ_RESULTS="analysis/02_breakseq/2021-06-03/smallinvs_min_20" 
 	# 3 alignment analysis - it can be automatically assigned!
@@ -36,7 +36,7 @@ OVERRIDE=0 # This is the first process number we want to run, e.g. 2 will not ru
 
 # library seed name
 # this name must exist in data/raw/seed_librerias
-LIBRARY_SEED="v2.3.3.300"
+LIBRARY_SEED="v2.3.2.300_smallinvs2"
 
 # This can be used in the future to automatically trim the original probes
 LIBRARY_LENGTH=300
@@ -48,9 +48,8 @@ LIBRARY_UPDATE="yes"
 # =========================================================================== #
 
 # individuals to test
-# SAMPLESLIST="data/use/static_dataset_list.txt"
-SAMPLESLIST="data/use/sample_part_list.txt"
-SAMPLESFILE="data/use/ancientGenomes_data/pathIndex.txt"
+# SAMPLESFILE="data/use/static_dataset_list.txt"
+SAMPLESFILE="data/use/static_dataset_list.txt"
 
 # inversions to test - it can be empty to analyze all
 INVSFILE="data/use/small_invs.txt"
@@ -60,7 +59,7 @@ KEEP_DOWNLOADS="y"
 
 # Resume download with the same name (y or n)
 # To resume download we need a TMP dir with a path equivalent to this process that contains a readscount summary for each individual
-RESUME="n"
+RESUME="y"
 
 
 # Step 02 - Breakseq
