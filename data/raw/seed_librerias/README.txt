@@ -31,8 +31,8 @@ cat  bplib.coords | cut -f1 | sed 's/^\w\w\w//'|sed 's/BP.*$//' | sort | uniq > 
 5) Copiar otros datos:
 - ref.header.template
 Header para el genoma hg19 (reads de 1KGP).
-- bplib.fa.fai
-Fasta index. Se genera al correr el BreakSeq.
+- [bplib.fa.fai
+Fasta index. Se genera al correr el BreakSeq.]
 
 6) Cambiar los indices a las necesidades actuales. Para ello:
 
@@ -46,3 +46,7 @@ bowtie2-build bplib.fa bplib
 ###
 
 
+#### FOR CURRENT CODE: 
+Step 1
+Step 2
+Step 5
