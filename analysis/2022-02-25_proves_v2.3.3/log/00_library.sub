@@ -2,7 +2,7 @@ executable = /bin/singularity
 args = "exec \
 --bind /data/bioinfo/common/bowtie2_index:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index:rw \
 /data/bioinfo/software/rgomez_breakseq.sif \
-bash 20210325_breakseq/code/bash/00_buildLibrary.sh /nfs/pic.es/user/r/rgomez/20210325_breakseq analysis/2022-02-25_proves_v2.3.3/data/datos_librerias/bplib.fa"
+bash 20210325_breakseq/code/bash/00_buildLibrary.sh /nfs/pic.es/user/r/rgomez/20210325_breakseq analysis/2022-02-25_proves_v2.3.3/data/datos_librerias/"
 
 output = analysis/2022-02-25_proves_v2.3.3/log/00_library/condor.out
 error = analysis/2022-02-25_proves_v2.3.3/log/00_library/condor.err

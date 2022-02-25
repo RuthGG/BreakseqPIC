@@ -98,7 +98,7 @@ Headers:
     ebwtTotSz: 51008
     color: 0
     reverse: 0
-Total time for call to driver() for forward index: 00:00:00
+Total time for call to driver() for forward index: 00:00:01
 Reading reference sizes
   Time reading reference sizes: 00:00:00
 Calculating joined length
