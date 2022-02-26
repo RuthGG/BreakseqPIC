@@ -50,3 +50,4 @@ bowtie2-build bplib.fa bplib
 Step 1
 Step 2
 Step 5
+Run 00Library commands from runCommands

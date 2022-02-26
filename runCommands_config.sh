@@ -48,9 +48,8 @@ LIBRARY_UPDATE="yes"
 # =========================================================================== #
 
 # individuals to test
-# SAMPLESLIST="data/use/static_dataset_list.txt"
-SAMPLESLIST="data/use/sample_part_list.txt"
-SAMPLESFILE="data/use/ancientGenomes_data/pathIndex.txt"
+SAMPLESLIST="data/use/sampleLists/samples_1kgp_000.txt"
+SAMPLESFILE="data/use/1KGP_data/pathIndex.txt"
 
 # inversions to test - it can be empty to analyze all
 INVSFILE="data/use/small_invs.txt"
