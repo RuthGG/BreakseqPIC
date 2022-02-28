@@ -282,6 +282,7 @@ if [ "$COMMAND" == "download" ]; then
             if [[ $l -eq 1000 ]]; then
               echo "Maximum loop count! Aborting..."
               echo  "$SAMPLE","$REGION" >> ${SCRIPTPATH}/${TMPDIR}/failedregions.txt
+              break
             else
 
               l=$((l+1))
