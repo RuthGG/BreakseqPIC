@@ -51,7 +51,7 @@ checkDownload () {
 		# This is the list for the queue
 		wc -l ${TMPDIR}/01_download/readscount/* | sed 's/^ *//g' | awk  -v t="$TARGETS" '$1==t{print $0}' | cut -d " " -f2 | sed 's/^.*readscount\///g' | sed 's/\.txt$//g'  > ${TMPDIR}/01_download/successnames
 
-		grep -v -f ${TMPDIR}/01_download/successnames $SAMPLESFILE > ${TMPDIR}/01_download/failednames
+		grep -v -f ${TMPDIR}/01_download/successnames $SAMPLESLIST > ${TMPDIR}/01_download/failednames
 		# Counter
 		TOTEST=$(cat ${TMPDIR}/01_download/failednames | wc -l)
 
@@ -125,7 +125,7 @@ fi
 	# This is to avoid touching raw data files + keeping log about the process
 	cp $INVSFILE "${DATADIR}/regions.txt"
 	cat $SAMPLESLIST | cut -f1 > "${DATADIR}/samples.txt"
-	cp $SAMPLESFILE "${DATADIR}/samples_index.txt"
+	cp $SAMPLESFILE "${DATADIR}/samples_pathIndex.txt"
 
 	INVSFILE="${DATADIR}/regions.txt"
 	SAMPLESLIST="${DATADIR}/samples.txt"
@@ -216,7 +216,7 @@ else
 	mkdir -p ${LOGDIR}/02_breakseq/ ${OUTDIR}/02_breakseq/ ${TMPDIR}/02_breakseq
 	
 	# make tmp file
-	cp $SAMPLESFILE ${TMPDIR}/02_breakseq/failednames
+	cp $SAMPLESLIST ${TMPDIR}/02_breakseq/failednames
 
 
 	echo "executable = /bin/singularity
@@ -255,7 +255,7 @@ queue 1 from ${TMPDIR}/02_breakseq/failednames "  >  ${LOGDIR}/02_breakseq.sub
 
 		# Make a list of fails
 		# This is the list for the queue
-		grep -v -f ${TMPDIR}/02_breakseq/successnames $SAMPLESFILE  > ${TMPDIR}/02_breakseq/failednames
+		grep -v -f ${TMPDIR}/02_breakseq/successnames $SAMPLESLIST  > ${TMPDIR}/02_breakseq/failednames
 
 		# Counter
 		TOTEST=$(cat ${TMPDIR}/02_breakseq/failednames | wc -l)
@@ -303,7 +303,7 @@ args = \"exec \\
 --bind /data/bioinfo/common/bowtie2_index:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index \\
 --bind /data/bioinfo/scratch/breakseq_tmp/:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${TMPDIR}/:rw \\
 /data/bioinfo/software/rgomez_breakseq.sif \\
-bash 20210325_breakseq/runall.sh processaligned -a $BREAKSEQ_RESULTS -s $SAMPLESFILE -m \$(Item) -t min_${COV_AROUND}_\$(Item) -n ${DATE}_${NAME}\"
+bash 20210325_breakseq/runall.sh processaligned -a $BREAKSEQ_RESULTS -s $SAMPLESLIST -m \$(Item) -t min_${COV_AROUND}_\$(Item) -n ${DATE}_${NAME}\"
 
 output = ${LOGDIR}/03_processaligned/condor.out
 error = ${LOGDIR}/03_processaligned/condor.err
@@ -344,7 +344,7 @@ args = \"exec \\
 --bind /data/bioinfo/scratch/breakseq_tmp/:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${TMPDIR}/:rw \\
 /data/bioinfo/software/rgomez_plots.sif \\
 bash 20210325_breakseq/runall.sh qualityanalysis \\
--g $GENOTYPES_DIR -s $SAMPLESFILE -r ${INVSFILE} -m $MAX_ERROR -t min_${COV_AROUND}_${MIN_LENGTH} -n ${DATE}_${NAME}\"
+-g $GENOTYPES_DIR -s $SAMPLESLIST -r ${INVSFILE} -m $MAX_ERROR -t min_${COV_AROUND}_${MIN_LENGTH} -n ${DATE}_${NAME}\"
 
 output = ${LOGDIR}/04_qualityanalysis/condor.out
 error = ${LOGDIR}/04_qualityanalysis/condor.err

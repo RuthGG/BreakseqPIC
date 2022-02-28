@@ -14,14 +14,14 @@ DATE="2022-02-25"
 
 # To override some parts
 
-OVERRIDE=0 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
+OVERRIDE=1 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
 
 # To override:
 	# 0 library -> nothing needed, library is always in the same place /data/bioinfo/scratch/breakseq_fastqs
 	# 1 download -> we can override it by just having a FASTQ variable, even with 0 value override
 		# If we want to override the download, we can set a directory with previous downloads
 		# It has to be the directory with individual directories
-		# READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2022-02-07_ancientGenomes/"
+		# READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2022-02-25_proves_v2.3.3"
 	# 2 breakseq
 		# BREAKSEQ_RESULTS="analysis/02_breakseq/2021-06-03/smallinvs_min_20" 
 	# 3 alignment analysis - it can be automatically assigned!
@@ -48,12 +48,11 @@ LIBRARY_UPDATE="yes"
 # =========================================================================== #
 
 # individuals to test
-# SAMPLESLIST="data/use/static_dataset_list.txt"
-SAMPLESLIST="data/use/sample_part_list.txt"
-SAMPLESFILE="data/use/ancientGenomes_data/pathIndex.txt"
+SAMPLESLIST="data/use/static_dataset_list.txt"
+SAMPLESFILE="data/use/1KGP_data/pathIndex.txt"
 
 # inversions to test - it can be empty to analyze all
-INVSFILE="data/use/small_invs.txt"
+INVSFILE=""
 
 # Set whether I want to delete individual files (y or n)
 KEEP_DOWNLOADS="y"

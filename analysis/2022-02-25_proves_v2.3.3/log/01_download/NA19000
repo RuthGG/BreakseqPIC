@@ -1,0 +1,1634 @@
+Take samples
+Take regions
+Start looping samples
+################
+NA19000
+################
+Sat Feb 26 13:06:24 CET 2022
+Format of sequence is bam file http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam
+---------------------
+HsInv0004 Mapped reads 
+---------------------
+Sat Feb 26 13:06:24 CET 2022
+Original coords: 1:197756641-197758134
+Sampled coords: 1:197736641-197778134
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "1:197736641-197778134" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+
+# Sucess!
+Reads:  7880
+# Delete tmp file
+---------------------
+HsInv0006 Mapped reads 
+---------------------
+Sat Feb 26 13:08:32 CET 2022
+Original coords: 1:205178471-205178964
+Sampled coords: 1:205158471-205198964
+# LOOP 0
+
+# Sucess!
+Reads:  7730
+# Delete tmp file
+---------------------
+HsInv0015 Mapped reads 
+---------------------
+Sat Feb 26 13:08:35 CET 2022
+Original coords: 10:13105123-13105422
+Sampled coords: 10:13085123-13125422
+# LOOP 0
+
+# Sucess!
+Reads:  8209
+# Delete tmp file
+---------------------
+HsInv0016 Mapped reads 
+---------------------
+Sat Feb 26 13:08:38 CET 2022
+Original coords: 10:59257512-59258095
+Sampled coords: 10:59237512-59278095
+# LOOP 0
+
+# Sucess!
+Reads:  7326
+# Delete tmp file
+---------------------
+HsInv0041 Mapped reads 
+---------------------
+Sat Feb 26 13:08:40 CET 2022
+Original coords: 2:225292831-225293237
+Sampled coords: 2:225272831-225313237
+# LOOP 0
+
+# Sucess!
+Reads:  7598
+# Delete tmp file
+---------------------
+HsInv0044 Mapped reads 
+---------------------
+Sat Feb 26 13:08:44 CET 2022
+Original coords: 21:27374009-27374849
+Sampled coords: 21:27354009-27394849
+# LOOP 0
+
+# Sucess!
+Reads:  8315
+# Delete tmp file
+---------------------
+HsInv0058 Mapped reads 
+---------------------
+Sat Feb 26 13:08:46 CET 2022
+Original coords: 6:31009073-31010245
+Sampled coords: 6:30989073-31030245
+# LOOP 0
+
+# Sucess!
+Reads:  8242
+# Delete tmp file
+---------------------
+HsInv0059 Mapped reads 
+---------------------
+Sat Feb 26 13:08:49 CET 2022
+Original coords: 6:89923485-89924092
+Sampled coords: 6:89903485-89944092
+# LOOP 0
+
+# Sucess!
+Reads:  8389
+# Delete tmp file
+---------------------
+HsInv0060 Mapped reads 
+---------------------
+Sat Feb 26 13:08:51 CET 2022
+Original coords: 6:94740926-94741562
+Sampled coords: 6:94720926-94761562
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "6:94720926-94761562" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+
+# Sucess!
+Reads:  7704
+# Delete tmp file
+---------------------
+HsInv0068 Mapped reads 
+---------------------
+Sat Feb 26 13:09:13 CET 2022
+Original coords: 9:76897991-76898539
+Sampled coords: 9:76877991-76918539
+# LOOP 0
+
+# Sucess!
+Reads:  7125
+# Delete tmp file
+---------------------
+HsInv0081 Mapped reads 
+---------------------
+Sat Feb 26 13:09:15 CET 2022
+Original coords: X:78923083-78923509
+Sampled coords: X:78903083-78943509
+# LOOP 0
+
+# Sucess!
+Reads:  3750
+# Delete tmp file
+---------------------
+HsInv0091 Mapped reads 
+---------------------
+Sat Feb 26 13:09:17 CET 2022
+Original coords: 6:12431880-12432829
+Sampled coords: 6:12411880-12452829
+# LOOP 0
+
+# Sucess!
+Reads:  8598
+# Delete tmp file
+---------------------
+HsInv0092 Mapped reads 
+---------------------
+Sat Feb 26 13:09:19 CET 2022
+Original coords: 6:130848037-130852444
+Sampled coords: 6:130828037-130872444
+# LOOP 0
+
+# Sucess!
+Reads:  9092
+# Delete tmp file
+---------------------
+HsInv0095 Mapped reads 
+---------------------
+Sat Feb 26 13:09:21 CET 2022
+Original coords: 4:88847015-88858849
+Sampled coords: 4:88827015-88878849
+# LOOP 0
+
+# Sucess!
+Reads:  10375
+# Delete tmp file
+---------------------
+HsInv0097 Mapped reads 
+---------------------
+Sat Feb 26 13:09:23 CET 2022
+Original coords: 3:107719696-107741203
+Sampled coords: 3:107699696-107761203
+# LOOP 0
+
+# Sucess!
+Reads:  11817
+# Delete tmp file
+---------------------
+HsInv0098 Mapped reads 
+---------------------
+Sat Feb 26 13:09:25 CET 2022
+Original coords: 3:41361993-41363262
+Sampled coords: 3:41341993-41383262
+# LOOP 0
+
+# Sucess!
+Reads:  8191
+# Delete tmp file
+---------------------
+HsInv0102 Mapped reads 
+---------------------
+Sat Feb 26 13:09:28 CET 2022
+Original coords: 4:40234879-40237208
+Sampled coords: 4:40214879-40257208
+# LOOP 0
+
+# Sucess!
+Reads:  8323
+# Delete tmp file
+---------------------
+HsInv0105 Mapped reads 
+---------------------
+Sat Feb 26 13:09:31 CET 2022
+Original coords: 7:40879226-40880619
+Sampled coords: 7:40859226-40900619
+# LOOP 0
+
+# Sucess!
+Reads:  8243
+# Delete tmp file
+---------------------
+HsInv0113 Mapped reads 
+---------------------
+Sat Feb 26 13:09:33 CET 2022
+Original coords: 9:105332385-105332684
+Sampled coords: 9:105312385-105352684
+# LOOP 0
+
+# Sucess!
+Reads:  7149
+# Delete tmp file
+---------------------
+HsInv0141 Mapped reads 
+---------------------
+Sat Feb 26 13:09:35 CET 2022
+Original coords: 2:180415500-180416793
+Sampled coords: 2:180395500-180436793
+# LOOP 0
+
+# Sucess!
+Reads:  8397
+# Delete tmp file
+---------------------
+HsInv0156 Mapped reads 
+---------------------
+Sat Feb 26 13:09:37 CET 2022
+Original coords: 2:123476454-123477527
+Sampled coords: 2:123456454-123497527
+# LOOP 0
+
+# Sucess!
+Reads:  7039
+# Delete tmp file
+---------------------
+HsInv0163 Mapped reads 
+---------------------
+Sat Feb 26 13:09:39 CET 2022
+Original coords: 10:56767041-56773344
+Sampled coords: 10:56747041-56793344
+# LOOP 0
+
+# Sucess!
+Reads:  8279
+# Delete tmp file
+---------------------
+HsInv0164 Mapped reads 
+---------------------
+Sat Feb 26 13:09:42 CET 2022
+Original coords: 5:143406465-143406894
+Sampled coords: 5:143386465-143426894
+# LOOP 0
+
+# Sucess!
+Reads:  8467
+# Delete tmp file
+---------------------
+HsInv0174 Mapped reads 
+---------------------
+Sat Feb 26 13:09:44 CET 2022
+Original coords: 1:44059166-44060034
+Sampled coords: 1:44039166-44080034
+# LOOP 0
+
+# Sucess!
+Reads:  6190
+# Delete tmp file
+---------------------
+HsInv0181 Mapped reads 
+---------------------
+Sat Feb 26 13:09:46 CET 2022
+Original coords: 8:103435343-103436167
+Sampled coords: 8:103415343-103456167
+# LOOP 0
+
+# Sucess!
+Reads:  7877
+# Delete tmp file
+---------------------
+HsInv0191 Mapped reads 
+---------------------
+Sat Feb 26 13:09:49 CET 2022
+Original coords: 10:75419566-75420058
+Sampled coords: 10:75399566-75440058
+# LOOP 0
+
+# Sucess!
+Reads:  6910
+# Delete tmp file
+---------------------
+HsInv0200 Mapped reads 
+---------------------
+Sat Feb 26 13:09:50 CET 2022
+Original coords: 14:93925878-93926177
+Sampled coords: 14:93905878-93946177
+# LOOP 0
+
+# Sucess!
+Reads:  8335
+# Delete tmp file
+---------------------
+HsInv0201 Mapped reads 
+---------------------
+Sat Feb 26 13:09:54 CET 2022
+Original coords: 5:147554090-147554765
+Sampled coords: 5:147534090-147574765
+# LOOP 0
+
+# Sucess!
+Reads:  7414
+# Delete tmp file
+---------------------
+HsInv0212 Mapped reads 
+---------------------
+Sat Feb 26 13:09:56 CET 2022
+Original coords: 4:168114925-168115412
+Sampled coords: 4:168094925-168135412
+# LOOP 0
+
+# Sucess!
+Reads:  7370
+# Delete tmp file
+---------------------
+HsInv0213 Mapped reads 
+---------------------
+Sat Feb 26 13:09:58 CET 2022
+Original coords: 9:113849047-113849687
+Sampled coords: 9:113829047-113869687
+# LOOP 0
+
+# Sucess!
+Reads:  8271
+# Delete tmp file
+---------------------
+HsInv0260 Mapped reads 
+---------------------
+Sat Feb 26 13:10:00 CET 2022
+Original coords: 2:184569048-184569347
+Sampled coords: 2:184549048-184589347
+# LOOP 0
+
+# Sucess!
+Reads:  7605
+# Delete tmp file
+---------------------
+HsInv0284 Mapped reads 
+---------------------
+Sat Feb 26 13:10:02 CET 2022
+Original coords: 6:142187312-142219999
+Sampled coords: 6:142167312-142239999
+# LOOP 0
+
+# Sucess!
+Reads:  13868
+# Delete tmp file
+---------------------
+HsInv0379 Mapped reads 
+---------------------
+Sat Feb 26 13:10:04 CET 2022
+Original coords: 19:21829984-22245410
+Sampled coords: 19:21809984-22265410
+# LOOP 0
+
+# Sucess!
+Reads:  85435
+# Delete tmp file
+---------------------
+HsInv0409 Mapped reads 
+---------------------
+Sat Feb 26 13:10:13 CET 2022
+Original coords: X:6136900-6138534
+Sampled coords: X:6116900-6158534
+# LOOP 0
+
+# Sucess!
+Reads:  4047
+# Delete tmp file
+---------------------
+HsInv0442 Mapped reads 
+---------------------
+Sat Feb 26 13:10:14 CET 2022
+Original coords: 18:11511143-11511615
+Sampled coords: 18:11491143-11531615
+# LOOP 0
+
+# Sucess!
+Reads:  7654
+# Delete tmp file
+---------------------
+HsInv0553 Mapped reads 
+---------------------
+Sat Feb 26 13:10:16 CET 2022
+Original coords: 16:34391962-34392261
+Sampled coords: 16:34371962-34412261
+# LOOP 0
+
+# Sucess!
+Reads:  6993
+# Delete tmp file
+---------------------
+HsInv0901 Mapped reads 
+---------------------
+Sat Feb 26 13:10:18 CET 2022
+Original coords: 3:82203466-82204156
+Sampled coords: 3:82183466-82224156
+# LOOP 0
+
+# Sucess!
+Reads:  7637
+# Delete tmp file
+---------------------
+HsInv0960 Mapped reads 
+---------------------
+Sat Feb 26 13:10:20 CET 2022
+Original coords: 7:156386934-156387369
+Sampled coords: 7:156366934-156407369
+# LOOP 0
+
+# Sucess!
+Reads:  7412
+# Delete tmp file
+---------------------
+HsInv0965 Mapped reads 
+---------------------
+Sat Feb 26 13:10:22 CET 2022
+Original coords: 2:195984280-195984764
+Sampled coords: 2:195964280-196004764
+# LOOP 0
+
+# Sucess!
+Reads:  7885
+# Delete tmp file
+---------------------
+HsInv0989 Mapped reads 
+---------------------
+Sat Feb 26 13:10:23 CET 2022
+Original coords: 10:132635540-132636196
+Sampled coords: 10:132615540-132656196
+# LOOP 0
+
+# Sucess!
+Reads:  7452
+# Delete tmp file
+---------------------
+HsInv0991 Mapped reads 
+---------------------
+Sat Feb 26 13:10:26 CET 2022
+Original coords: 5:29069187-29069775
+Sampled coords: 5:29049187-29089775
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "5:29049187-29089775" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Sucess!
+Reads:  52
+# Delete tmp file
+---------------------
+HsInv1053 Mapped reads 
+---------------------
+Sat Feb 26 13:10:51 CET 2022
+Original coords: 7:70426036-70439029
+Sampled coords: 7:70406036-70459029
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "7:70406036-70459029" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+
+# Sucess!
+Reads:  9959
+# Delete tmp file
+---------------------
+HsInv1065 Mapped reads 
+---------------------
+Sat Feb 26 13:11:07 CET 2022
+Original coords: 11:55431401-55446014
+Sampled coords: 11:55411401-55466014
+# LOOP 0
+
+# Sucess!
+Reads:  6650
+# Delete tmp file
+---------------------
+HsInv1066 Mapped reads 
+---------------------
+Sat Feb 26 13:11:09 CET 2022
+Original coords: 12:47290333-47309901
+Sampled coords: 12:47270333-47329901
+# LOOP 0
+
+# Sucess!
+Reads:  12559
+# Delete tmp file
+---------------------
+HsInv1070 Mapped reads 
+---------------------
+Sat Feb 26 13:11:11 CET 2022
+Original coords: 1:21530347-21531360
+Sampled coords: 1:21510347-21551360
+# LOOP 0
+
+# Sucess!
+Reads:  7463
+# Delete tmp file
+---------------------
+HsInv1075 Mapped reads 
+---------------------
+Sat Feb 26 13:11:13 CET 2022
+Original coords: 11:66018924-66020037
+Sampled coords: 11:65998924-66040037
+# LOOP 0
+
+# Sucess!
+Reads:  6225
+# Delete tmp file
+---------------------
+HsInv1116 Mapped reads 
+---------------------
+Sat Feb 26 13:11:14 CET 2022
+Original coords: 1:187466329-187466877
+Sampled coords: 1:187446329-187486877
+# LOOP 0
+
+# Sucess!
+Reads:  7494
+# Delete tmp file
+---------------------
+HsInv1122 Mapped reads 
+---------------------
+Sat Feb 26 13:11:17 CET 2022
+Original coords: 3:162545215-162547791
+Sampled coords: 3:162525215-162567791
+# LOOP 0
+
+# Sucess!
+Reads:  3945
+# Delete tmp file
+---------------------
+HsInv1127 Mapped reads 
+---------------------
+Sat Feb 26 13:11:19 CET 2022
+Original coords: 10:87243596-87244014
+Sampled coords: 10:87223596-87264014
+# LOOP 0
+
+# Sucess!
+Reads:  7875
+# Delete tmp file
+---------------------
+HsInv1128 Mapped reads 
+---------------------
+Sat Feb 26 13:11:21 CET 2022
+Original coords: 14:25612253-25612734
+Sampled coords: 14:25592253-25632734
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "14:25592253-25632734" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Sucess!
+Reads:  134
+# Delete tmp file
+---------------------
+HsInv1129 Mapped reads 
+---------------------
+Sat Feb 26 13:12:05 CET 2022
+Original coords: 4:101601340-101601740
+Sampled coords: 4:101581340-101621740
+# LOOP 0
+
+# Sucess!
+Reads:  7814
+# Delete tmp file
+---------------------
+HsInv1143 Mapped reads 
+---------------------
+Sat Feb 26 13:12:07 CET 2022
+Original coords: 1:48940800-48941395
+Sampled coords: 1:48920800-48961395
+# LOOP 0
+
+# Sucess!
+Reads:  7281
+# Delete tmp file
+---------------------
+HsInv1222 Mapped reads 
+---------------------
+Sat Feb 26 13:12:10 CET 2022
+Original coords: 11:24284583-24288063
+Sampled coords: 11:24264583-24308063
+# LOOP 0
+
+# Sucess!
+Reads:  7794
+# Delete tmp file
+---------------------
+HsInv1256 Mapped reads 
+---------------------
+Sat Feb 26 13:12:12 CET 2022
+Original coords: 12:39859977-39860445
+Sampled coords: 12:39839977-39880445
+# LOOP 0
+
+# Sucess!
+Reads:  7919
+# Delete tmp file
+---------------------
+HsInv1258 Mapped reads 
+---------------------
+Sat Feb 26 13:12:15 CET 2022
+Original coords: 12:47030320-47030773
+Sampled coords: 12:47010320-47050773
+# LOOP 0
+
+# Sucess!
+Reads:  7787
+# Delete tmp file
+---------------------
+HsInv1263 Mapped reads 
+---------------------
+Sat Feb 26 13:12:17 CET 2022
+Original coords: 12:70680467-70681124
+Sampled coords: 12:70660467-70701124
+# LOOP 0
+
+# Sucess!
+Reads:  7769
+# Delete tmp file
+---------------------
+HsInv1264 Mapped reads 
+---------------------
+Sat Feb 26 13:12:21 CET 2022
+Original coords: 12:71710168-71710467
+Sampled coords: 12:71690168-71730467
+# LOOP 0
+
+# Sucess!
+Reads:  7842
+# Delete tmp file
+---------------------
+HsInv1306 Mapped reads 
+---------------------
+Sat Feb 26 13:12:24 CET 2022
+Original coords: 13:98108390-98109123
+Sampled coords: 13:98088390-98129123
+# LOOP 0
+
+# Sucess!
+Reads:  8148
+# Delete tmp file
+---------------------
+HsInv1314 Mapped reads 
+---------------------
+Sat Feb 26 13:12:27 CET 2022
+Original coords: 14:49381754-49382399
+Sampled coords: 14:49361754-49402399
+# LOOP 0
+
+# Sucess!
+Reads:  8449
+# Delete tmp file
+---------------------
+HsInv1321 Mapped reads 
+---------------------
+Sat Feb 26 13:12:30 CET 2022
+Original coords: 14:65842388-65843283
+Sampled coords: 14:65822388-65863283
+# LOOP 0
+
+# Sucess!
+Reads:  8090
+# Delete tmp file
+---------------------
+HsInv1348 Mapped reads 
+---------------------
+Sat Feb 26 13:12:33 CET 2022
+Original coords: 16:48905664-48906375
+Sampled coords: 16:48885664-48926375
+# LOOP 0
+
+# Sucess!
+Reads:  8256
+# Delete tmp file
+---------------------
+HsInv1358 Mapped reads 
+---------------------
+Sat Feb 26 13:12:36 CET 2022
+Original coords: 17:5595135-5595702
+Sampled coords: 17:5575135-5615702
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "17:5575135-5615702" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "17:5575135-5615702" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Sucess!
+Reads:  2786
+# Delete tmp file
+---------------------
+HsInv1360 Mapped reads 
+---------------------
+Sat Feb 26 13:13:21 CET 2022
+Original coords: 17:11030963-11031478
+Sampled coords: 17:11010963-11051478
+# LOOP 0
+
+# Sucess!
+Reads:  8110
+# Delete tmp file
+---------------------
+HsInv1402 Mapped reads 
+---------------------
+Sat Feb 26 13:13:24 CET 2022
+Original coords: 2:33764474-33768026
+Sampled coords: 2:33744474-33788026
+# LOOP 0
+
+# Sucess!
+Reads:  8886
+# Delete tmp file
+---------------------
+HsInv1421 Mapped reads 
+---------------------
+Sat Feb 26 13:13:28 CET 2022
+Original coords: 2:121140557-121141844
+Sampled coords: 2:121120557-121161844
+# LOOP 0
+
+# Sucess!
+Reads:  6675
+# Delete tmp file
+---------------------
+HsInv1427 Mapped reads 
+---------------------
+Sat Feb 26 13:13:33 CET 2022
+Original coords: 2:153460948-153461581
+Sampled coords: 2:153440948-153481581
+# LOOP 0
+
+# Sucess!
+Reads:  7974
+# Delete tmp file
+---------------------
+HsInv1474 Mapped reads 
+---------------------
+Sat Feb 26 13:13:35 CET 2022
+Original coords: 3:7400498-7400927
+Sampled coords: 3:7380498-7420927
+# LOOP 0
+
+# Sucess!
+Reads:  8039
+# Delete tmp file
+---------------------
+HsInv1569 Mapped reads 
+---------------------
+Sat Feb 26 13:13:48 CET 2022
+Original coords: 5:8257407-8258057
+Sampled coords: 5:8237407-8278057
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "5:8237407-8278057" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+
+# Sucess!
+Reads:  8078
+# Delete tmp file
+---------------------
+HsInv1590 Mapped reads 
+---------------------
+Sat Feb 26 13:14:04 CET 2022
+Original coords: 5:114257935-114258386
+Sampled coords: 5:114237935-114278386
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "5:114237935-114278386" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Sucess!
+Reads:  1894
+# Delete tmp file
+---------------------
+HsInv1785 Mapped reads 
+---------------------
+Sat Feb 26 13:14:21 CET 2022
+Original coords: 1:92131656-92132784
+Sampled coords: 1:92111656-92152784
+# LOOP 0
+
+# Sucess!
+Reads:  8334
+# Delete tmp file
+---------------------
+HsInv1790 Mapped reads 
+---------------------
+Sat Feb 26 13:14:23 CET 2022
+Original coords: 10:15784655-15802575
+Sampled coords: 10:15764655-15822575
+# LOOP 0
+
+# Sucess!
+Reads:  11493
+# Delete tmp file
+---------------------
+HsInv1798 Mapped reads 
+---------------------
+Sat Feb 26 13:14:25 CET 2022
+Original coords: 12:50182462-50182761
+Sampled coords: 12:50162462-50202761
+# LOOP 0
+
+# Sucess!
+Reads:  6873
+# Delete tmp file
+---------------------
+HsInv1819 Mapped reads 
+---------------------
+Sat Feb 26 13:14:27 CET 2022
+Original coords: 3:70716281-70716970
+Sampled coords: 3:70696281-70736970
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "3:70696281-70736970" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+
+# Sucess!
+Reads:  8460
+# Delete tmp file
+---------------------
+HsInv1820 Mapped reads 
+---------------------
+Sat Feb 26 13:14:51 CET 2022
+Original coords: 3:75503510-75504929
+Sampled coords: 3:75483510-75524929
+# LOOP 0
+
+# Sucess!
+Reads:  7460
+# Delete tmp file
+---------------------
+HsInv1838 Mapped reads 
+---------------------
+Sat Feb 26 13:14:52 CET 2022
+Original coords: 7:47653966-47655010
+Sampled coords: 7:47633966-47675010
+# LOOP 0
+
+# Sucess!
+Reads:  7404
+# Delete tmp file
+---------------------
+HsInv1848 Mapped reads 
+---------------------
+Sat Feb 26 13:14:54 CET 2022
+Original coords: 9:94721104-94722092
+Sampled coords: 9:94701104-94742092
+# LOOP 0
+
+# Sucess!
+Reads:  7812
+# Delete tmp file
+---------------------
+HsInv1867 Mapped reads 
+---------------------
+Sat Feb 26 13:14:56 CET 2022
+Original coords: 1:181043754-181044227
+Sampled coords: 1:181023754-181064227
+# LOOP 0
+
+# Sucess!
+Reads:  7902
+# Delete tmp file
+---------------------
+HsInv1868 Mapped reads 
+---------------------
+Sat Feb 26 13:14:59 CET 2022
+Original coords: 8:112074947-112076107
+Sampled coords: 8:112054947-112096107
+# LOOP 0
+
+# Sucess!
+Reads:  7096
+# Delete tmp file
+---------------------
+HsInv1874 Mapped reads 
+---------------------
+Sat Feb 26 13:15:00 CET 2022
+Original coords: 4:93570013-93570312
+Sampled coords: 4:93550013-93590312
+# LOOP 0
+
+# Sucess!
+Reads:  7310
+# Delete tmp file
+---------------------
+HsInv1875 Mapped reads 
+---------------------
+Sat Feb 26 13:15:02 CET 2022
+Original coords: 7:101727388-101727850
+Sampled coords: 7:101707388-101747850
+# LOOP 0
+
+# Sucess!
+Reads:  7776
+# Delete tmp file
+---------------------
+HsOta1141 Mapped reads 
+---------------------
+Sat Feb 26 13:15:13 CET 2022
+Original coords: 1:44823019-44823318
+Sampled coords: 1:44803019-44843318
+# LOOP 0
+
+# Sucess!
+Reads:  7975
+# Delete tmp file
+---------------------
+HsOtb1141 Mapped reads 
+---------------------
+Sat Feb 26 13:15:15 CET 2022
+Original coords: 1:44823248-44823840
+Sampled coords: 1:44803248-44843840
+# LOOP 0
+
+# Sucess!
+Reads:  8019
+# Delete tmp file
+---------------------
+HsOtb1874 Mapped reads 
+---------------------
+Sat Feb 26 13:15:17 CET 2022
+Original coords: 4:93570139-93570438
+Sampled coords: 4:93550139-93590438
+# LOOP 0
+
+# Sucess!
+Reads:  7301
+# Delete tmp file
+---------------------
+HsOth0154 Mapped reads 
+---------------------
+Sat Feb 26 13:15:19 CET 2022
+Original coords: 5:169598604-169598903
+Sampled coords: 5:169578604-169618903
+# LOOP 0
+
+# Sucess!
+Reads:  7763
+# Delete tmp file
+---------------------
+HsOth0170 Mapped reads 
+---------------------
+Sat Feb 26 13:15:21 CET 2022
+Original coords: 12:71533604-71533903
+Sampled coords: 12:71513604-71553903
+# LOOP 0
+
+# Sucess!
+Reads:  8230
+# Delete tmp file
+---------------------
+HsOth0171 Mapped reads 
+---------------------
+Sat Feb 26 13:15:22 CET 2022
+Original coords: 2:129685026-129685325
+Sampled coords: 2:129665026-129705325
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "2:129665026-129705325" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "2:129665026-129705325" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 2
+
+# Sucess!
+Reads:  7969
+# Delete tmp file
+---------------------
+HsOth0178 Mapped reads 
+---------------------
+Sat Feb 26 13:19:00 CET 2022
+Original coords: 11:24904729-24905028
+Sampled coords: 11:24884729-24925028
+# LOOP 0
+
+# Sucess!
+Reads:  7646
+# Delete tmp file
+---------------------
+HsOth0182 Mapped reads 
+---------------------
+Sat Feb 26 13:19:02 CET 2022
+Original coords: 9:107817195-107817494
+Sampled coords: 9:107797195-107837494
+# LOOP 0
+
+# Sucess!
+Reads:  7997
+# Delete tmp file
+---------------------
+HsOth0186 Mapped reads 
+---------------------
+Sat Feb 26 13:19:04 CET 2022
+Original coords: 9:87135898-87136197
+Sampled coords: 9:87115898-87156197
+# LOOP 0
+
+# Sucess!
+Reads:  8093
+# Delete tmp file
+---------------------
+HsOth0190 Mapped reads 
+---------------------
+Sat Feb 26 13:19:08 CET 2022
+Original coords: 14:41376605-41376904
+Sampled coords: 14:41356605-41396904
+# LOOP 0
+
+# Sucess!
+Reads:  7045
+# Delete tmp file
+---------------------
+HsOth0211 Mapped reads 
+---------------------
+Sat Feb 26 13:19:09 CET 2022
+Original coords: 5:144039690-144039989
+Sampled coords: 5:144019690-144059989
+# LOOP 0
+
+# Sucess!
+Reads:  8086
+# Delete tmp file
+---------------------
+HsOth0224 Mapped reads 
+---------------------
+Sat Feb 26 13:19:13 CET 2022
+Original coords: 8:100157668-100157967
+Sampled coords: 8:100137668-100177967
+# LOOP 0
+
+# Sucess!
+Reads:  8172
+# Delete tmp file
+---------------------
+HsOth0310 Mapped reads 
+---------------------
+Sat Feb 26 13:19:15 CET 2022
+Original coords: 12:38318376-38318675
+Sampled coords: 12:38298376-38338675
+# LOOP 0
+
+# Sucess!
+Reads:  9682
+# Delete tmp file
+---------------------
+HsOth0335 Mapped reads 
+---------------------
+Sat Feb 26 13:19:17 CET 2022
+Original coords: 12:7963560-7963859
+Sampled coords: 12:7943560-7983859
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "12:7943560-7983859" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+
+# Sucess!
+Reads:  7530
+# Delete tmp file
+---------------------
+HsOth0463 Mapped reads 
+---------------------
+Sat Feb 26 13:19:56 CET 2022
+Original coords: 3:190833423-190833722
+Sampled coords: 3:190813423-190853722
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "3:190813423-190853722" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+
+# Sucess!
+Reads:  7709
+# Delete tmp file
+---------------------
+HsOth0574 Mapped reads 
+---------------------
+Sat Feb 26 13:20:13 CET 2022
+Original coords: 16:69762743-69763042
+Sampled coords: 16:69742743-69783042
+# LOOP 0
+
+# Sucess!
+Reads:  7680
+# Delete tmp file
+---------------------
+HsOth0589 Mapped reads 
+---------------------
+Sat Feb 26 13:20:15 CET 2022
+Original coords: 7:151011955-151012254
+Sampled coords: 7:150991955-151032254
+# LOOP 0
+
+# Sucess!
+Reads:  7469
+# Delete tmp file
+---------------------
+HsOth0612 Mapped reads 
+---------------------
+Sat Feb 26 13:20:17 CET 2022
+Original coords: 4:112008313-112008612
+Sampled coords: 4:111988313-112028612
+# LOOP 0
+
+# Sucess!
+Reads:  7837
+# Delete tmp file
+---------------------
+HsOth0968 Mapped reads 
+---------------------
+Sat Feb 26 13:20:19 CET 2022
+Original coords: 1:240116532-240116831
+Sampled coords: 1:240096532-240136831
+# LOOP 0
+
+# Sucess!
+Reads:  7418
+# Delete tmp file
+---------------------
+HsOth0987 Mapped reads 
+---------------------
+Sat Feb 26 13:20:20 CET 2022
+Original coords: 2:131887146-131887445
+Sampled coords: 2:131867146-131907445
+# LOOP 0
+
+# Sucess!
+Reads:  7697
+# Delete tmp file
+---------------------
+HsOth0997 Mapped reads 
+---------------------
+Sat Feb 26 13:20:22 CET 2022
+Original coords: 14:67170183-67170482
+Sampled coords: 14:67150183-67190482
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "14:67150183-67190482" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Sucess!
+Reads:  3769
+# Delete tmp file
+---------------------
+HsOth1004 Mapped reads 
+---------------------
+Sat Feb 26 13:21:01 CET 2022
+Original coords: 10:127197081-127197380
+Sampled coords: 10:127177081-127217380
+# LOOP 0
+
+# Sucess!
+Reads:  8096
+# Delete tmp file
+---------------------
+HsOth1013 Mapped reads 
+---------------------
+Sat Feb 26 13:21:11 CET 2022
+Original coords: 5:79049405-79049704
+Sampled coords: 5:79029405-79069704
+# LOOP 0
+
+# Sucess!
+Reads:  8344
+# Delete tmp file
+---------------------
+HsOth1112 Mapped reads 
+---------------------
+Sat Feb 26 13:21:14 CET 2022
+Original coords: 2:10825893-10826192
+Sampled coords: 2:10805893-10846192
+# LOOP 0
+
+# Sucess!
+Reads:  7322
+# Delete tmp file
+---------------------
+HsOth1122 Mapped reads 
+---------------------
+Sat Feb 26 13:21:16 CET 2022
+Original coords: 3:162511985-162626484
+Sampled coords: 3:162491985-162646484
+# LOOP 0
+
+# Sucess!
+Reads:  17369
+# Delete tmp file
+---------------------
+HsOth1130 Mapped reads 
+---------------------
+Sat Feb 26 13:21:19 CET 2022
+Original coords: 2:116978152-116978451
+Sampled coords: 2:116958152-116998451
+# LOOP 0
+
+# Sucess!
+Reads:  7722
+# Delete tmp file
+---------------------
+HsOth1146 Mapped reads 
+---------------------
+Sat Feb 26 13:21:22 CET 2022
+Original coords: 16:77788810-77789109
+Sampled coords: 16:77768810-77809109
+# LOOP 0
+
+# Sucess!
+Reads:  7921
+# Delete tmp file
+---------------------
+HsOth1153 Mapped reads 
+---------------------
+Sat Feb 26 13:21:24 CET 2022
+Original coords: 1:104580344-104580643
+Sampled coords: 1:104560344-104600643
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "1:104560344-104600643" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+
+# Sucess!
+Reads:  7483
+# Delete tmp file
+---------------------
+HsOth1216 Mapped reads 
+---------------------
+Sat Feb 26 13:21:49 CET 2022
+Original coords: 10:133079902-133080201
+Sampled coords: 10:133059902-133100201
+# LOOP 0
+
+# Sucess!
+Reads:  7099
+# Delete tmp file
+---------------------
+HsOth1225 Mapped reads 
+---------------------
+Sat Feb 26 13:21:51 CET 2022
+Original coords: 11:41166889-41167188
+Sampled coords: 11:41146889-41187188
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "11:41146889-41187188" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+
+# Sucess!
+Reads:  7761
+# Delete tmp file
+---------------------
+HsOth1240 Mapped reads 
+---------------------
+Sat Feb 26 13:22:19 CET 2022
+Original coords: 11:98847885-98848184
+Sampled coords: 11:98827885-98868184
+# LOOP 0
+
+# Sucess!
+Reads:  7404
+# Delete tmp file
+---------------------
+HsOth1269 Mapped reads 
+---------------------
+Sat Feb 26 13:22:21 CET 2022
+Original coords: 12:95953592-95953891
+Sampled coords: 12:95933592-95973891
+# LOOP 0
+
+# Sucess!
+Reads:  8290
+# Delete tmp file
+---------------------
+HsOth1275 Mapped reads 
+---------------------
+Sat Feb 26 13:22:23 CET 2022
+Original coords: 12:117589673-117589972
+Sampled coords: 12:117569673-117609972
+# LOOP 0
+
+# Sucess!
+Reads:  7667
+# Delete tmp file
+---------------------
+HsOth1306 Mapped reads 
+---------------------
+Sat Feb 26 13:22:25 CET 2022
+Original coords: 13:98103747-98108558
+Sampled coords: 13:98083747-98128558
+# LOOP 0
+
+# Sucess!
+Reads:  8640
+# Delete tmp file
+---------------------
+HsOth1313 Mapped reads 
+---------------------
+Sat Feb 26 13:22:28 CET 2022
+Original coords: 14:48323825-48324124
+Sampled coords: 14:48303825-48344124
+# LOOP 0
+
+# Sucess!
+Reads:  7314
+# Delete tmp file
+---------------------
+HsOth1329 Mapped reads 
+---------------------
+Sat Feb 26 13:22:30 CET 2022
+Original coords: 15:28248552-28248851
+Sampled coords: 15:28228552-28268851
+# LOOP 0
+
+# Sucess!
+Reads:  6859
+# Delete tmp file
+---------------------
+HsOth1376 Mapped reads 
+---------------------
+Sat Feb 26 13:22:32 CET 2022
+Original coords: 18:13919595-13919894
+Sampled coords: 18:13899595-13939894
+# LOOP 0
+
+# Sucess!
+Reads:  8316
+# Delete tmp file
+---------------------
+HsOth1408 Mapped reads 
+---------------------
+Sat Feb 26 13:22:35 CET 2022
+Original coords: 2:50765777-50766076
+Sampled coords: 2:50745777-50786076
+# LOOP 0
+
+# Sucess!
+Reads:  7562
+# Delete tmp file
+---------------------
+HsOth1411 Mapped reads 
+---------------------
+Sat Feb 26 13:22:40 CET 2022
+Original coords: 2:61700614-61700913
+Sampled coords: 2:61680614-61720913
+# LOOP 0
+
+# Sucess!
+Reads:  7901
+# Delete tmp file
+---------------------
+HsOth1414 Mapped reads 
+---------------------
+Sat Feb 26 13:22:41 CET 2022
+Original coords: 2:72441213-72441512
+Sampled coords: 2:72421213-72461512
+# LOOP 0
+
+# Sucess!
+Reads:  7896
+# Delete tmp file
+---------------------
+HsOth1422 Mapped reads 
+---------------------
+Sat Feb 26 13:22:44 CET 2022
+Original coords: 2:125051608-125051907
+Sampled coords: 2:125031608-125071907
+# LOOP 0
+
+# Sucess!
+Reads:  7913
+# Delete tmp file
+---------------------
+HsOth1425 Mapped reads 
+---------------------
+Sat Feb 26 13:22:47 CET 2022
+Original coords: 2:133519674-133519973
+Sampled coords: 2:133499674-133539973
+# LOOP 0
+
+# Sucess!
+Reads:  7810
+# Delete tmp file
+---------------------
+HsOth1428 Mapped reads 
+---------------------
+Sat Feb 26 13:22:50 CET 2022
+Original coords: 2:160097855-160100312
+Sampled coords: 2:160077855-160120312
+# LOOP 0
+
+# Sucess!
+Reads:  8468
+# Delete tmp file
+---------------------
+HsOth1432 Mapped reads 
+---------------------
+Sat Feb 26 13:22:53 CET 2022
+Original coords: 2:177373530-177377585
+Sampled coords: 2:177353530-177397585
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 4 after 0 of 4 bytes [main_samview] retrieval of region "2:177353530-177397585" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+
+# Sucess!
+Reads:  9037
+# Delete tmp file
+---------------------
+HsOth1454 Mapped reads 
+---------------------
+Sat Feb 26 13:23:10 CET 2022
+Original coords: 20:43305698-43309041
+Sampled coords: 20:43285698-43329041
+# LOOP 0
+
+# Sucess!
+Reads:  8209
+# Delete tmp file
+---------------------
+HsOth1468 Mapped reads 
+---------------------
+Sat Feb 26 13:23:12 CET 2022
+Original coords: 22:36934127-36934426
+Sampled coords: 22:36914127-36954426
+# LOOP 0
+
+# Sucess!
+Reads:  7711
+# Delete tmp file
+---------------------
+HsOth1471 Mapped reads 
+---------------------
+Sat Feb 26 13:23:15 CET 2022
+Original coords: 22:48872131-48872430
+Sampled coords: 22:48852131-48892430
+# LOOP 0
+
+# Sucess!
+Reads:  6506
+# Delete tmp file
+---------------------
+HsOth1484 Mapped reads 
+---------------------
+Sat Feb 26 13:23:17 CET 2022
+Original coords: 3:43835844-43836143
+Sampled coords: 3:43815844-43856143
+# LOOP 0
+
+# Sucess!
+Reads:  7901
+# Delete tmp file
+---------------------
+HsOth1497 Mapped reads 
+---------------------
+Sat Feb 26 13:23:19 CET 2022
+Original coords: 3:127496373-127496672
+Sampled coords: 3:127476373-127516672
+# LOOP 0
+
+# Sucess!
+Reads:  7372
+# Delete tmp file
+---------------------
+HsOth1511 Mapped reads 
+---------------------
+Sat Feb 26 13:23:23 CET 2022
+Original coords: 3:172173178-172173477
+Sampled coords: 3:172153178-172193477
+# LOOP 0
+
+# Sucess!
+Reads:  7703
+# Delete tmp file
+---------------------
+HsOth1579 Mapped reads 
+---------------------
+Sat Feb 26 13:23:25 CET 2022
+Original coords: 5:31191034-31191333
+Sampled coords: 5:31171034-31211333
+# LOOP 0
+
+# Sucess!
+Reads:  7906
+# Delete tmp file
+---------------------
+HsOth1614 Mapped reads 
+---------------------
+Sat Feb 26 13:23:27 CET 2022
+Original coords: 6:12439800-12440099
+Sampled coords: 6:12419800-12460099
+# LOOP 0
+
+# Sucess!
+Reads:  8512
+# Delete tmp file
+---------------------
+HsOth1637 Mapped reads 
+---------------------
+Sat Feb 26 13:23:29 CET 2022
+Original coords: 6:121519035-121526128
+Sampled coords: 6:121499035-121546128
+# LOOP 0
+
+# Sucess!
+Reads:  8582
+# Delete tmp file
+---------------------
+HsOth1667 Mapped reads 
+---------------------
+Sat Feb 26 13:23:31 CET 2022
+Original coords: 7:31590146-31592145
+Sampled coords: 7:31570146-31612145
+# LOOP 0
+
+# Sucess!
+Reads:  8603
+# Delete tmp file
+---------------------
+HsOth1681 Mapped reads 
+---------------------
+Sat Feb 26 13:23:33 CET 2022
+Original coords: 7:56627300-56627945
+Sampled coords: 7:56607300-56647945
+# LOOP 0
+
+# Sucess!
+Reads:  7485
+# Delete tmp file
+---------------------
+HsOth1700 Mapped reads 
+---------------------
+Sat Feb 26 13:23:34 CET 2022
+Original coords: 7:128820816-128821115
+Sampled coords: 7:128800816-128841115
+# LOOP 0
+
+# Sucess!
+Reads:  7628
+# Delete tmp file
+---------------------
+HsOth1751 Mapped reads 
+---------------------
+Sat Feb 26 13:23:36 CET 2022
+Original coords: 8:138130818-138131117
+Sampled coords: 8:138110818-138151117
+# LOOP 0
+
+# Sucess!
+Reads:  7331
+# Delete tmp file
+---------------------
+HsOth1794 Mapped reads 
+---------------------
+Sat Feb 26 13:23:38 CET 2022
+Original coords: 10:115171602-115171901
+Sampled coords: 10:115151602-115191901
+# LOOP 0
+[E::bgzf_read] Read block operation failed with error 2 after 0 of 4 bytes [main_samview] retrieval of region "10:115151602-115191901" failed due to truncated file or corrupt BAM index file samtools view: error closing "http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19000/alignment/NA19000.mapped.ILLUMINA.bwa.JPT.low_coverage.20120522.bam": -1
+# Fail!
+# Delete tmp file
+# LOOP 1
+
+# Sucess!
+Reads:  8248
+# Delete tmp file
+---------------------
+HsOth1855 Mapped reads 
+---------------------
+Sat Feb 26 13:24:10 CET 2022
+Original coords: 11:99689905-99690204
+Sampled coords: 11:99669905-99710204
+# LOOP 0
+
+# Sucess!
+Reads:  7487
+# Delete tmp file
+---------------------
+HsOth1857 Mapped reads 
+---------------------
+Sat Feb 26 13:24:11 CET 2022
+Original coords: 12:78383734-78384033
+Sampled coords: 12:78363734-78404033
+# LOOP 0
+
+# Sucess!
+Reads:  7479
+# Delete tmp file
+---------------------
+HsOth1863 Mapped reads 
+---------------------
+Sat Feb 26 13:24:14 CET 2022
+Original coords: 7:85089485-85089784
+Sampled coords: 7:85069485-85109784
+# LOOP 0
+
+# Sucess!
+Reads:  7180
+# Delete tmp file
+---------------------
+HsOth1865 Mapped reads 
+---------------------
+Sat Feb 26 13:24:16 CET 2022
+Original coords: X:26799987-26800286
+Sampled coords: X:26779987-26820286
+# LOOP 0
+
+# Sucess!
+Reads:  3773
+# Delete tmp file
+---------------------
+ Unmapped reads 
+---------------------
+Sat Feb 26 13:24:17 CET 2022
+# LOOP 0
+# Success!
+Reads:  107832218
+# Delete tmp file

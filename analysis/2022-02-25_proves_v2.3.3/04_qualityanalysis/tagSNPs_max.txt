@@ -1,0 +1,7 @@
+INV	TYPE	N_SAMPLES_F0.03	max_SNP_0.03	LD_max_SNP0.03
+HsOth1794	Polymorphic	0		
+HsOth0987	Polymorphic	0		
+HsInv1129	Polymorphic	0		
+HsInv1127	Polymorphic	0		
+HsInv0164	Polymorphic	0		
+HsOta1874	Polymorphic	0		
