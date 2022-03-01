@@ -14,16 +14,16 @@ DATE="2022-02-21"
 
 # To override some parts
 
-OVERRIDE=0 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
+OVERRIDE=3 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
 
 # To override:
 	# 0 library -> nothing needed, library is always in the same place /data/bioinfo/scratch/breakseq_fastqs
 	# 1 download -> we can override it by just having a FASTQ variable, even with 0 value override
 		# If we want to override the download, we can set a directory with previous downloads
 		# It has to be the directory with individual directories
-		# READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2022-02-25_proves_v2.3.3"
+		READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2022-02-25_proves_v2.3.3"
 	# 2 breakseq
-		# BREAKSEQ_RESULTS="analysis/02_breakseq/2021-06-03/smallinvs_min_20" 
+		#BREAKSEQ_RESULTS="analysis/" 
 	# 3 alignment analysis - it can be automatically assigned!
 		# GENOTYPES_DIR="analysis/2021-06-30_basicRun/03_processaligned/"
 	# 4 quality control and tagnsps
@@ -48,7 +48,7 @@ LIBRARY_UPDATE="no"
 # =========================================================================== #
 
 # individuals to test
-SAMPLESLIST="data/use/static_dataset_list.txt"
+SAMPLESLIST="tmp/2022-02-25_proves_v2.3.3/01_download/successnames"
 SAMPLESFILE="data/use/1KGP_data/pathIndex.txt"
 
 # inversions to test - it can be empty to analyze all
@@ -59,7 +59,7 @@ KEEP_DOWNLOADS="y"
 
 # Resume download with the same name (y or n)
 # To resume download we need a TMP dir with a path equivalent to this process that contains a readscount summary for each individual
-RESUME="n"
+RESUME="y"
 
 
 # Step 02 - Breakseq

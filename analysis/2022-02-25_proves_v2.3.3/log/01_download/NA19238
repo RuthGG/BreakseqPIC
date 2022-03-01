@@ -1,0 +1,1363 @@
+Take samples
+Take regions
+Start looping samples
+################
+NA19238
+################
+Mon Feb 28 11:01:45 CET 2022
+Format of sequence is bam file http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/NA19238/alignment/NA19238.mapped.ILLUMINA.bwa.YRI.low_coverage.20130415.bam
+---------------------
+HsInv0004 Mapped reads 
+---------------------
+Mon Feb 28 11:01:45 CET 2022
+Original coords: 1:197756641-197758134
+Sampled coords: 1:197736641-197778134
+# LOOP 0
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 1
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 2
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 3
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 4
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 5
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 6
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 7
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 8
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 9
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 10
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 11
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 12
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 13
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 14
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 15
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 16
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 17
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 18
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 19
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 20
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 21
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 22
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 23
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 24
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 25
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 26
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 27
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 28
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 29
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 30
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 31
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 32
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 33
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 34
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 35
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 36
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 37
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 38
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 39
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 40
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 41
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 42
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 43
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 44
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 45
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 46
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 47
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 48
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 49
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 50
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 51
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 52
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 53
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 54
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 55
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 56
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 57
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 58
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 59
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 60
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 61
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 62
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 63
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 64
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 65
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 66
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 67
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 68
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 69
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 70
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 71
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 72
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 73
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 74
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 75
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 76
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 77
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 78
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 79
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 80
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 81
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 82
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 83
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 84
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 85
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 86
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 87
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 88
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 89
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 90
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 91
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 92
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 93
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 94
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 95
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 96
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 97
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 98
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 99
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 100
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 101
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 102
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 103
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 104
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 105
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 106
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 107
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 108
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 109
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 110
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 111
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 112
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 113
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 114
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 115
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 116
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 117
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 118
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 119
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 120
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 121
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 122
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 123
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 124
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 125
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 126
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 127
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 128
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 129
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 130
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 131
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 132
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 133
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 134
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 135
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 136
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 137
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 138
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 139
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 140
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 141
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 142
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 143
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 144
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 145
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 146
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 147
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 148
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 149
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 150
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 151
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 152
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 153
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 154
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 155
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 156
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 157
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 158
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 159
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 160
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 161
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 162
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 163
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 164
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 165
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 166
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 167
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 168
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 169
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 170
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 171
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 172
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 173
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 174
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 175
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 176
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 177
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 178
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 179
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 180
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 181
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 182
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 183
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 184
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 185
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 186
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 187
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 188
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 189
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 190
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 191
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 192
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 193
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 194
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 195
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 196
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 197
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 198
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 199
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 200
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 201
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 202
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 203
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 204
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 205
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 206
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 207
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 208
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 209
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 210
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 211
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 212
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 213
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 214
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 215
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 216
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 217
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 218
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 219
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 220
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 221
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 222
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 223
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 224
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 225
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 226
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 227
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 228
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 229
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 230
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 231
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 232
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 233
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 234
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 235
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 236
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 237
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 238
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 239
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 240
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 241
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 242
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 243
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 244
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 245
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 246
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 247
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 248
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 249
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 250
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 251
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 252
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 253
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 254
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 255
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 256
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 257
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 258
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 259
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 260
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 261
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 262
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 263
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 264
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 265
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 266
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 267
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 268
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 269
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 270
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 271
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 272
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 273
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 274
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 275
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 276
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 277
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 278
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 279
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 280
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 281
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 282
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 283
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 284
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 285
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 286
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 287
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 288
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 289
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 290
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 291
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 292
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 293
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 294
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 295
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 296
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 297
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 298
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 299
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 300
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 301
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 302
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 303
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 304
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 305
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 306
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 307
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 308
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 309
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 310
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 311
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 312
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 313
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 314
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 315
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 316
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 317
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 318
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 319
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 320
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 321
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 322
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 323
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 324
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 325
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 326
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 327
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 328
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 329
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 330
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 331
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 332
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 333
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 334
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 335
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 336
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+# Fail!
+# Delete tmp file
+# LOOP 337
