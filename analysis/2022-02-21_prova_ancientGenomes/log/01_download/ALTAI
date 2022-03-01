@@ -1,10 +1,97 @@
+Take samples
 Take regions
 Start looping samples
 ################
 ALTAI
 ################
-Wed Feb 23 13:27:37 CET 2022
-The individual ALTAI is in the line 1
-FASTQ
-Format of sequence is: fastq
-cat: '/data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/ALTAI/*.fastq': No such file or directory
+Tue Mar  1 13:24:05 CET 2022
+Format of sequence is bam file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq
+---------------------
+HsInv0004 Mapped reads 
+---------------------
+Tue Mar  1 13:24:05 CET 2022
+Original coords: 1:197756641-197758134
+Sampled coords: 1:197736641-197778134
+# LOOP 0
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 1
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 2
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 3
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 4
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 5
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 6
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 7
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 8
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 9
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 10
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 11
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 12
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 13
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 14
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 15
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 16
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 17
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 18
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 19
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 20
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq" for reading: No such file or directory
+# Fail!

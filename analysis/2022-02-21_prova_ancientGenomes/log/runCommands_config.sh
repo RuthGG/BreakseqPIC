@@ -21,9 +21,9 @@ OVERRIDE=1 # This is the first process number we want to run, e.g. 2 will not ru
 	# 1 download -> we can override it by just having a FASTQ variable, even with 0 value override
 		# If we want to override the download, we can set a directory with previous downloads
 		# It has to be the directory with individual directories
-		# READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2022-02-07_ancientGenomes/"
+		# READ_FASTQS="/data/bioinfo/scratch/breakseq_fastqs/2022-02-25_proves_v2.3.3"
 	# 2 breakseq
-		# BREAKSEQ_RESULTS="analysis/02_breakseq/2021-06-03/smallinvs_min_20" 
+		#BREAKSEQ_RESULTS="analysis/" 
 	# 3 alignment analysis - it can be automatically assigned!
 		# GENOTYPES_DIR="analysis/2021-06-30_basicRun/03_processaligned/"
 	# 4 quality control and tagnsps
@@ -36,7 +36,7 @@ OVERRIDE=1 # This is the first process number we want to run, e.g. 2 will not ru
 
 # library seed name
 # this name must exist in data/raw/seed_librerias
-LIBRARY_SEED="v2.3.2.300_smallinvs2"
+LIBRARY_SEED="v2.3.3.300"
 
 # This can be used in the future to automatically trim the original probes
 LIBRARY_LENGTH=300
@@ -48,11 +48,11 @@ LIBRARY_UPDATE="no"
 # =========================================================================== #
 
 # individuals to test
-# SAMPLESFILE="data/use/static_dataset_list.txt"
-SAMPLESFILE="data/use/sample_ancient_list.txt"
+SAMPLESLIST="data/use/sample_ancient_list.txt"
+SAMPLESFILE="data/use/ancientGenomes_data/pathIndex.txt"
 
 # inversions to test - it can be empty to analyze all
-INVSFILE="data/use/small_invs.txt"
+INVSFILE=""
 
 # Set whether I want to delete individual files (y or n)
 KEEP_DOWNLOADS="y"

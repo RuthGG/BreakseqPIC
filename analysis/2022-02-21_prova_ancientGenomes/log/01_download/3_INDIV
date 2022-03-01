@@ -1,10 +1,273 @@
+Take samples
 Take regions
 Start looping samples
 ################
 3_INDIV
 ################
-Wed Feb 23 13:29:42 CET 2022
-The individual 3_INDIV is in the line 4
-FASTQ
-Format of sequence is: fastq
-cat: '/data/bioinfo/scratch/breakseq_fastqs/2022-02-21_ancientGenomes/3_INDIV/*.fastq': No such file or directory
+Tue Mar  1 13:23:19 CET 2022
+Format of sequence is bam file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq
+---------------------
+HsInv0004 Mapped reads 
+---------------------
+Tue Mar  1 13:23:19 CET 2022
+Original coords: 1:197756641-197758134
+Sampled coords: 1:197736641-197778134
+# LOOP 0
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 1
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 2
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 3
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 4
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 5
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 6
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 7
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 8
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 9
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 10
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 11
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 12
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 13
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 14
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 15
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 16
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 17
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 18
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 19
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 20
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 21
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 22
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 23
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 24
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 25
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 26
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 27
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 28
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 29
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 30
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 31
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 32
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 33
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 34
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 35
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 36
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 37
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 38
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 39
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 40
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 41
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 42
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 43
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 44
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 45
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 46
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 47
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 48
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 49
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 50
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 51
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 52
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 53
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 54
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 55
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 56
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 57
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 58
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 59
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 60
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 61
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 62
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 63
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 64
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/3_INDIV/ERR011460.fastq" for reading: No such file or directory
+# Fail!

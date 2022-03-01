@@ -1,6 +1,7 @@
 executable = /bin/singularity
 args = "exec \
 --bind /data/bioinfo/scratch/breakseq_fastqs:/nfs/pic.es/user/r/rgomez/20210325_breakseq/analysis/2022-02-21_prova_ancientGenomes/01_download/:rw \
+--bind /data/bioinfo/scratch/breakseq_bam:/nfs/pic.es/user/r/rgomez/20210325_breakseq/analysis/2022-02-21_prova_ancientGenomes/data/bamFiles/:rw \
 /data/bioinfo/software/rgomez_breakseq.sif \
 bash 20210325_breakseq/runall.sh download -r analysis/2022-02-21_prova_ancientGenomes/data/regions.txt -s $(item) -t $(item) -n 2022-02-21_prova_ancientGenomes"
 
