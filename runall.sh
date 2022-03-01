@@ -224,7 +224,7 @@ if [ "$COMMAND" == "download" ]; then
     MAIN_FILE=$(grep $SAMPLE ${DATADIR}/samples_pathIndex.txt | cut -f2)
     OTHER_FILE=$(grep $SAMPLE ${DATADIR}/samples_pathIndex.txt | cut -f3)
 
-    MAIN_FORMAT=$(echo $MAIN_FILE | cut -d'.' -f2)
+    MAIN_FORMAT=$(echo $MAIN_FILE | rev | cut -d "." -f1 | rev)
 
     # Make a folder for the sample
     mkdir -p ${OUTDIR}/${NAME}/${SAMPLE} 
