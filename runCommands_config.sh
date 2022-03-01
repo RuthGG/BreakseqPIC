@@ -48,7 +48,7 @@ LIBRARY_UPDATE="no"
 # =========================================================================== #
 
 # individuals to test
-SAMPLESLIST="tmp/2022-02-21_prova_ancientGenomes/data/samples.txt"
+SAMPLESLIST="analysis/2022-02-21_prova_ancientGenomes/data/samples.txt"
 SAMPLESFILE="data/use/ancientGenomes_data/pathIndex.txt"
 
 # inversions to test - it can be empty to analyze all
