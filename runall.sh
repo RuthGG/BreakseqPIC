@@ -327,7 +327,7 @@ if [ "$COMMAND" == "download" ]; then
           # Work into tmp_download (-f 4 selects only unmapped reads in case the bam file provided was a general one)
           if [[ $OTHER_FILE == $MAIN_FILE ]]; then
             # Non specific unmapped file
-            samtools view -f 4 $OTHER_FILE > tmp_download.txt
+            samtools view -f 12 $OTHER_FILE > tmp_download.txt
           else
             # Specific unmapped file
             samtools view $OTHER_FILE > tmp_download.txt
