@@ -4,92 +4,11 @@ Start looping samples
 ################
 DENISOVA1
 ################
-Tue Mar  1 13:24:06 CET 2022
-Format of sequence is bam file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq
+Tue Mar  1 17:57:59 CET 2022
+fastq
+Processing fastq file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq
 /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1/ERR019667.fastq
 /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA11/ERR2273820.fastq
----------------------
-HsInv0004 Mapped reads 
----------------------
-Tue Mar  1 13:24:06 CET 2022
-Original coords: 1:197756641-197758134
-Sampled coords: 1:197736641-197778134
-# LOOP 0
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 1
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 2
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 3
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 4
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 5
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 6
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 7
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 8
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 9
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 10
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 11
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 12
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 13
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 14
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 15
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 16
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 17
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 18
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 19
-[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq" for reading: No such file or directory
-# Fail!
+cat: /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1_30x/ERR141688.fastq: No such file or directory
+cat: /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA1/ERR019667.fastq: No such file or directory
+cat: /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA11/ERR2273820.fastq: No such file or directory

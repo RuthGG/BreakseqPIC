@@ -4,12 +4,13 @@ Start looping samples
 ################
 CHAGYRSKAYA8
 ################
-Tue Mar  1 13:23:16 CET 2022
+Tue Mar  1 17:57:42 CET 2022
+bam
 Format of sequence is bam file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam
 ---------------------
 HsInv0004 Mapped reads 
 ---------------------
-Tue Mar  1 13:23:16 CET 2022
+Tue Mar  1 17:57:42 CET 2022
 Original coords: 1:197756641-197758134
 Sampled coords: 1:197736641-197778134
 # LOOP 0
@@ -285,5 +286,1349 @@ Sampled coords: 1:197736641-197778134
 # Fail!
 # Delete tmp file
 # LOOP 68
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 69
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 70
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 71
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 72
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 73
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 74
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 75
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 76
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 77
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 78
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 79
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 80
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 81
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 82
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 83
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 84
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 85
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 86
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 87
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 88
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 89
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 90
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 91
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 92
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 93
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 94
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 95
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 96
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 97
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 98
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 99
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 100
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 101
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 102
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 103
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 104
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 105
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 106
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 107
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 108
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 109
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 110
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 111
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 112
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 113
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 114
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 115
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 116
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 117
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 118
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 119
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 120
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 121
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 122
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 123
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 124
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 125
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 126
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 127
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 128
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 129
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 130
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 131
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 132
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 133
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 134
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 135
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 136
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 137
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 138
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 139
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 140
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 141
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 142
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 143
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 144
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 145
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 146
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 147
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 148
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 149
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 150
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 151
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 152
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 153
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 154
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 155
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 156
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 157
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 158
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 159
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 160
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 161
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 162
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 163
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 164
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 165
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 166
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 167
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 168
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 169
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 170
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 171
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 172
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 173
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 174
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 175
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 176
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 177
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 178
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 179
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 180
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 181
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 182
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 183
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 184
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 185
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 186
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 187
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 188
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 189
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 190
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 191
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 192
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 193
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 194
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 195
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 196
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 197
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 198
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 199
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 200
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 201
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 202
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 203
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 204
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 205
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 206
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 207
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 208
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 209
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 210
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 211
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 212
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 213
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 214
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 215
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 216
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 217
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 218
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 219
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 220
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 221
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 222
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 223
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 224
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 225
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 226
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 227
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 228
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 229
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 230
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 231
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 232
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 233
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 234
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 235
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 236
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 237
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 238
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 239
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 240
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 241
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 242
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 243
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 244
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 245
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 246
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 247
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 248
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 249
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 250
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 251
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 252
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 253
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 254
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 255
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 256
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 257
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 258
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 259
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 260
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 261
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 262
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 263
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 264
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 265
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 266
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 267
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 268
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 269
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 270
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 271
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 272
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 273
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 274
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 275
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 276
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 277
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 278
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 279
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 280
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 281
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 282
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 283
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 284
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 285
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 286
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 287
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 288
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 289
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 290
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 291
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 292
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 293
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 294
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 295
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 296
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 297
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 298
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 299
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 300
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 301
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 302
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 303
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 304
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 305
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 306
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 307
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 308
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 309
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 310
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 311
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 312
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 313
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 314
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 315
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 316
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 317
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 318
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 319
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 320
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 321
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 322
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 323
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 324
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 325
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 326
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 327
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 328
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 329
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 330
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 331
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 332
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 333
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 334
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 335
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 336
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 337
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 338
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 339
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 340
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 341
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 342
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 343
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 344
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 345
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 346
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 347
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 348
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 349
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 350
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 351
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 352
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 353
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 354
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 355
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 356
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 357
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 358
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 359
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 360
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 361
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 362
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 363
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 364
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 365
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 366
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 367
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 368
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 369
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 370
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 371
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 372
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 373
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 374
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 375
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 376
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 377
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 378
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 379
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 380
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 381
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 382
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 383
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 384
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 385
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 386
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 387
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 388
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 389
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 390
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 391
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 392
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 393
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 394
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 395
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 396
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 397
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 398
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 399
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 400
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 401
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 402
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 403
+[E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 404
 [E::hts_open_format] Failed to open file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam samtools view: failed to open "/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/CHAGYRSKAYA8/chr22.bam" for reading: No such file or directory
 # Fail!

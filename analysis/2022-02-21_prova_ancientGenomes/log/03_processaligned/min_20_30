@@ -1,0 +1,11 @@
+Take samples
+Start looping samples
+cat: 'tmp/2022-02-21_prova_ancientGenomes/03_processaligned/*/z1': No such file or directory
+cat: 'analysis/2022-02-21_prova_ancientGenomes/02_breakseq/*/*uni.sam': No such file or directory
+cat: 'analysis/2022-02-21_prova_ancientGenomes/02_breakseq/*/*xun.sam': No such file or directory
+Error in read.table(file, stringsAsFactors = F) : 
+  no lines available in input
+Execution halted
+Error in read.table(paste0(args[1], "/03_processaligned/Results_reads.txt")) : 
+  no lines available in input
+Execution halted

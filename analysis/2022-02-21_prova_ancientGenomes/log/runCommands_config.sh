@@ -47,7 +47,7 @@ LIBRARY_UPDATE="no"
 # STEP 01 - Download
 # =========================================================================== #
 
-# individuals to test
+# individuals to test"
 SAMPLESLIST="data/use/sample_ancient_list.txt"
 SAMPLESFILE="data/use/ancientGenomes_data/pathIndex.txt"
 
@@ -59,7 +59,7 @@ KEEP_DOWNLOADS="y"
 
 # Resume download with the same name (y or n)
 # To resume download we need a TMP dir with a path equivalent to this process that contains a readscount summary for each individual
-RESUME="y"
+RESUME="n"
 
 
 # Step 02 - Breakseq

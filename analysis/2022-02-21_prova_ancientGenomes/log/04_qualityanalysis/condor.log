@@ -1,0 +1,32 @@
+000 (6013490.000.000) 2022-03-01 13:58:39 Job submitted from host: <193.109.174.82:9618?addrs=193.109.174.82-9618&alias=submit01.pic.es&noUDP&sock=schedd_604244_b420>
+...
+040 (6013490.000.000) 2022-03-01 13:58:42 Finished transferring input files
+...
+001 (6013490.000.000) 2022-03-01 13:58:42 Job executing on host: <192.168.101.38:9618?addrs=192.168.101.38-9618+[2001-67c-1148-301--509]-9618&alias=td509.pic.es&noUDP&sock=startd_111360_46a4>
+...
+006 (6013490.000.000) 2022-03-01 13:58:51 Image size of job updated: 37500
+	19  -  MemoryUsage of job (MB)
+	18680  -  ResidentSetSize of job (KB)
+...
+006 (6013490.000.000) 2022-03-01 13:58:57 Image size of job updated: 37804
+	19  -  MemoryUsage of job (MB)
+	18680  -  ResidentSetSize of job (KB)
+...
+040 (6013490.000.000) 2022-03-01 13:58:57 Started transferring output files
+...
+040 (6013490.000.000) 2022-03-01 13:58:57 Finished transferring output files
+...
+004 (6013490.000.000) 2022-03-01 13:58:57 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:02, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	53  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :  1225375 15728640  16025949 
+	   Memory (MB)          :       19     2048      2048 
+...
+009 (6013490.000.000) 2022-03-01 13:58:57 Job was aborted.
+	via condor_rm (by user rgomez)
+...

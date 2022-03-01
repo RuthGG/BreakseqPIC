@@ -48,7 +48,7 @@ LIBRARY_UPDATE="no"
 # =========================================================================== #
 
 # individuals to test"
-SAMPLESLIST="analysis/2022-02-21_prova_ancientGenomes/data/samples.txt"
+SAMPLESLIST="data/use/sample_ancient_list.txt"
 SAMPLESFILE="data/use/ancientGenomes_data/pathIndex.txt"
 
 # inversions to test - it can be empty to analyze all
@@ -59,7 +59,7 @@ KEEP_DOWNLOADS="y"
 
 # Resume download with the same name (y or n)
 # To resume download we need a TMP dir with a path equivalent to this process that contains a readscount summary for each individual
-RESUME="y"
+RESUME="n"
 
 
 # Step 02 - Breakseq
