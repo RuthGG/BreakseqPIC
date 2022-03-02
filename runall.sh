@@ -225,7 +225,6 @@ if [ "$COMMAND" == "download" ]; then
     OTHER_FILE=$(grep $SAMPLE ${DATADIR}/samples_pathIndex.txt | cut -f3)
 
     MAIN_FORMAT=$(echo $MAIN_FILE | rev | cut -d "." -f1 | rev)
-    echo "$MAIN_FORMAT"
 
     # Make a folder for the sample
     mkdir -p ${OUTDIR}/${NAME}/${SAMPLE} 
