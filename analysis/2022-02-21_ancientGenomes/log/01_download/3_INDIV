@@ -1,10 +1,9 @@
+Take samples
 Take regions
 Start looping samples
 ################
 3_INDIV
 ################
-Thu Feb 24 15:44:55 CET 2022
-The individual 3_INDIV is in the line 4
-FASTQ
-Format of sequence is: fastq
-cat: '/20210325_breakseq/analysis/2022-02-21_ancientGenomes/01_download/2022-02-21_ancientGenomes/3_INDIV/*.fastq': No such file or directory
+Thu Mar  3 10:37:10 CET 2022
+Processing fastq file "/${SCRIPTPATH}/${DATADIR}/bamFiles/3_INDIV/ERR011460.fastq
+cat: '"/${SCRIPTPATH}/${DATADIR}/bamFiles/3_INDIV/ERR011460.fastq': No such file or directory

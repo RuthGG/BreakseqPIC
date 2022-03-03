@@ -4,7 +4,6 @@ Start looping samples
 ################
 DENISOVA11
 ################
-Tue Mar  1 17:58:01 CET 2022
-fastq
-Processing fastq file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA11/ERR2273820.fastq
-cat: /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA11/ERR2273820.fastq: No such file or directory
+Wed Mar  2 18:48:08 CET 2022
+Processing fastq file ~/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA11/ERR2273820.fastq
+cat: '~/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA11/ERR2273820.fastq': No such file or directory

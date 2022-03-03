@@ -1,10 +1,71 @@
+Take samples
 Take regions
 Start looping samples
 ################
 DENISOVA1
 ################
-Thu Feb 24 15:44:15 CET 2022
-The individual DENISOVA1 is in the line 5
-FASTQ
-Format of sequence is: fastq
-cat: '/20210325_breakseq/analysis/2022-02-21_ancientGenomes/01_download/2022-02-21_ancientGenomes/DENISOVA1/*.fastq': No such file or directory
+Thu Mar  3 10:37:33 CET 2022
+Format of sequence is bam file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"
+"/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1/ERR019667.fastq"
+"/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA11/ERR2273820.fastq"
+---------------------
+HsInv0004 Mapped reads 
+---------------------
+Thu Mar  3 10:37:33 CET 2022
+Original coords: 1:197756641-197758134
+Sampled coords: 1:197736641-197778134
+# LOOP 0
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 1
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 2
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 3
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 4
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 5
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 6
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 7
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 8
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 9
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 10
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 11
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 12
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!
+# Delete tmp file
+# LOOP 13
+[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA1_30x/ERR141688.fastq"" for reading: No such file or directory
+# Fail!

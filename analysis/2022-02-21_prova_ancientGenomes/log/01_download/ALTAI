@@ -4,7 +4,6 @@ Start looping samples
 ################
 ALTAI
 ################
-Tue Mar  1 17:57:41 CET 2022
-fastq
-Processing fastq file /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq
-cat: /20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq: No such file or directory
+Wed Mar  2 18:47:43 CET 2022
+Processing fastq file ~/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq
+cat: '~/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/ALTAI/ERR229910.fastq': No such file or directory
