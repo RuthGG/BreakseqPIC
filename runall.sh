@@ -242,6 +242,8 @@ if [ "$COMMAND" == "download" ]; then
     # Check if sample data is in FASTQ or BAM format:
     if [[ $MAIN_FORMAT == "fastq" ]]; then
       echo "Processing fastq file $MAIN_FILE"
+      TYPE_MF=type($MAIN_FILE) 
+      echo "type main file is: $TYPE_MF"
  
       # We select for each sample the fastq files and save them as the selected regions for breakseq.
       cat $MAIN_FILE > selected_regions.fastq
