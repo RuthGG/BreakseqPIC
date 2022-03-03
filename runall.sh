@@ -267,6 +267,9 @@ if [ "$COMMAND" == "download" ]; then
         END_REGION=$(($END_REGION+20000))
         echo "Sampled coords: "$CHR_REGION":"$START_REGION"-"$END_REGION
         
+        CHR=$CHR_REGION
+        MAIN_FILE_NEW=$(eval "echo -e ${MAIN_FILE}")
+
         # This includes a loop to resume download in case it was interrupted
         i=0
         l=0
@@ -287,7 +290,7 @@ if [ "$COMMAND" == "download" ]; then
 
               l=$((l+1))
               
-              ERRS=$(( samtools view $MAIN_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
+              ERRS=$(( samtools view $MAIN_FILE_NEW $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
               echo $ERRS
 
               # If tmp_download is not empty OR if tmp_download is empty but there were no errors and we tried more than 10 times already
