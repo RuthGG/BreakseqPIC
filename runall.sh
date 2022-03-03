@@ -291,7 +291,7 @@ if [ "$COMMAND" == "download" ]; then
 
               l=$((l+1))
                 
-              samtools index $MAIN_FILE > chr$CHR.bam.bai
+              samtools index $MAIN_FILE > chr$CHR_REGION.bam.bai
 
               ERRS=$(( samtools view $BAM_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
               echo $ERRS
