@@ -255,8 +255,7 @@ if [ "$COMMAND" == "download" ]; then
         echo "$REGION Mapped reads "
         echo "---------------------"
         date
-
-        
+    
         # Download reads - Importante! Rango de extracción alrededor de la inversión! He puesto 20kb, pero quizá podría ser otro rango
         # Idealmente, habria que hacer una lista de coordenadas del alelo invertido para afinar esta region, pero todavia no existe
         CHR_REGION=$(grep "$REGION" ${SCRIPTPATH}/${DATADIR}/datos_librerias/bplib.coords | cut -f2 | uniq)
@@ -268,9 +267,6 @@ if [ "$COMMAND" == "download" ]; then
         END_REGION=$(($END_REGION+20000))
         echo "Sampled coords: "$CHR_REGION":"$START_REGION"-"$END_REGION
         
-        # Locate file link for bam files:
-        BAM_FILE="${MAIN_FILE}/chr$CHR_REGION"
-
         # This includes a loop to resume download in case it was interrupted
         i=0
         l=0
@@ -292,8 +288,8 @@ if [ "$COMMAND" == "download" ]; then
               l=$((l+1))
                 
               samtools index $MAIN_FILE > chr$CHR_REGION.bam.bai
-
-              ERRS=$(( samtools view $BAM_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
+              
+              ERRS=$(( samtools view $MAIN_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
               echo $ERRS
 
               # If tmp_download is not empty OR if tmp_download is empty but there were no errors and we tried more than 10 times already
