@@ -269,6 +269,7 @@ if [ "$COMMAND" == "download" ]; then
         
         CHR=$CHR_REGION
         MAIN_FILE_NEW=$(eval "echo -e ${MAIN_FILE}")
+        echo "The new url is: $MAIN_FILE_NEW"
 
         # This includes a loop to resume download in case it was interrupted
         i=0
