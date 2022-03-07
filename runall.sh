@@ -288,7 +288,7 @@ if [ "$COMMAND" == "download" ]; then
               l=$((l+1))
               
               # Creating the indexing for the bam file
-              samtools index $MAIN_FILE > chagyrskaya8_allchr.bam.bai
+              samtools index $MAIN_FILE > allChr.bam.bai
               ERRS=$(( samtools view $MAIN_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
               echo $ERRS
 
