@@ -221,8 +221,8 @@ if [ "$COMMAND" == "download" ]; then
     date
 
     # Take path for MAIN_FILE (mapped and/or unmapped fasta or bam) and OTHER_FILE (unmapped bam/general bam with all reads) from index 
-    MAIN_FILE=$(grep $SAMPLE ${DATADIR}/samples_pathIndex.txt | cut -f2)
-    OTHER_FILE=$(grep $SAMPLE ${DATADIR}/samples_pathIndex.txt | cut -f3)
+    MAIN_FILE=$(grep -w $SAMPLE ${DATADIR}/samples_pathIndex.txt | cut -f2)
+    OTHER_FILE=$(grep -w $SAMPLE ${DATADIR}/samples_pathIndex.txt | cut -f3)
 
     MAIN_FORMAT=$(echo $MAIN_FILE | rev | cut -d "." -f1 | rev)
 
