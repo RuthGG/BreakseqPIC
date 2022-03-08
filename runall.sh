@@ -291,13 +291,13 @@ if [ "$COMMAND" == "download" ]; then
               BAI_FILE=${OUTDIR}/2022-02-21_ancientGenomes/$SAMPLE/allChr.bam.bai
               if [ -f $BAI_FILE ]; then
                 echo "Indexing file for bam already exists"
-                ERRS=$(( samtools view $CHR_REGION":"$START_REGION"-"$END_REGION -X $MAIN_FILE $BAI_FILE > tmp_download.txt ) 2>&1 )
+                ERRS=$(( samtools view -X $MAIN_FILE $BAI_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
                 echo $ERRS
               else
                 # Creating the indexing for the bam file
                 samtools index $MAIN_FILE > allChr.bam.bai
                 BAI_FILE=${OUTDIR}/2022-02-21_ancientGenomes/$SAMPLE/allChr.bam.bai
-                ERRS=$(( samtools view $CHR_REGION":"$START_REGION"-"$END_REGION -X $MAIN_FILE $BAI_FILE > tmp_download.txt ) 2>&1 )
+                ERRS=$(( samtools view -X $MAIN_FILE $BAI_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
                 echo $ERRS
               fi
 
