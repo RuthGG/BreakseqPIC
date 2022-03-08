@@ -297,7 +297,7 @@ if [ "$COMMAND" == "download" ]; then
                 # Creating the indexing for the bam file
                 samtools index $MAIN_FILE > allChr.bam.bai
                 BAI_FILE=$BAI_FILE
-                ERRS=$(( samtools view -X $MAIN_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
+                ERRS=$(( samtools view -X $MAIN_FILE $BAI_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
                 echo $ERRS
 
               # If tmp_download is not empty OR if tmp_download is empty but there were no errors and we tried more than 10 times already
