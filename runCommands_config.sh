@@ -67,7 +67,7 @@ RESUME="n"
 
 # Coverage around the breakpoint that we want to take into account
 # Later I can modify it to be a list
-COV_AROUND=10 
+COV_AROUND=5 
 
 # --score-min option in BOWTIE2 for the breakseq run
 SCORE_MIN=L,0,-0.3
