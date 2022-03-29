@@ -67,7 +67,7 @@ RESUME="n"
 
 # Coverage around the breakpoint that we want to take into account
 # Later I can modify it to be a list
-COV_AROUND=5 
+COV_AROUND=10 
 
 # --score-min option in BOWTIE2 for the breakseq run
 SCORE_MIN=L,0,-0.3
@@ -76,7 +76,7 @@ SCORE_MIN=L,0,-0.3
 # =========================================================================== #
 
 # Later I can modify it to be a list
-MIN_LENGTH=30
+MIN_LENGTH=20
 
 # Allele names, separated with |
 INREF="STD|REF"
