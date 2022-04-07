@@ -14,7 +14,7 @@ DATE="2022-02-21"
 
 # To override some parts
 
-OVERRIDE=4 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
+OVERRIDE=2 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
 
 # To override:
 	# 0 library -> nothing needed, library is always in the same place /data/bioinfo/scratch/breakseq_fastqs
@@ -67,7 +67,7 @@ RESUME="n"
 
 # Coverage around the breakpoint that we want to take into account
 # Later I can modify it to be a list
-COV_AROUND=10 
+COV_AROUND=20 
 
 # --score-min option in BOWTIE2 for the breakseq run
 SCORE_MIN=L,0,-0.3
@@ -76,7 +76,7 @@ SCORE_MIN=L,0,-0.3
 # =========================================================================== #
 
 # Later I can modify it to be a list
-MIN_LENGTH=20
+MIN_LENGTH=30
 
 # Allele names, separated with |
 INREF="STD|REF"
