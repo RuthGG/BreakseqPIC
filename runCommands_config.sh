@@ -49,7 +49,7 @@ LIBRARY_UPDATE="no"
 
 # individuals to test"
 SAMPLESLIST="data/use/ids_agdp.txt"
-SAMPLESFILE="data/use/ancientGenomes_data/pathIndex.txt"
+SAMPLESFILE="data/use/agdp_data/pathIndex_agdp.txt"
 
 # inversions to test - it can be empty to analyze all
 INVSFILE=""
