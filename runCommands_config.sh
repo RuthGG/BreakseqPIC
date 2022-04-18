@@ -6,15 +6,15 @@
 # ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
 # =========================================================================== #
 
-NAME="ancientGenomes"
+NAME="agdp"
 
 # Manually set date, comment if we want it automatic
-DATE="2022-02-21"
+DATE="2022-04-18"
 
 
 # To override some parts
 
-OVERRIDE=2 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
+OVERRIDE=0 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
 
 # To override:
 	# 0 library -> nothing needed, library is always in the same place /data/bioinfo/scratch/breakseq_fastqs
@@ -48,7 +48,7 @@ LIBRARY_UPDATE="no"
 # =========================================================================== #
 
 # individuals to test"
-SAMPLESLIST="data/use/sample_ancient_list.txt"
+SAMPLESLIST="data/use/ids_agdp.txt"
 SAMPLESFILE="data/use/ancientGenomes_data/pathIndex.txt"
 
 # inversions to test - it can be empty to analyze all
