@@ -42,7 +42,7 @@ LIBRARY_SEED="v2.3.3.300"
 LIBRARY_LENGTH=300
 
 # Do we want to update all library or just to make the base files?
-LIBRARY_UPDATE="no"
+LIBRARY_UPDATE="yes"
 
 # STEP 01 - Download
 # =========================================================================== #
