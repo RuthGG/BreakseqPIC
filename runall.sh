@@ -288,7 +288,7 @@ if [ "$COMMAND" == "download" ]; then
               l=$((l+1))
               
               # Check if there is an indexing (bai) file:
-              BAI_FILE=${DATADIR}/bamFiles/${NAME}/$SAMPLE/allChr.bam.bai
+              BAI_FILE=${DATADIR}/bamFiles/${NAME}/$SAMPLE/$SAMPLE.bam.bai
               if [ -f $BAI_FILE ]; then
                 echo "Indexing file for bam already exists"
                 ERRS=$(( samtools view $MAIN_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
