@@ -291,14 +291,13 @@ if [ "$COMMAND" == "download" ]; then
               BAI_FILE=${DATADIR}/bamFiles/${NAME}/$SAMPLE/$SAMPLE.bam.bai
               if [ -f $BAI_FILE ]; then
                 echo "Indexing file for bam already exists"
-                ERRS=$(( samtools view $MAIN_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
-                echo $ERRS
               else
                 # Creating the indexing for the bam file
                 samtools index $MAIN_FILE > $SAMPLE.bam.bai
-                ERRS=$(( samtools view $MAIN_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
-                echo $ERRS
               fi
+              
+              ERRS=$(( samtools view $MAIN_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
+              echo $ERRS
 
               # If tmp_download is not empty OR if tmp_download is empty but there were no errors and we tried more than 10 times already
               if [ -s tmp_download.txt ] || ( [ -z "$ERRS" ] && [ ! -s tmp_download.txt ] && [ $l -gt 10 ] ); then 
