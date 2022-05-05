@@ -295,7 +295,7 @@ if [ "$COMMAND" == "download" ]; then
                 echo $ERRS
               else
                 # Creating the indexing for the bam file
-                samtools index $MAIN_FILE > allChr.bam.bai
+                samtools index $MAIN_FILE > $SAMPLE.bam.bai
                 ERRS=$(( samtools view $MAIN_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
                 echo $ERRS
               fi
