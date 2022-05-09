@@ -1,9 +1,0 @@
-Take samples
-Take regions
-Start looping samples
-################
-DENISOVA2
-################
-Wed Mar  2 18:48:07 CET 2022
-Processing fastq file ~/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA2/SRR3999002.fastq
-cat: '~/20210325_breakseqPIC/analysis/2022-02-21_ancientGenomes/data/bamFiles/DENISOVA2/SRR3999002.fastq': No such file or directory

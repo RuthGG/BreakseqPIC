@@ -1,3 +1,0 @@
-#!/bin/bash
-INREF='STD|REF'
-NOTINREF='INV|INS|DEL|ALT|ANC'
