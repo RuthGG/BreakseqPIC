@@ -330,6 +330,12 @@ if [ "$COMMAND" == "download" ]; then
         l=0
         while [ $i -eq 0 ]; do
           echo "# LOOP $l"
+        
+        if [[ $l -eq 1000 ]]; then
+          echo "Maximum loop count! Aborting..."
+          break
+        else
+
           l=$((l+1))
 
           # Work into tmp_download (-f 4 selects only unmapped reads in case the bam file provided was a general one)
