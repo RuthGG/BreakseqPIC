@@ -363,7 +363,7 @@ if [ "$COMMAND" == "download" ]; then
 
             echo "# Delete tmp file"
             rm tmp_download.txt
-
+          fi
         done
 
         # Remove everything but the selected regions and return
