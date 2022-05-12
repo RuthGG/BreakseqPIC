@@ -331,38 +331,38 @@ if [ "$COMMAND" == "download" ]; then
         while [ $i -eq 0 ]; do
           echo "# LOOP $l"
         
-        if [[ $l -eq 1000 ]]; then
-          echo "Maximum loop count! Aborting..."
-          break
-        else
-
-          l=$((l+1))
-
-          # Work into tmp_download (-f 4 selects only unmapped reads in case the bam file provided was a general one)
-          if [[ $OTHER_FILE == $MAIN_FILE ]]; then
-            # Non specific unmapped file
-            samtools view -f 12 $OTHER_FILE > tmp_download.txt
+          if [[ $l -eq 1000 ]]; then
+            echo "Maximum loop count! Aborting..."
+            break
           else
-            # Specific unmapped file
-            samtools view $OTHER_FILE > tmp_download.txt
-          fi
-          
-      
-          if [ -s tmp_download.txt ]; then 
-            # If file not empty, interrupt loop and concat to output file
-            echo "# Success!"
-            cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' >> selected_regions.fastq
-            READS=$(($(cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' | wc -l ) / 4)) 
-            echo "Reads: " $READS
-            echo "$SAMPLE,Unmapped,$READS" >> ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt 
-            i=1
-          else
-            echo "# Fail!"
-            sleep 1
-          fi
 
-          echo "# Delete tmp file"
-          rm tmp_download.txt
+            l=$((l+1))
+
+            # Work into tmp_download (-f 4 selects only unmapped reads in case the bam file provided was a general one)
+            if [[ $OTHER_FILE == $MAIN_FILE ]]; then
+              # Non specific unmapped file
+              samtools view -f 12 $OTHER_FILE > tmp_download.txt
+            else
+              # Specific unmapped file
+              samtools view $OTHER_FILE > tmp_download.txt
+            fi
+            
+        
+            if [ -s tmp_download.txt ]; then 
+              # If file not empty, interrupt loop and concat to output file
+              echo "# Success!"
+              cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' >> selected_regions.fastq
+              READS=$(($(cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' | wc -l ) / 4)) 
+              echo "Reads: " $READS
+              echo "$SAMPLE,Unmapped,$READS" >> ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt 
+              i=1
+            else
+              echo "# Fail!"
+              sleep 1
+            fi
+
+            echo "# Delete tmp file"
+            rm tmp_download.txt
 
         done
 
