@@ -14,7 +14,7 @@ DATE="2022-04-18"
 
 # To override some parts
 
-OVERRIDE=1 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
+OVERRIDE=2 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
 
 # To override:
 	# 0 library -> nothing needed, library is always in the same place /data/bioinfo/scratch/breakseq_fastqs
@@ -59,7 +59,7 @@ KEEP_DOWNLOADS="y"
 
 # Resume download with the same name (y or n)
 # To resume download we need a TMP dir with a path equivalent to this process that contains a readscount summary for each individual
-RESUME="y"
+RESUME="n"
 
 
 # Step 02 - Breakseq
