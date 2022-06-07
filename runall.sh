@@ -227,9 +227,9 @@ if [ "$COMMAND" == "download" ]; then
     MAIN_FORMAT=$(echo $MAIN_FILE | rev | cut -d "." -f1 | rev)
 
     # Make a folder for the sample
-    mkdir -p ${OUTDIR}/${NAME}/${SAMPLE} 
+    mkdir -p ${OUTDIR}/${NAME}/${SAMPLE}/P1 
         
-    cd ${OUTDIR}/${NAME}/${SAMPLE} 
+    cd ${OUTDIR}/${NAME}/${SAMPLE}/P1 
 
     # Remove output files if they exist
     if [ -f selected_regions.fastq ] ; then
