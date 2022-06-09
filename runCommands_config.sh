@@ -52,7 +52,7 @@ SAMPLESLIST="data/use/ids_agdp.txt"
 SAMPLESFILE="data/use/agdp_data/pathIndex_agdp.txt"
 
 # inversions to test - it can be empty to analyze all
-INVSFILE=""
+INVSFILE="data/use/inversions_completeList"
 
 # Set whether I want to delete individual files (y or n)
 KEEP_DOWNLOADS="y"
