@@ -1,0 +1,10 @@
+Registered S3 methods overwritten by 'ggplot2':
+  method         from 
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+Error in names(x) <- value : 
+  'names' attribute [2] must be the same length as the vector [1]
+Calls: colnames<-
+Execution halted
+rm: cannot remove 'tmp/2022-07-06_half1kgp_v2.3.3.300/04_qualityanalysis': Is a directory
