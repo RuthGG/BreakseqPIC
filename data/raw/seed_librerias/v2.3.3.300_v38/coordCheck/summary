@@ -1,0 +1,21 @@
+# sondes REF que podrien estar fallant
+# Aquestes són sondes que no tenen un CIGAR de 300M amb el genoma de referència o que solapen en el genoma de referència en unes coordenades distintes de les que toca
+
+Probe ChromosomeCoords Start End Length ChromosomeBowtie Coordinate CIGAR Result
+REFHsOth1667BP1ALT 7 31590146 31590445 300 7 31590146 126M11D174M NA
+REFHsOth0211BP0HG38 5 144039690 144039989 300 5 144059497 300M NA
+
+# sondes ALT que podrien estar fallant
+# Aquestes són sondes que fan match amb el genoma de referència, tot i que si el MAPQ és <15, em sembla recordar que no hi hauria d'haver problema amb que existeixin, pero no estic segura... 
+
+Probe Chromosome Coordinate CIGAR MAPQ
+INSHsOth0335BP2NA18555 12 7963560 300M 0
+INVHsInv0095BP1NA19129 X 115947921 157M26I39M1D78M 2
+INVHsInv0098BP2NA19240 3 41363637 23M1D120M1I156M 0
+INVHsInv0181BP2CHM1v2 8 103435344 115M1I184M 3
+INVHsInv1070BP2NA11829 1 21530351 9M2I2M1I122M1I154M1D9M 0
+INVHsInv1264BP2CMT001 12 71709395 300M 42
+INVHsInv1321BP2AK1 14 65842506 4M5I4M11I2M2I7M2I5M1I257M 0
+INVHsInv1798BP1NA24149 12 50182808 300M 0
+INVHsInv1820BP1HG03115 3 75503483 167M1I132M 0
+INVHsInv1838BP1YH 7 47654711 239M1D36M1D25M 8

@@ -51,3 +51,12 @@ Step 1
 Step 2
 Step 5
 Run 00Library commands from runCommands
+
+OPCIONAL
+7) Versión a otros assemblies
+La manera más fácil para tan pocas anotaciones es https://genome.ucsc.edu/cgi-bin/hgLiftOver
+awk '{print "chr"$2, $3, $4, $1}' bplib.coords > liftOver_input.bed
+Pasar por el liftover, guardar como liftOver_output.bed
+Re-transformar a formato orgiginal - SIN CAMBIAR EL CHR para hg38
+Cambio el nombre de bplib.coords original a bplib_v37.coords
+awk -v OFS="\t" '{print $4, $1, $2, $3, "300"}' liftOver_output.bed > bplib.coords
