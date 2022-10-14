@@ -1,0 +1,93 @@
+
+
+```{r}
+test<-"min_10_20"
+
+
+reads<-read.table(file = paste0("analysis/2022-07-22_agdp_benchmark/",test,"/03_processaligned/Results_reads.txt"))
+genos<-read.table( paste0("analysis/2022-07-22_agdp_benchmark/",test,"/03_processaligned/GTypes_FinalDataSet.txt"), header = T)
+filters<-read.table( paste0("analysis/2022-07-22_agdp_benchmark/",test,"/03_processaligned/readFiltering.txt"), header = T, sep ="\t")
+
+
+#All individuals = YES
+sum(table(genos$individual) != 141)
+
+#All inversions = YES
+sum(table(genos$inversion) != 216)
+
+# Only 12 have p.error != 0
+table((genos$p.error != 0))
+
+good<-genos[genos$p.error == 0,]
+
+#which inversions work well
+sub<-reads[,c("V1", "V4", "V2")]
+sub<-unique(sub)
+goodinvs<-as.data.frame.matrix(table(sub$V1, sub$V2))
+goodinvs$total<-apply(goodinvs, 1, function(x){sum(x)})
+
+summary(goodinvs)
+
+nrow(goodinvs[goodinvs$total <= mean(goodinvs$total),])
+nrow(goodinvs[goodinvs$total <= mean(goodinvs$total),])/nrow(goodinvs)*100
+
+# which indivs work well
+# sub<-unique(sub[,c("V1", "V2")])
+goodinds<-as.data.frame.matrix(table(sub$V4, sub$V2))
+goodinds$total<-apply(goodinds, 1, function(x){sum(x)})
+summary(goodinds)
+nrow(goodinds[goodinds$total <= mean(goodinds$total),])
+nrow(goodinds[goodinds$total <= mean(goodinds$total),])/nrow(goodinds)*100
+
+hist(goodinvs$total)
+hist(goodinds$total)
+```
+
+```{r}
+test<-"min_0_10"
+
+
+reads<-read.table(file = paste0("analysis/2022-07-22_agdp_benchmark/",test,"/03_processaligned/Results_reads.txt"))
+genos<-read.table( paste0("analysis/2022-07-22_agdp_benchmark/",test,"/03_processaligned/GTypes_FinalDataSet.txt"), header = T)
+filters<-read.table( paste0("analysis/2022-07-22_agdp_benchmark/",test,"/03_processaligned/readFiltering.txt"), header = T, sep ="\t")
+
+
+#All individuals = YES
+sum(table(genos$individual) != 142)
+
+#All inversions = YES
+sum(table(genos$inversion) != 216)
+
+# Only 12 have p.error != 0
+table((genos$p.error != 0))
+
+good<-genos[genos$p.error == 0,]
+
+#which inversions work well
+sub<-reads[,c("V1", "V4", "V2")]
+sub<-unique(sub)
+goodinvs<-as.data.frame.matrix(table(sub$V1, sub$V2))
+goodinvs$total<-apply(goodinvs, 1, function(x){sum(x)})
+
+summary(goodinvs)
+
+nrow(goodinvs[goodinvs$total <= mean(goodinvs$total),])
+nrow(goodinvs[goodinvs$total <= mean(goodinvs$total),])/nrow(goodinvs)*100
+
+# which indivs work well
+# sub<-unique(sub[,c("V1", "V2")])
+goodinds<-as.data.frame.matrix(table(sub$V4, sub$V2))
+goodinds$total<-apply(goodinds, 1, function(x){sum(x)})
+summary(goodinds)
+nrow(goodinds[goodinds$total <= mean(goodinds$total),])
+nrow(goodinds[goodinds$total <= mean(goodinds$total),])/nrow(goodinds)*100
+
+hist(goodinvs$total)
+hist(goodinds$total)
+
+# What about filters
+summary(filters)
+
+
+
+```

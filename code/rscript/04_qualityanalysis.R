@@ -13,11 +13,11 @@ args = commandArgs(trailingOnly=TRUE)
 
 # # # # Example
 
-# args[1]<-"analysis/2021-11-06_v2.3.2_smallinvs/03_processaligned/GTypes_FinalDataSet.txt" # File with results
-# args[2]<-"analysis/2021-11-06_v2.3.2_smallinvs/data/samples.txt"  # All sample names
+# args[1]<-"analysis/2022-07-06_half1kgp_v2.3.3.300/03_processaligned/GTypes_FinalDataSet.txt" # File with results
+# args[2]<-"analysis/2022-07-06_half1kgp_v2.3.3.300/data/samples.txt"  # All sample names
 # args[3]<-"data/raw/GlobalInvGenotypes_v3.2_132Invs_20210528_Genotypes.csv" #InvFEST genotypes
-# args[4]<- "analysis/2021-11-06_v2.3.2_smallinvs/04_qualityanalysis"
-# args[5]<-"analysis/2021-11-06_v2.3.2_smallinvs/data/regions.txt"
+# args[4]<- "analysis/2022-07-06_half1kgp_v2.3.3.300/04_qualityanalysis"
+# args[5]<-"analysis/2022-07-06_half1kgp_v2.3.3.300/data/regions.txt"
 # args[6]<-0.03 # maximum error admitted
 
 # # Test if there is at least one argument: if not, return an error
