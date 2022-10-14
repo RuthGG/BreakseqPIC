@@ -338,3 +338,44 @@ log = condor.log
 request_cpus = 1
 
 queue 1 
+
+
+# ==============================
+DOWNLOADING SRA FILES
+# ==============================
+
+#----------------------------------
+# 1st, open interactive conda shell
+#----------------------------------
+condor_submit -interactive
+
+#----------------------------------
+# 2nd, create singularity comand
+# ---------------
+singularity shell \
+--bind /data/bioinfo/scratch/breakseq_fastqs:/nfs/pic.es/user/r/rgomez/20210325_breakseq/tmp:rw \
+/data/bioinfo/software/sratoolkit.2.11.3_latest.sif 
+mkdir 20210325_breakseq/tmp/SRA_avery/
+
+#---------------------------------- 
+# Prefetch SRR10140422
+# ---------------------------------
+
+cd 20210325_breakseq/tmp/SRA_avery/
+prefetch --max-size 100000000 --ngc ../../data/raw/prj_21579.ngc SRR10140422
+
+#---------------------------------- 
+# fastq conversion
+# ---------------------------------
+
+fasterq-dump --ngc 20210325_breakseq/data/raw/prj_21579.ngc  -O 20210325_breakseq/tmp/SRA_avery/ SRR10140422.sra
+  
+
+#-----------------------------------
+# to download high coverage
+#---------------------------------
+
+samtools view ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR398/ERR3988761/HG00405.final.cram "chr1:10000-50000" > tmp.sam
+samtools view ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR323/ERR3239480/NA12718.final.cram  "chr1:10000-50000" > tmp2.sam
+samtools view -f 4 ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR398/ERR3988761/HG00405.final.cram  > unmap4.sam
+samtools view -f 12 ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR398/ERR3988761/HG00405.final.cram  > unmap12.sam

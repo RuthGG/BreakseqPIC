@@ -70,7 +70,9 @@ else
 
 	mkdir -p ${LOGDIR}/00_library/ ${DATADIR}/datos_librerias 
 
-	cp data/raw/seed_librerias/${LIBRARY_SEED}/bplib* data/raw/seed_librerias/${LIBRARY_SEED}/ref* ${DATADIR}/datos_librerias
+	cp data/raw/seed_librerias/${LIBRARY_SEED}/bplib.* data/raw/seed_librerias/${LIBRARY_SEED}/ref* data/raw/seed_librerias/${LIBRARY_SEED}/specs.sh ${DATADIR}/datos_librerias 
+	source data/raw/seed_librerias/${LIBRARY_SEED}/specs.sh
+
 	cd ${DATADIR}/datos_librerias
 
 	# Generate probe header
@@ -93,7 +95,7 @@ else
 
 	echo "executable = /bin/singularity
 args = \"exec \\
---bind /data/bioinfo/common/bowtie2_index:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index:rw \\
+--bind /data/bioinfo/common/${ASSEMBLY}:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index:rw \\
 /data/bioinfo/software/rgomez_breakseq.sif \\
 bash 20210325_breakseq/code/bash/00_buildLibrary.sh ${BASEPATH} ${DATADIR}/datos_librerias/\"
 
@@ -139,25 +141,90 @@ echo "# Step 01 - Download
 # =========================================================================== #"
 
 if [[ $OVERRIDE -gt 1 ]] || [[ ! -z $READ_FASTQS ]]; then
-	echo "This step will not run now"
+	echo "This step will not run now. Downloads will not be deleted"
 	mkdir -p ${OUTDIR}/01_download/
 	cp ${READ_FASTQS}_readscount.txt ${OUTDIR}/01_download/readscount.txt
+	KEEP_DOWNLOADS="y"
 else
-
+	> /data/bioinfo/scratch/breakseq_fastqs/${DATE}_${NAME}_readscount.txt
 	mkdir -p ${LOGDIR}/01_download/ ${OUTDIR}/01_download/ ${TMPDIR}/01_download/ ${DATADIR}/bamFiles/
 	
-	# make tmp file
-	if [[ $RESUME == "y" ]]; then
-		echo "RESUMING donwload"
-		checkDownload 
-	else
-		echo "STARTING download (data replacement may occur)"
-		cp $SAMPLESLIST ${TMPDIR}/01_download/failednames
-		TOTEST=1
-	fi
+	DONWSELECTOR=$(head -n1 $SAMPLESFILE | rev| cut -d "." -f1 |rev)
+	
+	if [[ $DONWSELECTOR == "sra" ]]; then
+		
+		# Take SRA list from pathindex
+		grep -f ${SAMPLESLIST} ${SAMPLESFILE} | rev | cut -d"/" -f2 | rev > ${DATADIR}/sra_download.txt 
+		SRALIST=${DATADIR}/sra_download.txt 
+		ANCHOR=$(head -n1 ${SRALIST})
 
-	# make recipe
-	echo "executable = /bin/singularity
+		# Take paths
+		SRAPATH=$(head -n1 pathIndex.txt | cut -f2 | sed "s/${ANCHOR}.*//g") # this one will point to bamfiles
+		FASTQPATH=/data/bioinfo/scratch/breakseq_tmp/${DATE}_${NAME}/ # this one will point to 01_download
+		mkdir -p $FASTQPATH
+
+		# Trasnform those SRAs into fastq (downloaded as needed)
+		# SRACODE=$1 # code
+		# SRADIR=$2  # absolute path from SINGULARITY HOME, includes DATE_NAME
+		# FASTQDIR=$3 # absolute path from SINGULARITY HOME, , includes DATE_NAME; "" to override fasterq-dump
+		# PASSWORD=$4 # abolute path from SINGULARITY HOME
+
+		echo "executable = /bin/singularity
+args = \"exec \\
+--bind ${SRAPATH}:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${DATADIR}/bamFiles/:rw \\
+--bind ${FASTQPATH}:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${OUTDIR}/01_download/:rw \\
+/data/bioinfo/software/sratoolkit.2.11.3_latest.sif  \\
+bash 20210325_breakseq/code/bash/01_downloadSRA.sh \$(item) 20210325_breakseq/${DATADIR}/bamFiles/ 20210325_breakseq/${OUTDIR}/01_download/ 20210325_breakseq/$NGC_PATH \"
+
+output = ${LOGDIR}/01_download/condor.out
+error = ${LOGDIR}/01_download/condor.err
+log = ${LOGDIR}/01_download/condor.log
+
+request_cpus = 1
+
+queue 1 from ${SRALIST}" > ${LOGDIR}/01_download.sub
+		
+		condor_submit ${LOGDIR}/01_download.sub
+
+		waitForCondor 15
+	
+		# Aggregate fastqs by the individual
+		mkdir /data/bioinfo/scratch/breakseq_fastqs/${DATE}_${NAME}
+		> ${LOGDIR}/01_download/fastq_aggregate
+		for i in `cat $SAMPLESLIST` ; do
+			echo $i >> ${LOGDIR}/01_download/fastq_aggregate
+			LIST=`grep $i ${SAMPLESFILE} | rev | cut -d"." -f2 |cut -d"/" -f1 |rev`
+			LISTGREP=`echo $LIST | sed 's/ /\|/g' `
+			echo $LISTGREP  >> ${LOGDIR}/01_download/fastq_aggregate
+			FILELIST=`ls FASTQPATH/*/*.fastq | grep -E "$LISTGREP"`
+			echo $FILELIST  >> ${LOGDIR}/01_download/fastq_aggregate
+			mkdir -p /data/bioinfo/scratch/breakseq_fastqs/${DATE}_${NAME}/$i
+			if [[ $FILELIST != "" ]]; then
+				>/data/bioinfo/scratch/breakseq_fastqs/${DATE}_${NAME}/$i/selected_regions.fastq
+				for THISFILE in $FILELIST; do
+					cat $THISFILE >> /data/bioinfo/scratch/breakseq_fastqs/${DATE}_${NAME}/$i/selected_regions.fastq
+					rm $THISFILE
+				done
+			fi
+			FILELIST=""
+			LIST=""
+		done 
+
+	else #THIS IS FOR NORMAL AND 1KGP
+
+		# make tmp file
+		if [[ $RESUME == "y" ]]; then
+			echo "RESUMING download"
+			checkDownload 
+		else
+			echo "STARTING download (data replacement may occur)"
+			cp $SAMPLESLIST ${TMPDIR}/01_download/failednames
+			TOTEST=1
+		fi
+
+
+		# make recipe
+		echo "executable = /bin/singularity
 args = \"exec \\
 --bind /data/bioinfo/scratch/breakseq_fastqs:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${OUTDIR}/01_download/:rw \\
 --bind /data/bioinfo/scratch/breakseq_bam:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${DATADIR}/bamFiles/:rw \\
@@ -171,29 +238,29 @@ log = ${LOGDIR}/01_download/condor.log
 request_cpus = 1
 
 queue 1 from ${TMPDIR}/01_download/failednames" > ${LOGDIR}/01_download.sub
+		
+		# set loop
+		
+		LOOPCOUNT=0
+		while [[ $TOTEST -gt 0 ]]; do
+			LOOPCOUNT=$(($LOOPCOUNT+1))
+			echo "Starting loop $LOOPCOUNT"
 
-	# set loop
-	
-	LOOPCOUNT=0
-	while [[ $TOTEST -gt 0 ]]; do
-		LOOPCOUNT=$(($LOOPCOUNT+1))
-		echo "Starting loop $LOOPCOUNT"
+			condor_submit ${LOGDIR}/01_download.sub
+		
+			waitForCondor 15 
 
-		condor_submit ${LOGDIR}/01_download.sub
-	
-		waitForCondor 15 
+			# CHECK CORRECT DOWNLOAD
+			checkDownload 
+		done
 
-		# CHECK CORRECT DOWNLOAD
-		checkDownload 
-	done
+		rm ${TMPDIR}/01_download/failednames ${TMPDIR}/01_download/successnames
 
-	rm ${TMPDIR}/01_download/failednames ${TMPDIR}/01_download/successnames
-
-	# Make summary counts and copy them in folders
-	cat ${TMPDIR}/01_download/readscount/* > ${OUTDIR}/01_download/readscount.txt
-	cp ${OUTDIR}/01_download/readscount.txt /data/bioinfo/scratch/breakseq_fastqs/${DATE}_${NAME}_readscount.txt
-	
-
+		# Make summary counts and copy them in folders
+		cat ${TMPDIR}/01_download/readscount/* > ${OUTDIR}/01_download/readscount.txt
+		cp ${OUTDIR}/01_download/readscount.txt /data/bioinfo/scratch/breakseq_fastqs/${DATE}_${NAME}_readscount.txt
+		
+	fi
 fi
 
 ## This will always run, it sets parameters for later ##
@@ -215,6 +282,9 @@ else
 
 	mkdir -p ${LOGDIR}/02_breakseq/ ${OUTDIR}/02_breakseq/ ${TMPDIR}/02_breakseq
 	
+	# import index path
+	source ${DATADIR}/datos_librerias/specs.sh
+
 	# make tmp file
 	cp $SAMPLESLIST ${TMPDIR}/02_breakseq/failednames
 
@@ -222,7 +292,7 @@ else
 	echo "executable = /bin/singularity
 args = \"exec \\
 --bind ${READ_FASTQS}:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${OUTDIR}/01_download/:rw \\
---bind /data/bioinfo/common/bowtie2_index:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index \\
+--bind /data/bioinfo/common/${ASSEMBLY}:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index \\
 --bind /data/bioinfo/scratch/breakseq_tmp/:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${TMPDIR}/:rw \\
 /data/bioinfo/software/rgomez_breakseq.sif \\
 bash 20210325_breakseq/runall.sh breakseq -k $SCORE_MIN -m $COV_AROUND -l $LIBRARY_LENGTH -f ${OUTDIR}/01_download/ -s \$(Item) -t \$(Item) -n ${DATE}_${NAME}\"
@@ -270,8 +340,11 @@ queue 1 from ${TMPDIR}/02_breakseq/failednames "  >  ${LOGDIR}/02_breakseq.sub
 	rm ${OUTDIR}/02_breakseq/*/inisam_summary ${OUTDIR}/02_breakseq/*/filsam_summary
 
 
-
-
+	if [[ $KEEP_DOWNLOADS == "n" ]]; then
+		# Delete used files from path
+		echo "Deleting fastq files"
+		ls /data/bioinfo/scratch/breakseq_fastqs/${DATE}_${NAME}/*/selected_regions.fastq | grep -f $SAMPLESLIST | rm
+	fi
 fi
 
 
@@ -293,6 +366,8 @@ if [[ $OVERRIDE -gt 3 ]] ; then
 else
 
 	mkdir -p ${LOGDIR}/03_processaligned/ ${OUTDIR}/03_processaligned/
+	# import index path
+	source ${DATADIR}/datos_librerias/specs.sh
 
 	echo "#!/bin/bash
 INREF='${INREF}'
@@ -300,7 +375,7 @@ NOTINREF='${NOTINREF}'" > $DATADIR/03_processaligned_parameters.sh
 	
 	echo "executable = /bin/singularity
 args = \"exec \\
---bind /data/bioinfo/common/bowtie2_index:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index \\
+--bind /data/bioinfo/common/${ASSEMBLY}:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index \\
 --bind /data/bioinfo/scratch/breakseq_tmp/:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${TMPDIR}/:rw \\
 /data/bioinfo/software/rgomez_breakseq.sif \\
 bash 20210325_breakseq/runall.sh processaligned -a $BREAKSEQ_RESULTS -s $SAMPLESLIST -m \$(Item) -t min_${COV_AROUND}_\$(Item) -n ${DATE}_${NAME}\"

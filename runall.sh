@@ -240,14 +240,45 @@ if [ "$COMMAND" == "download" ]; then
     fi
 
     # Check if sample data is in FASTQ or BAM format:
+    CONTINUE="no"
     if [[ $MAIN_FORMAT == "fastq" ]]; then
       echo "Processing fastq file $MAIN_FILE"
  
       # We select for each sample the fastq files and save them as the selected regions for breakseq.
       cat $MAIN_FILE > selected_regions.fastq
 
-    else
-      echo "Format of sequence is bam file $MAIN_FILE"
+    elif [[ $MAIN_FORMAT == "bam" ]]; then
+      echo "Processing bam file $MAIN_FILE"
+
+      # Check if there is an indexing (bai) file:
+      INDEX_FILE=${MAIN_FILE}.bai
+      INDEX_FINAL="bam.bai"
+      # Mark to continue
+      CONTINUE="yes"
+    elif [[ $MAIN_FORMAT == "cram" ]]; then
+      echo "Processing cram file $MAIN_FILE"
+
+      # Check if there is an indexing (crai) file:
+      INDEX_FILE=${MAIN_FILE}.crai
+      INDEX_FINAL="cram.crai"
+      # Mark to continue
+      CONTINUE="yes"
+    else 
+      echo "Unknown file format"
+    fi
+
+    if [[ $CONTINUE == "yes" ]]; then
+
+      # Make index if necessary
+      if [[ -f $INDEX_FILE ]]; then
+        echo "Indexing file for already exists in local: ${INDEX_FILE}"
+      elif [[ $(wget ${IDEX_FILE} --spider -O - 2>&1 | tail -n2 | head -n1) == *"Remote file exists."* ]]; then
+        echo "Remote indexing file already exists: ${INDEX_FILE}"
+      else
+        echo "Creating the indexing file"
+        samtools index $MAIN_FILE > $SAMPLE.${IDEX_FINAL}
+      fi
+
       # Loop per inversion - align reads
       for REGION in $REGIONS; do
 
@@ -279,22 +310,13 @@ if [ "$COMMAND" == "download" ]; then
           while [ $i -eq 0 ]; do
             echo "# LOOP $l"
 
-            if [[ $l -eq 1000 ]]; then
+            if [[ $l -eq 100 ]]; then
               echo "Maximum loop count! Aborting..."
               echo  "$SAMPLE","$REGION" >> ${SCRIPTPATH}/${TMPDIR}/failedregions.txt
               break
             else
 
               l=$((l+1))
-              
-              # Check if there is an indexing (bai) file:
-              BAI_FILE=${DATADIR}/bamFiles/${NAME}/$SAMPLE/$SAMPLE.bam.bai
-              if [ -f $BAI_FILE ]; then
-                echo "Indexing file for bam already exists"
-              else
-                # Creating the indexing for the bam file
-                samtools index $MAIN_FILE > $SAMPLE.bam.bai
-              fi
               
               ERRS=$(( samtools view $MAIN_FILE $CHR_REGION":"$START_REGION"-"$END_REGION > tmp_download.txt ) 2>&1 )
               echo $ERRS
@@ -318,91 +340,96 @@ if [ "$COMMAND" == "download" ]; then
           done
         fi
       done
-        # Unmapped reads
-
-        echo "---------------------"
-        echo " Unmapped reads "
-        echo "---------------------"
-        date
-
-        # This includes a loop to resume download in case it was interrupted
-        i=0
-        l=0
-        while [ $i -eq 0 ]; do
-          echo "# LOOP $l"
         
-          if [[ $l -eq 500 ]]; then
-            echo "Maximum loop count! Aborting..."
-            break
+      # Unmapped reads
+
+      echo "---------------------"
+      echo " Unmapped reads "
+      echo "---------------------"
+      date
+
+      # This includes a loop to resume download in case it was interrupted
+      i=0
+      l=0
+      while [ $i -eq 0 ]; do
+        echo "# LOOP $l"
+      
+        if [[ $l -eq 100 ]]; then
+          echo "Maximum loop count! Aborting..."
+          break
+        else
+
+          l=$((l+1))
+
+          # Work into tmp_download (-f 4 selects only unmapped reads in case the bam file provided was a general one)
+          if [[ $OTHER_FILE == $MAIN_FILE ]]; then
+            # Non specific unmapped file
+            samtools view -f 4 $OTHER_FILE > tmp_download.txt # CHANGED FILTER!! previously fas -f12, but -f4 supposedly recovers the most unmapped reads
           else
-
-            l=$((l+1))
-
-            # Work into tmp_download (-f 4 selects only unmapped reads in case the bam file provided was a general one)
-            if [[ $OTHER_FILE == $MAIN_FILE ]]; then
-              # Non specific unmapped file
-              samtools view -f 12 $OTHER_FILE > tmp_download.txt
-            else
-              # Specific unmapped file
-              samtools view $OTHER_FILE > tmp_download.txt
-            fi
-            
-        
-            if [ -s tmp_download.txt ]; then 
-              # If file not empty, interrupt loop and concat to output file
-              echo "# Success!"
-              cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' >> selected_regions.fastq
-              READS=$(($(cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' | wc -l ) / 4)) 
-              echo "Reads: " $READS
-              echo "$SAMPLE,Unmapped,$READS" >> ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt 
-              i=1
-            else
-              echo "# Fail!"
-              sleep 1
-            fi
-
-            echo "# Delete tmp file"
-            rm tmp_download.txt
+            # Specific unmapped file
+            samtools view $OTHER_FILE > tmp_download.txt
           fi
-        done
-
-        # Remove everything but the selected regions and return
-        ls | grep -v 'selected_regions.fastq' | xargs rm 
-        cd ${SCRIPTPATH}
-
-        #  OBSOLETE! CHECK DIRECTORIES!!
-        if [ "$B_OPTION" == "y" ]; then
-          ## RUN BREAKSEQ
-        
-          echo "# Running BreakSeq on $SAMPLE."
-              
-          STEP_B=$(printf "%02d" $((${STEP}+1)))
-          COMMAND_B="breakseq"
-
-          OUTDIR_B="analysis/${STEP_B}_${COMMAND_B}/${DATE}/${NAME}"
-          TMPDIR_B="tmp/${STEP_B}_${COMMAND_B}/${DATE}/${NAME}"
-
-          echo "MIN_COVER = ${MIN_COVER}; LIB_LEN = ${LIB_LEN}" > ${OUTDIR_B}/README.txt
-
-          mkdir -p project/logfiles/${STEP_B}_${COMMAND_B}_${DATE}_${NAME}/
           
-          # Breakseq process 
-          # TMPDIR=$1     
-          # OUTDIR=$2  
-          # FASTQ_DIR=$3   
-          # MIN_COVER=$4
-          # LIB_LEN=$5
-          # SCORE_MIN=$6
-          # SAMPLE=$7
-          sh code/bash/02_runBreakseq.sh $TMPDIR_B $OUTDIR_B $FASTQ_DIR $MIN_COVER $LIB_LEN $SCORE_MIN $SAMPLE >> project/logfiles/${STEP_B}_${COMMAND_B}_${DATE}_${NAME}/${NAME}_${THREAD}
+      
+          if [ -s tmp_download.txt ]; then 
+            # If file not empty, interrupt loop and concat to output file
+            echo "# Success!"
+            cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' >> selected_regions.fastq
+            READS=$(($(cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' | wc -l ) / 4)) 
+            echo "Reads: " $READS
+            echo "$SAMPLE,Unmapped,$READS" >> ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt 
+            i=1
+          else
+            echo "# Fail!"
+            sleep 1
+          fi
 
-
+          echo "# Delete tmp file"
+          rm tmp_download.txt
         fi
+      done
+
+      # Remove everything but the selected regions and return
+      ls | grep -v 'selected_regions.fastq' | xargs rm 
+      cd ${SCRIPTPATH}
+
+     
+      # if [ "$B_OPTION" == "y" ]; then
+      #   ## RUN BREAKSEQ
+      
+      #   echo "# Running BreakSeq on $SAMPLE."
+            
+      #   FASTQ_DIR=${OUTDIR}/${NAME}/${SAMPLE}/selected_regions.fastq
+
+      #   STEP_B=$(printf "%02d" $((${STEP}+1)))
+      #   COMMAND_B="breakseq"
+
+      #   exec 1> analysis/${NAME}/log/${STEP_B}_${COMMAND_B}/${THREAD} 2>&1
+
+      #   # Make directories
+      #   TMPDIR_B="tmp/${NAME}/${STEP_B}_${COMMAND_B}"
+      #   OUTDIR_B="analysis/${NAME}/${STEP_B}_${COMMAND_B}"
         
-        # Remove and Return
-        if [ "$D_OPTION" == "y" ]; then
-          rm -r ${TMPDIR}/${SAMPLE}
-        fi   
+
+      #   mkdir -p $OUTDIR_B $TMPDIR_B
+
+      #   ## Loop per sample - align reads
+      #   echo "Start looping samples"
+      #   # TMPDIR=$1     
+      #   # OUTDIR=$2  
+      #   # FASTQ_DIR=$3   
+      #   # MIN_COVER=$4
+      #   # LIB_LEN=$5
+      #   # SCORE_MIN=$6
+      #   # SAMPLE=$7
+      #   sh code/bash/02_runBreakseq.sh $TMPDIR_B $OUTDIR_B $FASTQ_DIR $MIN_COVER $LIB_LEN $SCORE_MIN $SAMPLE
+
+      # fi
+      
+      # # Remove and Return
+      # if [ "$D_OPTION" == "y" ]; then
+      #   rm -r ${TMPDIR}/${SAMPLE}
+      # fi   
     fi   
   done
 
@@ -456,7 +483,7 @@ if [ "$COMMAND" == "processaligned" ]; then
   mkdir -p $OUTDIR $TMPDIR
 
   # Set variables
-  REF_FASTA=data/use/bowtie_index/human_g1k_v37.fasta # Reference fasta
+  REF_FASTA=$(ls data/use/bowtie_index/human_*.fa*) # Reference fasta
  # Library data before bowtie build
   DATADIR=analysis/${NAME}/data/datos_librerias
 
@@ -790,8 +817,8 @@ if [ "$COMMAND" == "qualityanalysis" ]; then
   ## CALCULATE TAG SNPS ##
   ########################
  
-  bash code/bash/05_tagsnps.sh $TMPDIR $OUTDIR $REGIONS_FILE $FILTER $GENOTYPES_FILE $DATADIR $SCRIPTPATH
-  Rscript code/rscript/05_tagsnps.R $OUTDIR/tagSNPs_max.txt $OUTDIR/
+  # bash code/bash/05_tagsnps.sh $TMPDIR $OUTDIR $REGIONS_FILE $FILTER $GENOTYPES_FILE $DATADIR $SCRIPTPATH
+  # Rscript code/rscript/05_tagsnps.R $OUTDIR/tagSNPs_max.txt $OUTDIR/
 
   rm $TMPDIR
 fi
