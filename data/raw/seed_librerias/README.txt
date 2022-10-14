@@ -3,6 +3,19 @@ CARPETA DATOS_LIBRERIAS
 Generar librerías:
 1) Extraemos las sondas de las páginas bplibInvs y bplibOthers del archivo excel SimpleBPLibrary_LergaJaso2021_300bp, y las ponemos todas en un archivo fasta bplib.fa
 2) Extraemos las coordenadas de la página bplib_hg19coords y las ponemos en un archivo bplib.coords
++ copiar ref.header-template?
+
+OPCIONAL
+7) Versión a otros assemblies
+La manera más fácil para tan pocas anotaciones es https://genome.ucsc.edu/cgi-bin/hgLiftOver
+awk '{print "chr"$2, $3, $4, $1}' bplib.coords > liftOver_input.bed
+Pasar por el liftover, guardar como liftOver_output.bed
+Re-transformar a formato orgiginal - SIN CAMBIAR EL CHR para hg38
+Cambio el nombre de bplib.coords original a bplib_v37.coords
+awk -v OFS="\t" '{print $4, $1, $2, $3, "300"}' liftOver_output.bed > bplib.coords
+
+
+# --- automatized ------# 
 3) Generar header para las sondas:
 
 ###
@@ -19,7 +32,6 @@ rm bplib.header.template.txt
 mv tmp bplib.header.template.txt
 
 ###
-
 4) Generar lista de todas las inversiones:
 
 ###
@@ -52,11 +64,3 @@ Step 2
 Step 5
 Run 00Library commands from runCommands
 
-OPCIONAL
-7) Versión a otros assemblies
-La manera más fácil para tan pocas anotaciones es https://genome.ucsc.edu/cgi-bin/hgLiftOver
-awk '{print "chr"$2, $3, $4, $1}' bplib.coords > liftOver_input.bed
-Pasar por el liftover, guardar como liftOver_output.bed
-Re-transformar a formato orgiginal - SIN CAMBIAR EL CHR para hg38
-Cambio el nombre de bplib.coords original a bplib_v37.coords
-awk -v OFS="\t" '{print $4, $1, $2, $3, "300"}' liftOver_output.bed > bplib.coords
