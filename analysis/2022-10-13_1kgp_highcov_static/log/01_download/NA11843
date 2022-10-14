@@ -1,0 +1,161 @@
+Take samples
+Take regions
+Start looping samples
+################
+NA11843
+################
+Thu Oct 13 13:58:45 CEST 2022
+Format of sequence is bam/cram file ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR323/ERR3239460/NA11843.final.cram
+Creating the indexing for the bam file
+ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR323/ERR3239460/NA11843.final.cram.crai: Input/output error
+samtools index: failed to create or write index
+---------------------
+HsInv0004 Mapped reads 
+---------------------
+Thu Oct 13 13:58:48 CEST 2022
+Original coords: chr1:197787511-197789004
+Sampled coords: chr1:197767511-197809004
+# LOOP 0
+
+# Sucess!
+Reads:  9371
+# Delete tmp file
+---------------------
+HsInv0006 Mapped reads 
+---------------------
+Thu Oct 13 13:58:51 CEST 2022
+Original coords: chr1:205209343-205209836
+Sampled coords: chr1:205189343-205229836
+# LOOP 0
+
+# Sucess!
+Reads:  9450
+# Delete tmp file
+---------------------
+HsInv0015 Mapped reads 
+---------------------
+Thu Oct 13 13:58:54 CEST 2022
+Original coords: chr10:13063123-13063422
+Sampled coords: chr10:13043123-13083422
+# LOOP 0
+
+# Sucess!
+Reads:  9392
+# Delete tmp file
+---------------------
+HsInv0016 Mapped reads 
+---------------------
+Thu Oct 13 14:12:26 CEST 2022
+Original coords: chr10:57497752-57498335
+Sampled coords: chr10:57477752-57518335
+# LOOP 0
+
+# Sucess!
+Reads:  8461
+# Delete tmp file
+---------------------
+HsInv0041 Mapped reads 
+---------------------
+Thu Oct 13 14:12:28 CEST 2022
+Original coords: chr2:224428114-224428520
+Sampled coords: chr2:224408114-224448520
+# LOOP 0
+
+# Sucess!
+Reads:  9046
+# Delete tmp file
+---------------------
+HsInv0044 Mapped reads 
+---------------------
+Thu Oct 13 14:12:31 CEST 2022
+Original coords: chr21:26001694-26002534
+Sampled coords: chr21:25981694-26022534
+# LOOP 0
+
+# Sucess!
+Reads:  9276
+# Delete tmp file
+---------------------
+HsInv0058 Mapped reads 
+---------------------
+Thu Oct 13 14:12:34 CEST 2022
+Original coords: chr6:31041296-31042468
+Sampled coords: chr6:31021296-31062468
+# LOOP 0
+
+# Sucess!
+Reads:  9703
+# Delete tmp file
+---------------------
+HsInv0059 Mapped reads 
+---------------------
+Thu Oct 13 14:12:36 CEST 2022
+Original coords: chr6:89213766-89214373
+Sampled coords: chr6:89193766-89234373
+# LOOP 0
+
+# Sucess!
+Reads:  9289
+# Delete tmp file
+---------------------
+HsInv0060 Mapped reads 
+---------------------
+Thu Oct 13 14:12:39 CEST 2022
+Original coords: chr6:94031208-94031844
+Sampled coords: chr6:94011208-94051844
+# LOOP 0
+
+# Sucess!
+Reads:  8472
+# Delete tmp file
+---------------------
+HsInv0068 Mapped reads 
+---------------------
+Thu Oct 13 14:12:41 CEST 2022
+Original coords: chr9:74283075-74283623
+Sampled coords: chr9:74263075-74303623
+# LOOP 0
+
+# Sucess!
+Reads:  8738
+# Delete tmp file
+---------------------
+HsInv0081 Mapped reads 
+---------------------
+Thu Oct 13 14:12:44 CEST 2022
+Original coords: chrX:79667586-79668012
+Sampled coords: chrX:79647586-79688012
+# LOOP 0
+
+# Sucess!
+Reads:  4163
+# Delete tmp file
+---------------------
+HsInv0091 Mapped reads 
+---------------------
+Thu Oct 13 14:12:46 CEST 2022
+Original coords: chr6:12431648-12432597
+Sampled coords: chr6:12411648-12452597
+# LOOP 0
+
+# Sucess!
+Reads:  9246
+# Delete tmp file
+---------------------
+HsInv0092 Mapped reads 
+---------------------
+Thu Oct 13 14:12:48 CEST 2022
+Original coords: chr6:130526892-130531299
+Sampled coords: chr6:130506892-130551299
+# LOOP 0
+
+# Sucess!
+Reads:  9792
+# Delete tmp file
+---------------------
+HsInv0095 Mapped reads 
+---------------------
+Thu Oct 13 14:12:50 CEST 2022
+Original coords: chr4:87925863-87937697
+Sampled coords: chr4:87905863-87957697
+# LOOP 0
