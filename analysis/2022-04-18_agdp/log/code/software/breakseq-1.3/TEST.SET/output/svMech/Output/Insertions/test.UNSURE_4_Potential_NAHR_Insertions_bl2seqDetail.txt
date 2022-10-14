@@ -1,0 +1,59 @@
+ChrNo.	Start	End	LeftFlankingSequence	RightFlankingSequence	InsertedSeq	ID
+1	1574409	1574409	CACTTCTGCACCAAATGTGACttcttcttttttttttgagacggagtctcgctctgtcgcccaggctggagtgcagtggcgggatctcagctcaatgcaagctccaccttccgggttcacgccattctcctgcctcagcctcccaagtagctgggactacaggtgcccgccaccatgcccagctaattttttgtattttt	gcgtgagccactgcgcccggccTGTAtttatttttttgagacggagtctcgctctgttgcccaggctggaatgcagtggtacgatctcggctcattgcaacctccccttccagtcccaggttcaagcaattctcctgcctctgcctcaggagtagctgggattacaggcatgcgccaccacacccggctaatttttttat	gctccaccttccgggttcacgccattctcctgcctcagcctcccaagtagctgggactacaggtgcccgccaccatgcccagctaattttttgtatttttttagtagagacggggtttcaccatgtcagccaggatggtctccatctcctcacctcatgatccgcccacctcggcctcccaaagtgctgggattacaggcgtgagccaccacacctggctCAGATGTGACTTCTATTGCCAAATTCTTCTTCATTTCTAGGATGGGACACACTACCACAGCCCTTTTATAAAGTCCTCAACTGACCCAGCCGACTCACCTTTCTCTCCTGGAATGCTCCCTTGCCATCTCCCTTCTCTTCTGTCTTTCCCATTCCCGGCGAGCTTTATCCTGTTCTTCTCGATGCCGTTTCCGACGTTCGTGCTCTCTTTCTTTTTCTTTCACTCTAGCATGCTTCCCTAATGAGAAATAAAGTGTCATGCAAAGAAACCTCACTTCAAAAATTTCACATGAagccgggcacggaggcttatgcctgtaatcctagcactttgggaggctgaggcgggcggatcacctgaggtcaggagttcaaggccatcctggccaacatggtgaaaccccgtctctactaaaaatacaaaaattagctgggcgtggtggcaggcacctgtaatcccagctactaagcgaggctgaggcagaagaattgcttgaacccgggaggcggaggttgcagtgagccgagatcacgccactgcactacagcctgggcaaaaaaaaaaaaaAAACCCACGTGAAACTGAAATTAAggccgggcgcggtggctcacgcctgtaattccagcactctgggaggccgaggtgggcggatcacaaggtcagatcgggaccatcctggctaacacggtgaaaccccatctctactaaaaatacaaaaaattagctgggtgtggtggcgggcacctgtagtcccagctactcgggaggctgaggcgggagaatagcgtgaacccaggagatggaatttgcagtgagctgagattgcgccactgtactccagcctgggtgacaagcaagactccgtcccaaaaaaaaaaaaaaaagaaaTTAAATCAAGAACAGtaaatatttaaataaatatttaaataatGATGTTAACGTTAAGTAATCCTAAtttttcttttttttcttttttttttttggagatggagtcttgctctgtcgcccaggctggagtgcagtggcgcaatctcggctcactgcaagctccgcctcccgtgttcacaccattctcctgcctcagcctcccgagtagctggtactacaggcgcctgccaccacgcccggctaattttttgtctttttagtagagacggggttccaccatgttagccaggatggtcttgatgttctgacctcgtgatctgccggcctcggcctcccaaagtgtggggattacagttgtgagccaccgcgcccggccTTTTTTTTttttttttttttttttaaagagacagggtctcgctatattggccaggctggtcttgaactcccggactcaactgatcctccaaagtgctgggattacaggcctgggccactgcacccagccGAATAATCATGATTTTATGTTAAATAAAAAACTTTGAAAATAAAAAACTATCTGCAGTAAGCGTCTAATTATGAAGAAAGAAGAAAAAAGAAAAACAATTCTGCTATCACAGAAGAGCAGAATTGTAATATTCGTCTTTTAAAACTTTTCCATACTGAATAAACTATAATTATCAGTTTTATAATACAAAAATCACTCTTCACAAAGACTACAGAACAAAGCTTTGCTATCAGTGGGCTTCTCCACTGTGCAATGAAGCCACATTAATTAATCAAGTGTATTTATAATCATGACATTTCAATCGGGCTCCAGGTCCAATTTTCCTAACACCCGTAAGAACCTCCTGATGTTGGTACGAGATCAAACTGCTCAAGCCAAACCCATTCTTTGGACTTGAGCAAATACCCATTTTGGGGTGTGTTTTTCTCCTATACTTGTTGAATTCAGGTCATTTTAAATGTAAACAAACTGCTTCCAAACAATATAATGGGGGAGAGAAAACCCCAGAGGAAAAATGGACTAGCCATTCTGAATGGTCTGTGACACACGCACGCTTTCAGCTAGAGTTTGCTCTCTCTGGTTTTCGGTCTGTGATACACGCATGCTTTCAGCTGGAGTTTGCTCTCTGTAGCCCCTCTGAACGGTCTGTGACACACGCATGCTTTCAGCTAGAGTACTCTATAGCCCCTCTGAATGGTCTGTGACACATGCACGCTTTCAGCTAGAGTACTCTCTCTATAGCCCTTCTGAATGGTCTGTGACACACGCATGCTTTCAGCTGGAGTTTGCTCTCTCTGGTTTTCGGTCTGGGACACATGCATGCTTTTAGCTAGAGTTTGCTCTGTATAGCCCTTCTGAATGGTCTGTGACACACGCATGCTTTCAGCTGGAGTTTGCTCTCTATAGCCCCTCTGAATGGTCTGTGACACACGCATGCTTTCAGATAGAGTATTCTCTCTATAGCCCTTCTGAATGGTCTGTAACACACGCACGCTTTCAGCTAGAGTTTGCTCTCTCTGGTTTTTGGTCTGTGACACACGCATGCTTTTAGCTAGAGTTTGCTCTGTATAGCCCTTCTGAATGGTCTGTGACACATGCATGCTTTCAGCTAGAGTTTGCTCTCTCTGGTTTTTAGTCTGTGACACACACATGCTTTTAGCTAGAGTTTGCTCTGTATAGCCCTTCTGAATGGTCTGTGACACACGCGTGCTTTCAGCTAGAGTTTGCTCTCTCTGGTTTTTGGTCTGTGACACACGCATGCTTTTAGTTAGTTTGCTCTCATAGCccttctgaacggtctgtgacacatgcatgctttcagctattctctctatagccattctgaatggtctgtgacacacgcacgctttcagctagagttTGCTCTTTCTGGTTTTCGGTCTGTGACACACGCATGCTTTCAGCTAGAGTTTGCTCTCTCTGGTTTTCGGTCTGTGACGCACGCATGCTTTTAGCTAGAGTATTCTCTCTATAGCCATTCTGAACGGTCTGTGACACACGTATGCTTTCAGCTAGAGTTTGCTTTCTCTGGTTTTTCAGTGGTGCTCTGGGGAAGGCAGAAGAGTAGGAACAGGAAAGAAACCACACTTGAACATGATGTCAAAGAAAGTAAATGCTTCTGTACCCCCTTCTGCTGAATGGCTACGATGCCTACGTTTCTCTTTTCTCTTTTCATCTTTTCTGTGATGAGCTTTTTCTTTCCGAGACATTTGCTGGGGTGGTTTGATGGCCAAAGAATCATCTTCTTCTCCTCTGAAATAAAACACAACAGCACTGCATCATGCTTGAGAAAGTGCAAAGAAGCATCAGGCTATTATAAGGTTTCTTCAACCCAGAAAAATGCATGATTCAGACAGGAACAAAGCTGAAACATCATTTAAAAAATTACATTAATTCTCCAACTTTAGGCAtcttttttttctttttttcttttttttagacagtctcgctctgttgcccgggctatagtggcacgatctcggctcactgcaatctccaccctccgggttcatgccattctcttgcctcagcctcccgagtagctgggactacaggcgcccgccgccacgctggctaatttttgtatttttagtagagacggggttttaccatgttagccaggatggtcttggtctcctgacctcatgatccgcccacctcggtctcccaaagtgctgggattacaggcgtgagccactgcgcccggccTGTAtttatttttttgagacggagtctcgctctgttgcccaggctggaatgcagtggtacgatctcggctcattgcaa	chr1:1574409-1574410:test
+Query= 
+         (200 letters)
+
+
+
+>
+          Length = 200
+
+ Score = 89.7 bits (45), Expect = 4e-23
+ Identities = 138/168 (82%), Gaps = 7/168 (4%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 31  tttttttgagacggagtctcgctctgtcgcccaggctggagtgcagtggcgggatctcag 90
+           ||||||||||||||||||||||||||| |||||||||||| ||||||||   |||||| |
+Sbjct: 31  tttttttgagacggagtctcgctctgttgcccaggctggaatgcagtggtacgatctcgg 90
+
+                                                                       
+Query: 91  ctcaatgcaagctccacctt------ccgggttcacgccattctcctgcctcagcctccc 144
+           |||| ||||| |||| ||||      || |||||| || ||||||||||||| |||||  
+Sbjct: 91  ctcattgcaacctcc-ccttccagtcccaggttcaagcaattctcctgcctctgcctcag 149
+
+                                                           
+Query: 145 aagtagctgggactacaggtgcccgccaccatgcccagctaatttttt 192
+            ||||||||||| ||||||    ||||||||  ||| |||||||||||
+Sbjct: 150 gagtagctgggattacaggcatgcgccaccacacccggctaatttttt 197
+
+
+Lambda     K      H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda     K      H
+    1.37    0.711     1.31 
+
+
+Matrix: blastn matrix:1 -3
+Gap Penalties: Existence: 5, Extension: 2
+Number of Sequences: 1
+Number of Hits to DB: 13
+Number of extensions: 4
+Number of successful extensions: 4
+Number of sequences better than 10.0: 1
+Number of HSP's gapped: 2
+Number of HSP's successfully gapped: 2
+Length of query: 200
+Length of database: 200
+Length adjustment: 7
+Effective length of query: 193
+Effective length of database: 193
+Effective search space:    37249
+Effective search space used:    37249
+X1: 6 (11.9 bits)
+X2: 15 (29.7 bits)
+X3: 50 (99.1 bits)
+S1: 6 (12.4 bits)
+S2: 6 (12.4 bits)

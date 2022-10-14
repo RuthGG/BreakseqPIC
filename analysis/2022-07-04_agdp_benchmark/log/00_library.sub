@@ -1,0 +1,13 @@
+executable = /bin/singularity
+args = "exec \
+--bind /data/bioinfo/common/bowtie2_index:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index:rw \
+/data/bioinfo/software/rgomez_breakseq.sif \
+bash 20210325_breakseq/code/bash/00_buildLibrary.sh /nfs/pic.es/user/r/rgomez/20210325_breakseq analysis/2022-07-22_agdp_benchmark/data/datos_librerias/"
+
+output = analysis/2022-07-22_agdp_benchmark/log/00_library/condor.out
+error = analysis/2022-07-22_agdp_benchmark/log/00_library/condor.err
+log = analysis/2022-07-22_agdp_benchmark/log/00_library/condor.log
+
+request_cpus = 1
+
+queue 1

@@ -1,0 +1,25 @@
+Start looping samples
+# Running BreakSeq on I0745.
+Breakseq log
+## Breakpoint Library Mapping started at Fri Jul  1 17:49:02 CEST 2022 ##
+## Processing query analysis/2022-07-22_agdp_benchmark/01_download//I0745/selected_regions.fastq ##
+## Aligning the query against the library ##
+## Filtering hits for breakpoint coverage ##
+## Converting hits to Fastq ##
+## Aligning the hits against the reference ##
+## Splitting hits for uniqueness ##
+## Scoring and reporting calls ##
+## Breakpoint Library Mapping ended at Fri Jul  1 17:49:31 CEST 2022 ##
+Breakseq err
+820036 reads; of these:
+  820036 (100.00%) were unpaired; of these:
+    792486 (96.64%) aligned 0 times
+    10360 (1.26%) aligned exactly 1 time
+    17190 (2.10%) aligned >1 times
+3.36% overall alignment rate
+1243 reads; of these:
+  1243 (100.00%) were unpaired; of these:
+    7 (0.56%) aligned 0 times
+    896 (72.08%) aligned exactly 1 time
+    340 (27.35%) aligned >1 times
+99.44% overall alignment rate

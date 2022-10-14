@@ -1,0 +1,13 @@
+   SW  perc perc perc  query      position in query           matching       repeat              position in  repeat
+score  div. del. ins.  sequence    begin     end    (left)    repeat         class/family         begin  end (left)   ID
+
+.2685	3.6	1.0	0.0	chr1	247	551	(4681)	C	AluY	SINE/Alu	(3)	308	1	1685727
+669	29.9	5.3	0.4	chr1	977	1204	(4028)	+	MIRb	SINE/MIR	7	245	(23)	1685728
+189	0.0	0.0	0.0	chr1	1686	1706	(3526)	+	(T)n	Simple_repeat	1	21	(0)	1685729
+8410	12.3	1.2	3.0	chr1	1929	2618	(2614)	C	L1M3	LINE/L1	(846)	5294	4600	1685730
+2445	9.1	0.0	0.0	chr1	2619	2916	(2316)	+	AluSx1	SINE/Alu	1	298	(14)	1685731
+8410	12.3	1.2	3.0	chr1	2917	3735	(1497)	C	L1M3	LINE/L1	(1541)	4599	3812	1685730
+2873	18.2	2.4	2.0	chr1	3733	4447	(785)	+	L1MB1	LINE/L1	5326	6008	(171)	1685732
+2527	3.2	0.0	0.0	chr1	4474	4781	(451)	C	AluY	SINE/Alu	(0)	311	3	1685733
+1988	16.7	0.9	0.3	chr1	4832	5168	(64)	+	LOR1b	LTR/ERV1	123	461	(0)	1685734
+932	13.6	0.0	5.6	chr1	5169	5232	(0)	+	L1MB1	LINE/L1	6000	6134	(34)	1685732

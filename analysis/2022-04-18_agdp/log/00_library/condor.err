@@ -1,0 +1,9 @@
+INFO:    Converting SIF file to temporary sandbox...
+Building a SMALL index
+510 reads; of these:
+  510 (100.00%) were unpaired; of these:
+    274 (53.73%) aligned 0 times
+    226 (44.31%) aligned exactly 1 time
+    10 (1.96%) aligned >1 times
+46.27% overall alignment rate
+INFO:    Cleaning up image...

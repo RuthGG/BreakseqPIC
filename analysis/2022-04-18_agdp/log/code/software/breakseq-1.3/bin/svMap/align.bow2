@@ -1,0 +1,60 @@
+#!/bin/sh
+
+if [ $# -lt 1 ]
+then
+	echo "Usage: $0 <target> <query>"
+	exit 0
+fi
+
+SAMTOOLS_PATH=
+BOWTIE2_PATH=/opt/conda/bin
+BOWTIE2_INDEXES=/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index
+PROCESSORS=1
+MAX_MISMATCH=2 # 2
+
+if [ -z "$SEED_LEN" ]; then SEED_LEN=36; fi # SEED_LEN=36
+
+TARGET=$1
+TARGET_IDX=`basename $TARGET`
+QUERY=$2
+SCORE_MIN=$3
+QUERY_FMT="f"
+
+if [ -z "`echo \"$QUERY\" | sed 's/.*\.f[^\.]*q//'`" ]; then QUERY_FMT="q"; fi
+
+if [ ! -e "$BOWTIE2_INDEXES/$TARGET_IDX.1.bt2" ]
+then
+	# Performing Bowtie Indexing
+	# [2012-05-14] Ignasi added the redirection to /dev/null
+        $BOWTIE2_PATH/bowtie2-build $TARGET $BOWTIE2_INDEXES/$TARGET_IDX > /dev/null
+fi
+
+if [ $# -gt 1 ]
+then
+	# Performing Bowtie Alignment
+	# [2012-06-24] Bowtie2 is different from Bowtie1. It can align in local mode
+	# or in end-to-end mode. In principle, we want the end-to-end mode, which is
+	# the default. In end-to-end mode, the maximum alignment score is 0. Both
+	# mismatch and indels substract points from the score. The default is between
+	# 2 and 6 per mismatch (depending on mapping quality), and 5 for opening a
+	# gap and 3 for extending it. Therefore, a 5 bp gap would reduce the score by
+	# 20. The minimum acceptable score is set relative to the length of the reads
+	# with the parameter '--score-min'. If segments are 36 bp long, '--score-min
+	# L,-0.8,-0.65' would allow alignments to have a score of -24, equivalent, e.g.,
+	# to a 5 bp-indel and one or two mismatches.
+	# The option '-M' tells how many alignments are to be searched (only 1 reported).
+	# The output should be in SAM format.
+	# [2012-07-17] If more than one alignment were reported, the qualities string
+	# would be set to '*' in the secondary alignments, which is not supported by
+	# breakseq.
+	# [2012-10-26] I set --score-min to L,-0.4,-0.4, after some trials. I also give
+	# the whole path to samtools, to prevent problems, and request MAPQ >= 15.
+	export BOWTIE2_INDEXES
+
+
+	#$BOWTIE2_PATH/bowtie2 -p$PROCESSORS --score-min L,-0.4,-0.4 -$QUERY_FMT -x $TARGET_IDX -U $QUERY | \
+	#/gpfs/depoofs/jlerga/soft/bin/samtools view -S -F 4 -q 15 -
+	$BOWTIE2_PATH/bowtie2 -p$PROCESSORS --score-min $SCORE_MIN -$QUERY_FMT -x $TARGET_IDX -U $QUERY | \
+	/usr/bin/samtools view -S -F 4 -q 15 -
+
+fi

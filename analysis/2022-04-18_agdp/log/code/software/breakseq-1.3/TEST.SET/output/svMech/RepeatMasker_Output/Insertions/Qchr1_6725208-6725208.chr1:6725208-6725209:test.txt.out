@@ -1,0 +1,21 @@
+   SW   perc perc perc  query                                           position in query    matching  repeat           position in repeat
+score   div. del. ins.  sequence                                        begin end   (left)   repeat    class/family   begin  end    (left)  ID
+
+  352   14.1  0.0  0.0  chr1_6725208-6725208.chr1:6725208-6725209:test      1    64 (2476) + Alu       SINE/Alu          236    299    (0)   1  
+  254   26.4  1.0  5.4  chr1_6725208-6725208.chr1:6725208-6725209:test     62   157 (2383) C MLT1D     LTR/MaLR        (413)     92      1   2 *
+  343   28.0 10.1  0.1  chr1_6725208-6725208.chr1:6725208-6725209:test    170   285 (2255) C MIRb      SINE/MIR        (125)    143     12   3  
+  337   11.3  0.0  0.0  chr1_6725208-6725208.chr1:6725208-6725209:test    395   453 (2087) C MLT2A1    LTR/ERVL          (8)    547    489   4  
+   27   59.3  0.0  0.0  chr1_6725208-6725208.chr1:6725208-6725209:test    476   502 (2038) + AT_rich   Low_complexity      1     27    (0)   5 *
+   35   77.1  0.0  0.0  chr1_6725208-6725208.chr1:6725208-6725209:test    480   514 (2026) + AT_rich   Low_complexity      1     35    (0)   6  
+  278   23.3  1.2  1.2  chr1_6725208-6725208.chr1:6725208-6725209:test    515   675 (1865) + (TATATG)n Simple_repeat       2    162    (0)   7  
+  377   14.6  5.7  6.3  chr1_6725208-6725208.chr1:6725208-6725209:test    680   908 (1632) + (TTATA)n  Simple_repeat       1    227    (0)   8  
+  209   22.1  0.0  4.7  chr1_6725208-6725208.chr1:6725208-6725209:test    842   931 (1609) + (TAAA)n   Simple_repeat       4     89    (0)   9 *
+  795   13.9  0.0  0.0  chr1_6725208-6725208.chr1:6725208-6725209:test    941  1120 (1420) + (TA)n     Simple_repeat       1    180    (0)  10  
+  474   18.8  0.0  0.0  chr1_6725208-6725208.chr1:6725208-6725209:test   1103  1272 (1268) + (TTTA)n   Simple_repeat       1    170    (0)  11 *
+  614   19.7  0.0  2.2  chr1_6725208-6725208.chr1:6725208-6725209:test   1275  1456 (1084) + (TA)n     Simple_repeat       1    178    (0)  12  
+   25   52.0  0.0  0.0  chr1_6725208-6725208.chr1:6725208-6725209:test   1457  1481 (1059) + AT_rich   Low_complexity      1     25    (0)  13  
+  375    3.8  7.3  5.0  chr1_6725208-6725208.chr1:6725208-6725209:test   1482  1618  (922) + (TTATA)n  Simple_repeat       5    144    (0)  14  
+  830   12.1  2.6  3.5  chr1_6725208-6725208.chr1:6725208-6725209:test   1623  1966  (574) + (TATAA)n  Simple_repeat       1    340    (0)  15  
+   87   92.2  0.0  0.0  chr1_6725208-6725208.chr1:6725208-6725209:test   1967  2081  (459) + AT_rich   Low_complexity      1    115    (0)  16  
+  370   25.4  1.4  2.9  chr1_6725208-6725208.chr1:6725208-6725209:test   2082  2219  (321) + (CATATA)n Simple_repeat       2    137    (0)  17  
+ 2308    7.2  1.1  0.8  chr1_6725208-6725208.chr1:6725208-6725209:test   2224  2540    (0) C MLT2A1    LTR/ERVL         (52)    503    104   4  

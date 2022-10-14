@@ -1,0 +1,15 @@
+executable = /bin/singularity
+args = "exec \
+--bind /data/bioinfo/scratch/breakseq_fastqs/2022-04-18_agdp:/nfs/pic.es/user/r/rgomez/20210325_breakseq/analysis/2022-07-22_agdp_benchmark/01_download/:rw \
+--bind /data/bioinfo/common/bowtie2_index:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index \
+--bind /data/bioinfo/scratch/breakseq_tmp/:/nfs/pic.es/user/r/rgomez/20210325_breakseq/tmp/2022-07-22_agdp_benchmark/:rw \
+/data/bioinfo/software/rgomez_breakseq.sif \
+bash 20210325_breakseq/runall.sh breakseq -k L,0,-0.3 -m 0 -l 300 -f analysis/2022-07-22_agdp_benchmark/01_download/ -s $(Item) -t $(Item) -n 2022-07-22_agdp_benchmark"
+
+output = analysis/2022-07-22_agdp_benchmark/log/02_breakseq/condor.out
+error = analysis/2022-07-22_agdp_benchmark/log/02_breakseq/condor.err
+log = analysis/2022-07-22_agdp_benchmark/log/02_breakseq/condor.log
+
+request_cpus = 1
+
+queue 1 from tmp/2022-07-22_agdp_benchmark/02_breakseq/failednames 

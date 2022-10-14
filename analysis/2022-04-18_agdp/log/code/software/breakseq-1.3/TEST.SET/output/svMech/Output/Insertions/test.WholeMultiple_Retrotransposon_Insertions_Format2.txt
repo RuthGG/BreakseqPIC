@@ -1,0 +1,1 @@
+chr	Start	End	leftF	rightF	Qname	ID	coverage	full	ratio	therFull	ratio2	final	Class	Names	strandElement

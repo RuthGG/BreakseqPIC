@@ -1,0 +1,13 @@
+   SW   perc perc perc  query                                           position in query    matching repeat           position in repeat
+score   div. del. ins.  sequence                                        begin end   (left)   repeat   class/family   begin  end    (left)  ID
+
+  865   19.9  1.9  0.0  chr1_1574409-1574409.chr1:1574409-1574410:test     97   252 (4668) C FRAM     SINE/Alu          (7)    159      1   1  
+ 2464    7.1  0.0  0.7  chr1_1574409-1574409.chr1:1574409-1574410:test    422   720 (4200) C AluY     SINE/Alu         (14)    297      1   2  
+ 2192    7.8  0.0  0.4  chr1_1574409-1574409.chr1:1574409-1574410:test   1013  1281 (3639) + AluSq    SINE/Alu            1    268   (45)   3  
+ 2425    8.1  1.4  0.0  chr1_1574409-1574409.chr1:1574409-1574410:test   1312  1608 (3312) + AluY     SINE/Alu            1    301   (10)   4  
+   28   57.1  0.0  0.0  chr1_1574409-1574409.chr1:1574409-1574410:test   1624  1651 (3269) + AT_rich  Low_complexity      1     28    (0)   5  
+ 2517    7.4  0.0  0.0  chr1_1574409-1574409.chr1:1574409-1574410:test   1676  1984 (2936) C AluY     SINE/Alu          (2)    309      1   6  
+  759   10.9 11.6  1.5  chr1_1574409-1574409.chr1:1574409-1574410:test   1993  2113 (2807) C FLAM_C   SINE/Alu          (0)    133      1   1  
+ 2248    8.4  3.0  0.0  chr1_1574409-1574409.chr1:1574409-1574410:test   4047  4342  (578) C AluY     SINE/Alu          (6)    305      1   7  
+ 2257   10.0  0.0  1.7  chr1_1574409-1574409.chr1:1574409-1574410:test   4347  4642  (278) C AluSg    SINE/Alu         (19)    291      1   8  
+ 2026   13.3  0.0  0.0  chr1_1574409-1574409.chr1:1574409-1574410:test   4643  4920    (0) C AluSx    SINE/Alu         (13)    299     21   9  

@@ -1,0 +1,36 @@
+#!/bin/sh
+
+if [ $# -lt 1 ]
+then
+	echo "Usage: $0 <target> <query>"
+	exit 0
+fi
+
+SAMTOOLS_PATH=/home/shareddata/Bioinformatics/Samtools/bin
+BOWTIE_PATH=/home/shareddata/Bioinformatics/BPSeq/software/bowtie-0.12.7
+BOWTIE_INDEXES=/home/shareddata/Bioinformatics/BPSeq/software/bowtie-0.12.7/indexes
+PROCESSORS=4
+MAX_MISMATCH=2
+
+if [ -z "$SEED_LEN" ]; then SEED_LEN=36; fi
+
+TARGET=$1
+TARGET_IDX=`basename $TARGET`
+QUERY=$2
+QUERY_FMT="f"
+
+if [ -z "`echo \"$QUERY\" | sed 's/.*\.f[^\.]*q//'`" ]; then QUERY_FMT="q"; fi
+
+if [ ! -e "$BOWTIE_INDEXES/$TARGET_IDX.1.ebwt" ]
+then
+	# Performing Bowtie Indexing
+	# [2012-05-14] Ignasi added the redirection to /dev/null
+        $BOWTIE_PATH/bowtie-build $TARGET $BOWTIE_INDEXES/$TARGET_IDX > /dev/null
+fi
+
+if [ $# -gt 1 ]
+then
+	# Performing Bowtie Alignment
+	export BOWTIE_INDEXES
+	$BOWTIE_PATH/bowtie -p$PROCESSORS -n $MAX_MISMATCH -l $SEED_LEN -k 1 -$QUERY_FMT $TARGET_IDX $QUERY | $SAMTOOLS_PATH/bowtie2sam.pl
+fi

@@ -1,0 +1,1 @@
+chr	Start	end	VNTRname	VNTRclass	VNTRid	VNTRlen	SV_Size	Ratio	ID

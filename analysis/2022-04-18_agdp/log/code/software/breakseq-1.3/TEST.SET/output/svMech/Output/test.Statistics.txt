@@ -1,0 +1,4 @@
+SV	VNTR	NHR	NAHR	STEI	MTEI	Unsure1	Unsure2	Unsure3	Unsure4	Unsure5	Unsure6	Unsure7	UnsureTotal	Total
+Deletions	0	1	2	0	0	0	0	0	0	0	0	0	0	3
+Insertions	1	0	0	0	0	0	0	0	1	0	0	0	1	2
+Inversions	0	2	0	0	0	0	0	0	0	0	0	0	0	2

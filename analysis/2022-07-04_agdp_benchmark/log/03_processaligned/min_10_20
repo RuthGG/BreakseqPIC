@@ -1,0 +1,3035 @@
+Take samples
+Fri Jul  1 15:47:42 CEST 2022
+Indexing bplib.fa.
+
+Start looping samples
+################
+I0707
+################
+## STEP 1 MAKE BAM
+  Creating header for I0707.
+  Collecting and sorting alignments to the reference from individual I0707.
+  Creating more headers for I0707.
+  Collecting and sorting unique alignments to bplib from individual I0707.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I0707.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I0707/, out of 268 reads, 4 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I0708
+################
+## STEP 1 MAKE BAM
+  Creating header for I0708.
+  Collecting and sorting alignments to the reference from individual I0708.
+  Creating more headers for I0708.
+  Collecting and sorting unique alignments to bplib from individual I0708.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I0708.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I0708/, out of 3773 reads, 70 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I0709
+################
+## STEP 1 MAKE BAM
+  Creating header for I0709.
+  Collecting and sorting alignments to the reference from individual I0709.
+  Creating more headers for I0709.
+  Collecting and sorting unique alignments to bplib from individual I0709.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I0709.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I0709/, out of 205 reads, 1 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I0745
+################
+## STEP 1 MAKE BAM
+  Creating header for I0745.
+  Collecting and sorting alignments to the reference from individual I0745.
+  Creating more headers for I0745.
+  Collecting and sorting unique alignments to bplib from individual I0745.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I0745.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I0745/, out of 617 reads, 13 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1053
+################
+## STEP 1 MAKE BAM
+  Creating header for I1053.
+  Collecting and sorting alignments to the reference from individual I1053.
+  Creating more headers for I1053.
+  Collecting and sorting unique alignments to bplib from individual I1053.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1053.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1053/, out of 2605 reads, 68 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I10871
+################
+## STEP 1 MAKE BAM
+  Creating header for I10871.
+  Collecting and sorting alignments to the reference from individual I10871.
+  Creating more headers for I10871.
+  Collecting and sorting unique alignments to bplib from individual I10871.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I10871.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I10871/, out of 393 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I10873
+################
+## STEP 1 MAKE BAM
+  Creating header for I10873.
+  Collecting and sorting alignments to the reference from individual I10873.
+  Creating more headers for I10873.
+  Collecting and sorting unique alignments to bplib from individual I10873.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I10873.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I10873/, out of 431 reads, 13 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1098
+################
+## STEP 1 MAKE BAM
+  Creating header for I1098.
+  Collecting and sorting alignments to the reference from individual I1098.
+  Creating more headers for I1098.
+  Collecting and sorting unique alignments to bplib from individual I1098.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1098.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1098/, out of 197 reads, 10 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1131
+################
+## STEP 1 MAKE BAM
+  Creating header for I1131.
+  Collecting and sorting alignments to the reference from individual I1131.
+  Creating more headers for I1131.
+  Collecting and sorting unique alignments to bplib from individual I1131.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1131.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1131/, out of 221 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I11456
+################
+## STEP 1 MAKE BAM
+  Creating header for I11456.
+  Collecting and sorting alignments to the reference from individual I11456.
+  Creating more headers for I11456.
+  Collecting and sorting unique alignments to bplib from individual I11456.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I11456.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I11456/, out of 187 reads, 6 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I11459
+################
+## STEP 1 MAKE BAM
+  Creating header for I11459.
+  Collecting and sorting alignments to the reference from individual I11459.
+  Creating more headers for I11459.
+  Collecting and sorting unique alignments to bplib from individual I11459.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I11459.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I11459/, out of 28 reads, 1 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I11696
+################
+## STEP 1 MAKE BAM
+  Creating header for I11696.
+  Collecting and sorting alignments to the reference from individual I11696.
+  Creating more headers for I11696.
+  Collecting and sorting unique alignments to bplib from individual I11696.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I11696.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I11696/, out of 290 reads, 11 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I11697
+################
+## STEP 1 MAKE BAM
+  Creating header for I11697.
+  Collecting and sorting alignments to the reference from individual I11697.
+  Creating more headers for I11697.
+  Collecting and sorting unique alignments to bplib from individual I11697.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I11697.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I11697/, out of 361 reads, 10 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I11974
+################
+## STEP 1 MAKE BAM
+  Creating header for I11974.
+  Collecting and sorting alignments to the reference from individual I11974.
+  Creating more headers for I11974.
+  Collecting and sorting unique alignments to bplib from individual I11974.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I11974.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I11974/, out of 582 reads, 17 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1290
+################
+## STEP 1 MAKE BAM
+  Creating header for I1290.
+  Collecting and sorting alignments to the reference from individual I1290.
+  Creating more headers for I1290.
+  Collecting and sorting unique alignments to bplib from individual I1290.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1290.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1290/, out of 112 reads, 4 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I14000
+################
+## STEP 1 MAKE BAM
+  Creating header for I14000.
+  Collecting and sorting alignments to the reference from individual I14000.
+  Creating more headers for I14000.
+  Collecting and sorting unique alignments to bplib from individual I14000.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I14000.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I14000/, out of 298 reads, 15 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I14879
+################
+## STEP 1 MAKE BAM
+  Creating header for I14879.
+  Collecting and sorting alignments to the reference from individual I14879.
+  Creating more headers for I14879.
+  Collecting and sorting unique alignments to bplib from individual I14879.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I14879.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I14879/, out of 1693 reads, 36 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I14922
+################
+## STEP 1 MAKE BAM
+  Creating header for I14922.
+  Collecting and sorting alignments to the reference from individual I14922.
+  Creating more headers for I14922.
+  Collecting and sorting unique alignments to bplib from individual I14922.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I14922.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I14922/, out of 179 reads, 3 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1495
+################
+## STEP 1 MAKE BAM
+  Creating header for I1495.
+  Collecting and sorting alignments to the reference from individual I1495.
+  Creating more headers for I1495.
+  Collecting and sorting unique alignments to bplib from individual I1495.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1495.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1495/, out of 339 reads, 14 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1496
+################
+## STEP 1 MAKE BAM
+  Creating header for I1496.
+  Collecting and sorting alignments to the reference from individual I1496.
+  Creating more headers for I1496.
+  Collecting and sorting unique alignments to bplib from individual I1496.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1496.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1496/, out of 3256 reads, 94 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1498
+################
+## STEP 1 MAKE BAM
+  Creating header for I1498.
+  Collecting and sorting alignments to the reference from individual I1498.
+  Creating more headers for I1498.
+  Collecting and sorting unique alignments to bplib from individual I1498.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1498.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1498/, out of 306 reads, 10 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1502
+################
+## STEP 1 MAKE BAM
+  Creating header for I1502.
+  Collecting and sorting alignments to the reference from individual I1502.
+  Creating more headers for I1502.
+  Collecting and sorting unique alignments to bplib from individual I1502.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1502.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1502/, out of 403 reads, 8 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1507
+################
+## STEP 1 MAKE BAM
+  Creating header for I1507.
+  Collecting and sorting alignments to the reference from individual I1507.
+  Creating more headers for I1507.
+  Collecting and sorting unique alignments to bplib from individual I1507.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1507.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1507/, out of 2396 reads, 59 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1524
+################
+## STEP 1 MAKE BAM
+  Creating header for I1524.
+  Collecting and sorting alignments to the reference from individual I1524.
+  Creating more headers for I1524.
+  Collecting and sorting unique alignments to bplib from individual I1524.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1524.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1524/, out of 357 reads, 4 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1526
+################
+## STEP 1 MAKE BAM
+  Creating header for I1526.
+  Collecting and sorting alignments to the reference from individual I1526.
+  Creating more headers for I1526.
+  Collecting and sorting unique alignments to bplib from individual I1526.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1526.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1526/, out of 499 reads, 7 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I15601
+################
+## STEP 1 MAKE BAM
+  Creating header for I15601.
+  Collecting and sorting alignments to the reference from individual I15601.
+  Creating more headers for I15601.
+  Collecting and sorting unique alignments to bplib from individual I15601.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I15601.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I15601/, out of 142 reads, 2 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I15676
+################
+## STEP 1 MAKE BAM
+  Creating header for I15676.
+  Collecting and sorting alignments to the reference from individual I15676.
+  Creating more headers for I15676.
+  Collecting and sorting unique alignments to bplib from individual I15676.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I15676.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I15676/, out of 216 reads, 1 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1580
+################
+## STEP 1 MAKE BAM
+  Creating header for I1580.
+  Collecting and sorting alignments to the reference from individual I1580.
+  Creating more headers for I1580.
+  Collecting and sorting unique alignments to bplib from individual I1580.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1580.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1580/, out of 458 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1581
+################
+## STEP 1 MAKE BAM
+  Creating header for I1581.
+  Collecting and sorting alignments to the reference from individual I1581.
+  Creating more headers for I1581.
+  Collecting and sorting unique alignments to bplib from individual I1581.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1581.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1581/, out of 192 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1583
+################
+## STEP 1 MAKE BAM
+  Creating header for I1583.
+  Collecting and sorting alignments to the reference from individual I1583.
+  Creating more headers for I1583.
+  Collecting and sorting unique alignments to bplib from individual I1583.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1583.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1583/, out of 2897 reads, 84 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I16168
+################
+## STEP 1 MAKE BAM
+  Creating header for I16168.
+  Collecting and sorting alignments to the reference from individual I16168.
+  Creating more headers for I16168.
+  Collecting and sorting unique alignments to bplib from individual I16168.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I16168.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I16168/, out of 72 reads, 0 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1631
+################
+## STEP 1 MAKE BAM
+  Creating header for I1631.
+  Collecting and sorting alignments to the reference from individual I1631.
+  Creating more headers for I1631.
+  Collecting and sorting unique alignments to bplib from individual I1631.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1631.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1631/, out of 3424 reads, 106 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1632
+################
+## STEP 1 MAKE BAM
+  Creating header for I1632.
+  Collecting and sorting alignments to the reference from individual I1632.
+  Creating more headers for I1632.
+  Collecting and sorting unique alignments to bplib from individual I1632.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1632.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1632/, out of 2399 reads, 71 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1633
+################
+## STEP 1 MAKE BAM
+  Creating header for I1633.
+  Collecting and sorting alignments to the reference from individual I1633.
+  Creating more headers for I1633.
+  Collecting and sorting unique alignments to bplib from individual I1633.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1633.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1633/, out of 3026 reads, 79 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1699
+################
+## STEP 1 MAKE BAM
+  Creating header for I1699.
+  Collecting and sorting alignments to the reference from individual I1699.
+  Creating more headers for I1699.
+  Collecting and sorting unique alignments to bplib from individual I1699.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1699.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1699/, out of 32 reads, 0 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1730
+################
+## STEP 1 MAKE BAM
+  Creating header for I1730.
+  Collecting and sorting alignments to the reference from individual I1730.
+  Creating more headers for I1730.
+  Collecting and sorting unique alignments to bplib from individual I1730.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1730.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1730/, out of 302 reads, 7 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1732
+################
+## STEP 1 MAKE BAM
+  Creating header for I1732.
+  Collecting and sorting alignments to the reference from individual I1732.
+  Creating more headers for I1732.
+  Collecting and sorting unique alignments to bplib from individual I1732.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1732.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1732/, out of 176 reads, 4 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1734
+################
+## STEP 1 MAKE BAM
+  Creating header for I1734.
+  Collecting and sorting alignments to the reference from individual I1734.
+  Creating more headers for I1734.
+  Collecting and sorting unique alignments to bplib from individual I1734.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1734.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1734/, out of 2933 reads, 76 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1738
+################
+## STEP 1 MAKE BAM
+  Creating header for I1738.
+  Collecting and sorting alignments to the reference from individual I1738.
+  Creating more headers for I1738.
+  Collecting and sorting unique alignments to bplib from individual I1738.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1738.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1738/, out of 158 reads, 3 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1752
+################
+## STEP 1 MAKE BAM
+  Creating header for I1752.
+  Collecting and sorting alignments to the reference from individual I1752.
+  Creating more headers for I1752.
+  Collecting and sorting unique alignments to bplib from individual I1752.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1752.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1752/, out of 84 reads, 3 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1763
+################
+## STEP 1 MAKE BAM
+  Creating header for I1763.
+  Collecting and sorting alignments to the reference from individual I1763.
+  Creating more headers for I1763.
+  Collecting and sorting unique alignments to bplib from individual I1763.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1763.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1763/, out of 283 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1819
+################
+## STEP 1 MAKE BAM
+  Creating header for I1819.
+  Collecting and sorting alignments to the reference from individual I1819.
+  Creating more headers for I1819.
+  Collecting and sorting unique alignments to bplib from individual I1819.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1819.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1819/, out of 109 reads, 3 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1838
+################
+## STEP 1 MAKE BAM
+  Creating header for I1838.
+  Collecting and sorting alignments to the reference from individual I1838.
+  Creating more headers for I1838.
+  Collecting and sorting unique alignments to bplib from individual I1838.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1838.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1838/, out of 217 reads, 3 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1947
+################
+## STEP 1 MAKE BAM
+  Creating header for I1947.
+  Collecting and sorting alignments to the reference from individual I1947.
+  Creating more headers for I1947.
+  Collecting and sorting unique alignments to bplib from individual I1947.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1947.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1947/, out of 93 reads, 0 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1960
+################
+## STEP 1 MAKE BAM
+  Creating header for I1960.
+  Collecting and sorting alignments to the reference from individual I1960.
+  Creating more headers for I1960.
+  Collecting and sorting unique alignments to bplib from individual I1960.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1960.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I1960/, out of 2657 reads, 89 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2069
+################
+## STEP 1 MAKE BAM
+  Creating header for I2069.
+  Collecting and sorting alignments to the reference from individual I2069.
+  Creating more headers for I2069.
+  Collecting and sorting unique alignments to bplib from individual I2069.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2069.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2069/, out of 366 reads, 8 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2105
+################
+## STEP 1 MAKE BAM
+  Creating header for I2105.
+  Collecting and sorting alignments to the reference from individual I2105.
+  Creating more headers for I2105.
+  Collecting and sorting unique alignments to bplib from individual I2105.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2105.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2105/, out of 2472 reads, 65 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2367
+################
+## STEP 1 MAKE BAM
+  Creating header for I2367.
+  Collecting and sorting alignments to the reference from individual I2367.
+  Creating more headers for I2367.
+  Collecting and sorting unique alignments to bplib from individual I2367.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2367.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2367/, out of 294 reads, 13 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2431
+################
+## STEP 1 MAKE BAM
+  Creating header for I2431.
+  Collecting and sorting alignments to the reference from individual I2431.
+  Creating more headers for I2431.
+  Collecting and sorting unique alignments to bplib from individual I2431.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2431.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2431/, out of 70 reads, 1 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2443
+################
+## STEP 1 MAKE BAM
+  Creating header for I2443.
+  Collecting and sorting alignments to the reference from individual I2443.
+  Creating more headers for I2443.
+  Collecting and sorting unique alignments to bplib from individual I2443.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2443.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2443/, out of 583 reads, 11 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2445
+################
+## STEP 1 MAKE BAM
+  Creating header for I2445.
+  Collecting and sorting alignments to the reference from individual I2445.
+  Creating more headers for I2445.
+  Collecting and sorting unique alignments to bplib from individual I2445.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2445.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2445/, out of 1848 reads, 62 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2509
+################
+## STEP 1 MAKE BAM
+  Creating header for I2509.
+  Collecting and sorting alignments to the reference from individual I2509.
+  Creating more headers for I2509.
+  Collecting and sorting unique alignments to bplib from individual I2509.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2509.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2509/, out of 361 reads, 14 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2510
+################
+## STEP 1 MAKE BAM
+  Creating header for I2510.
+  Collecting and sorting alignments to the reference from individual I2510.
+  Creating more headers for I2510.
+  Collecting and sorting unique alignments to bplib from individual I2510.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2510.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2510/, out of 1600 reads, 40 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2514
+################
+## STEP 1 MAKE BAM
+  Creating header for I2514.
+  Collecting and sorting alignments to the reference from individual I2514.
+  Creating more headers for I2514.
+  Collecting and sorting unique alignments to bplib from individual I2514.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2514.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2514/, out of 2409 reads, 60 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2520
+################
+## STEP 1 MAKE BAM
+  Creating header for I2520.
+  Collecting and sorting alignments to the reference from individual I2520.
+  Creating more headers for I2520.
+  Collecting and sorting unique alignments to bplib from individual I2520.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2520.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2520/, out of 2297 reads, 67 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2521
+################
+## STEP 1 MAKE BAM
+  Creating header for I2521.
+  Collecting and sorting alignments to the reference from individual I2521.
+  Creating more headers for I2521.
+  Collecting and sorting unique alignments to bplib from individual I2521.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2521.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2521/, out of 503 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2533
+################
+## STEP 1 MAKE BAM
+  Creating header for I2533.
+  Collecting and sorting alignments to the reference from individual I2533.
+  Creating more headers for I2533.
+  Collecting and sorting unique alignments to bplib from individual I2533.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2533.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2533/, out of 328 reads, 8 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2636
+################
+## STEP 1 MAKE BAM
+  Creating header for I2636.
+  Collecting and sorting alignments to the reference from individual I2636.
+  Creating more headers for I2636.
+  Collecting and sorting unique alignments to bplib from individual I2636.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2636.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2636/, out of 520 reads, 13 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2637
+################
+## STEP 1 MAKE BAM
+  Creating header for I2637.
+  Collecting and sorting alignments to the reference from individual I2637.
+  Creating more headers for I2637.
+  Collecting and sorting unique alignments to bplib from individual I2637.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2637.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2637/, out of 317 reads, 17 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2650
+################
+## STEP 1 MAKE BAM
+  Creating header for I2650.
+  Collecting and sorting alignments to the reference from individual I2650.
+  Creating more headers for I2650.
+  Collecting and sorting unique alignments to bplib from individual I2650.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2650.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2650/, out of 341 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2659
+################
+## STEP 1 MAKE BAM
+  Creating header for I2659.
+  Collecting and sorting alignments to the reference from individual I2659.
+  Creating more headers for I2659.
+  Collecting and sorting unique alignments to bplib from individual I2659.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2659.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2659/, out of 309 reads, 7 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2660
+################
+## STEP 1 MAKE BAM
+  Creating header for I2660.
+  Collecting and sorting alignments to the reference from individual I2660.
+  Creating more headers for I2660.
+  Collecting and sorting unique alignments to bplib from individual I2660.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2660.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2660/, out of 267 reads, 8 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2691
+################
+## STEP 1 MAKE BAM
+  Creating header for I2691.
+  Collecting and sorting alignments to the reference from individual I2691.
+  Creating more headers for I2691.
+  Collecting and sorting unique alignments to bplib from individual I2691.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2691.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2691/, out of 488 reads, 14 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2859
+################
+## STEP 1 MAKE BAM
+  Creating header for I2859.
+  Collecting and sorting alignments to the reference from individual I2859.
+  Creating more headers for I2859.
+  Collecting and sorting unique alignments to bplib from individual I2859.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2859.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2859/, out of 591 reads, 17 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2860
+################
+## STEP 1 MAKE BAM
+  Creating header for I2860.
+  Collecting and sorting alignments to the reference from individual I2860.
+  Creating more headers for I2860.
+  Collecting and sorting unique alignments to bplib from individual I2860.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2860.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2860/, out of 639 reads, 22 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2861
+################
+## STEP 1 MAKE BAM
+  Creating header for I2861.
+  Collecting and sorting alignments to the reference from individual I2861.
+  Creating more headers for I2861.
+  Collecting and sorting unique alignments to bplib from individual I2861.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2861.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2861/, out of 2352 reads, 67 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2932
+################
+## STEP 1 MAKE BAM
+  Creating header for I2932.
+  Collecting and sorting alignments to the reference from individual I2932.
+  Creating more headers for I2932.
+  Collecting and sorting unique alignments to bplib from individual I2932.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2932.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2932/, out of 404 reads, 8 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2934
+################
+## STEP 1 MAKE BAM
+  Creating header for I2934.
+  Collecting and sorting alignments to the reference from individual I2934.
+  Creating more headers for I2934.
+  Collecting and sorting unique alignments to bplib from individual I2934.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2934.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2934/, out of 341 reads, 10 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2935
+################
+## STEP 1 MAKE BAM
+  Creating header for I2935.
+  Collecting and sorting alignments to the reference from individual I2935.
+  Creating more headers for I2935.
+  Collecting and sorting unique alignments to bplib from individual I2935.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2935.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2935/, out of 2836 reads, 94 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2978
+################
+## STEP 1 MAKE BAM
+  Creating header for I2978.
+  Collecting and sorting alignments to the reference from individual I2978.
+  Creating more headers for I2978.
+  Collecting and sorting unique alignments to bplib from individual I2978.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2978.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2978/, out of 3726 reads, 100 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2980
+################
+## STEP 1 MAKE BAM
+  Creating header for I2980.
+  Collecting and sorting alignments to the reference from individual I2980.
+  Creating more headers for I2980.
+  Collecting and sorting unique alignments to bplib from individual I2980.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2980.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2980/, out of 3246 reads, 93 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2981
+################
+## STEP 1 MAKE BAM
+  Creating header for I2981.
+  Collecting and sorting alignments to the reference from individual I2981.
+  Creating more headers for I2981.
+  Collecting and sorting unique alignments to bplib from individual I2981.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2981.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2981/, out of 588 reads, 14 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2988
+################
+## STEP 1 MAKE BAM
+  Creating header for I2988.
+  Collecting and sorting alignments to the reference from individual I2988.
+  Creating more headers for I2988.
+  Collecting and sorting unique alignments to bplib from individual I2988.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2988.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I2988/, out of 489 reads, 15 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3122
+################
+## STEP 1 MAKE BAM
+  Creating header for I3122.
+  Collecting and sorting alignments to the reference from individual I3122.
+  Creating more headers for I3122.
+  Collecting and sorting unique alignments to bplib from individual I3122.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3122.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3122/, out of 435 reads, 16 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3123
+################
+## STEP 1 MAKE BAM
+  Creating header for I3123.
+  Collecting and sorting alignments to the reference from individual I3123.
+  Creating more headers for I3123.
+  Collecting and sorting unique alignments to bplib from individual I3123.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3123.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3123/, out of 2040 reads, 63 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3125
+################
+## STEP 1 MAKE BAM
+  Creating header for I3125.
+  Collecting and sorting alignments to the reference from individual I3125.
+  Creating more headers for I3125.
+  Collecting and sorting unique alignments to bplib from individual I3125.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3125.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3125/, out of 620 reads, 27 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3130
+################
+## STEP 1 MAKE BAM
+  Creating header for I3130.
+  Collecting and sorting alignments to the reference from individual I3130.
+  Creating more headers for I3130.
+  Collecting and sorting unique alignments to bplib from individual I3130.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3130.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3130/, out of 718 reads, 23 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3132
+################
+## STEP 1 MAKE BAM
+  Creating header for I3132.
+  Collecting and sorting alignments to the reference from individual I3132.
+  Creating more headers for I3132.
+  Collecting and sorting unique alignments to bplib from individual I3132.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3132.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3132/, out of 315 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3133
+################
+## STEP 1 MAKE BAM
+  Creating header for I3133.
+  Collecting and sorting alignments to the reference from individual I3133.
+  Creating more headers for I3133.
+  Collecting and sorting unique alignments to bplib from individual I3133.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3133.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3133/, out of 3280 reads, 107 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3134
+################
+## STEP 1 MAKE BAM
+  Creating header for I3134.
+  Collecting and sorting alignments to the reference from individual I3134.
+  Creating more headers for I3134.
+  Collecting and sorting unique alignments to bplib from individual I3134.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3134.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3134/, out of 409 reads, 13 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3135
+################
+## STEP 1 MAKE BAM
+  Creating header for I3135.
+  Collecting and sorting alignments to the reference from individual I3135.
+  Creating more headers for I3135.
+  Collecting and sorting unique alignments to bplib from individual I3135.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3135.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3135/, out of 430 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3136
+################
+## STEP 1 MAKE BAM
+  Creating header for I3136.
+  Collecting and sorting alignments to the reference from individual I3136.
+  Creating more headers for I3136.
+  Collecting and sorting unique alignments to bplib from individual I3136.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3136.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3136/, out of 447 reads, 7 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3138
+################
+## STEP 1 MAKE BAM
+  Creating header for I3138.
+  Collecting and sorting alignments to the reference from individual I3138.
+  Creating more headers for I3138.
+  Collecting and sorting unique alignments to bplib from individual I3138.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3138.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3138/, out of 342 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3255
+################
+## STEP 1 MAKE BAM
+  Creating header for I3255.
+  Collecting and sorting alignments to the reference from individual I3255.
+  Creating more headers for I3255.
+  Collecting and sorting unique alignments to bplib from individual I3255.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3255.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3255/, out of 2856 reads, 68 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3313
+################
+## STEP 1 MAKE BAM
+  Creating header for I3313.
+  Collecting and sorting alignments to the reference from individual I3313.
+  Creating more headers for I3313.
+  Collecting and sorting unique alignments to bplib from individual I3313.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3313.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3313/, out of 579 reads, 23 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3387
+################
+## STEP 1 MAKE BAM
+  Creating header for I3387.
+  Collecting and sorting alignments to the reference from individual I3387.
+  Creating more headers for I3387.
+  Collecting and sorting unique alignments to bplib from individual I3387.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3387.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3387/, out of 301 reads, 7 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3388
+################
+## STEP 1 MAKE BAM
+  Creating header for I3388.
+  Collecting and sorting alignments to the reference from individual I3388.
+  Creating more headers for I3388.
+  Collecting and sorting unique alignments to bplib from individual I3388.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3388.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3388/, out of 2657 reads, 136 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3389
+################
+## STEP 1 MAKE BAM
+  Creating header for I3389.
+  Collecting and sorting alignments to the reference from individual I3389.
+  Creating more headers for I3389.
+  Collecting and sorting unique alignments to bplib from individual I3389.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3389.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3389/, out of 774 reads, 15 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3390
+################
+## STEP 1 MAKE BAM
+  Creating header for I3390.
+  Collecting and sorting alignments to the reference from individual I3390.
+  Creating more headers for I3390.
+  Collecting and sorting unique alignments to bplib from individual I3390.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3390.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3390/, out of 663 reads, 25 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3392
+################
+## STEP 1 MAKE BAM
+  Creating header for I3392.
+  Collecting and sorting alignments to the reference from individual I3392.
+  Creating more headers for I3392.
+  Collecting and sorting unique alignments to bplib from individual I3392.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3392.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3392/, out of 529 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3394
+################
+## STEP 1 MAKE BAM
+  Creating header for I3394.
+  Collecting and sorting alignments to the reference from individual I3394.
+  Creating more headers for I3394.
+  Collecting and sorting unique alignments to bplib from individual I3394.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3394.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3394/, out of 609 reads, 22 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3395
+################
+## STEP 1 MAKE BAM
+  Creating header for I3395.
+  Collecting and sorting alignments to the reference from individual I3395.
+  Creating more headers for I3395.
+  Collecting and sorting unique alignments to bplib from individual I3395.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3395.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3395/, out of 739 reads, 21 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3396
+################
+## STEP 1 MAKE BAM
+  Creating header for I3396.
+  Collecting and sorting alignments to the reference from individual I3396.
+  Creating more headers for I3396.
+  Collecting and sorting unique alignments to bplib from individual I3396.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3396.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3396/, out of 758 reads, 20 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3433
+################
+## STEP 1 MAKE BAM
+  Creating header for I3433.
+  Collecting and sorting alignments to the reference from individual I3433.
+  Creating more headers for I3433.
+  Collecting and sorting unique alignments to bplib from individual I3433.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3433.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3433/, out of 266 reads, 11 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3758
+################
+## STEP 1 MAKE BAM
+  Creating header for I3758.
+  Collecting and sorting alignments to the reference from individual I3758.
+  Creating more headers for I3758.
+  Collecting and sorting unique alignments to bplib from individual I3758.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3758.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3758/, out of 2444 reads, 51 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3949
+################
+## STEP 1 MAKE BAM
+  Creating header for I3949.
+  Collecting and sorting alignments to the reference from individual I3949.
+  Creating more headers for I3949.
+  Collecting and sorting unique alignments to bplib from individual I3949.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3949.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3949/, out of 2861 reads, 73 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3950
+################
+## STEP 1 MAKE BAM
+  Creating header for I3950.
+  Collecting and sorting alignments to the reference from individual I3950.
+  Creating more headers for I3950.
+  Collecting and sorting unique alignments to bplib from individual I3950.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3950.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3950/, out of 3080 reads, 98 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3951
+################
+## STEP 1 MAKE BAM
+  Creating header for I3951.
+  Collecting and sorting alignments to the reference from individual I3951.
+  Creating more headers for I3951.
+  Collecting and sorting unique alignments to bplib from individual I3951.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3951.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3951/, out of 605 reads, 20 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3952
+################
+## STEP 1 MAKE BAM
+  Creating header for I3952.
+  Collecting and sorting alignments to the reference from individual I3952.
+  Creating more headers for I3952.
+  Collecting and sorting unique alignments to bplib from individual I3952.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3952.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3952/, out of 620 reads, 22 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I3954
+################
+## STEP 1 MAKE BAM
+  Creating header for I3954.
+  Collecting and sorting alignments to the reference from individual I3954.
+  Creating more headers for I3954.
+  Collecting and sorting unique alignments to bplib from individual I3954.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I3954.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I3954/, out of 730 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4062
+################
+## STEP 1 MAKE BAM
+  Creating header for I4062.
+  Collecting and sorting alignments to the reference from individual I4062.
+  Creating more headers for I4062.
+  Collecting and sorting unique alignments to bplib from individual I4062.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4062.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4062/, out of 426 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4063
+################
+## STEP 1 MAKE BAM
+  Creating header for I4063.
+  Collecting and sorting alignments to the reference from individual I4063.
+  Creating more headers for I4063.
+  Collecting and sorting unique alignments to bplib from individual I4063.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4063.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4063/, out of 258 reads, 6 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4071
+################
+## STEP 1 MAKE BAM
+  Creating header for I4071.
+  Collecting and sorting alignments to the reference from individual I4071.
+  Creating more headers for I4071.
+  Collecting and sorting unique alignments to bplib from individual I4071.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4071.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4071/, out of 413 reads, 10 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4073
+################
+## STEP 1 MAKE BAM
+  Creating header for I4073.
+  Collecting and sorting alignments to the reference from individual I4073.
+  Creating more headers for I4073.
+  Collecting and sorting unique alignments to bplib from individual I4073.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4073.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4073/, out of 242 reads, 5 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4075
+################
+## STEP 1 MAKE BAM
+  Creating header for I4075.
+  Collecting and sorting alignments to the reference from individual I4075.
+  Creating more headers for I4075.
+  Collecting and sorting unique alignments to bplib from individual I4075.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4075.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4075/, out of 452 reads, 17 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4089
+################
+## STEP 1 MAKE BAM
+  Creating header for I4089.
+  Collecting and sorting alignments to the reference from individual I4089.
+  Creating more headers for I4089.
+  Collecting and sorting unique alignments to bplib from individual I4089.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4089.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4089/, out of 436 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4109
+################
+## STEP 1 MAKE BAM
+  Creating header for I4109.
+  Collecting and sorting alignments to the reference from individual I4109.
+  Creating more headers for I4109.
+  Collecting and sorting unique alignments to bplib from individual I4109.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4109.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4109/, out of 685 reads, 6 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4229
+################
+## STEP 1 MAKE BAM
+  Creating header for I4229.
+  Collecting and sorting alignments to the reference from individual I4229.
+  Creating more headers for I4229.
+  Collecting and sorting unique alignments to bplib from individual I4229.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4229.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4229/, out of 635 reads, 16 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4315
+################
+## STEP 1 MAKE BAM
+  Creating header for I4315.
+  Collecting and sorting alignments to the reference from individual I4315.
+  Creating more headers for I4315.
+  Collecting and sorting unique alignments to bplib from individual I4315.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4315.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4315/, out of 2420 reads, 51 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4432
+################
+## STEP 1 MAKE BAM
+  Creating header for I4432.
+  Collecting and sorting alignments to the reference from individual I4432.
+  Creating more headers for I4432.
+  Collecting and sorting unique alignments to bplib from individual I4432.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4432.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4432/, out of 2322 reads, 66 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4434
+################
+## STEP 1 MAKE BAM
+  Creating header for I4434.
+  Collecting and sorting alignments to the reference from individual I4434.
+  Creating more headers for I4434.
+  Collecting and sorting unique alignments to bplib from individual I4434.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4434.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4434/, out of 462 reads, 17 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4435
+################
+## STEP 1 MAKE BAM
+  Creating header for I4435.
+  Collecting and sorting alignments to the reference from individual I4435.
+  Creating more headers for I4435.
+  Collecting and sorting unique alignments to bplib from individual I4435.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4435.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4435/, out of 565 reads, 13 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4436
+################
+## STEP 1 MAKE BAM
+  Creating header for I4436.
+  Collecting and sorting alignments to the reference from individual I4436.
+  Creating more headers for I4436.
+  Collecting and sorting unique alignments to bplib from individual I4436.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4436.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4436/, out of 317 reads, 4 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4437
+################
+## STEP 1 MAKE BAM
+  Creating header for I4437.
+  Collecting and sorting alignments to the reference from individual I4437.
+  Creating more headers for I4437.
+  Collecting and sorting unique alignments to bplib from individual I4437.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4437.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4437/, out of 431 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4438
+################
+## STEP 1 MAKE BAM
+  Creating header for I4438.
+  Collecting and sorting alignments to the reference from individual I4438.
+  Creating more headers for I4438.
+  Collecting and sorting unique alignments to bplib from individual I4438.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4438.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4438/, out of 2588 reads, 84 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4439
+################
+## STEP 1 MAKE BAM
+  Creating header for I4439.
+  Collecting and sorting alignments to the reference from individual I4439.
+  Creating more headers for I4439.
+  Collecting and sorting unique alignments to bplib from individual I4439.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4439.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4439/, out of 528 reads, 8 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4440
+################
+## STEP 1 MAKE BAM
+  Creating header for I4440.
+  Collecting and sorting alignments to the reference from individual I4440.
+  Creating more headers for I4440.
+  Collecting and sorting unique alignments to bplib from individual I4440.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4440.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4440/, out of 266 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4441
+################
+## STEP 1 MAKE BAM
+  Creating header for I4441.
+  Collecting and sorting alignments to the reference from individual I4441.
+  Creating more headers for I4441.
+  Collecting and sorting unique alignments to bplib from individual I4441.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4441.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4441/, out of 446 reads, 14 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4550
+################
+## STEP 1 MAKE BAM
+  Creating header for I4550.
+  Collecting and sorting alignments to the reference from individual I4550.
+  Creating more headers for I4550.
+  Collecting and sorting unique alignments to bplib from individual I4550.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4550.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4550/, out of 426 reads, 10 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4551
+################
+## STEP 1 MAKE BAM
+  Creating header for I4551.
+  Collecting and sorting alignments to the reference from individual I4551.
+  Creating more headers for I4551.
+  Collecting and sorting unique alignments to bplib from individual I4551.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4551.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4551/, out of 272 reads, 18 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4552
+################
+## STEP 1 MAKE BAM
+  Creating header for I4552.
+  Collecting and sorting alignments to the reference from individual I4552.
+  Creating more headers for I4552.
+  Collecting and sorting unique alignments to bplib from individual I4552.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4552.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4552/, out of 290 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4553
+################
+## STEP 1 MAKE BAM
+  Creating header for I4553.
+  Collecting and sorting alignments to the reference from individual I4553.
+  Creating more headers for I4553.
+  Collecting and sorting unique alignments to bplib from individual I4553.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4553.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4553/, out of 173 reads, 4 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4562
+################
+## STEP 1 MAKE BAM
+  Creating header for I4562.
+  Collecting and sorting alignments to the reference from individual I4562.
+  Creating more headers for I4562.
+  Collecting and sorting unique alignments to bplib from individual I4562.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4562.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4562/, out of 321 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4582
+################
+## STEP 1 MAKE BAM
+  Creating header for I4582.
+  Collecting and sorting alignments to the reference from individual I4582.
+  Creating more headers for I4582.
+  Collecting and sorting unique alignments to bplib from individual I4582.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4582.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4582/, out of 77 reads, 1 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4595
+################
+## STEP 1 MAKE BAM
+  Creating header for I4595.
+  Collecting and sorting alignments to the reference from individual I4595.
+  Creating more headers for I4595.
+  Collecting and sorting unique alignments to bplib from individual I4595.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4595.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4595/, out of 444 reads, 14 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4596
+################
+## STEP 1 MAKE BAM
+  Creating header for I4596.
+  Collecting and sorting alignments to the reference from individual I4596.
+  Creating more headers for I4596.
+  Collecting and sorting unique alignments to bplib from individual I4596.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4596.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4596/, out of 3005 reads, 73 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4628
+################
+## STEP 1 MAKE BAM
+  Creating header for I4628.
+  Collecting and sorting alignments to the reference from individual I4628.
+  Creating more headers for I4628.
+  Collecting and sorting unique alignments to bplib from individual I4628.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4628.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4628/, out of 91 reads, 1 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4632
+################
+## STEP 1 MAKE BAM
+  Creating header for I4632.
+  Collecting and sorting alignments to the reference from individual I4632.
+  Creating more headers for I4632.
+  Collecting and sorting unique alignments to bplib from individual I4632.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4632.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4632/, out of 267 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4634
+################
+## STEP 1 MAKE BAM
+  Creating header for I4634.
+  Collecting and sorting alignments to the reference from individual I4634.
+  Creating more headers for I4634.
+  Collecting and sorting unique alignments to bplib from individual I4634.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4634.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4634/, out of 2347 reads, 48 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4773
+################
+## STEP 1 MAKE BAM
+  Creating header for I4773.
+  Collecting and sorting alignments to the reference from individual I4773.
+  Creating more headers for I4773.
+  Collecting and sorting unique alignments to bplib from individual I4773.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4773.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4773/, out of 676 reads, 6 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4784
+################
+## STEP 1 MAKE BAM
+  Creating header for I4784.
+  Collecting and sorting alignments to the reference from individual I4784.
+  Creating more headers for I4784.
+  Collecting and sorting unique alignments to bplib from individual I4784.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4784.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4784/, out of 525 reads, 15 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4873
+################
+## STEP 1 MAKE BAM
+  Creating header for I4873.
+  Collecting and sorting alignments to the reference from individual I4873.
+  Creating more headers for I4873.
+  Collecting and sorting unique alignments to bplib from individual I4873.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4873.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4873/, out of 3149 reads, 93 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4874
+################
+## STEP 1 MAKE BAM
+  Creating header for I4874.
+  Collecting and sorting alignments to the reference from individual I4874.
+  Creating more headers for I4874.
+  Collecting and sorting unique alignments to bplib from individual I4874.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4874.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4874/, out of 364 reads, 10 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4875
+################
+## STEP 1 MAKE BAM
+  Creating header for I4875.
+  Collecting and sorting alignments to the reference from individual I4875.
+  Creating more headers for I4875.
+  Collecting and sorting unique alignments to bplib from individual I4875.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4875.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4875/, out of 2270 reads, 37 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4876
+################
+## STEP 1 MAKE BAM
+  Creating header for I4876.
+  Collecting and sorting alignments to the reference from individual I4876.
+  Creating more headers for I4876.
+  Collecting and sorting unique alignments to bplib from individual I4876.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4876.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4876/, out of 107 reads, 3 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4877
+################
+## STEP 1 MAKE BAM
+  Creating header for I4877.
+  Collecting and sorting alignments to the reference from individual I4877.
+  Creating more headers for I4877.
+  Collecting and sorting unique alignments to bplib from individual I4877.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4877.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4877/, out of 2830 reads, 70 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4878
+################
+## STEP 1 MAKE BAM
+  Creating header for I4878.
+  Collecting and sorting alignments to the reference from individual I4878.
+  Creating more headers for I4878.
+  Collecting and sorting unique alignments to bplib from individual I4878.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4878.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4878/, out of 3080 reads, 79 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4880
+################
+## STEP 1 MAKE BAM
+  Creating header for I4880.
+  Collecting and sorting alignments to the reference from individual I4880.
+  Creating more headers for I4880.
+  Collecting and sorting unique alignments to bplib from individual I4880.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4880.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4880/, out of 278 reads, 6 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4881
+################
+## STEP 1 MAKE BAM
+  Creating header for I4881.
+  Collecting and sorting alignments to the reference from individual I4881.
+  Creating more headers for I4881.
+  Collecting and sorting unique alignments to bplib from individual I4881.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4881.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4881/, out of 395 reads, 16 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4882
+################
+## STEP 1 MAKE BAM
+  Creating header for I4882.
+  Collecting and sorting alignments to the reference from individual I4882.
+  Creating more headers for I4882.
+  Collecting and sorting unique alignments to bplib from individual I4882.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4882.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4882/, out of 292 reads, 6 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4888
+################
+## STEP 1 MAKE BAM
+  Creating header for I4888.
+  Collecting and sorting alignments to the reference from individual I4888.
+  Creating more headers for I4888.
+  Collecting and sorting unique alignments to bplib from individual I4888.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4888.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4888/, out of 452 reads, 20 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4889
+################
+## STEP 1 MAKE BAM
+  Creating header for I4889.
+  Collecting and sorting alignments to the reference from individual I4889.
+  Creating more headers for I4889.
+  Collecting and sorting unique alignments to bplib from individual I4889.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4889.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4889/, out of 498 reads, 14 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4892
+################
+## STEP 1 MAKE BAM
+  Creating header for I4892.
+  Collecting and sorting alignments to the reference from individual I4892.
+  Creating more headers for I4892.
+  Collecting and sorting unique alignments to bplib from individual I4892.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4892.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4892/, out of 443 reads, 13 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4893
+################
+## STEP 1 MAKE BAM
+  Creating header for I4893.
+  Collecting and sorting alignments to the reference from individual I4893.
+  Creating more headers for I4893.
+  Collecting and sorting unique alignments to bplib from individual I4893.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4893.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4893/, out of 3442 reads, 123 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4910
+################
+## STEP 1 MAKE BAM
+  Creating header for I4910.
+  Collecting and sorting alignments to the reference from individual I4910.
+  Creating more headers for I4910.
+  Collecting and sorting unique alignments to bplib from individual I4910.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4910.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4910/, out of 115 reads, 3 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4914
+################
+## STEP 1 MAKE BAM
+  Creating header for I4914.
+  Collecting and sorting alignments to the reference from individual I4914.
+  Creating more headers for I4914.
+  Collecting and sorting unique alignments to bplib from individual I4914.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4914.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4914/, out of 2921 reads, 70 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4915
+################
+## STEP 1 MAKE BAM
+  Creating header for I4915.
+  Collecting and sorting alignments to the reference from individual I4915.
+  Creating more headers for I4915.
+  Collecting and sorting unique alignments to bplib from individual I4915.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4915.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4915/, out of 236 reads, 6 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4916
+################
+## STEP 1 MAKE BAM
+  Creating header for I4916.
+  Collecting and sorting alignments to the reference from individual I4916.
+  Creating more headers for I4916.
+  Collecting and sorting unique alignments to bplib from individual I4916.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4916.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4916/, out of 1450 reads, 44 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4917
+################
+## STEP 1 MAKE BAM
+  Creating header for I4917.
+  Collecting and sorting alignments to the reference from individual I4917.
+  Creating more headers for I4917.
+  Collecting and sorting unique alignments to bplib from individual I4917.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4917.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4917/, out of 392 reads, 11 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I4918
+################
+## STEP 1 MAKE BAM
+  Creating header for I4918.
+  Collecting and sorting alignments to the reference from individual I4918.
+  Creating more headers for I4918.
+  Collecting and sorting unique alignments to bplib from individual I4918.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I4918.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I4918/, out of 519 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5069
+################
+## STEP 1 MAKE BAM
+  Creating header for I5069.
+  Collecting and sorting alignments to the reference from individual I5069.
+  Creating more headers for I5069.
+  Collecting and sorting unique alignments to bplib from individual I5069.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5069.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5069/, out of 444 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5070
+################
+## STEP 1 MAKE BAM
+  Creating header for I5070.
+  Collecting and sorting alignments to the reference from individual I5070.
+  Creating more headers for I5070.
+  Collecting and sorting unique alignments to bplib from individual I5070.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5070.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5070/, out of 497 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5077
+################
+## STEP 1 MAKE BAM
+  Creating header for I5077.
+  Collecting and sorting alignments to the reference from individual I5077.
+  Creating more headers for I5077.
+  Collecting and sorting unique alignments to bplib from individual I5077.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5077.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5077/, out of 3812 reads, 98 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5078
+################
+## STEP 1 MAKE BAM
+  Creating header for I5078.
+  Collecting and sorting alignments to the reference from individual I5078.
+  Creating more headers for I5078.
+  Collecting and sorting unique alignments to bplib from individual I5078.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5078.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5078/, out of 463 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5079
+################
+## STEP 1 MAKE BAM
+  Creating header for I5079.
+  Collecting and sorting alignments to the reference from individual I5079.
+  Creating more headers for I5079.
+  Collecting and sorting unique alignments to bplib from individual I5079.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5079.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5079/, out of 560 reads, 16 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5119
+################
+## STEP 1 MAKE BAM
+  Creating header for I5119.
+  Collecting and sorting alignments to the reference from individual I5119.
+  Creating more headers for I5119.
+  Collecting and sorting unique alignments to bplib from individual I5119.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5119.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5119/, out of 621 reads, 15 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5232
+################
+## STEP 1 MAKE BAM
+  Creating header for I5232.
+  Collecting and sorting alignments to the reference from individual I5232.
+  Creating more headers for I5232.
+  Collecting and sorting unique alignments to bplib from individual I5232.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5232.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5232/, out of 538 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5233
+################
+## STEP 1 MAKE BAM
+  Creating header for I5233.
+  Collecting and sorting alignments to the reference from individual I5233.
+  Creating more headers for I5233.
+  Collecting and sorting unique alignments to bplib from individual I5233.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5233.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5233/, out of 2871 reads, 44 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5234
+################
+## STEP 1 MAKE BAM
+  Creating header for I5234.
+  Collecting and sorting alignments to the reference from individual I5234.
+  Creating more headers for I5234.
+  Collecting and sorting unique alignments to bplib from individual I5234.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5234.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5234/, out of 300 reads, 3 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5235
+################
+## STEP 1 MAKE BAM
+  Creating header for I5235.
+  Collecting and sorting alignments to the reference from individual I5235.
+  Creating more headers for I5235.
+  Collecting and sorting unique alignments to bplib from individual I5235.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5235.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5235/, out of 2790 reads, 59 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5236
+################
+## STEP 1 MAKE BAM
+  Creating header for I5236.
+  Collecting and sorting alignments to the reference from individual I5236.
+  Creating more headers for I5236.
+  Collecting and sorting unique alignments to bplib from individual I5236.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5236.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5236/, out of 3089 reads, 58 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5237
+################
+## STEP 1 MAKE BAM
+  Creating header for I5237.
+  Collecting and sorting alignments to the reference from individual I5237.
+  Creating more headers for I5237.
+  Collecting and sorting unique alignments to bplib from individual I5237.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5237.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5237/, out of 391 reads, 8 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5238
+################
+## STEP 1 MAKE BAM
+  Creating header for I5238.
+  Collecting and sorting alignments to the reference from individual I5238.
+  Creating more headers for I5238.
+  Collecting and sorting unique alignments to bplib from individual I5238.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5238.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5238/, out of 359 reads, 6 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5239
+################
+## STEP 1 MAKE BAM
+  Creating header for I5239.
+  Collecting and sorting alignments to the reference from individual I5239.
+  Creating more headers for I5239.
+  Collecting and sorting unique alignments to bplib from individual I5239.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5239.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5239/, out of 304 reads, 5 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5240
+################
+## STEP 1 MAKE BAM
+  Creating header for I5240.
+  Collecting and sorting alignments to the reference from individual I5240.
+  Creating more headers for I5240.
+  Collecting and sorting unique alignments to bplib from individual I5240.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5240.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5240/, out of 376 reads, 10 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5242
+################
+## STEP 1 MAKE BAM
+  Creating header for I5242.
+  Collecting and sorting alignments to the reference from individual I5242.
+  Creating more headers for I5242.
+  Collecting and sorting unique alignments to bplib from individual I5242.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5242.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5242/, out of 364 reads, 14 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5244
+################
+## STEP 1 MAKE BAM
+  Creating header for I5244.
+  Collecting and sorting alignments to the reference from individual I5244.
+  Creating more headers for I5244.
+  Collecting and sorting unique alignments to bplib from individual I5244.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5244.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5244/, out of 344 reads, 5 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5269
+################
+## STEP 1 MAKE BAM
+  Creating header for I5269.
+  Collecting and sorting alignments to the reference from individual I5269.
+  Creating more headers for I5269.
+  Collecting and sorting unique alignments to bplib from individual I5269.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5269.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5269/, out of 613 reads, 15 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5273
+################
+## STEP 1 MAKE BAM
+  Creating header for I5273.
+  Collecting and sorting alignments to the reference from individual I5273.
+  Creating more headers for I5273.
+  Collecting and sorting unique alignments to bplib from individual I5273.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5273.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5273/, out of 2648 reads, 71 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5277
+################
+## STEP 1 MAKE BAM
+  Creating header for I5277.
+  Collecting and sorting alignments to the reference from individual I5277.
+  Creating more headers for I5277.
+  Collecting and sorting unique alignments to bplib from individual I5277.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5277.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5277/, out of 683 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5279
+################
+## STEP 1 MAKE BAM
+  Creating header for I5279.
+  Collecting and sorting alignments to the reference from individual I5279.
+  Creating more headers for I5279.
+  Collecting and sorting unique alignments to bplib from individual I5279.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5279.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5279/, out of 3454 reads, 70 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5319
+################
+## STEP 1 MAKE BAM
+  Creating header for I5319.
+  Collecting and sorting alignments to the reference from individual I5319.
+  Creating more headers for I5319.
+  Collecting and sorting unique alignments to bplib from individual I5319.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5319.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5319/, out of 2433 reads, 62 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5407
+################
+## STEP 1 MAKE BAM
+  Creating header for I5407.
+  Collecting and sorting alignments to the reference from individual I5407.
+  Creating more headers for I5407.
+  Collecting and sorting unique alignments to bplib from individual I5407.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5407.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5407/, out of 175 reads, 3 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5748
+################
+## STEP 1 MAKE BAM
+  Creating header for I5748.
+  Collecting and sorting alignments to the reference from individual I5748.
+  Creating more headers for I5748.
+  Collecting and sorting unique alignments to bplib from individual I5748.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5748.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5748/, out of 2417 reads, 68 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5769
+################
+## STEP 1 MAKE BAM
+  Creating header for I5769.
+  Collecting and sorting alignments to the reference from individual I5769.
+  Creating more headers for I5769.
+  Collecting and sorting unique alignments to bplib from individual I5769.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5769.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5769/, out of 456 reads, 11 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5835
+################
+## STEP 1 MAKE BAM
+  Creating header for I5835.
+  Collecting and sorting alignments to the reference from individual I5835.
+  Creating more headers for I5835.
+  Collecting and sorting unique alignments to bplib from individual I5835.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5835.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5835/, out of 2743 reads, 64 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5838
+################
+## STEP 1 MAKE BAM
+  Creating header for I5838.
+  Collecting and sorting alignments to the reference from individual I5838.
+  Creating more headers for I5838.
+  Collecting and sorting unique alignments to bplib from individual I5838.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5838.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5838/, out of 2493 reads, 76 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I5950
+################
+## STEP 1 MAKE BAM
+  Creating header for I5950.
+  Collecting and sorting alignments to the reference from individual I5950.
+  Creating more headers for I5950.
+  Collecting and sorting unique alignments to bplib from individual I5950.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I5950.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I5950/, out of 3391 reads, 56 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6228
+################
+## STEP 1 MAKE BAM
+  Creating header for I6228.
+  Collecting and sorting alignments to the reference from individual I6228.
+  Creating more headers for I6228.
+  Collecting and sorting unique alignments to bplib from individual I6228.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6228.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6228/, out of 388 reads, 14 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6232
+################
+## STEP 1 MAKE BAM
+  Creating header for I6232.
+  Collecting and sorting alignments to the reference from individual I6232.
+  Creating more headers for I6232.
+  Collecting and sorting unique alignments to bplib from individual I6232.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6232.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6232/, out of 655 reads, 14 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6348
+################
+## STEP 1 MAKE BAM
+  Creating header for I6348.
+  Collecting and sorting alignments to the reference from individual I6348.
+  Creating more headers for I6348.
+  Collecting and sorting unique alignments to bplib from individual I6348.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6348.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6348/, out of 689 reads, 19 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6356
+################
+## STEP 1 MAKE BAM
+  Creating header for I6356.
+  Collecting and sorting alignments to the reference from individual I6356.
+  Creating more headers for I6356.
+  Collecting and sorting unique alignments to bplib from individual I6356.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6356.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6356/, out of 351 reads, 8 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6470
+################
+## STEP 1 MAKE BAM
+  Creating header for I6470.
+  Collecting and sorting alignments to the reference from individual I6470.
+  Creating more headers for I6470.
+  Collecting and sorting unique alignments to bplib from individual I6470.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6470.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6470/, out of 223 reads, 2 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6555
+################
+## STEP 1 MAKE BAM
+  Creating header for I6555.
+  Collecting and sorting alignments to the reference from individual I6555.
+  Creating more headers for I6555.
+  Collecting and sorting unique alignments to bplib from individual I6555.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6555.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6555/, out of 377 reads, 10 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6579
+################
+## STEP 1 MAKE BAM
+  Creating header for I6579.
+  Collecting and sorting alignments to the reference from individual I6579.
+  Creating more headers for I6579.
+  Collecting and sorting unique alignments to bplib from individual I6579.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6579.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6579/, out of 448 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6583
+################
+## STEP 1 MAKE BAM
+  Creating header for I6583.
+  Collecting and sorting alignments to the reference from individual I6583.
+  Creating more headers for I6583.
+  Collecting and sorting unique alignments to bplib from individual I6583.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6583.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6583/, out of 411 reads, 11 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6591
+################
+## STEP 1 MAKE BAM
+  Creating header for I6591.
+  Collecting and sorting alignments to the reference from individual I6591.
+  Creating more headers for I6591.
+  Collecting and sorting unique alignments to bplib from individual I6591.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6591.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6591/, out of 487 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6696
+################
+## STEP 1 MAKE BAM
+  Creating header for I6696.
+  Collecting and sorting alignments to the reference from individual I6696.
+  Creating more headers for I6696.
+  Collecting and sorting unique alignments to bplib from individual I6696.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6696.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6696/, out of 429 reads, 7 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6714
+################
+## STEP 1 MAKE BAM
+  Creating header for I6714.
+  Collecting and sorting alignments to the reference from individual I6714.
+  Creating more headers for I6714.
+  Collecting and sorting unique alignments to bplib from individual I6714.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6714.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6714/, out of 2748 reads, 58 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6716
+################
+## STEP 1 MAKE BAM
+  Creating header for I6716.
+  Collecting and sorting alignments to the reference from individual I6716.
+  Creating more headers for I6716.
+  Collecting and sorting unique alignments to bplib from individual I6716.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6716.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6716/, out of 478 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6717
+################
+## STEP 1 MAKE BAM
+  Creating header for I6717.
+  Collecting and sorting alignments to the reference from individual I6717.
+  Creating more headers for I6717.
+  Collecting and sorting unique alignments to bplib from individual I6717.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6717.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6717/, out of 700 reads, 16 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I6718
+################
+## STEP 1 MAKE BAM
+  Creating header for I6718.
+  Collecting and sorting alignments to the reference from individual I6718.
+  Creating more headers for I6718.
+  Collecting and sorting unique alignments to bplib from individual I6718.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I6718.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I6718/, out of 652 reads, 16 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7021
+################
+## STEP 1 MAKE BAM
+  Creating header for I7021.
+  Collecting and sorting alignments to the reference from individual I7021.
+  Creating more headers for I7021.
+  Collecting and sorting unique alignments to bplib from individual I7021.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7021.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7021/, out of 669 reads, 18 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7039
+################
+## STEP 1 MAKE BAM
+  Creating header for I7039.
+  Collecting and sorting alignments to the reference from individual I7039.
+  Creating more headers for I7039.
+  Collecting and sorting unique alignments to bplib from individual I7039.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7039.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7039/, out of 500 reads, 20 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7042
+################
+## STEP 1 MAKE BAM
+  Creating header for I7042.
+  Collecting and sorting alignments to the reference from individual I7042.
+  Creating more headers for I7042.
+  Collecting and sorting unique alignments to bplib from individual I7042.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7042.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7042/, out of 678 reads, 19 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7043
+################
+## STEP 1 MAKE BAM
+  Creating header for I7043.
+  Collecting and sorting alignments to the reference from individual I7043.
+  Creating more headers for I7043.
+  Collecting and sorting unique alignments to bplib from individual I7043.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7043.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7043/, out of 804 reads, 18 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7045
+################
+## STEP 1 MAKE BAM
+  Creating header for I7045.
+  Collecting and sorting alignments to the reference from individual I7045.
+  Creating more headers for I7045.
+  Collecting and sorting unique alignments to bplib from individual I7045.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7045.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7045/, out of 651 reads, 18 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7198
+################
+## STEP 1 MAKE BAM
+  Creating header for I7198.
+  Collecting and sorting alignments to the reference from individual I7198.
+  Creating more headers for I7198.
+  Collecting and sorting unique alignments to bplib from individual I7198.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7198.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7198/, out of 493 reads, 8 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7211
+################
+## STEP 1 MAKE BAM
+  Creating header for I7211.
+  Collecting and sorting alignments to the reference from individual I7211.
+  Creating more headers for I7211.
+  Collecting and sorting unique alignments to bplib from individual I7211.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7211.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7211/, out of 701 reads, 25 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7212
+################
+## STEP 1 MAKE BAM
+  Creating header for I7212.
+  Collecting and sorting alignments to the reference from individual I7212.
+  Creating more headers for I7212.
+  Collecting and sorting unique alignments to bplib from individual I7212.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7212.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7212/, out of 501 reads, 23 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7213
+################
+## STEP 1 MAKE BAM
+  Creating header for I7213.
+  Collecting and sorting alignments to the reference from individual I7213.
+  Creating more headers for I7213.
+  Collecting and sorting unique alignments to bplib from individual I7213.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7213.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7213/, out of 625 reads, 17 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7249
+################
+## STEP 1 MAKE BAM
+  Creating header for I7249.
+  Collecting and sorting alignments to the reference from individual I7249.
+  Creating more headers for I7249.
+  Collecting and sorting unique alignments to bplib from individual I7249.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7249.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7249/, out of 446 reads, 11 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7272
+################
+## STEP 1 MAKE BAM
+  Creating header for I7272.
+  Collecting and sorting alignments to the reference from individual I7272.
+  Creating more headers for I7272.
+  Collecting and sorting unique alignments to bplib from individual I7272.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7272.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7272/, out of 469 reads, 9 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7278
+################
+## STEP 1 MAKE BAM
+  Creating header for I7278.
+  Collecting and sorting alignments to the reference from individual I7278.
+  Creating more headers for I7278.
+  Collecting and sorting unique alignments to bplib from individual I7278.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7278.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7278/, out of 575 reads, 14 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7281
+################
+## STEP 1 MAKE BAM
+  Creating header for I7281.
+  Collecting and sorting alignments to the reference from individual I7281.
+  Creating more headers for I7281.
+  Collecting and sorting unique alignments to bplib from individual I7281.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7281.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7281/, out of 513 reads, 16 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7286
+################
+## STEP 1 MAKE BAM
+  Creating header for I7286.
+  Collecting and sorting alignments to the reference from individual I7286.
+  Creating more headers for I7286.
+  Collecting and sorting unique alignments to bplib from individual I7286.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7286.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7286/, out of 688 reads, 15 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7289
+################
+## STEP 1 MAKE BAM
+  Creating header for I7289.
+  Collecting and sorting alignments to the reference from individual I7289.
+  Creating more headers for I7289.
+  Collecting and sorting unique alignments to bplib from individual I7289.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7289.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7289/, out of 445 reads, 17 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7414
+################
+## STEP 1 MAKE BAM
+  Creating header for I7414.
+  Collecting and sorting alignments to the reference from individual I7414.
+  Creating more headers for I7414.
+  Collecting and sorting unique alignments to bplib from individual I7414.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7414.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7414/, out of 584 reads, 12 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7420
+################
+## STEP 1 MAKE BAM
+  Creating header for I7420.
+  Collecting and sorting alignments to the reference from individual I7420.
+  Creating more headers for I7420.
+  Collecting and sorting unique alignments to bplib from individual I7420.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7420.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7420/, out of 394 reads, 5 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7421
+################
+## STEP 1 MAKE BAM
+  Creating header for I7421.
+  Collecting and sorting alignments to the reference from individual I7421.
+  Creating more headers for I7421.
+  Collecting and sorting unique alignments to bplib from individual I7421.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7421.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7421/, out of 2809 reads, 42 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7492
+################
+## STEP 1 MAKE BAM
+  Creating header for I7492.
+  Collecting and sorting alignments to the reference from individual I7492.
+  Creating more headers for I7492.
+  Collecting and sorting unique alignments to bplib from individual I7492.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7492.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7492/, out of 482 reads, 7 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7554
+################
+## STEP 1 MAKE BAM
+  Creating header for I7554.
+  Collecting and sorting alignments to the reference from individual I7554.
+  Creating more headers for I7554.
+  Collecting and sorting unique alignments to bplib from individual I7554.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7554.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7554/, out of 514 reads, 13 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7568
+################
+## STEP 1 MAKE BAM
+  Creating header for I7568.
+  Collecting and sorting alignments to the reference from individual I7568.
+  Creating more headers for I7568.
+  Collecting and sorting unique alignments to bplib from individual I7568.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7568.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7568/, out of 482 reads, 8 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7574
+################
+## STEP 1 MAKE BAM
+  Creating header for I7574.
+  Collecting and sorting alignments to the reference from individual I7574.
+  Creating more headers for I7574.
+  Collecting and sorting unique alignments to bplib from individual I7574.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7574.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7574/, out of 605 reads, 11 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7580
+################
+## STEP 1 MAKE BAM
+  Creating header for I7580.
+  Collecting and sorting alignments to the reference from individual I7580.
+  Creating more headers for I7580.
+  Collecting and sorting unique alignments to bplib from individual I7580.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7580.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7580/, out of 529 reads, 20 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I7627
+################
+## STEP 1 MAKE BAM
+  Creating header for I7627.
+  Collecting and sorting alignments to the reference from individual I7627.
+  Creating more headers for I7627.
+  Collecting and sorting unique alignments to bplib from individual I7627.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I7627.
+On individual tmp/2022-07-22_agdp_benchmark/03_processaligned/I7627/, out of 792 reads, 21 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'analysis/2022-07-22_agdp_benchmark/03_processaligned01_download/readscount.txt': No such file or directory
+Execution halted

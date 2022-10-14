@@ -1,0 +1,44 @@
+000 (6199937.000.000) 2022-04-19 09:47:51 Job submitted from host: <193.109.174.82:9618?addrs=193.109.174.82-9618&alias=submit01.pic.es&noUDP&sock=schedd_24122_439b>
+...
+009 (6199937.000.000) 2022-04-19 10:01:27 Job was aborted.
+	via condor_rm (by user rgomez)
+...
+000 (6199949.000.000) 2022-04-19 10:18:13 Job submitted from host: <193.109.174.82:9618?addrs=193.109.174.82-9618&alias=submit01.pic.es&noUDP&sock=schedd_24122_439b>
+...
+040 (6199949.000.000) 2022-04-19 10:22:35 Finished transferring input files
+...
+001 (6199949.000.000) 2022-04-19 10:22:35 Job executing on host: <192.168.100.38:9618?addrs=192.168.100.38-9618+[2001-67c-1148-301--236]-9618&alias=tds236.pic.es&noUDP&sock=startd_2790_4952>
+...
+006 (6199949.000.000) 2022-04-19 10:22:44 Image size of job updated: 37500
+	12  -  MemoryUsage of job (MB)
+	11272  -  ResidentSetSize of job (KB)
+...
+006 (6199949.000.000) 2022-04-19 10:27:45 Image size of job updated: 6180128
+	423  -  MemoryUsage of job (MB)
+	433148  -  ResidentSetSize of job (KB)
+...
+006 (6199949.000.000) 2022-04-19 10:31:42 Image size of job updated: 6355036
+	423  -  MemoryUsage of job (MB)
+	433148  -  ResidentSetSize of job (KB)
+...
+040 (6199949.000.000) 2022-04-19 10:31:42 Started transferring output files
+...
+040 (6199949.000.000) 2022-04-19 10:31:42 Finished transferring output files
+...
+005 (6199949.000.000) 2022-04-19 10:31:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:14, Sys 0 00:00:08  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:14, Sys 0 00:00:08  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5563  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	5563  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.08        1         1 
+	   Disk (KB)            : 1751933    15728640  21168037 
+	   Memory (MB)          :     423        2048      2048 
+
+	Job terminated of its own accord at 2022-04-19T08:31:42Z.
+...

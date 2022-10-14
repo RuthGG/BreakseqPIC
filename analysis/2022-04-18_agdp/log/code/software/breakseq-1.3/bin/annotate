@@ -1,0 +1,73 @@
+#!/bin/sh
+
+if [ $# -lt 2 ]
+then
+	echo "`basename $0` <sv input gff> <output dir> [minimum size (bp) of events: 1000 (default), 50 (min)]"
+	exit 0
+fi
+
+if [ -z "$PYTHONPATH" ]; then . ~/.bash_profile; fi
+
+bin=`cd \`dirname $0\`/; pwd`
+
+input=$1
+oname=`basename $input`
+
+outdir=$PWD/output
+if [ $# -gt 1 ]; then 
+	mkdir -p $2
+	outdir=`cd \`dirname $2\`; pwd`/`basename $2`; fi
+output=$outdir/$oname
+
+minsize=1000
+if [ $# -gt 2 ]
+then
+	if [ $3 -lt 1000 ]
+	then
+		if [ $3 -ge 200 ]
+		then
+			minsize=200
+		elif [ $3 -ge 50 ]
+		then
+			minsize=50
+		else
+			echo "The minimum size of events is 50bp"
+			exit 1
+		fi
+	fi
+fi
+
+echo ""
+echo "********** Starting BreakSeq Annotation **********"
+echo "INPUT  : $input"
+echo "OUTDIR : $outdir"
+echo "MINSIZE: $minsize"
+
+echo ""
+echo "********** Creating standard breakpoint library **********"
+stddir=$outdir/svStd
+mkdir -p $stddir
+time $bin/svUtil/svStd.py $input $stddir
+cp $stddir/* $outdir
+echo ""
+echo "********** Performing mechanism classification **********"
+mechdir=$outdir/svMech
+mkdir -p $mechdir
+time $bin/svMech/svMech.py $output $mechdir $minsize
+cp $mechdir/$oname $output
+echo ""
+echo "********** Performing ancestral state analysis **********"
+statedir=$outdir/svState
+mkdir -p $statedir
+time $bin/svState/svState.py $output $statedir $minsize
+cp $statedir/$oname $output
+echo""
+echo "********** Performing feature analysis **********"
+featdir=$outdir/svFeat
+mkdir -p $featdir
+time $bin/svFeat/svFeat.py $output $featdir
+cp $featdir/$oname $output
+echo ""
+echo "********** Generated annotation output **********"
+echo "Output is in $output"
+echo ""

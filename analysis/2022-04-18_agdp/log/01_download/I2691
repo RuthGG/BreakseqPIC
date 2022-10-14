@@ -1,0 +1,3098 @@
+Take samples
+Take regions
+Start looping samples
+################
+I2691
+################
+Mon May 23 16:44:22 CEST 2022
+Format of sequence is bam file /nfs/pic.es/user/r/rgomez/20210325_breakseq/analysis/2022-04-18_agdp/data/bamFiles/2022-04-18_agdp/I2691/I2691.bam
+---------------------
+HsInv0004 Mapped reads 
+---------------------
+Mon May 23 16:44:25 CEST 2022
+Original coords: 1:197756641-197758134
+Sampled coords: 1:197736641-197778134
+# LOOP 0
+
+# Sucess!
+Reads:  3822
+# Delete tmp file
+---------------------
+HsInv0006 Mapped reads 
+---------------------
+Mon May 23 16:50:44 CEST 2022
+Original coords: 1:205178471-205178964
+Sampled coords: 1:205158471-205198964
+# LOOP 0
+
+# Sucess!
+Reads:  4259
+# Delete tmp file
+---------------------
+HsInv0015 Mapped reads 
+---------------------
+Mon May 23 16:57:12 CEST 2022
+Original coords: 10:13105123-13105422
+Sampled coords: 10:13085123-13125422
+# LOOP 0
+
+# Sucess!
+Reads:  4485
+# Delete tmp file
+---------------------
+HsInv0016 Mapped reads 
+---------------------
+Mon May 23 17:02:55 CEST 2022
+Original coords: 10:59257512-59258095
+Sampled coords: 10:59237512-59278095
+# LOOP 0
+
+# Sucess!
+Reads:  2788
+# Delete tmp file
+---------------------
+HsInv0041 Mapped reads 
+---------------------
+Mon May 23 17:09:06 CEST 2022
+Original coords: 2:225292831-225293237
+Sampled coords: 2:225272831-225313237
+# LOOP 0
+
+# Sucess!
+Reads:  4215
+# Delete tmp file
+---------------------
+HsInv0044 Mapped reads 
+---------------------
+Mon May 23 17:15:20 CEST 2022
+Original coords: 21:27374009-27374849
+Sampled coords: 21:27354009-27394849
+# LOOP 0
+
+# Sucess!
+Reads:  3532
+# Delete tmp file
+---------------------
+HsInv0058 Mapped reads 
+---------------------
+Mon May 23 17:21:58 CEST 2022
+Original coords: 6:31009073-31010245
+Sampled coords: 6:30989073-31030245
+# LOOP 0
+
+# Sucess!
+Reads:  5299
+# Delete tmp file
+---------------------
+HsInv0059 Mapped reads 
+---------------------
+Mon May 23 17:28:42 CEST 2022
+Original coords: 6:89923485-89924092
+Sampled coords: 6:89903485-89944092
+# LOOP 0
+
+# Sucess!
+Reads:  4271
+# Delete tmp file
+---------------------
+HsInv0060 Mapped reads 
+---------------------
+Mon May 23 17:34:21 CEST 2022
+Original coords: 6:94740926-94741562
+Sampled coords: 6:94720926-94761562
+# LOOP 0
+
+# Sucess!
+Reads:  2682
+# Delete tmp file
+---------------------
+HsInv0068 Mapped reads 
+---------------------
+Mon May 23 17:39:03 CEST 2022
+Original coords: 9:76897991-76898539
+Sampled coords: 9:76877991-76918539
+# LOOP 0
+
+# Sucess!
+Reads:  3099
+# Delete tmp file
+---------------------
+HsInv0081 Mapped reads 
+---------------------
+Mon May 23 17:44:23 CEST 2022
+Original coords: X:78923083-78923509
+Sampled coords: X:78903083-78943509
+# LOOP 0
+
+# Sucess!
+Reads:  1275
+# Delete tmp file
+---------------------
+HsInv0091 Mapped reads 
+---------------------
+Mon May 23 17:50:24 CEST 2022
+Original coords: 6:12431880-12432829
+Sampled coords: 6:12411880-12452829
+# LOOP 0
+
+# Sucess!
+Reads:  3323
+# Delete tmp file
+---------------------
+HsInv0092 Mapped reads 
+---------------------
+Mon May 23 17:55:16 CEST 2022
+Original coords: 6:130848037-130852444
+Sampled coords: 6:130828037-130872444
+# LOOP 0
+
+# Sucess!
+Reads:  3907
+# Delete tmp file
+---------------------
+HsInv0095 Mapped reads 
+---------------------
+Mon May 23 18:00:51 CEST 2022
+Original coords: 4:88847015-88858849
+Sampled coords: 4:88827015-88878849
+# LOOP 0
+
+# Sucess!
+Reads:  4429
+# Delete tmp file
+---------------------
+HsInv0097 Mapped reads 
+---------------------
+Mon May 23 18:07:00 CEST 2022
+Original coords: 3:107719696-107741203
+Sampled coords: 3:107699696-107761203
+# LOOP 0
+
+# Sucess!
+Reads:  6645
+# Delete tmp file
+---------------------
+HsInv0098 Mapped reads 
+---------------------
+Mon May 23 18:13:12 CEST 2022
+Original coords: 3:41361993-41363262
+Sampled coords: 3:41341993-41383262
+# LOOP 0
+
+# Sucess!
+Reads:  3749
+# Delete tmp file
+---------------------
+HsInv0102 Mapped reads 
+---------------------
+Mon May 23 18:19:20 CEST 2022
+Original coords: 4:40234879-40237208
+Sampled coords: 4:40214879-40257208
+# LOOP 0
+
+# Sucess!
+Reads:  4678
+# Delete tmp file
+---------------------
+HsInv0105 Mapped reads 
+---------------------
+Mon May 23 18:25:09 CEST 2022
+Original coords: 7:40879226-40880619
+Sampled coords: 7:40859226-40900619
+# LOOP 0
+
+# Sucess!
+Reads:  3474
+# Delete tmp file
+---------------------
+HsInv0113 Mapped reads 
+---------------------
+Mon May 23 18:31:20 CEST 2022
+Original coords: 9:105332385-105332684
+Sampled coords: 9:105312385-105352684
+# LOOP 0
+
+# Sucess!
+Reads:  2161
+# Delete tmp file
+---------------------
+HsInv0141 Mapped reads 
+---------------------
+Mon May 23 18:37:45 CEST 2022
+Original coords: 2:180415500-180416793
+Sampled coords: 2:180395500-180436793
+# LOOP 0
+
+# Sucess!
+Reads:  2706
+# Delete tmp file
+---------------------
+HsInv0156 Mapped reads 
+---------------------
+Mon May 23 18:43:14 CEST 2022
+Original coords: 2:123476454-123477527
+Sampled coords: 2:123456454-123497527
+# LOOP 0
+
+# Sucess!
+Reads:  3191
+# Delete tmp file
+---------------------
+HsInv0163 Mapped reads 
+---------------------
+Mon May 23 18:48:17 CEST 2022
+Original coords: 10:56767041-56773344
+Sampled coords: 10:56747041-56793344
+# LOOP 0
+
+# Sucess!
+Reads:  2871
+# Delete tmp file
+---------------------
+HsInv0164 Mapped reads 
+---------------------
+Mon May 23 18:53:56 CEST 2022
+Original coords: 5:143406465-143406894
+Sampled coords: 5:143386465-143426894
+# LOOP 0
+
+# Sucess!
+Reads:  3525
+# Delete tmp file
+---------------------
+HsInv0174 Mapped reads 
+---------------------
+Mon May 23 19:00:21 CEST 2022
+Original coords: 1:44059166-44060034
+Sampled coords: 1:44039166-44080034
+# LOOP 0
+
+# Sucess!
+Reads:  7766
+# Delete tmp file
+---------------------
+HsInv0181 Mapped reads 
+---------------------
+Mon May 23 19:05:55 CEST 2022
+Original coords: 8:103435343-103436167
+Sampled coords: 8:103415343-103456167
+# LOOP 0
+
+# Sucess!
+Reads:  4771
+# Delete tmp file
+---------------------
+HsInv0191 Mapped reads 
+---------------------
+Mon May 23 19:11:47 CEST 2022
+Original coords: 10:75419566-75420058
+Sampled coords: 10:75399566-75440058
+# LOOP 0
+
+# Sucess!
+Reads:  5621
+# Delete tmp file
+---------------------
+HsInv0200 Mapped reads 
+---------------------
+Mon May 23 19:18:11 CEST 2022
+Original coords: 14:93925878-93926177
+Sampled coords: 14:93905878-93946177
+# LOOP 0
+
+# Sucess!
+Reads:  2917
+# Delete tmp file
+---------------------
+HsInv0201 Mapped reads 
+---------------------
+Mon May 23 19:24:27 CEST 2022
+Original coords: 5:147554090-147554765
+Sampled coords: 5:147534090-147574765
+# LOOP 0
+
+# Sucess!
+Reads:  2652
+# Delete tmp file
+---------------------
+HsInv0212 Mapped reads 
+---------------------
+Mon May 23 19:30:40 CEST 2022
+Original coords: 4:168114925-168115412
+Sampled coords: 4:168094925-168135412
+# LOOP 0
+
+# Sucess!
+Reads:  2368
+# Delete tmp file
+---------------------
+HsInv0213 Mapped reads 
+---------------------
+Mon May 23 19:36:45 CEST 2022
+Original coords: 9:113849047-113849687
+Sampled coords: 9:113829047-113869687
+# LOOP 0
+
+# Sucess!
+Reads:  3241
+# Delete tmp file
+---------------------
+HsInv0260 Mapped reads 
+---------------------
+Mon May 23 19:42:54 CEST 2022
+Original coords: 2:184569048-184569347
+Sampled coords: 2:184549048-184589347
+# LOOP 0
+
+# Sucess!
+Reads:  2603
+# Delete tmp file
+---------------------
+HsInv0284 Mapped reads 
+---------------------
+Mon May 23 19:48:37 CEST 2022
+Original coords: 6:142187312-142219999
+Sampled coords: 6:142167312-142239999
+# LOOP 0
+
+# Sucess!
+Reads:  5095
+# Delete tmp file
+---------------------
+HsInv0379 Mapped reads 
+---------------------
+Mon May 23 19:54:39 CEST 2022
+Original coords: 19:21829984-22245410
+Sampled coords: 19:21809984-22265410
+# LOOP 0
+
+# Sucess!
+Reads:  42843
+# Delete tmp file
+---------------------
+HsInv0409 Mapped reads 
+---------------------
+Mon May 23 20:00:22 CEST 2022
+Original coords: X:6136900-6138534
+Sampled coords: X:6116900-6158534
+# LOOP 0
+
+# Sucess!
+Reads:  1812
+# Delete tmp file
+---------------------
+HsInv0442 Mapped reads 
+---------------------
+Mon May 23 20:06:10 CEST 2022
+Original coords: 18:11511143-11511615
+Sampled coords: 18:11491143-11531615
+# LOOP 0
+
+# Sucess!
+Reads:  3882
+# Delete tmp file
+---------------------
+HsInv0553 Mapped reads 
+---------------------
+Mon May 23 20:11:44 CEST 2022
+Original coords: 16:34391962-34392261
+Sampled coords: 16:34371962-34412261
+# LOOP 0
+
+# Sucess!
+Reads:  5338
+# Delete tmp file
+---------------------
+HsInv0901 Mapped reads 
+---------------------
+Mon May 23 20:17:26 CEST 2022
+Original coords: 3:82203466-82204156
+Sampled coords: 3:82183466-82224156
+# LOOP 0
+
+# Sucess!
+Reads:  2628
+# Delete tmp file
+---------------------
+HsInv0960 Mapped reads 
+---------------------
+Mon May 23 20:22:34 CEST 2022
+Original coords: 7:156386934-156387369
+Sampled coords: 7:156366934-156407369
+# LOOP 0
+
+# Sucess!
+Reads:  4925
+# Delete tmp file
+---------------------
+HsInv0965 Mapped reads 
+---------------------
+Mon May 23 20:28:30 CEST 2022
+Original coords: 2:195984280-195984764
+Sampled coords: 2:195964280-196004764
+# LOOP 0
+
+# Sucess!
+Reads:  2609
+# Delete tmp file
+---------------------
+HsInv0989 Mapped reads 
+---------------------
+Mon May 23 20:34:22 CEST 2022
+Original coords: 10:132635540-132636196
+Sampled coords: 10:132615540-132656196
+# LOOP 0
+
+# Sucess!
+Reads:  4239
+# Delete tmp file
+---------------------
+HsInv0991 Mapped reads 
+---------------------
+Mon May 23 20:40:17 CEST 2022
+Original coords: 5:29069187-29069775
+Sampled coords: 5:29049187-29089775
+# LOOP 0
+
+# Sucess!
+Reads:  2583
+# Delete tmp file
+---------------------
+HsInv1053 Mapped reads 
+---------------------
+Mon May 23 20:45:57 CEST 2022
+Original coords: 7:70426036-70439029
+Sampled coords: 7:70406036-70459029
+# LOOP 0
+
+# Sucess!
+Reads:  5576
+# Delete tmp file
+---------------------
+HsInv1065 Mapped reads 
+---------------------
+Mon May 23 20:51:56 CEST 2022
+Original coords: 11:55431401-55446014
+Sampled coords: 11:55411401-55466014
+# LOOP 0
+
+# Sucess!
+Reads:  2353
+# Delete tmp file
+---------------------
+HsInv1066 Mapped reads 
+---------------------
+Mon May 23 20:58:12 CEST 2022
+Original coords: 12:47290333-47309901
+Sampled coords: 12:47270333-47329901
+# LOOP 0
+
+# Sucess!
+Reads:  4516
+# Delete tmp file
+---------------------
+HsInv1070 Mapped reads 
+---------------------
+Mon May 23 21:04:06 CEST 2022
+Original coords: 1:21530347-21531360
+Sampled coords: 1:21510347-21551360
+# LOOP 0
+
+# Sucess!
+Reads:  5562
+# Delete tmp file
+---------------------
+HsInv1075 Mapped reads 
+---------------------
+Mon May 23 21:09:40 CEST 2022
+Original coords: 11:66018924-66020037
+Sampled coords: 11:65998924-66040037
+# LOOP 0
+
+# Sucess!
+Reads:  7154
+# Delete tmp file
+---------------------
+HsInv1116 Mapped reads 
+---------------------
+Mon May 23 21:15:26 CEST 2022
+Original coords: 1:187466329-187466877
+Sampled coords: 1:187446329-187486877
+# LOOP 0
+
+# Sucess!
+Reads:  2588
+# Delete tmp file
+---------------------
+HsInv1122 Mapped reads 
+---------------------
+Mon May 23 21:21:21 CEST 2022
+Original coords: 3:162545215-162547791
+Sampled coords: 3:162525215-162567791
+# LOOP 0
+
+# Sucess!
+Reads:  158
+# Delete tmp file
+---------------------
+HsInv1127 Mapped reads 
+---------------------
+Mon May 23 21:27:12 CEST 2022
+Original coords: 10:87243596-87244014
+Sampled coords: 10:87223596-87264014
+# LOOP 0
+
+# Sucess!
+Reads:  2460
+# Delete tmp file
+---------------------
+HsInv1128 Mapped reads 
+---------------------
+Mon May 23 21:33:18 CEST 2022
+Original coords: 14:25612253-25612734
+Sampled coords: 14:25592253-25632734
+# LOOP 0
+
+# Sucess!
+Reads:  3228
+# Delete tmp file
+---------------------
+HsInv1129 Mapped reads 
+---------------------
+Mon May 23 21:39:19 CEST 2022
+Original coords: 4:101601340-101601740
+Sampled coords: 4:101581340-101621740
+# LOOP 0
+
+# Sucess!
+Reads:  2897
+# Delete tmp file
+---------------------
+HsInv1143 Mapped reads 
+---------------------
+Mon May 23 21:44:27 CEST 2022
+Original coords: 1:48940800-48941395
+Sampled coords: 1:48920800-48961395
+# LOOP 0
+
+# Sucess!
+Reads:  3620
+# Delete tmp file
+---------------------
+HsInv1222 Mapped reads 
+---------------------
+Mon May 23 21:49:37 CEST 2022
+Original coords: 11:24284583-24288063
+Sampled coords: 11:24264583-24308063
+# LOOP 0
+
+# Sucess!
+Reads:  2481
+# Delete tmp file
+---------------------
+HsInv1256 Mapped reads 
+---------------------
+Mon May 23 21:54:48 CEST 2022
+Original coords: 12:39859977-39860445
+Sampled coords: 12:39839977-39880445
+# LOOP 0
+
+# Sucess!
+Reads:  3283
+# Delete tmp file
+---------------------
+HsInv1258 Mapped reads 
+---------------------
+Mon May 23 21:59:25 CEST 2022
+Original coords: 12:47030320-47030773
+Sampled coords: 12:47010320-47050773
+# LOOP 0
+
+# Sucess!
+Reads:  3772
+# Delete tmp file
+---------------------
+HsInv1263 Mapped reads 
+---------------------
+Mon May 23 22:04:11 CEST 2022
+Original coords: 12:70680467-70681124
+Sampled coords: 12:70660467-70701124
+# LOOP 0
+
+# Sucess!
+Reads:  2762
+# Delete tmp file
+---------------------
+HsInv1264 Mapped reads 
+---------------------
+Mon May 23 22:09:09 CEST 2022
+Original coords: 12:71710168-71710467
+Sampled coords: 12:71690168-71730467
+# LOOP 0
+
+# Sucess!
+Reads:  2624
+# Delete tmp file
+---------------------
+HsInv1306 Mapped reads 
+---------------------
+Mon May 23 22:13:57 CEST 2022
+Original coords: 13:98108390-98109123
+Sampled coords: 13:98088390-98129123
+# LOOP 0
+
+# Sucess!
+Reads:  2877
+# Delete tmp file
+---------------------
+HsInv1314 Mapped reads 
+---------------------
+Mon May 23 22:19:29 CEST 2022
+Original coords: 14:49381754-49382399
+Sampled coords: 14:49361754-49402399
+# LOOP 0
+
+# Sucess!
+Reads:  2729
+# Delete tmp file
+---------------------
+HsInv1321 Mapped reads 
+---------------------
+Mon May 23 22:24:43 CEST 2022
+Original coords: 14:65842388-65843283
+Sampled coords: 14:65822388-65863283
+# LOOP 0
+
+# Sucess!
+Reads:  4463
+# Delete tmp file
+---------------------
+HsInv1348 Mapped reads 
+---------------------
+Mon May 23 22:29:46 CEST 2022
+Original coords: 16:48905664-48906375
+Sampled coords: 16:48885664-48926375
+# LOOP 0
+
+# Sucess!
+Reads:  4627
+# Delete tmp file
+---------------------
+HsInv1358 Mapped reads 
+---------------------
+Mon May 23 22:34:26 CEST 2022
+Original coords: 17:5595135-5595702
+Sampled coords: 17:5575135-5615702
+# LOOP 0
+
+# Sucess!
+Reads:  5131
+# Delete tmp file
+---------------------
+HsInv1360 Mapped reads 
+---------------------
+Mon May 23 22:38:29 CEST 2022
+Original coords: 17:11030963-11031478
+Sampled coords: 17:11010963-11051478
+# LOOP 0
+
+# Sucess!
+Reads:  3956
+# Delete tmp file
+---------------------
+HsInv1402 Mapped reads 
+---------------------
+Mon May 23 22:41:48 CEST 2022
+Original coords: 2:33764474-33768026
+Sampled coords: 2:33744474-33788026
+# LOOP 0
+
+# Sucess!
+Reads:  4468
+# Delete tmp file
+---------------------
+HsInv1421 Mapped reads 
+---------------------
+Mon May 23 22:45:50 CEST 2022
+Original coords: 2:121140557-121141844
+Sampled coords: 2:121120557-121161844
+# LOOP 0
+
+# Sucess!
+Reads:  6847
+# Delete tmp file
+---------------------
+HsInv1427 Mapped reads 
+---------------------
+Mon May 23 22:50:12 CEST 2022
+Original coords: 2:153460948-153461581
+Sampled coords: 2:153440948-153481581
+# LOOP 0
+
+# Sucess!
+Reads:  4062
+# Delete tmp file
+---------------------
+HsInv1474 Mapped reads 
+---------------------
+Mon May 23 22:54:21 CEST 2022
+Original coords: 3:7400498-7400927
+Sampled coords: 3:7380498-7420927
+# LOOP 0
+
+# Sucess!
+Reads:  3141
+# Delete tmp file
+---------------------
+HsInv1569 Mapped reads 
+---------------------
+Mon May 23 22:58:45 CEST 2022
+Original coords: 5:8257407-8258057
+Sampled coords: 5:8237407-8278057
+# LOOP 0
+
+# Sucess!
+Reads:  3479
+# Delete tmp file
+---------------------
+HsInv1590 Mapped reads 
+---------------------
+Mon May 23 23:03:19 CEST 2022
+Original coords: 5:114257935-114258386
+Sampled coords: 5:114237935-114278386
+# LOOP 0
+
+# Sucess!
+Reads:  3118
+# Delete tmp file
+---------------------
+HsInv1785 Mapped reads 
+---------------------
+Mon May 23 23:07:48 CEST 2022
+Original coords: 1:92131656-92132784
+Sampled coords: 1:92111656-92152784
+# LOOP 0
+
+# Sucess!
+Reads:  3952
+# Delete tmp file
+---------------------
+HsInv1790 Mapped reads 
+---------------------
+Mon May 23 23:12:06 CEST 2022
+Original coords: 10:15784655-15802575
+Sampled coords: 10:15764655-15822575
+# LOOP 0
+
+# Sucess!
+Reads:  5458
+# Delete tmp file
+---------------------
+HsInv1798 Mapped reads 
+---------------------
+Mon May 23 23:16:34 CEST 2022
+Original coords: 12:50182462-50182761
+Sampled coords: 12:50162462-50202761
+# LOOP 0
+
+# Sucess!
+Reads:  5929
+# Delete tmp file
+---------------------
+HsInv1808 Mapped reads 
+---------------------
+Mon May 23 23:20:48 CEST 2022
+Original coords: 17:35770210-35780782
+Sampled coords: 17:35750210-35800782
+# LOOP 0
+
+# Sucess!
+Reads:  5437
+# Delete tmp file
+---------------------
+HsInv1819 Mapped reads 
+---------------------
+Mon May 23 23:25:07 CEST 2022
+Original coords: 3:70716281-70716970
+Sampled coords: 3:70696281-70736970
+# LOOP 0
+
+# Sucess!
+Reads:  3197
+# Delete tmp file
+---------------------
+HsInv1820 Mapped reads 
+---------------------
+Mon May 23 23:29:39 CEST 2022
+Original coords: 3:75503510-75504929
+Sampled coords: 3:75483510-75524929
+# LOOP 0
+
+# Sucess!
+Reads:  5568
+# Delete tmp file
+---------------------
+HsInv1838 Mapped reads 
+---------------------
+Mon May 23 23:34:09 CEST 2022
+Original coords: 7:47653966-47655010
+Sampled coords: 7:47633966-47675010
+# LOOP 0
+
+# Sucess!
+Reads:  5843
+# Delete tmp file
+---------------------
+HsInv1848 Mapped reads 
+---------------------
+Mon May 23 23:38:33 CEST 2022
+Original coords: 9:94721104-94722092
+Sampled coords: 9:94701104-94742092
+# LOOP 0
+
+# Sucess!
+Reads:  4926
+# Delete tmp file
+---------------------
+HsInv1867 Mapped reads 
+---------------------
+Mon May 23 23:42:43 CEST 2022
+Original coords: 1:181043754-181044227
+Sampled coords: 1:181023754-181064227
+# LOOP 0
+
+# Sucess!
+Reads:  4497
+# Delete tmp file
+---------------------
+HsInv1868 Mapped reads 
+---------------------
+Mon May 23 23:47:14 CEST 2022
+Original coords: 8:112074947-112076107
+Sampled coords: 8:112054947-112096107
+# LOOP 0
+
+# Sucess!
+Reads:  1952
+# Delete tmp file
+---------------------
+HsInv1874 Mapped reads 
+---------------------
+Mon May 23 23:51:46 CEST 2022
+Original coords: 4:93570013-93570312
+Sampled coords: 4:93550013-93590312
+# LOOP 0
+
+# Sucess!
+Reads:  1985
+# Delete tmp file
+---------------------
+HsInv1875 Mapped reads 
+---------------------
+Mon May 23 23:56:21 CEST 2022
+Original coords: 7:101727388-101727850
+Sampled coords: 7:101707388-101747850
+# LOOP 0
+
+# Sucess!
+Reads:  4996
+# Delete tmp file
+---------------------
+HsOta1141 Mapped reads 
+---------------------
+Tue May 24 00:00:50 CEST 2022
+Original coords: 1:44823019-44823318
+Sampled coords: 1:44803019-44843318
+# LOOP 0
+
+# Sucess!
+Reads:  4883
+# Delete tmp file
+---------------------
+HsOtb1141 Mapped reads 
+---------------------
+Tue May 24 00:04:58 CEST 2022
+Original coords: 1:44823248-44823840
+Sampled coords: 1:44803248-44843840
+# LOOP 0
+
+# Sucess!
+Reads:  4936
+# Delete tmp file
+---------------------
+HsOtb1874 Mapped reads 
+---------------------
+Tue May 24 00:09:28 CEST 2022
+Original coords: 4:93570139-93570438
+Sampled coords: 4:93550139-93590438
+# LOOP 0
+
+# Sucess!
+Reads:  1976
+# Delete tmp file
+---------------------
+HsOth0154 Mapped reads 
+---------------------
+Tue May 24 00:13:43 CEST 2022
+Original coords: 5:169598604-169598903
+Sampled coords: 5:169578604-169618903
+# LOOP 0
+
+# Sucess!
+Reads:  5066
+# Delete tmp file
+---------------------
+HsOth0170 Mapped reads 
+---------------------
+Tue May 24 00:18:03 CEST 2022
+Original coords: 12:71533604-71533903
+Sampled coords: 12:71513604-71553903
+# LOOP 0
+
+# Sucess!
+Reads:  2724
+# Delete tmp file
+---------------------
+HsOth0171 Mapped reads 
+---------------------
+Tue May 24 00:22:07 CEST 2022
+Original coords: 2:129685026-129685325
+Sampled coords: 2:129665026-129705325
+# LOOP 0
+
+# Sucess!
+Reads:  2753
+# Delete tmp file
+---------------------
+HsOth0178 Mapped reads 
+---------------------
+Tue May 24 00:26:34 CEST 2022
+Original coords: 11:24904729-24905028
+Sampled coords: 11:24884729-24925028
+# LOOP 0
+
+# Sucess!
+Reads:  2749
+# Delete tmp file
+---------------------
+HsOth0182 Mapped reads 
+---------------------
+Tue May 24 00:30:53 CEST 2022
+Original coords: 9:107817195-107817494
+Sampled coords: 9:107797195-107837494
+# LOOP 0
+
+# Sucess!
+Reads:  4590
+# Delete tmp file
+---------------------
+HsOth0186 Mapped reads 
+---------------------
+Tue May 24 00:35:13 CEST 2022
+Original coords: 9:87135898-87136197
+Sampled coords: 9:87115898-87156197
+# LOOP 0
+
+# Sucess!
+Reads:  3809
+# Delete tmp file
+---------------------
+HsOth0190 Mapped reads 
+---------------------
+Tue May 24 00:39:29 CEST 2022
+Original coords: 14:41376605-41376904
+Sampled coords: 14:41356605-41396904
+# LOOP 0
+
+# Sucess!
+Reads:  2391
+# Delete tmp file
+---------------------
+HsOth0211 Mapped reads 
+---------------------
+Tue May 24 00:43:58 CEST 2022
+Original coords: 5:144039690-144039989
+Sampled coords: 5:144019690-144059989
+# LOOP 0
+
+# Sucess!
+Reads:  2902
+# Delete tmp file
+---------------------
+HsOth0224 Mapped reads 
+---------------------
+Tue May 24 00:48:13 CEST 2022
+Original coords: 8:100157668-100157967
+Sampled coords: 8:100137668-100177967
+# LOOP 0
+
+# Sucess!
+Reads:  3066
+# Delete tmp file
+---------------------
+HsOth0310 Mapped reads 
+---------------------
+Tue May 24 00:52:45 CEST 2022
+Original coords: 12:38318376-38318675
+Sampled coords: 12:38298376-38338675
+# LOOP 0
+
+# Sucess!
+Reads:  2550
+# Delete tmp file
+---------------------
+HsOth0335 Mapped reads 
+---------------------
+Tue May 24 00:57:13 CEST 2022
+Original coords: 12:7963560-7963859
+Sampled coords: 12:7943560-7983859
+# LOOP 0
+
+# Sucess!
+Reads:  4636
+# Delete tmp file
+---------------------
+HsOth0463 Mapped reads 
+---------------------
+Tue May 24 01:01:46 CEST 2022
+Original coords: 3:190833423-190833722
+Sampled coords: 3:190813423-190853722
+# LOOP 0
+
+# Sucess!
+Reads:  2852
+# Delete tmp file
+---------------------
+HsOth0574 Mapped reads 
+---------------------
+Tue May 24 01:05:56 CEST 2022
+Original coords: 16:69762743-69763042
+Sampled coords: 16:69742743-69783042
+# LOOP 0
+
+# Sucess!
+Reads:  5527
+# Delete tmp file
+---------------------
+HsOth0589 Mapped reads 
+---------------------
+Tue May 24 01:10:21 CEST 2022
+Original coords: 7:151011955-151012254
+Sampled coords: 7:150991955-151032254
+# LOOP 0
+
+# Sucess!
+Reads:  5170
+# Delete tmp file
+---------------------
+HsOth0612 Mapped reads 
+---------------------
+Tue May 24 01:14:25 CEST 2022
+Original coords: 4:112008313-112008612
+Sampled coords: 4:111988313-112028612
+# LOOP 0
+
+# Sucess!
+Reads:  2886
+# Delete tmp file
+---------------------
+HsOth0968 Mapped reads 
+---------------------
+Tue May 24 01:18:33 CEST 2022
+Original coords: 1:240116532-240116831
+Sampled coords: 1:240096532-240136831
+# LOOP 0
+
+# Sucess!
+Reads:  3916
+# Delete tmp file
+---------------------
+HsOth0987 Mapped reads 
+---------------------
+Tue May 24 01:22:57 CEST 2022
+Original coords: 2:131887146-131887445
+Sampled coords: 2:131867146-131907445
+# LOOP 0
+
+# Sucess!
+Reads:  4676
+# Delete tmp file
+---------------------
+HsOth0997 Mapped reads 
+---------------------
+Tue May 24 01:27:29 CEST 2022
+Original coords: 14:67170183-67170482
+Sampled coords: 14:67150183-67190482
+# LOOP 0
+
+# Sucess!
+Reads:  3059
+# Delete tmp file
+---------------------
+HsOth1004 Mapped reads 
+---------------------
+Tue May 24 01:31:59 CEST 2022
+Original coords: 10:127197081-127197380
+Sampled coords: 10:127177081-127217380
+# LOOP 0
+
+# Sucess!
+Reads:  3926
+# Delete tmp file
+---------------------
+HsOth1013 Mapped reads 
+---------------------
+Tue May 24 01:36:06 CEST 2022
+Original coords: 5:79049405-79049704
+Sampled coords: 5:79029405-79069704
+# LOOP 0
+
+# Sucess!
+Reads:  3553
+# Delete tmp file
+---------------------
+HsOth1112 Mapped reads 
+---------------------
+Tue May 24 01:40:35 CEST 2022
+Original coords: 2:10825893-10826192
+Sampled coords: 2:10805893-10846192
+# LOOP 0
+
+# Sucess!
+Reads:  4289
+# Delete tmp file
+---------------------
+HsOth1122 Mapped reads 
+---------------------
+Tue May 24 01:45:21 CEST 2022
+Original coords: 3:162511985-162626484
+Sampled coords: 3:162491985-162646484
+# LOOP 0
+
+# Sucess!
+Reads:  2284
+# Delete tmp file
+---------------------
+HsOth1130 Mapped reads 
+---------------------
+Tue May 24 01:50:29 CEST 2022
+Original coords: 2:116978152-116978451
+Sampled coords: 2:116958152-116998451
+# LOOP 0
+
+# Sucess!
+Reads:  2730
+# Delete tmp file
+---------------------
+HsOth1146 Mapped reads 
+---------------------
+Tue May 24 01:56:13 CEST 2022
+Original coords: 16:77788810-77789109
+Sampled coords: 16:77768810-77809109
+# LOOP 0
+
+# Sucess!
+Reads:  4071
+# Delete tmp file
+---------------------
+HsOth1153 Mapped reads 
+---------------------
+Tue May 24 02:01:41 CEST 2022
+Original coords: 1:104580344-104580643
+Sampled coords: 1:104560344-104600643
+# LOOP 0
+
+# Sucess!
+Reads:  2616
+# Delete tmp file
+---------------------
+HsOth1216 Mapped reads 
+---------------------
+Tue May 24 02:06:57 CEST 2022
+Original coords: 10:133079902-133080201
+Sampled coords: 10:133059902-133100201
+# LOOP 0
+
+# Sucess!
+Reads:  4628
+# Delete tmp file
+---------------------
+HsOth1225 Mapped reads 
+---------------------
+Tue May 24 02:12:15 CEST 2022
+Original coords: 11:41166889-41167188
+Sampled coords: 11:41146889-41187188
+# LOOP 0
+
+# Sucess!
+Reads:  2645
+# Delete tmp file
+---------------------
+HsOth1240 Mapped reads 
+---------------------
+Tue May 24 02:17:23 CEST 2022
+Original coords: 11:98847885-98848184
+Sampled coords: 11:98827885-98868184
+# LOOP 0
+
+# Sucess!
+Reads:  2319
+# Delete tmp file
+---------------------
+HsOth1269 Mapped reads 
+---------------------
+Tue May 24 02:22:54 CEST 2022
+Original coords: 12:95953592-95953891
+Sampled coords: 12:95933592-95973891
+# LOOP 0
+
+# Sucess!
+Reads:  4082
+# Delete tmp file
+---------------------
+HsOth1275 Mapped reads 
+---------------------
+Tue May 24 02:28:37 CEST 2022
+Original coords: 12:117589673-117589972
+Sampled coords: 12:117569673-117609972
+# LOOP 0
+
+# Sucess!
+Reads:  5038
+# Delete tmp file
+---------------------
+HsOth1306 Mapped reads 
+---------------------
+Tue May 24 02:34:05 CEST 2022
+Original coords: 13:98103747-98108558
+Sampled coords: 13:98083747-98128558
+# LOOP 0
+
+# Sucess!
+Reads:  3329
+# Delete tmp file
+---------------------
+HsOth1313 Mapped reads 
+---------------------
+Tue May 24 02:39:24 CEST 2022
+Original coords: 14:48323825-48324124
+Sampled coords: 14:48303825-48344124
+# LOOP 0
+
+# Sucess!
+Reads:  2520
+# Delete tmp file
+---------------------
+HsOth1329 Mapped reads 
+---------------------
+Tue May 24 02:44:30 CEST 2022
+Original coords: 15:28248552-28248851
+Sampled coords: 15:28228552-28268851
+# LOOP 0
+
+# Sucess!
+Reads:  5462
+# Delete tmp file
+---------------------
+HsOth1376 Mapped reads 
+---------------------
+Tue May 24 02:50:05 CEST 2022
+Original coords: 18:13919595-13919894
+Sampled coords: 18:13899595-13939894
+# LOOP 0
+
+# Sucess!
+Reads:  4729
+# Delete tmp file
+---------------------
+HsOth1408 Mapped reads 
+---------------------
+Tue May 24 02:55:58 CEST 2022
+Original coords: 2:50765777-50766076
+Sampled coords: 2:50745777-50786076
+# LOOP 0
+
+# Sucess!
+Reads:  2492
+# Delete tmp file
+---------------------
+HsOth1411 Mapped reads 
+---------------------
+Tue May 24 03:01:29 CEST 2022
+Original coords: 2:61700614-61700913
+Sampled coords: 2:61680614-61720913
+# LOOP 0
+
+# Sucess!
+Reads:  4342
+# Delete tmp file
+---------------------
+HsOth1414 Mapped reads 
+---------------------
+Tue May 24 03:05:57 CEST 2022
+Original coords: 2:72441213-72441512
+Sampled coords: 2:72421213-72461512
+# LOOP 0
+
+# Sucess!
+Reads:  3474
+# Delete tmp file
+---------------------
+HsOth1422 Mapped reads 
+---------------------
+Tue May 24 03:10:26 CEST 2022
+Original coords: 2:125051608-125051907
+Sampled coords: 2:125031608-125071907
+# LOOP 0
+
+# Sucess!
+Reads:  3560
+# Delete tmp file
+---------------------
+HsOth1425 Mapped reads 
+---------------------
+Tue May 24 03:14:30 CEST 2022
+Original coords: 2:133519674-133519973
+Sampled coords: 2:133499674-133539973
+# LOOP 0
+
+# Sucess!
+Reads:  3203
+# Delete tmp file
+---------------------
+HsOth1428 Mapped reads 
+---------------------
+Tue May 24 03:19:06 CEST 2022
+Original coords: 2:160097855-160100312
+Sampled coords: 2:160077855-160120312
+# LOOP 0
+
+# Sucess!
+Reads:  3922
+# Delete tmp file
+---------------------
+HsOth1432 Mapped reads 
+---------------------
+Tue May 24 03:23:13 CEST 2022
+Original coords: 2:177373530-177377585
+Sampled coords: 2:177353530-177397585
+# LOOP 0
+
+# Sucess!
+Reads:  4093
+# Delete tmp file
+---------------------
+HsOth1454 Mapped reads 
+---------------------
+Tue May 24 03:27:49 CEST 2022
+Original coords: 20:43305698-43309041
+Sampled coords: 20:43285698-43329041
+# LOOP 0
+
+# Sucess!
+Reads:  5514
+# Delete tmp file
+---------------------
+HsOth1468 Mapped reads 
+---------------------
+Tue May 24 03:31:56 CEST 2022
+Original coords: 22:36934127-36934426
+Sampled coords: 22:36914127-36954426
+# LOOP 0
+
+# Sucess!
+Reads:  5490
+# Delete tmp file
+---------------------
+HsOth1471 Mapped reads 
+---------------------
+Tue May 24 03:35:47 CEST 2022
+Original coords: 22:48872131-48872430
+Sampled coords: 22:48852131-48892430
+# LOOP 0
+
+# Sucess!
+Reads:  5515
+# Delete tmp file
+---------------------
+HsOth1484 Mapped reads 
+---------------------
+Tue May 24 03:39:35 CEST 2022
+Original coords: 3:43835844-43836143
+Sampled coords: 3:43815844-43856143
+# LOOP 0
+
+# Sucess!
+Reads:  4862
+# Delete tmp file
+---------------------
+HsOth1497 Mapped reads 
+---------------------
+Tue May 24 03:43:22 CEST 2022
+Original coords: 3:127496373-127496672
+Sampled coords: 3:127476373-127516672
+# LOOP 0
+
+# Sucess!
+Reads:  5775
+# Delete tmp file
+---------------------
+HsOth1511 Mapped reads 
+---------------------
+Tue May 24 03:47:18 CEST 2022
+Original coords: 3:172173178-172173477
+Sampled coords: 3:172153178-172193477
+# LOOP 0
+
+# Sucess!
+Reads:  3396
+# Delete tmp file
+---------------------
+HsOth1579 Mapped reads 
+---------------------
+Tue May 24 03:51:07 CEST 2022
+Original coords: 5:31191034-31191333
+Sampled coords: 5:31171034-31211333
+# LOOP 0
+
+# Sucess!
+Reads:  3046
+# Delete tmp file
+---------------------
+HsOth1614 Mapped reads 
+---------------------
+Tue May 24 03:54:55 CEST 2022
+Original coords: 6:12439800-12440099
+Sampled coords: 6:12419800-12460099
+# LOOP 0
+
+# Sucess!
+Reads:  3517
+# Delete tmp file
+---------------------
+HsOth1637 Mapped reads 
+---------------------
+Tue May 24 03:59:01 CEST 2022
+Original coords: 6:121519035-121526128
+Sampled coords: 6:121499035-121546128
+# LOOP 0
+
+# Sucess!
+Reads:  3485
+# Delete tmp file
+---------------------
+HsOth1667 Mapped reads 
+---------------------
+Tue May 24 04:03:05 CEST 2022
+Original coords: 7:31590146-31592145
+Sampled coords: 7:31570146-31612145
+# LOOP 0
+
+# Sucess!
+Reads:  3157
+# Delete tmp file
+---------------------
+HsOth1681 Mapped reads 
+---------------------
+Tue May 24 04:06:52 CEST 2022
+Original coords: 7:56627300-56627945
+Sampled coords: 7:56607300-56647945
+# LOOP 0
+
+# Sucess!
+Reads:  3305
+# Delete tmp file
+---------------------
+HsOth1700 Mapped reads 
+---------------------
+Tue May 24 04:10:17 CEST 2022
+Original coords: 7:128820816-128821115
+Sampled coords: 7:128800816-128841115
+# LOOP 0
+
+# Sucess!
+Reads:  4904
+# Delete tmp file
+---------------------
+HsOth1751 Mapped reads 
+---------------------
+Tue May 24 04:13:53 CEST 2022
+Original coords: 8:138130818-138131117
+Sampled coords: 8:138110818-138151117
+# LOOP 0
+
+# Sucess!
+Reads:  2612
+# Delete tmp file
+---------------------
+HsOth1794 Mapped reads 
+---------------------
+Tue May 24 04:17:55 CEST 2022
+Original coords: 10:115171602-115171901
+Sampled coords: 10:115151602-115191901
+# LOOP 0
+
+# Sucess!
+Reads:  4956
+# Delete tmp file
+---------------------
+HsOth1855 Mapped reads 
+---------------------
+Tue May 24 04:22:09 CEST 2022
+Original coords: 11:99689905-99690204
+Sampled coords: 11:99669905-99710204
+# LOOP 0
+
+# Sucess!
+Reads:  2474
+# Delete tmp file
+---------------------
+HsOth1856 Mapped reads 
+---------------------
+Tue May 24 04:26:06 CEST 2022
+Original coords: 12:125796147-125806147
+Sampled coords: 12:125776147-125826147
+# LOOP 0
+
+# Sucess!
+Reads:  6446
+# Delete tmp file
+---------------------
+HsOth1857 Mapped reads 
+---------------------
+Tue May 24 04:30:13 CEST 2022
+Original coords: 12:78383734-78384033
+Sampled coords: 12:78363734-78404033
+# LOOP 0
+
+# Sucess!
+Reads:  2469
+# Delete tmp file
+---------------------
+HsOth1863 Mapped reads 
+---------------------
+Tue May 24 04:34:39 CEST 2022
+Original coords: 7:85089485-85089784
+Sampled coords: 7:85069485-85109784
+# LOOP 0
+
+# Sucess!
+Reads:  1846
+# Delete tmp file
+---------------------
+HsOth1865 Mapped reads 
+---------------------
+Tue May 24 04:38:55 CEST 2022
+Original coords: X:26799987-26800286
+Sampled coords: X:26779987-26820286
+# LOOP 0
+
+# Sucess!
+Reads:  1368
+# Delete tmp file
+---------------------
+ Unmapped reads 
+---------------------
+Tue May 24 04:43:27 CEST 2022
+# LOOP 0
+# Fail!
+# Delete tmp file
+# LOOP 1
+# Fail!
+# Delete tmp file
+# LOOP 2
+# Fail!
+# Delete tmp file
+# LOOP 3
+# Fail!
+# Delete tmp file
+# LOOP 4
+# Fail!
+# Delete tmp file
+# LOOP 5
+# Fail!
+# Delete tmp file
+# LOOP 6
+# Fail!
+# Delete tmp file
+# LOOP 7
+# Fail!
+# Delete tmp file
+# LOOP 8
+# Fail!
+# Delete tmp file
+# LOOP 9
+# Fail!
+# Delete tmp file
+# LOOP 10
+# Fail!
+# Delete tmp file
+# LOOP 11
+# Fail!
+# Delete tmp file
+# LOOP 12
+# Fail!
+# Delete tmp file
+# LOOP 13
+# Fail!
+# Delete tmp file
+# LOOP 14
+# Fail!
+# Delete tmp file
+# LOOP 15
+# Fail!
+# Delete tmp file
+# LOOP 16
+# Fail!
+# Delete tmp file
+# LOOP 17
+# Fail!
+# Delete tmp file
+# LOOP 18
+# Fail!
+# Delete tmp file
+# LOOP 19
+# Fail!
+# Delete tmp file
+# LOOP 20
+# Fail!
+# Delete tmp file
+# LOOP 21
+# Fail!
+# Delete tmp file
+# LOOP 22
+# Fail!
+# Delete tmp file
+# LOOP 23
+# Fail!
+# Delete tmp file
+# LOOP 24
+# Fail!
+# Delete tmp file
+# LOOP 25
+# Fail!
+# Delete tmp file
+# LOOP 26
+# Fail!
+# Delete tmp file
+# LOOP 27
+# Fail!
+# Delete tmp file
+# LOOP 28
+# Fail!
+# Delete tmp file
+# LOOP 29
+# Fail!
+# Delete tmp file
+# LOOP 30
+# Fail!
+# Delete tmp file
+# LOOP 31
+# Fail!
+# Delete tmp file
+# LOOP 32
+# Fail!
+# Delete tmp file
+# LOOP 33
+# Fail!
+# Delete tmp file
+# LOOP 34
+# Fail!
+# Delete tmp file
+# LOOP 35
+# Fail!
+# Delete tmp file
+# LOOP 36
+# Fail!
+# Delete tmp file
+# LOOP 37
+# Fail!
+# Delete tmp file
+# LOOP 38
+# Fail!
+# Delete tmp file
+# LOOP 39
+# Fail!
+# Delete tmp file
+# LOOP 40
+# Fail!
+# Delete tmp file
+# LOOP 41
+# Fail!
+# Delete tmp file
+# LOOP 42
+# Fail!
+# Delete tmp file
+# LOOP 43
+# Fail!
+# Delete tmp file
+# LOOP 44
+# Fail!
+# Delete tmp file
+# LOOP 45
+# Fail!
+# Delete tmp file
+# LOOP 46
+# Fail!
+# Delete tmp file
+# LOOP 47
+# Fail!
+# Delete tmp file
+# LOOP 48
+# Fail!
+# Delete tmp file
+# LOOP 49
+# Fail!
+# Delete tmp file
+# LOOP 50
+# Fail!
+# Delete tmp file
+# LOOP 51
+# Fail!
+# Delete tmp file
+# LOOP 52
+# Fail!
+# Delete tmp file
+# LOOP 53
+# Fail!
+# Delete tmp file
+# LOOP 54
+# Fail!
+# Delete tmp file
+# LOOP 55
+# Fail!
+# Delete tmp file
+# LOOP 56
+# Fail!
+# Delete tmp file
+# LOOP 57
+# Fail!
+# Delete tmp file
+# LOOP 58
+# Fail!
+# Delete tmp file
+# LOOP 59
+# Fail!
+# Delete tmp file
+# LOOP 60
+# Fail!
+# Delete tmp file
+# LOOP 61
+# Fail!
+# Delete tmp file
+# LOOP 62
+# Fail!
+# Delete tmp file
+# LOOP 63
+# Fail!
+# Delete tmp file
+# LOOP 64
+# Fail!
+# Delete tmp file
+# LOOP 65
+# Fail!
+# Delete tmp file
+# LOOP 66
+# Fail!
+# Delete tmp file
+# LOOP 67
+# Fail!
+# Delete tmp file
+# LOOP 68
+# Fail!
+# Delete tmp file
+# LOOP 69
+# Fail!
+# Delete tmp file
+# LOOP 70
+# Fail!
+# Delete tmp file
+# LOOP 71
+# Fail!
+# Delete tmp file
+# LOOP 72
+# Fail!
+# Delete tmp file
+# LOOP 73
+# Fail!
+# Delete tmp file
+# LOOP 74
+# Fail!
+# Delete tmp file
+# LOOP 75
+# Fail!
+# Delete tmp file
+# LOOP 76
+# Fail!
+# Delete tmp file
+# LOOP 77
+# Fail!
+# Delete tmp file
+# LOOP 78
+# Fail!
+# Delete tmp file
+# LOOP 79
+# Fail!
+# Delete tmp file
+# LOOP 80
+# Fail!
+# Delete tmp file
+# LOOP 81
+# Fail!
+# Delete tmp file
+# LOOP 82
+# Fail!
+# Delete tmp file
+# LOOP 83
+# Fail!
+# Delete tmp file
+# LOOP 84
+# Fail!
+# Delete tmp file
+# LOOP 85
+# Fail!
+# Delete tmp file
+# LOOP 86
+# Fail!
+# Delete tmp file
+# LOOP 87
+# Fail!
+# Delete tmp file
+# LOOP 88
+# Fail!
+# Delete tmp file
+# LOOP 89
+# Fail!
+# Delete tmp file
+# LOOP 90
+# Fail!
+# Delete tmp file
+# LOOP 91
+# Fail!
+# Delete tmp file
+# LOOP 92
+# Fail!
+# Delete tmp file
+# LOOP 93
+# Fail!
+# Delete tmp file
+# LOOP 94
+# Fail!
+# Delete tmp file
+# LOOP 95
+# Fail!
+# Delete tmp file
+# LOOP 96
+# Fail!
+# Delete tmp file
+# LOOP 97
+# Fail!
+# Delete tmp file
+# LOOP 98
+# Fail!
+# Delete tmp file
+# LOOP 99
+# Fail!
+# Delete tmp file
+# LOOP 100
+# Fail!
+# Delete tmp file
+# LOOP 101
+# Fail!
+# Delete tmp file
+# LOOP 102
+# Fail!
+# Delete tmp file
+# LOOP 103
+# Fail!
+# Delete tmp file
+# LOOP 104
+# Fail!
+# Delete tmp file
+# LOOP 105
+# Fail!
+# Delete tmp file
+# LOOP 106
+# Fail!
+# Delete tmp file
+# LOOP 107
+# Fail!
+# Delete tmp file
+# LOOP 108
+# Fail!
+# Delete tmp file
+# LOOP 109
+# Fail!
+# Delete tmp file
+# LOOP 110
+# Fail!
+# Delete tmp file
+# LOOP 111
+# Fail!
+# Delete tmp file
+# LOOP 112
+# Fail!
+# Delete tmp file
+# LOOP 113
+# Fail!
+# Delete tmp file
+# LOOP 114
+# Fail!
+# Delete tmp file
+# LOOP 115
+# Fail!
+# Delete tmp file
+# LOOP 116
+# Fail!
+# Delete tmp file
+# LOOP 117
+# Fail!
+# Delete tmp file
+# LOOP 118
+# Fail!
+# Delete tmp file
+# LOOP 119
+# Fail!
+# Delete tmp file
+# LOOP 120
+# Fail!
+# Delete tmp file
+# LOOP 121
+# Fail!
+# Delete tmp file
+# LOOP 122
+# Fail!
+# Delete tmp file
+# LOOP 123
+# Fail!
+# Delete tmp file
+# LOOP 124
+# Fail!
+# Delete tmp file
+# LOOP 125
+# Fail!
+# Delete tmp file
+# LOOP 126
+# Fail!
+# Delete tmp file
+# LOOP 127
+# Fail!
+# Delete tmp file
+# LOOP 128
+# Fail!
+# Delete tmp file
+# LOOP 129
+# Fail!
+# Delete tmp file
+# LOOP 130
+# Fail!
+# Delete tmp file
+# LOOP 131
+# Fail!
+# Delete tmp file
+# LOOP 132
+# Fail!
+# Delete tmp file
+# LOOP 133
+# Fail!
+# Delete tmp file
+# LOOP 134
+# Fail!
+# Delete tmp file
+# LOOP 135
+# Fail!
+# Delete tmp file
+# LOOP 136
+# Fail!
+# Delete tmp file
+# LOOP 137
+# Fail!
+# Delete tmp file
+# LOOP 138
+# Fail!
+# Delete tmp file
+# LOOP 139
+# Fail!
+# Delete tmp file
+# LOOP 140
+# Fail!
+# Delete tmp file
+# LOOP 141
+# Fail!
+# Delete tmp file
+# LOOP 142
+# Fail!
+# Delete tmp file
+# LOOP 143
+# Fail!
+# Delete tmp file
+# LOOP 144
+# Fail!
+# Delete tmp file
+# LOOP 145
+# Fail!
+# Delete tmp file
+# LOOP 146
+# Fail!
+# Delete tmp file
+# LOOP 147
+# Fail!
+# Delete tmp file
+# LOOP 148
+# Fail!
+# Delete tmp file
+# LOOP 149
+# Fail!
+# Delete tmp file
+# LOOP 150
+# Fail!
+# Delete tmp file
+# LOOP 151
+# Fail!
+# Delete tmp file
+# LOOP 152
+# Fail!
+# Delete tmp file
+# LOOP 153
+# Fail!
+# Delete tmp file
+# LOOP 154
+# Fail!
+# Delete tmp file
+# LOOP 155
+# Fail!
+# Delete tmp file
+# LOOP 156
+# Fail!
+# Delete tmp file
+# LOOP 157
+# Fail!
+# Delete tmp file
+# LOOP 158
+# Fail!
+# Delete tmp file
+# LOOP 159
+# Fail!
+# Delete tmp file
+# LOOP 160
+# Fail!
+# Delete tmp file
+# LOOP 161
+# Fail!
+# Delete tmp file
+# LOOP 162
+# Fail!
+# Delete tmp file
+# LOOP 163
+# Fail!
+# Delete tmp file
+# LOOP 164
+# Fail!
+# Delete tmp file
+# LOOP 165
+# Fail!
+# Delete tmp file
+# LOOP 166
+# Fail!
+# Delete tmp file
+# LOOP 167
+# Fail!
+# Delete tmp file
+# LOOP 168
+# Fail!
+# Delete tmp file
+# LOOP 169
+# Fail!
+# Delete tmp file
+# LOOP 170
+# Fail!
+# Delete tmp file
+# LOOP 171
+# Fail!
+# Delete tmp file
+# LOOP 172
+# Fail!
+# Delete tmp file
+# LOOP 173
+# Fail!
+# Delete tmp file
+# LOOP 174
+# Fail!
+# Delete tmp file
+# LOOP 175
+# Fail!
+# Delete tmp file
+# LOOP 176
+# Fail!
+# Delete tmp file
+# LOOP 177
+# Fail!
+# Delete tmp file
+# LOOP 178
+# Fail!
+# Delete tmp file
+# LOOP 179
+# Fail!
+# Delete tmp file
+# LOOP 180
+# Fail!
+# Delete tmp file
+# LOOP 181
+# Fail!
+# Delete tmp file
+# LOOP 182
+# Fail!
+# Delete tmp file
+# LOOP 183
+# Fail!
+# Delete tmp file
+# LOOP 184
+# Fail!
+# Delete tmp file
+# LOOP 185
+# Fail!
+# Delete tmp file
+# LOOP 186
+# Fail!
+# Delete tmp file
+# LOOP 187
+# Fail!
+# Delete tmp file
+# LOOP 188
+# Fail!
+# Delete tmp file
+# LOOP 189
+# Fail!
+# Delete tmp file
+# LOOP 190
+# Fail!
+# Delete tmp file
+# LOOP 191
+# Fail!
+# Delete tmp file
+# LOOP 192
+# Fail!
+# Delete tmp file
+# LOOP 193
+# Fail!
+# Delete tmp file
+# LOOP 194
+# Fail!
+# Delete tmp file
+# LOOP 195
+# Fail!
+# Delete tmp file
+# LOOP 196
+# Fail!
+# Delete tmp file
+# LOOP 197
+# Fail!
+# Delete tmp file
+# LOOP 198
+# Fail!
+# Delete tmp file
+# LOOP 199
+# Fail!
+# Delete tmp file
+# LOOP 200
+# Fail!
+# Delete tmp file
+# LOOP 201
+# Fail!
+# Delete tmp file
+# LOOP 202
+# Fail!
+# Delete tmp file
+# LOOP 203
+# Fail!
+# Delete tmp file
+# LOOP 204
+# Fail!
+# Delete tmp file
+# LOOP 205
+# Fail!
+# Delete tmp file
+# LOOP 206
+# Fail!
+# Delete tmp file
+# LOOP 207
+# Fail!
+# Delete tmp file
+# LOOP 208
+# Fail!
+# Delete tmp file
+# LOOP 209
+# Fail!
+# Delete tmp file
+# LOOP 210
+# Fail!
+# Delete tmp file
+# LOOP 211
+# Fail!
+# Delete tmp file
+# LOOP 212
+# Fail!
+# Delete tmp file
+# LOOP 213
+# Fail!
+# Delete tmp file
+# LOOP 214
+# Fail!
+# Delete tmp file
+# LOOP 215
+# Fail!
+# Delete tmp file
+# LOOP 216
+# Fail!
+# Delete tmp file
+# LOOP 217
+# Fail!
+# Delete tmp file
+# LOOP 218
+# Fail!
+# Delete tmp file
+# LOOP 219
+# Fail!
+# Delete tmp file
+# LOOP 220
+# Fail!
+# Delete tmp file
+# LOOP 221
+# Fail!
+# Delete tmp file
+# LOOP 222
+# Fail!
+# Delete tmp file
+# LOOP 223
+# Fail!
+# Delete tmp file
+# LOOP 224
+# Fail!
+# Delete tmp file
+# LOOP 225
+# Fail!
+# Delete tmp file
+# LOOP 226
+# Fail!
+# Delete tmp file
+# LOOP 227
+# Fail!
+# Delete tmp file
+# LOOP 228
+# Fail!
+# Delete tmp file
+# LOOP 229
+# Fail!
+# Delete tmp file
+# LOOP 230
+# Fail!
+# Delete tmp file
+# LOOP 231
+# Fail!
+# Delete tmp file
+# LOOP 232
+# Fail!
+# Delete tmp file
+# LOOP 233
+# Fail!
+# Delete tmp file
+# LOOP 234
+# Fail!
+# Delete tmp file
+# LOOP 235
+# Fail!
+# Delete tmp file
+# LOOP 236
+# Fail!
+# Delete tmp file
+# LOOP 237
+# Fail!
+# Delete tmp file
+# LOOP 238
+# Fail!
+# Delete tmp file
+# LOOP 239
+# Fail!
+# Delete tmp file
+# LOOP 240
+# Fail!
+# Delete tmp file
+# LOOP 241
+# Fail!
+# Delete tmp file
+# LOOP 242
+# Fail!
+# Delete tmp file
+# LOOP 243
+# Fail!
+# Delete tmp file
+# LOOP 244
+# Fail!
+# Delete tmp file
+# LOOP 245
+# Fail!
+# Delete tmp file
+# LOOP 246
+# Fail!
+# Delete tmp file
+# LOOP 247
+# Fail!
+# Delete tmp file
+# LOOP 248
+# Fail!
+# Delete tmp file
+# LOOP 249
+# Fail!
+# Delete tmp file
+# LOOP 250
+# Fail!
+# Delete tmp file
+# LOOP 251
+# Fail!
+# Delete tmp file
+# LOOP 252
+# Fail!
+# Delete tmp file
+# LOOP 253
+# Fail!
+# Delete tmp file
+# LOOP 254
+# Fail!
+# Delete tmp file
+# LOOP 255
+# Fail!
+# Delete tmp file
+# LOOP 256
+# Fail!
+# Delete tmp file
+# LOOP 257
+# Fail!
+# Delete tmp file
+# LOOP 258
+# Fail!
+# Delete tmp file
+# LOOP 259
+# Fail!
+# Delete tmp file
+# LOOP 260
+# Fail!
+# Delete tmp file
+# LOOP 261
+# Fail!
+# Delete tmp file
+# LOOP 262
+# Fail!
+# Delete tmp file
+# LOOP 263
+# Fail!
+# Delete tmp file
+# LOOP 264
+# Fail!
+# Delete tmp file
+# LOOP 265
+# Fail!
+# Delete tmp file
+# LOOP 266
+# Fail!
+# Delete tmp file
+# LOOP 267
+# Fail!
+# Delete tmp file
+# LOOP 268
+# Fail!
+# Delete tmp file
+# LOOP 269
+# Fail!
+# Delete tmp file
+# LOOP 270
+# Fail!
+# Delete tmp file
+# LOOP 271
+# Fail!
+# Delete tmp file
+# LOOP 272
+# Fail!
+# Delete tmp file
+# LOOP 273
+# Fail!
+# Delete tmp file
+# LOOP 274
+# Fail!
+# Delete tmp file
+# LOOP 275
+# Fail!
+# Delete tmp file
+# LOOP 276
+# Fail!
+# Delete tmp file
+# LOOP 277
+# Fail!
+# Delete tmp file
+# LOOP 278
+# Fail!
+# Delete tmp file
+# LOOP 279
+# Fail!
+# Delete tmp file
+# LOOP 280
+# Fail!
+# Delete tmp file
+# LOOP 281
+# Fail!
+# Delete tmp file
+# LOOP 282
+# Fail!
+# Delete tmp file
+# LOOP 283
+# Fail!
+# Delete tmp file
+# LOOP 284
+# Fail!
+# Delete tmp file
+# LOOP 285
+# Fail!
+# Delete tmp file
+# LOOP 286
+# Fail!
+# Delete tmp file
+# LOOP 287
+# Fail!
+# Delete tmp file
+# LOOP 288
+# Fail!
+# Delete tmp file
+# LOOP 289
+# Fail!
+# Delete tmp file
+# LOOP 290
+# Fail!
+# Delete tmp file
+# LOOP 291
+# Fail!
+# Delete tmp file
+# LOOP 292
+# Fail!
+# Delete tmp file
+# LOOP 293
+# Fail!
+# Delete tmp file
+# LOOP 294
+# Fail!
+# Delete tmp file
+# LOOP 295
+# Fail!
+# Delete tmp file
+# LOOP 296
+# Fail!
+# Delete tmp file
+# LOOP 297
+# Fail!
+# Delete tmp file
+# LOOP 298
+# Fail!
+# Delete tmp file
+# LOOP 299
+# Fail!
+# Delete tmp file
+# LOOP 300
+# Fail!
+# Delete tmp file
+# LOOP 301
+# Fail!
+# Delete tmp file
+# LOOP 302
+# Fail!
+# Delete tmp file
+# LOOP 303
+# Fail!
+# Delete tmp file
+# LOOP 304
+# Fail!
+# Delete tmp file
+# LOOP 305
+# Fail!
+# Delete tmp file
+# LOOP 306
+# Fail!
+# Delete tmp file
+# LOOP 307
+# Fail!
+# Delete tmp file
+# LOOP 308
+# Fail!
+# Delete tmp file
+# LOOP 309
+# Fail!
+# Delete tmp file
+# LOOP 310
+# Fail!
+# Delete tmp file
+# LOOP 311
+# Fail!
+# Delete tmp file
+# LOOP 312
+# Fail!
+# Delete tmp file
+# LOOP 313
+# Fail!
+# Delete tmp file
+# LOOP 314
+# Fail!
+# Delete tmp file
+# LOOP 315
+# Fail!
+# Delete tmp file
+# LOOP 316
+# Fail!
+# Delete tmp file
+# LOOP 317
+# Fail!
+# Delete tmp file
+# LOOP 318
+# Fail!
+# Delete tmp file
+# LOOP 319
+# Fail!
+# Delete tmp file
+# LOOP 320
+# Fail!
+# Delete tmp file
+# LOOP 321
+# Fail!
+# Delete tmp file
+# LOOP 322
+# Fail!
+# Delete tmp file
+# LOOP 323
+# Fail!
+# Delete tmp file
+# LOOP 324
+# Fail!
+# Delete tmp file
+# LOOP 325
+# Fail!
+# Delete tmp file
+# LOOP 326
+# Fail!
+# Delete tmp file
+# LOOP 327
+# Fail!
+# Delete tmp file
+# LOOP 328
+# Fail!
+# Delete tmp file
+# LOOP 329
+# Fail!
+# Delete tmp file
+# LOOP 330
+# Fail!
+# Delete tmp file
+# LOOP 331
+# Fail!
+# Delete tmp file
+# LOOP 332
+# Fail!
+# Delete tmp file
+# LOOP 333
+# Fail!
+# Delete tmp file
+# LOOP 334
+# Fail!
+# Delete tmp file
+# LOOP 335
+# Fail!
+# Delete tmp file
+# LOOP 336
+# Fail!
+# Delete tmp file
+# LOOP 337
+# Fail!
+# Delete tmp file
+# LOOP 338
+# Fail!
+# Delete tmp file
+# LOOP 339
+# Fail!
+# Delete tmp file
+# LOOP 340
+# Fail!
+# Delete tmp file
+# LOOP 341
+# Fail!
+# Delete tmp file
+# LOOP 342
+# Fail!
+# Delete tmp file
+# LOOP 343
+# Fail!
+# Delete tmp file
+# LOOP 344
+# Fail!
+# Delete tmp file
+# LOOP 345
+# Fail!
+# Delete tmp file
+# LOOP 346
+# Fail!
+# Delete tmp file
+# LOOP 347
+# Fail!
+# Delete tmp file
+# LOOP 348
+# Fail!
+# Delete tmp file
+# LOOP 349
+# Fail!
+# Delete tmp file
+# LOOP 350
+# Fail!
+# Delete tmp file
+# LOOP 351
+# Fail!
+# Delete tmp file
+# LOOP 352
+# Fail!
+# Delete tmp file
+# LOOP 353
+# Fail!
+# Delete tmp file
+# LOOP 354
+# Fail!
+# Delete tmp file
+# LOOP 355
+# Fail!
+# Delete tmp file
+# LOOP 356
+# Fail!
+# Delete tmp file
+# LOOP 357
+# Fail!
+# Delete tmp file
+# LOOP 358
+# Fail!
+# Delete tmp file
+# LOOP 359
+# Fail!
+# Delete tmp file
+# LOOP 360
+# Fail!
+# Delete tmp file
+# LOOP 361
+# Fail!
+# Delete tmp file
+# LOOP 362
+# Fail!
+# Delete tmp file
+# LOOP 363
+# Fail!
+# Delete tmp file
+# LOOP 364
+# Fail!
+# Delete tmp file
+# LOOP 365
+# Fail!
+# Delete tmp file
+# LOOP 366
+# Fail!
+# Delete tmp file
+# LOOP 367
+# Fail!
+# Delete tmp file
+# LOOP 368
+# Fail!
+# Delete tmp file
+# LOOP 369
+# Fail!
+# Delete tmp file
+# LOOP 370
+# Fail!
+# Delete tmp file
+# LOOP 371
+# Fail!
+# Delete tmp file
+# LOOP 372
+# Fail!
+# Delete tmp file
+# LOOP 373
+# Fail!
+# Delete tmp file
+# LOOP 374
+# Fail!
+# Delete tmp file
+# LOOP 375
+# Fail!
+# Delete tmp file
+# LOOP 376
+# Fail!
+# Delete tmp file
+# LOOP 377
+# Fail!
+# Delete tmp file
+# LOOP 378
+# Fail!
+# Delete tmp file
+# LOOP 379
+# Fail!
+# Delete tmp file
+# LOOP 380
+# Fail!
+# Delete tmp file
+# LOOP 381
+# Fail!
+# Delete tmp file
+# LOOP 382
+# Fail!
+# Delete tmp file
+# LOOP 383
+# Fail!
+# Delete tmp file
+# LOOP 384
+# Fail!
+# Delete tmp file
+# LOOP 385
+# Fail!
+# Delete tmp file
+# LOOP 386
+# Fail!
+# Delete tmp file
+# LOOP 387
+# Fail!
+# Delete tmp file
+# LOOP 388
+# Fail!
+# Delete tmp file
+# LOOP 389
+# Fail!
+# Delete tmp file
+# LOOP 390
+# Fail!
+# Delete tmp file
+# LOOP 391
+# Fail!
+# Delete tmp file
+# LOOP 392
+# Fail!
+# Delete tmp file
+# LOOP 393
+# Fail!
+# Delete tmp file
+# LOOP 394
+# Fail!
+# Delete tmp file
+# LOOP 395
+# Fail!
+# Delete tmp file
+# LOOP 396
+# Fail!
+# Delete tmp file
+# LOOP 397
+# Fail!
+# Delete tmp file
+# LOOP 398
+# Fail!
+# Delete tmp file
+# LOOP 399
+# Fail!
+# Delete tmp file
+# LOOP 400
+# Fail!
+# Delete tmp file
+# LOOP 401
+# Fail!
+# Delete tmp file
+# LOOP 402
+# Fail!
+# Delete tmp file
+# LOOP 403
+# Fail!
+# Delete tmp file
+# LOOP 404
+# Fail!
+# Delete tmp file
+# LOOP 405
+# Fail!
+# Delete tmp file
+# LOOP 406
+# Fail!
+# Delete tmp file
+# LOOP 407
+# Fail!
+# Delete tmp file
+# LOOP 408
+# Fail!
+# Delete tmp file
+# LOOP 409
+# Fail!
+# Delete tmp file
+# LOOP 410
+# Fail!
+# Delete tmp file
+# LOOP 411
+# Fail!
+# Delete tmp file
+# LOOP 412
+# Fail!
+# Delete tmp file
+# LOOP 413
+# Fail!
+# Delete tmp file
+# LOOP 414
+# Fail!
+# Delete tmp file
+# LOOP 415
+# Fail!
+# Delete tmp file
+# LOOP 416
+# Fail!
+# Delete tmp file
+# LOOP 417
+# Fail!
+# Delete tmp file
+# LOOP 418
+# Fail!
+# Delete tmp file
+# LOOP 419
+# Fail!
+# Delete tmp file
+# LOOP 420
+# Fail!
+# Delete tmp file
+# LOOP 421
+# Fail!
+# Delete tmp file
+# LOOP 422
+# Fail!
+# Delete tmp file
+# LOOP 423
+# Fail!
+# Delete tmp file
+# LOOP 424
+# Fail!
+# Delete tmp file
+# LOOP 425
+# Fail!
+# Delete tmp file
+# LOOP 426
+# Fail!
+# Delete tmp file
+# LOOP 427
+# Fail!
+# Delete tmp file
+# LOOP 428
+# Fail!
+# Delete tmp file
+# LOOP 429
+# Fail!
+# Delete tmp file
+# LOOP 430
+# Fail!
+# Delete tmp file
+# LOOP 431
+# Fail!
+# Delete tmp file
+# LOOP 432
+# Fail!
+# Delete tmp file
+# LOOP 433
+# Fail!
+# Delete tmp file
+# LOOP 434
+# Fail!
+# Delete tmp file
+# LOOP 435
+# Fail!
+# Delete tmp file
+# LOOP 436
+# Fail!
+# Delete tmp file
+# LOOP 437
+# Fail!
+# Delete tmp file
+# LOOP 438
+# Fail!
+# Delete tmp file
+# LOOP 439
+# Fail!
+# Delete tmp file
+# LOOP 440
+# Fail!
+# Delete tmp file
+# LOOP 441
+# Fail!
+# Delete tmp file
+# LOOP 442
+# Fail!
+# Delete tmp file
+# LOOP 443
+# Fail!
+# Delete tmp file
+# LOOP 444
+# Fail!
+# Delete tmp file
+# LOOP 445
+# Fail!
+# Delete tmp file
+# LOOP 446
+# Fail!
+# Delete tmp file
+# LOOP 447
+# Fail!
+# Delete tmp file
+# LOOP 448
+# Fail!
+# Delete tmp file
+# LOOP 449
+# Fail!
+# Delete tmp file
+# LOOP 450
+# Fail!
+# Delete tmp file
+# LOOP 451
+# Fail!
+# Delete tmp file
+# LOOP 452
+# Fail!
+# Delete tmp file
+# LOOP 453
+# Fail!
+# Delete tmp file
+# LOOP 454
+# Fail!
+# Delete tmp file
+# LOOP 455
+# Fail!
+# Delete tmp file
+# LOOP 456
+# Fail!
+# Delete tmp file
+# LOOP 457
+# Fail!
+# Delete tmp file
+# LOOP 458
+# Fail!
+# Delete tmp file
+# LOOP 459
+# Fail!
+# Delete tmp file
+# LOOP 460
+# Fail!
+# Delete tmp file
+# LOOP 461
+# Fail!
+# Delete tmp file
+# LOOP 462
+# Fail!
+# Delete tmp file
+# LOOP 463
+# Fail!
+# Delete tmp file
+# LOOP 464
+# Fail!
+# Delete tmp file
+# LOOP 465
+# Fail!
+# Delete tmp file
+# LOOP 466
+# Fail!
+# Delete tmp file
+# LOOP 467
+# Fail!
+# Delete tmp file
+# LOOP 468
+# Fail!
+# Delete tmp file
+# LOOP 469
+# Fail!
+# Delete tmp file
+# LOOP 470
+# Fail!
+# Delete tmp file
+# LOOP 471
+# Fail!
+# Delete tmp file
+# LOOP 472
+# Fail!
+# Delete tmp file
+# LOOP 473
+# Fail!
+# Delete tmp file
+# LOOP 474
+# Fail!
+# Delete tmp file
+# LOOP 475
+# Fail!
+# Delete tmp file
+# LOOP 476
+# Fail!
+# Delete tmp file
+# LOOP 477
+# Fail!
+# Delete tmp file
+# LOOP 478
+# Fail!
+# Delete tmp file
+# LOOP 479
+# Fail!
+# Delete tmp file
+# LOOP 480
+# Fail!
+# Delete tmp file
+# LOOP 481
+# Fail!
+# Delete tmp file
+# LOOP 482
+# Fail!
+# Delete tmp file
+# LOOP 483
+# Fail!
+# Delete tmp file
+# LOOP 484
+# Fail!
+# Delete tmp file
+# LOOP 485
+# Fail!
+# Delete tmp file
+# LOOP 486
+# Fail!
+# Delete tmp file
+# LOOP 487
+# Fail!
+# Delete tmp file
+# LOOP 488
+# Fail!
+# Delete tmp file
+# LOOP 489
+# Fail!
+# Delete tmp file
+# LOOP 490
+# Fail!
+# Delete tmp file
+# LOOP 491
+# Fail!
+# Delete tmp file
+# LOOP 492
+# Fail!
+# Delete tmp file
+# LOOP 493
+# Fail!
+# Delete tmp file
+# LOOP 494
+# Fail!
+# Delete tmp file
+# LOOP 495
+# Fail!
+# Delete tmp file
+# LOOP 496
+# Fail!
+# Delete tmp file
+# LOOP 497
+# Fail!
+# Delete tmp file
+# LOOP 498
+# Fail!
+# Delete tmp file
+# LOOP 499
+# Fail!
+# Delete tmp file
+# LOOP 500
+Maximum loop count! Aborting...

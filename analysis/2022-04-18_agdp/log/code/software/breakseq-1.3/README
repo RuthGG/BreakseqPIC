@@ -1,0 +1,30 @@
+############################################################
+#                                                          #
+# BreakSeq                                                 #
+# The SV annotation and identification pipeline            #
+#                                                          #
+############################################################
+
+This is the README file for the BreakSeq program.
+
+# Version
+BreakSeq version 1.3
+
+# Recommended versions of python
+- Python 2.6.1
+
+# Configuration
+- Update the paths in the Config.txt
+- The recommended versions of the required programs are specified in Config.txt
+- For the identification pipeline:
++ Build the Bowtie indexes for the reference genome (h_sapiens_asm) and the breakpoint junction library (bplib)
++ Update the paths in the alignment script, i.e. align.bow, in the bin/svMap directory
+- For the annotation pipeline:
++ Minimum size of SV events should be >=50bp
++ To skip a module in the annotation pipeline, modify bin/annotate and comment out the corresponding part
+
+# Executing the annotation pipeline module
+./breakseq annotate <SV GFF file> <output directory> [minimum size (bp) of events: 1000 (default), 50 (min)]
+
+# Executing the identification pipeline module
+./breakseq identify <output directory> <query FASTA/FASTQ>...

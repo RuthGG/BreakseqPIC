@@ -1,0 +1,1 @@
+ChrNo.	Start	End	LeftFlankingSequence	RightFlankingSequence	ID

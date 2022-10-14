@@ -1,0 +1,20 @@
+# The configuration file for BreakSeq
+
+PYTHON="/usr/local/bin/python"
+
+#Genome_Seq_Directory="/home/shareddata/Bioinformatics/BPSeq/data"
+#RepeatMasked_Genome_Directory="/home9-2/gersteinlab/common/genomes/human/reference/hg18/RM"
+#BLAST_Directory="/home9-2/gersteinlab/common/programs/blast-2.2.17/bin"
+#RepeatMasker_Program_Directory="/home9-2/gersteinlab/common/programs/repeatmasker-3.2.7"
+
+#Blat_Server={"panTro2":"c022", "rheMac2":"c024", "ponAbe2":"c025"}
+#Blat_Client="/home9-2/gersteinlab/common/programs/blat-3.4/gfClient"
+#Blat_TwoBit={"panTro2":"/home9-2/gersteinlab/common/genomes/chimp/panTro2/2bit", "rheMac2":"/home9-2/gersteinlab/common/genomes/macaque/rheMac2/2bit", #"ponAbe2":"/home9-2/gersteinlab/common/genomes/orangutan/ponAbe2/2bit"}
+#Net_Chain={"panTro2":"/home9-2/gersteinlab/common/genomes/chimp/panTro2/chain/hg18.panTro2.syn.net.level1", "rheMac2":"/home9-2/gersteinlab/common/genomes/#macaque/rheMac2/chain/hg18.rheMac2.syn.net.level1", "ponAbe2":"/home9-2/gersteinlab/common/genomes/orangutan/ponAbe2/chain/hg18.ponAbe2.syn.net.level1"}
+
+#Gencode_GFF="/home9-2/gersteinlab/common/genomes/human/reference/hg18/gtf/gencode.v3b.annotation.NCBI36.gene.gtf"
+
+# Currently, for SV Mapper's config, see its own README
+Sam_Tools_Path="/usr/local/bin"
+Bowtie_Path="/home/jon/soft/bowtie2"
+Bowtie_Indexes="/home/jon/soft/bowtie2/indexes"

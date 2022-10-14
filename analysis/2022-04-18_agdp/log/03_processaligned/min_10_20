@@ -1,0 +1,1030 @@
+Take samples
+Start looping samples
+################
+I0707
+################
+## STEP 1 MAKE BAM
+  Creating header for I0707.
+  Collecting and sorting alignments to the reference from individual I0707.
+  There are no hits to the human reference genome for I0707.
+  Creating more headers for I0707.
+  There are no unique hits to breakpoints for I0707.
+  There are no non-unique hits to the breakpoints for I0707.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I0708
+################
+## STEP 1 MAKE BAM
+  Creating header for I0708.
+  Collecting and sorting alignments to the reference from individual I0708.
+  There are no hits to the human reference genome for I0708.
+  Creating more headers for I0708.
+  There are no unique hits to breakpoints for I0708.
+  There are no non-unique hits to the breakpoints for I0708.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I0709
+################
+## STEP 1 MAKE BAM
+  Creating header for I0709.
+  Collecting and sorting alignments to the reference from individual I0709.
+  There are no hits to the human reference genome for I0709.
+  Creating more headers for I0709.
+  There are no unique hits to breakpoints for I0709.
+  There are no non-unique hits to the breakpoints for I0709.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I0745
+################
+## STEP 1 MAKE BAM
+  Creating header for I0745.
+  Collecting and sorting alignments to the reference from individual I0745.
+  Creating more headers for I0745.
+  Collecting and sorting unique alignments to bplib from individual I0745.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I0745.
+On individual tmp/2022-04-18_agdp/03_processaligned/I0745/, out of 617 reads, 13 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1053
+################
+## STEP 1 MAKE BAM
+  Creating header for I1053.
+  Collecting and sorting alignments to the reference from individual I1053.
+  There are no hits to the human reference genome for I1053.
+  Creating more headers for I1053.
+  There are no unique hits to breakpoints for I1053.
+  There are no non-unique hits to the breakpoints for I1053.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I10871
+################
+## STEP 1 MAKE BAM
+  Creating header for I10871.
+  Collecting and sorting alignments to the reference from individual I10871.
+  There are no hits to the human reference genome for I10871.
+  Creating more headers for I10871.
+  There are no unique hits to breakpoints for I10871.
+  There are no non-unique hits to the breakpoints for I10871.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I10873
+################
+## STEP 1 MAKE BAM
+  Creating header for I10873.
+  Collecting and sorting alignments to the reference from individual I10873.
+  There are no hits to the human reference genome for I10873.
+  Creating more headers for I10873.
+  There are no unique hits to breakpoints for I10873.
+  There are no non-unique hits to the breakpoints for I10873.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1098
+################
+## STEP 1 MAKE BAM
+  Creating header for I1098.
+  Collecting and sorting alignments to the reference from individual I1098.
+  There are no hits to the human reference genome for I1098.
+  Creating more headers for I1098.
+  There are no unique hits to breakpoints for I1098.
+  There are no non-unique hits to the breakpoints for I1098.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1131
+################
+## STEP 1 MAKE BAM
+  Creating header for I1131.
+  Collecting and sorting alignments to the reference from individual I1131.
+  There are no hits to the human reference genome for I1131.
+  Creating more headers for I1131.
+  There are no unique hits to breakpoints for I1131.
+  There are no non-unique hits to the breakpoints for I1131.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I11456
+################
+## STEP 1 MAKE BAM
+  Creating header for I11456.
+  Collecting and sorting alignments to the reference from individual I11456.
+  There are no hits to the human reference genome for I11456.
+  Creating more headers for I11456.
+  There are no unique hits to breakpoints for I11456.
+  There are no non-unique hits to the breakpoints for I11456.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I11459
+################
+## STEP 1 MAKE BAM
+  Creating header for I11459.
+  Collecting and sorting alignments to the reference from individual I11459.
+  There are no hits to the human reference genome for I11459.
+  Creating more headers for I11459.
+  There are no unique hits to breakpoints for I11459.
+  There are no non-unique hits to the breakpoints for I11459.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I11696
+################
+## STEP 1 MAKE BAM
+  Creating header for I11696.
+  Collecting and sorting alignments to the reference from individual I11696.
+  There are no hits to the human reference genome for I11696.
+  Creating more headers for I11696.
+  There are no unique hits to breakpoints for I11696.
+  There are no non-unique hits to the breakpoints for I11696.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I11697
+################
+## STEP 1 MAKE BAM
+  Creating header for I11697.
+  Collecting and sorting alignments to the reference from individual I11697.
+  There are no hits to the human reference genome for I11697.
+  Creating more headers for I11697.
+  There are no unique hits to breakpoints for I11697.
+  There are no non-unique hits to the breakpoints for I11697.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I11974
+################
+## STEP 1 MAKE BAM
+  Creating header for I11974.
+  Collecting and sorting alignments to the reference from individual I11974.
+  There are no hits to the human reference genome for I11974.
+  Creating more headers for I11974.
+  There are no unique hits to breakpoints for I11974.
+  There are no non-unique hits to the breakpoints for I11974.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1290
+################
+## STEP 1 MAKE BAM
+  Creating header for I1290.
+  Collecting and sorting alignments to the reference from individual I1290.
+  There are no hits to the human reference genome for I1290.
+  Creating more headers for I1290.
+  There are no unique hits to breakpoints for I1290.
+  There are no non-unique hits to the breakpoints for I1290.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I14000
+################
+## STEP 1 MAKE BAM
+  Creating header for I14000.
+  Collecting and sorting alignments to the reference from individual I14000.
+  There are no hits to the human reference genome for I14000.
+  Creating more headers for I14000.
+  There are no unique hits to breakpoints for I14000.
+  There are no non-unique hits to the breakpoints for I14000.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I14879
+################
+## STEP 1 MAKE BAM
+  Creating header for I14879.
+  Collecting and sorting alignments to the reference from individual I14879.
+  There are no hits to the human reference genome for I14879.
+  Creating more headers for I14879.
+  There are no unique hits to breakpoints for I14879.
+  There are no non-unique hits to the breakpoints for I14879.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I14922
+################
+## STEP 1 MAKE BAM
+  Creating header for I14922.
+  Collecting and sorting alignments to the reference from individual I14922.
+  There are no hits to the human reference genome for I14922.
+  Creating more headers for I14922.
+  There are no unique hits to breakpoints for I14922.
+  There are no non-unique hits to the breakpoints for I14922.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1495
+################
+## STEP 1 MAKE BAM
+  Creating header for I1495.
+  Collecting and sorting alignments to the reference from individual I1495.
+  There are no hits to the human reference genome for I1495.
+  Creating more headers for I1495.
+  There are no unique hits to breakpoints for I1495.
+  There are no non-unique hits to the breakpoints for I1495.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1496
+################
+## STEP 1 MAKE BAM
+  Creating header for I1496.
+  Collecting and sorting alignments to the reference from individual I1496.
+  There are no hits to the human reference genome for I1496.
+  Creating more headers for I1496.
+  There are no unique hits to breakpoints for I1496.
+  There are no non-unique hits to the breakpoints for I1496.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1498
+################
+## STEP 1 MAKE BAM
+  Creating header for I1498.
+  Collecting and sorting alignments to the reference from individual I1498.
+  There are no hits to the human reference genome for I1498.
+  Creating more headers for I1498.
+  There are no unique hits to breakpoints for I1498.
+  There are no non-unique hits to the breakpoints for I1498.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1502
+################
+## STEP 1 MAKE BAM
+  Creating header for I1502.
+  Collecting and sorting alignments to the reference from individual I1502.
+  There are no hits to the human reference genome for I1502.
+  Creating more headers for I1502.
+  There are no unique hits to breakpoints for I1502.
+  There are no non-unique hits to the breakpoints for I1502.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1507
+################
+## STEP 1 MAKE BAM
+  Creating header for I1507.
+  Collecting and sorting alignments to the reference from individual I1507.
+  There are no hits to the human reference genome for I1507.
+  Creating more headers for I1507.
+  There are no unique hits to breakpoints for I1507.
+  There are no non-unique hits to the breakpoints for I1507.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1524
+################
+## STEP 1 MAKE BAM
+  Creating header for I1524.
+  Collecting and sorting alignments to the reference from individual I1524.
+  There are no hits to the human reference genome for I1524.
+  Creating more headers for I1524.
+  There are no unique hits to breakpoints for I1524.
+  There are no non-unique hits to the breakpoints for I1524.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1526
+################
+## STEP 1 MAKE BAM
+  Creating header for I1526.
+  Collecting and sorting alignments to the reference from individual I1526.
+  There are no hits to the human reference genome for I1526.
+  Creating more headers for I1526.
+  There are no unique hits to breakpoints for I1526.
+  There are no non-unique hits to the breakpoints for I1526.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I15601
+################
+## STEP 1 MAKE BAM
+  Creating header for I15601.
+  Collecting and sorting alignments to the reference from individual I15601.
+  There are no hits to the human reference genome for I15601.
+  Creating more headers for I15601.
+  There are no unique hits to breakpoints for I15601.
+  There are no non-unique hits to the breakpoints for I15601.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I15676
+################
+## STEP 1 MAKE BAM
+  Creating header for I15676.
+  Collecting and sorting alignments to the reference from individual I15676.
+  There are no hits to the human reference genome for I15676.
+  Creating more headers for I15676.
+  There are no unique hits to breakpoints for I15676.
+  There are no non-unique hits to the breakpoints for I15676.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1580
+################
+## STEP 1 MAKE BAM
+  Creating header for I1580.
+  Collecting and sorting alignments to the reference from individual I1580.
+  There are no hits to the human reference genome for I1580.
+  Creating more headers for I1580.
+  There are no unique hits to breakpoints for I1580.
+  There are no non-unique hits to the breakpoints for I1580.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1581
+################
+## STEP 1 MAKE BAM
+  Creating header for I1581.
+  Collecting and sorting alignments to the reference from individual I1581.
+  There are no hits to the human reference genome for I1581.
+  Creating more headers for I1581.
+  There are no unique hits to breakpoints for I1581.
+  There are no non-unique hits to the breakpoints for I1581.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1583
+################
+## STEP 1 MAKE BAM
+  Creating header for I1583.
+  Collecting and sorting alignments to the reference from individual I1583.
+  There are no hits to the human reference genome for I1583.
+  Creating more headers for I1583.
+  There are no unique hits to breakpoints for I1583.
+  There are no non-unique hits to the breakpoints for I1583.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I16168
+################
+## STEP 1 MAKE BAM
+  Creating header for I16168.
+  Collecting and sorting alignments to the reference from individual I16168.
+  There are no hits to the human reference genome for I16168.
+  Creating more headers for I16168.
+  There are no unique hits to breakpoints for I16168.
+  There are no non-unique hits to the breakpoints for I16168.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1631
+################
+## STEP 1 MAKE BAM
+  Creating header for I1631.
+  Collecting and sorting alignments to the reference from individual I1631.
+  There are no hits to the human reference genome for I1631.
+  Creating more headers for I1631.
+  There are no unique hits to breakpoints for I1631.
+  There are no non-unique hits to the breakpoints for I1631.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1632
+################
+## STEP 1 MAKE BAM
+  Creating header for I1632.
+  Collecting and sorting alignments to the reference from individual I1632.
+  There are no hits to the human reference genome for I1632.
+  Creating more headers for I1632.
+  There are no unique hits to breakpoints for I1632.
+  There are no non-unique hits to the breakpoints for I1632.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1633
+################
+## STEP 1 MAKE BAM
+  Creating header for I1633.
+  Collecting and sorting alignments to the reference from individual I1633.
+  There are no hits to the human reference genome for I1633.
+  Creating more headers for I1633.
+  There are no unique hits to breakpoints for I1633.
+  There are no non-unique hits to the breakpoints for I1633.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1699
+################
+## STEP 1 MAKE BAM
+  Creating header for I1699.
+  Collecting and sorting alignments to the reference from individual I1699.
+  There are no hits to the human reference genome for I1699.
+  Creating more headers for I1699.
+  There are no unique hits to breakpoints for I1699.
+  There are no non-unique hits to the breakpoints for I1699.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1730
+################
+## STEP 1 MAKE BAM
+  Creating header for I1730.
+  Collecting and sorting alignments to the reference from individual I1730.
+  There are no hits to the human reference genome for I1730.
+  Creating more headers for I1730.
+  There are no unique hits to breakpoints for I1730.
+  There are no non-unique hits to the breakpoints for I1730.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1732
+################
+## STEP 1 MAKE BAM
+  Creating header for I1732.
+  Collecting and sorting alignments to the reference from individual I1732.
+  There are no hits to the human reference genome for I1732.
+  Creating more headers for I1732.
+  There are no unique hits to breakpoints for I1732.
+  There are no non-unique hits to the breakpoints for I1732.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1734
+################
+## STEP 1 MAKE BAM
+  Creating header for I1734.
+  Collecting and sorting alignments to the reference from individual I1734.
+  There are no hits to the human reference genome for I1734.
+  Creating more headers for I1734.
+  There are no unique hits to breakpoints for I1734.
+  There are no non-unique hits to the breakpoints for I1734.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1738
+################
+## STEP 1 MAKE BAM
+  Creating header for I1738.
+  Collecting and sorting alignments to the reference from individual I1738.
+  There are no hits to the human reference genome for I1738.
+  Creating more headers for I1738.
+  There are no unique hits to breakpoints for I1738.
+  There are no non-unique hits to the breakpoints for I1738.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1752
+################
+## STEP 1 MAKE BAM
+  Creating header for I1752.
+  Collecting and sorting alignments to the reference from individual I1752.
+  There are no hits to the human reference genome for I1752.
+  Creating more headers for I1752.
+  There are no unique hits to breakpoints for I1752.
+  There are no non-unique hits to the breakpoints for I1752.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1763
+################
+## STEP 1 MAKE BAM
+  Creating header for I1763.
+  Collecting and sorting alignments to the reference from individual I1763.
+  There are no hits to the human reference genome for I1763.
+  Creating more headers for I1763.
+  There are no unique hits to breakpoints for I1763.
+  There are no non-unique hits to the breakpoints for I1763.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1819
+################
+## STEP 1 MAKE BAM
+  Creating header for I1819.
+  Collecting and sorting alignments to the reference from individual I1819.
+  There are no hits to the human reference genome for I1819.
+  Creating more headers for I1819.
+  There are no unique hits to breakpoints for I1819.
+  There are no non-unique hits to the breakpoints for I1819.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1838
+################
+## STEP 1 MAKE BAM
+  Creating header for I1838.
+  Collecting and sorting alignments to the reference from individual I1838.
+  There are no hits to the human reference genome for I1838.
+  Creating more headers for I1838.
+  There are no unique hits to breakpoints for I1838.
+  There are no non-unique hits to the breakpoints for I1838.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1947
+################
+## STEP 1 MAKE BAM
+  Creating header for I1947.
+  Collecting and sorting alignments to the reference from individual I1947.
+  There are no hits to the human reference genome for I1947.
+  Creating more headers for I1947.
+  There are no unique hits to breakpoints for I1947.
+  There are no non-unique hits to the breakpoints for I1947.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I1960
+################
+## STEP 1 MAKE BAM
+  Creating header for I1960.
+  Collecting and sorting alignments to the reference from individual I1960.
+  Creating more headers for I1960.
+  Collecting and sorting unique alignments to bplib from individual I1960.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I1960.
+On individual tmp/2022-04-18_agdp/03_processaligned/I1960/, out of 2657 reads, 89 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2069
+################
+## STEP 1 MAKE BAM
+  Creating header for I2069.
+  Collecting and sorting alignments to the reference from individual I2069.
+  There are no hits to the human reference genome for I2069.
+  Creating more headers for I2069.
+  There are no unique hits to breakpoints for I2069.
+  There are no non-unique hits to the breakpoints for I2069.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2105
+################
+## STEP 1 MAKE BAM
+  Creating header for I2105.
+  Collecting and sorting alignments to the reference from individual I2105.
+  There are no hits to the human reference genome for I2105.
+  Creating more headers for I2105.
+  There are no unique hits to breakpoints for I2105.
+  There are no non-unique hits to the breakpoints for I2105.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2367
+################
+## STEP 1 MAKE BAM
+  Creating header for I2367.
+  Collecting and sorting alignments to the reference from individual I2367.
+  There are no hits to the human reference genome for I2367.
+  Creating more headers for I2367.
+  There are no unique hits to breakpoints for I2367.
+  There are no non-unique hits to the breakpoints for I2367.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2431
+################
+## STEP 1 MAKE BAM
+  Creating header for I2431.
+  Collecting and sorting alignments to the reference from individual I2431.
+  There are no hits to the human reference genome for I2431.
+  Creating more headers for I2431.
+  There are no unique hits to breakpoints for I2431.
+  There are no non-unique hits to the breakpoints for I2431.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2443
+################
+## STEP 1 MAKE BAM
+  Creating header for I2443.
+  Collecting and sorting alignments to the reference from individual I2443.
+  There are no hits to the human reference genome for I2443.
+  Creating more headers for I2443.
+  There are no unique hits to breakpoints for I2443.
+  There are no non-unique hits to the breakpoints for I2443.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2445
+################
+## STEP 1 MAKE BAM
+  Creating header for I2445.
+  Collecting and sorting alignments to the reference from individual I2445.
+  There are no hits to the human reference genome for I2445.
+  Creating more headers for I2445.
+  There are no unique hits to breakpoints for I2445.
+  There are no non-unique hits to the breakpoints for I2445.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2509
+################
+## STEP 1 MAKE BAM
+  Creating header for I2509.
+  Collecting and sorting alignments to the reference from individual I2509.
+  There are no hits to the human reference genome for I2509.
+  Creating more headers for I2509.
+  There are no unique hits to breakpoints for I2509.
+  There are no non-unique hits to the breakpoints for I2509.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2510
+################
+## STEP 1 MAKE BAM
+  Creating header for I2510.
+  Collecting and sorting alignments to the reference from individual I2510.
+  There are no hits to the human reference genome for I2510.
+  Creating more headers for I2510.
+  There are no unique hits to breakpoints for I2510.
+  There are no non-unique hits to the breakpoints for I2510.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2514
+################
+## STEP 1 MAKE BAM
+  Creating header for I2514.
+  Collecting and sorting alignments to the reference from individual I2514.
+  There are no hits to the human reference genome for I2514.
+  Creating more headers for I2514.
+  There are no unique hits to breakpoints for I2514.
+  There are no non-unique hits to the breakpoints for I2514.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2520
+################
+## STEP 1 MAKE BAM
+  Creating header for I2520.
+  Collecting and sorting alignments to the reference from individual I2520.
+  There are no hits to the human reference genome for I2520.
+  Creating more headers for I2520.
+  There are no unique hits to breakpoints for I2520.
+  There are no non-unique hits to the breakpoints for I2520.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2521
+################
+## STEP 1 MAKE BAM
+  Creating header for I2521.
+  Collecting and sorting alignments to the reference from individual I2521.
+  There are no hits to the human reference genome for I2521.
+  Creating more headers for I2521.
+  There are no unique hits to breakpoints for I2521.
+  There are no non-unique hits to the breakpoints for I2521.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2533
+################
+## STEP 1 MAKE BAM
+  Creating header for I2533.
+  Collecting and sorting alignments to the reference from individual I2533.
+  There are no hits to the human reference genome for I2533.
+  Creating more headers for I2533.
+  There are no unique hits to breakpoints for I2533.
+  There are no non-unique hits to the breakpoints for I2533.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2636
+################
+## STEP 1 MAKE BAM
+  Creating header for I2636.
+  Collecting and sorting alignments to the reference from individual I2636.
+  There are no hits to the human reference genome for I2636.
+  Creating more headers for I2636.
+  There are no unique hits to breakpoints for I2636.
+  There are no non-unique hits to the breakpoints for I2636.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2637
+################
+## STEP 1 MAKE BAM
+  Creating header for I2637.
+  Collecting and sorting alignments to the reference from individual I2637.
+  There are no hits to the human reference genome for I2637.
+  Creating more headers for I2637.
+  There are no unique hits to breakpoints for I2637.
+  There are no non-unique hits to the breakpoints for I2637.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2650
+################
+## STEP 1 MAKE BAM
+  Creating header for I2650.
+  Collecting and sorting alignments to the reference from individual I2650.
+  There are no hits to the human reference genome for I2650.
+  Creating more headers for I2650.
+  There are no unique hits to breakpoints for I2650.
+  There are no non-unique hits to the breakpoints for I2650.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2659
+################
+## STEP 1 MAKE BAM
+  Creating header for I2659.
+  Collecting and sorting alignments to the reference from individual I2659.
+  There are no hits to the human reference genome for I2659.
+  Creating more headers for I2659.
+  There are no unique hits to breakpoints for I2659.
+  There are no non-unique hits to the breakpoints for I2659.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2660
+################
+## STEP 1 MAKE BAM
+  Creating header for I2660.
+  Collecting and sorting alignments to the reference from individual I2660.
+  There are no hits to the human reference genome for I2660.
+  Creating more headers for I2660.
+  There are no unique hits to breakpoints for I2660.
+  There are no non-unique hits to the breakpoints for I2660.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2691
+################
+## STEP 1 MAKE BAM
+  Creating header for I2691.
+  Collecting and sorting alignments to the reference from individual I2691.
+  There are no hits to the human reference genome for I2691.
+  Creating more headers for I2691.
+  There are no unique hits to breakpoints for I2691.
+  There are no non-unique hits to the breakpoints for I2691.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2859
+################
+## STEP 1 MAKE BAM
+  Creating header for I2859.
+  Collecting and sorting alignments to the reference from individual I2859.
+  There are no hits to the human reference genome for I2859.
+  Creating more headers for I2859.
+  There are no unique hits to breakpoints for I2859.
+  There are no non-unique hits to the breakpoints for I2859.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2860
+################
+## STEP 1 MAKE BAM
+  Creating header for I2860.
+  Collecting and sorting alignments to the reference from individual I2860.
+  There are no hits to the human reference genome for I2860.
+  Creating more headers for I2860.
+  There are no unique hits to breakpoints for I2860.
+  There are no non-unique hits to the breakpoints for I2860.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2861
+################
+## STEP 1 MAKE BAM
+  Creating header for I2861.
+  Collecting and sorting alignments to the reference from individual I2861.
+  There are no hits to the human reference genome for I2861.
+  Creating more headers for I2861.
+  There are no unique hits to breakpoints for I2861.
+  There are no non-unique hits to the breakpoints for I2861.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2932
+################
+## STEP 1 MAKE BAM
+  Creating header for I2932.
+  Collecting and sorting alignments to the reference from individual I2932.
+  There are no hits to the human reference genome for I2932.
+  Creating more headers for I2932.
+  There are no unique hits to breakpoints for I2932.
+  There are no non-unique hits to the breakpoints for I2932.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2934
+################
+## STEP 1 MAKE BAM
+  Creating header for I2934.
+  Collecting and sorting alignments to the reference from individual I2934.
+  There are no hits to the human reference genome for I2934.
+  Creating more headers for I2934.
+  There are no unique hits to breakpoints for I2934.
+  There are no non-unique hits to the breakpoints for I2934.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2935
+################
+## STEP 1 MAKE BAM
+  Creating header for I2935.
+  Collecting and sorting alignments to the reference from individual I2935.
+  There are no hits to the human reference genome for I2935.
+  Creating more headers for I2935.
+  There are no unique hits to breakpoints for I2935.
+  There are no non-unique hits to the breakpoints for I2935.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2978
+################
+## STEP 1 MAKE BAM
+  Creating header for I2978.
+  Collecting and sorting alignments to the reference from individual I2978.
+  There are no hits to the human reference genome for I2978.
+  Creating more headers for I2978.
+  There are no unique hits to breakpoints for I2978.
+  There are no non-unique hits to the breakpoints for I2978.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2980
+################
+## STEP 1 MAKE BAM
+  Creating header for I2980.
+  Collecting and sorting alignments to the reference from individual I2980.
+  There are no hits to the human reference genome for I2980.
+  Creating more headers for I2980.
+  There are no unique hits to breakpoints for I2980.
+  There are no non-unique hits to the breakpoints for I2980.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2981
+################
+## STEP 1 MAKE BAM
+  Creating header for I2981.
+  Collecting and sorting alignments to the reference from individual I2981.
+  There are no hits to the human reference genome for I2981.
+  Creating more headers for I2981.
+  There are no unique hits to breakpoints for I2981.
+  There are no non-unique hits to the breakpoints for I2981.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+################
+I2988
+################
+## STEP 1 MAKE BAM
+  Creating header for I2988.
+  Collecting and sorting alignments to the reference from individual I2988.
+  Creating more headers for I2988.
+  Collecting and sorting unique alignments to bplib from individual I2988.
+  Collecting, filtering, and sorting non-unique alignments to bplib from individual I2988.
+On individual tmp/2022-04-18_agdp/03_processaligned/I2988/, out of 489 reads, 15 have been excluded.
+## STEP 2 FILTERUNIXUN
+  Filtering uni.sorted.bam
+  Filtering xun.sorted.bam
+  Run interpreting perl script
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'analysis/2022-04-18_agdp/03_processaligned01_download/readscount.txt': No such file or directory
+Execution halted

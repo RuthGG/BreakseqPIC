@@ -1,0 +1,1 @@
+ChrNo.	Start	End	LeftFlankingSequence	InsertedSeq	ID	RightFlankingSequence	Identity	Homology	Percentage
