@@ -4,34 +4,5 @@ Start looping samples
 ################
 VINDIJA33.19
 ################
-Thu Mar  3 10:37:40 CET 2022
-Format of sequence is bam file "/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq"
----------------------
-HsInv0004 Mapped reads 
----------------------
-Thu Mar  3 10:37:40 CET 2022
-Original coords: 1:197756641-197758134
-Sampled coords: 1:197736641-197778134
-# LOOP 0
-[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq"" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 1
-[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq"" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 2
-[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq"" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 3
-[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq"" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 4
-[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq"" for reading: No such file or directory
-# Fail!
-# Delete tmp file
-# LOOP 5
-[E::hts_open_format] Failed to open file "/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq" samtools view: failed to open ""/${SCRIPTPATH}/${DATADIR}/bamFiles/VINDIJA33.19/ERR2000593.fastq"" for reading: No such file or directory
-# Fail!
+Tue Mar  8 13:22:53 CET 2022
+Processing fastq file /nfs/pic.es/user/r/rgomez/20210325_breakseq/analysis/2022-02-21_ancientGenomes/data/bamFiles/2022-02-21_ancientGenomes/VINDIJA33.19/ERR2000593.fastq

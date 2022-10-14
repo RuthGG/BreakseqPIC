@@ -4,6 +4,5 @@ Start looping samples
 ################
 DENISOVA2
 ################
-Thu Mar  3 09:57:30 CET 2022
-Processing fastq file /${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA2/SRR3999002.fastq
-cat: '/${SCRIPTPATH}/${DATADIR}/bamFiles/DENISOVA2/SRR3999002.fastq': No such file or directory
+Tue Mar  8 13:24:55 CET 2022
+Processing fastq file /nfs/pic.es/user/r/rgomez/20210325_breakseq/analysis/2022-02-21_ancientGenomes/data/bamFiles/2022-02-21_ancientGenomes/DENISOVA2/SRR3999002.fastq

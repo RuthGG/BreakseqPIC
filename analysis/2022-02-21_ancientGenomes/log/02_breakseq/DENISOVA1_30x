@@ -1,0 +1,25 @@
+Start looping samples
+# Running BreakSeq on DENISOVA1_30x.
+Breakseq log
+## Breakpoint Library Mapping started at Thu Apr  7 16:53:23 CEST 2022 ##
+## Processing query analysis/2022-02-21_ancientGenomes/01_download//DENISOVA1_30x/selected_regions.fastq ##
+## Aligning the query against the library ##
+## Filtering hits for breakpoint coverage ##
+## Converting hits to Fastq ##
+## Aligning the hits against the reference ##
+## Splitting hits for uniqueness ##
+## Scoring and reporting calls ##
+## Breakpoint Library Mapping ended at Thu Apr  7 16:56:29 CEST 2022 ##
+Breakseq err
+6383253 reads; of these:
+  6383253 (100.00%) were unpaired; of these:
+    6352425 (99.52%) aligned 0 times
+    12494 (0.20%) aligned exactly 1 time
+    18334 (0.29%) aligned >1 times
+0.48% overall alignment rate
+49 reads; of these:
+  49 (100.00%) were unpaired; of these:
+    4 (8.16%) aligned 0 times
+    10 (20.41%) aligned exactly 1 time
+    35 (71.43%) aligned >1 times
+91.84% overall alignment rate

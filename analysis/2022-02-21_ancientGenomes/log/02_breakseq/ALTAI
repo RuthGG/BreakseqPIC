@@ -1,0 +1,25 @@
+Start looping samples
+# Running BreakSeq on ALTAI.
+Breakseq log
+## Breakpoint Library Mapping started at Thu Apr  7 16:54:13 CEST 2022 ##
+## Processing query analysis/2022-02-21_ancientGenomes/01_download//ALTAI/selected_regions.fastq ##
+## Aligning the query against the library ##
+## Filtering hits for breakpoint coverage ##
+## Converting hits to Fastq ##
+## Aligning the hits against the reference ##
+## Splitting hits for uniqueness ##
+## Scoring and reporting calls ##
+## Breakpoint Library Mapping ended at Thu Apr  7 18:11:19 CEST 2022 ##
+Breakseq err
+99927249 reads; of these:
+  99927249 (100.00%) were unpaired; of these:
+    99126295 (99.20%) aligned 0 times
+    312065 (0.31%) aligned exactly 1 time
+    488889 (0.49%) aligned >1 times
+0.80% overall alignment rate
+1240 reads; of these:
+  1240 (100.00%) were unpaired; of these:
+    1 (0.08%) aligned 0 times
+    222 (17.90%) aligned exactly 1 time
+    1017 (82.02%) aligned >1 times
+99.92% overall alignment rate
