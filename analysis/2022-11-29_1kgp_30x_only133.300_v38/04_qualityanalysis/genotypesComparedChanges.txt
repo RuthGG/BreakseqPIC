@@ -1,0 +1,2 @@
+Var1	Var2	Freq
+HsInv0174	STD/STD->INV/STD	1

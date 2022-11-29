@@ -29,3 +29,249 @@
 
 	Job terminated of its own accord at 2022-11-29T11:03:41Z.
 ...
+000 (7152358.000.000) 2022-11-29 18:54:11 Job submitted from host: <193.109.174.82:9618?addrs=193.109.174.82-9618&alias=submit01.pic.es&noUDP&sock=schedd_3366225_f019>
+...
+000 (7152358.001.000) 2022-11-29 18:54:11 Job submitted from host: <193.109.174.82:9618?addrs=193.109.174.82-9618&alias=submit01.pic.es&noUDP&sock=schedd_3366225_f019>
+...
+000 (7152358.002.000) 2022-11-29 18:54:11 Job submitted from host: <193.109.174.82:9618?addrs=193.109.174.82-9618&alias=submit01.pic.es&noUDP&sock=schedd_3366225_f019>
+...
+000 (7152358.003.000) 2022-11-29 18:54:11 Job submitted from host: <193.109.174.82:9618?addrs=193.109.174.82-9618&alias=submit01.pic.es&noUDP&sock=schedd_3366225_f019>
+...
+000 (7152358.004.000) 2022-11-29 18:54:11 Job submitted from host: <193.109.174.82:9618?addrs=193.109.174.82-9618&alias=submit01.pic.es&noUDP&sock=schedd_3366225_f019>
+...
+000 (7152358.005.000) 2022-11-29 18:54:11 Job submitted from host: <193.109.174.82:9618?addrs=193.109.174.82-9618&alias=submit01.pic.es&noUDP&sock=schedd_3366225_f019>
+...
+040 (7152358.000.000) 2022-11-29 18:54:15 Finished transferring input files
+...
+001 (7152358.000.000) 2022-11-29 18:54:15 Job executing on host: <192.168.100.6:9618?addrs=192.168.100.6-9618+[2001-67c-1148-301--204]-9618&alias=tds204.pic.es&noUDP&sock=startd_2251_93c6>
+...
+040 (7152358.002.000) 2022-11-29 18:54:15 Finished transferring input files
+...
+001 (7152358.002.000) 2022-11-29 18:54:15 Job executing on host: <192.168.100.35:9618?addrs=192.168.100.35-9618+[2001-67c-1148-301--233]-9618&alias=tds233.pic.es&noUDP&sock=startd_2182_3fbd>
+...
+040 (7152358.003.000) 2022-11-29 18:54:15 Finished transferring input files
+...
+001 (7152358.003.000) 2022-11-29 18:54:15 Job executing on host: <192.168.100.25:9618?addrs=192.168.100.25-9618+[2001-67c-1148-301--223]-9618&alias=tds223.pic.es&noUDP&sock=startd_2117_aa15>
+...
+040 (7152358.005.000) 2022-11-29 18:54:15 Finished transferring input files
+...
+040 (7152358.004.000) 2022-11-29 18:54:15 Finished transferring input files
+...
+001 (7152358.005.000) 2022-11-29 18:54:15 Job executing on host: <192.168.100.172:9618?addrs=192.168.100.172-9618+[2001-67c-1148-301--72]-9618&alias=td072.pic.es&noUDP&sock=startd_2131_4469>
+...
+001 (7152358.004.000) 2022-11-29 18:54:15 Job executing on host: <192.168.100.5:9618?addrs=192.168.100.5-9618+[2001-67c-1148-301--203]-9618&alias=tds203.pic.es&noUDP&sock=startd_2323_f698>
+...
+040 (7152358.001.000) 2022-11-29 18:54:15 Finished transferring input files
+...
+001 (7152358.001.000) 2022-11-29 18:54:15 Job executing on host: <192.168.100.149:9618?addrs=192.168.100.149-9618+[2001-67c-1148-301--65]-9618&alias=td065.pic.es&noUDP&sock=startd_2245_7634>
+...
+006 (7152358.002.000) 2022-11-29 18:54:23 Image size of job updated: 1454804
+	32  -  MemoryUsage of job (MB)
+	32532  -  ResidentSetSize of job (KB)
+...
+006 (7152358.000.000) 2022-11-29 18:54:23 Image size of job updated: 45000
+	37  -  MemoryUsage of job (MB)
+	36868  -  ResidentSetSize of job (KB)
+...
+006 (7152358.003.000) 2022-11-29 18:54:23 Image size of job updated: 45000
+	34  -  MemoryUsage of job (MB)
+	34108  -  ResidentSetSize of job (KB)
+...
+006 (7152358.004.000) 2022-11-29 18:54:23 Image size of job updated: 1453944
+	79  -  MemoryUsage of job (MB)
+	80756  -  ResidentSetSize of job (KB)
+...
+006 (7152358.005.000) 2022-11-29 18:54:24 Image size of job updated: 45000
+	32  -  MemoryUsage of job (MB)
+	32752  -  ResidentSetSize of job (KB)
+...
+006 (7152358.001.000) 2022-11-29 18:54:24 Image size of job updated: 72132
+	26  -  MemoryUsage of job (MB)
+	26360  -  ResidentSetSize of job (KB)
+...
+006 (7152358.002.000) 2022-11-29 18:59:23 Image size of job updated: 2616640
+	867  -  MemoryUsage of job (MB)
+	887388  -  ResidentSetSize of job (KB)
+...
+006 (7152358.003.000) 2022-11-29 18:59:23 Image size of job updated: 2550592
+	922  -  MemoryUsage of job (MB)
+	943620  -  ResidentSetSize of job (KB)
+...
+006 (7152358.000.000) 2022-11-29 18:59:23 Image size of job updated: 2549664
+	662  -  MemoryUsage of job (MB)
+	677032  -  ResidentSetSize of job (KB)
+...
+006 (7152358.004.000) 2022-11-29 18:59:23 Image size of job updated: 2525548
+	871  -  MemoryUsage of job (MB)
+	891716  -  ResidentSetSize of job (KB)
+...
+006 (7152358.005.000) 2022-11-29 18:59:25 Image size of job updated: 1595376
+	32  -  MemoryUsage of job (MB)
+	32752  -  ResidentSetSize of job (KB)
+...
+006 (7152358.001.000) 2022-11-29 18:59:25 Image size of job updated: 1448180
+	26  -  MemoryUsage of job (MB)
+	26360  -  ResidentSetSize of job (KB)
+...
+006 (7152358.000.000) 2022-11-29 19:01:22 Image size of job updated: 34463188
+	662  -  MemoryUsage of job (MB)
+	677032  -  ResidentSetSize of job (KB)
+...
+040 (7152358.000.000) 2022-11-29 19:01:22 Started transferring output files
+...
+040 (7152358.000.000) 2022-11-29 19:01:22 Finished transferring output files
+...
+005 (7152358.000.000) 2022-11-29 19:01:22 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:31, Sys 0 00:00:33  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:31, Sys 0 00:00:33  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.00        1         1 
+	   Disk (KB)            : 4502328    15728640  16010809 
+	   Memory (MB)          :     662        2048      2048 
+
+	Job terminated of its own accord at 2022-11-29T18:01:22Z.
+...
+006 (7152358.003.000) 2022-11-29 19:01:49 Image size of job updated: 34663900
+	922  -  MemoryUsage of job (MB)
+	943620  -  ResidentSetSize of job (KB)
+...
+040 (7152358.003.000) 2022-11-29 19:01:49 Started transferring output files
+...
+040 (7152358.003.000) 2022-11-29 19:01:49 Finished transferring output files
+...
+005 (7152358.003.000) 2022-11-29 19:01:49 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:05:27, Sys 0 00:00:30  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:05:27, Sys 0 00:00:30  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.83        1         1 
+	   Disk (KB)            : 3741947    15728640  16202941 
+	   Memory (MB)          :     922        2048      2048 
+
+	Job terminated of its own accord at 2022-11-29T18:01:49Z.
+...
+006 (7152358.002.000) 2022-11-29 19:02:42 Image size of job updated: 34528468
+	867  -  MemoryUsage of job (MB)
+	887388  -  ResidentSetSize of job (KB)
+...
+040 (7152358.002.000) 2022-11-29 19:02:42 Started transferring output files
+...
+040 (7152358.002.000) 2022-11-29 19:02:42 Finished transferring output files
+...
+005 (7152358.002.000) 2022-11-29 19:02:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:05, Sys 0 00:00:34  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:05, Sys 0 00:00:34  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.85        1         1 
+	   Disk (KB)            : 1496727    15728640  16075453 
+	   Memory (MB)          :     867        2048      2048 
+
+	Job terminated of its own accord at 2022-11-29T18:02:42Z.
+...
+006 (7152358.004.000) 2022-11-29 19:02:47 Image size of job updated: 34663132
+	871  -  MemoryUsage of job (MB)
+	891728  -  ResidentSetSize of job (KB)
+...
+040 (7152358.004.000) 2022-11-29 19:02:47 Started transferring output files
+...
+040 (7152358.004.000) 2022-11-29 19:02:47 Finished transferring output files
+...
+005 (7152358.004.000) 2022-11-29 19:02:47 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:55, Sys 0 00:00:39  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:55, Sys 0 00:00:39  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.98        1         1 
+	   Disk (KB)            : 748213    15728640  16011957 
+	   Memory (MB)          :    871        2048      2048 
+
+	Job terminated of its own accord at 2022-11-29T18:02:47Z.
+...
+006 (7152358.005.000) 2022-11-29 19:04:26 Image size of job updated: 2545576
+	849  -  MemoryUsage of job (MB)
+	869348  -  ResidentSetSize of job (KB)
+...
+006 (7152358.001.000) 2022-11-29 19:04:26 Image size of job updated: 2547468
+	809  -  MemoryUsage of job (MB)
+	827672  -  ResidentSetSize of job (KB)
+...
+006 (7152358.005.000) 2022-11-29 19:08:43 Image size of job updated: 34488784
+	849  -  MemoryUsage of job (MB)
+	869356  -  ResidentSetSize of job (KB)
+...
+040 (7152358.005.000) 2022-11-29 19:08:44 Started transferring output files
+...
+040 (7152358.005.000) 2022-11-29 19:08:44 Finished transferring output files
+...
+005 (7152358.005.000) 2022-11-29 19:08:44 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:07:40, Sys 0 00:00:42  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:07:40, Sys 0 00:00:42  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.31        1         1 
+	   Disk (KB)            : 4554312    15728640  16730885 
+	   Memory (MB)          :     849        2048      2048 
+
+	Job terminated of its own accord at 2022-11-29T18:08:43Z.
+...
+006 (7152358.001.000) 2022-11-29 19:09:26 Image size of job updated: 2551512
+	829  -  MemoryUsage of job (MB)
+	848168  -  ResidentSetSize of job (KB)
+...
+006 (7152358.001.000) 2022-11-29 19:19:53 Image size of job updated: 34490836
+	829  -  MemoryUsage of job (MB)
+	848168  -  ResidentSetSize of job (KB)
+...
+040 (7152358.001.000) 2022-11-29 19:19:53 Started transferring output files
+...
+040 (7152358.001.000) 2022-11-29 19:19:53 Finished transferring output files
+...
+005 (7152358.001.000) 2022-11-29 19:19:53 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:07:22, Sys 0 00:01:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:07:22, Sys 0 00:01:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.26        1         1 
+	   Disk (KB)            : 4425734    15728640  16764879 
+	   Memory (MB)          :     829        2048      2048 
+
+	Job terminated of its own accord at 2022-11-29T18:19:53Z.
+...

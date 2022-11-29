@@ -11,7 +11,7 @@ error = analysis/2022-11-29_1kgp_30x_only133.300_v38/log/02_breakseq/condor.err
 log = analysis/2022-11-29_1kgp_30x_only133.300_v38/log/02_breakseq/condor.log
 
 request_cpus = 1
-request_memory = 4096
+request_memory = 2048
 
 
 queue 1 from tmp/2022-11-29_1kgp_30x_only133.300_v38/02_breakseq/failednames 
