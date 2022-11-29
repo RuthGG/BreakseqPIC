@@ -3,7 +3,9 @@ CARPETA DATOS_LIBRERIAS
 Generar librerías:
 1) Extraemos las sondas de las páginas bplibInvs y bplibOthers del archivo excel SimpleBPLibrary_LergaJaso2021_300bp, y las ponemos todas en un archivo fasta bplib.fa
 2) Extraemos las coordenadas de la página bplib_hg19coords y las ponemos en un archivo bplib.coords
-+ copiar ref.header-template?
+Remove excluded probes marked with  sed "/#.*$/d" or similar
++ copiar ref.header-template -- cambiando el sn:1, etc por SN:chr1
++ hacer un specs.sh
 
 OPCIONAL
 7) Versión a otros assemblies

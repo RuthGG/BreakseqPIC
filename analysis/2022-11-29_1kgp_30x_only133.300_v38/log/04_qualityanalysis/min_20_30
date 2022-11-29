@@ -1,0 +1,11 @@
+Registered S3 methods overwritten by 'ggplot2':
+  method         from 
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+Error in file(file, "rt") : cannot open the connection
+Calls: read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'analysis/2022-11-29_1kgp_30x_only133.300_v38/03_processaligned//GTypes_FinalDataSet.txt': No such file or directory
+Execution halted

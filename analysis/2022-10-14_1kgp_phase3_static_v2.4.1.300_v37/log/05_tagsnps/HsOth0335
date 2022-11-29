@@ -1,0 +1,4 @@
+tagSNPs for HsOth0335
+Monomorphic!
+rm: cannot remove 'tmp/2022-10-14_1kgp_phase3_static_v2.4.1.300_v37/05_tagsnps/HsOth0335/*.vcf': No such file or directory
+rm: cannot remove 'tmp/2022-10-14_1kgp_phase3_static_v2.4.1.300_v37/05_tagsnps/HsOth0335/plink*': No such file or directory

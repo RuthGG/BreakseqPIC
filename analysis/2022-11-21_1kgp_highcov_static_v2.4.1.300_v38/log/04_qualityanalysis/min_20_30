@@ -1,0 +1,11 @@
+Registered S3 methods overwritten by 'ggplot2':
+  method         from 
+  [.quosures     rlang
+  c.quosures     rlang
+  print.quosures rlang
+null device 
+          1 
+Warning message:
+Removed 444 rows containing non-finite values (stat_boxplot). 
+null device 
+          1 

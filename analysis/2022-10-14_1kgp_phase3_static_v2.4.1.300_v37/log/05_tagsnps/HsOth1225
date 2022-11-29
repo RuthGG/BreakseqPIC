@@ -1,0 +1,38 @@
+tagSNPs for HsOth1225
+Polymorphic!
+Taking inversion coordinates...
+The region is 11:39666889-42667188
+Selecting region from VCF file in data/use/bowtie_index/vcf_raw//ALL.chr11.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz
+Appending genotypes...
+Sorting vcf...
+Writing to /tmp/bcftools-sort.fj30kB
+Merging 1 temporary files
+Cleaning
+Done
+LD calculation...
+PLINK v1.90b6.21 64-bit (19 Oct 2020)          www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to plink.log.
+Options in effect:
+  --ld-snp HsOth1225
+  --ld-window 999999
+  --ld-window-kb 1000000
+  --ld-window-r2 0
+  --noweb
+  --r2
+  --vcf haplotypes.vcf
+
+Note: --noweb has no effect since no web check is implemented yet.
+112545 MB RAM detected; reserving 56272 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: 7k variants complete.--vcf: 8k variants complete.--vcf: 9k variants complete.--vcf: 10k variants complete.--vcf: 11k variants complete.--vcf: 12k variants complete.--vcf: 13k variants complete.--vcf: 14k variants complete.--vcf: 15k variants complete.--vcf: 16k variants complete.--vcf: 17k variants complete.--vcf: 18k variants complete.--vcf: 19k variants complete.--vcf: 20k variants complete.--vcf: 21k variants complete.--vcf: 22k variants complete.--vcf: 23k variants complete.--vcf: 24k variants complete.--vcf: 25k variants complete.--vcf: 26k variants complete.--vcf: 27k variants complete.--vcf: 28k variants complete.--vcf: 29k variants complete.--vcf: 30k variants complete.--vcf: 31k variants complete.--vcf: 32k variants complete.--vcf: 33k variants complete.--vcf: 34k variants complete.--vcf: 35k variants complete.--vcf: 36k variants complete.--vcf: 37k variants complete.--vcf: 38k variants complete.--vcf: 39k variants complete.--vcf: 40k variants complete.--vcf: 41k variants complete.--vcf: 42k variants complete.--vcf: 43k variants complete.--vcf: 44k variants complete.--vcf: 45k variants complete.--vcf: 46k variants complete.--vcf: 47k variants complete.--vcf: 48k variants complete.--vcf: 49k variants complete.--vcf: 50k variants complete.--vcf: 51k variants complete.--vcf: 52k variants complete.--vcf: 53k variants complete.--vcf: plink-temporary.bed + plink-temporary.bim + plink-temporary.fam written.
+53274 variants loaded from .bim file.
+2504 people (0 males, 0 females, 2504 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to plink.nosex .
+Using up to 55 threads (change this with --threads).
+Before main variant filters, 2504 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.999966.
+53274 variants and 2504 people pass filters and QC.
+Note: No phenotypes present.
+--r2 to plink.ld ... 0% [processing]writing]             done.
+Summarizing...

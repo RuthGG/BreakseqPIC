@@ -1,0 +1,15 @@
+executable = /bin/singularity
+args = "exec \
+--bind /data/bioinfo/common/bowtie2_index_v38:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index:rw \
+/data/bioinfo/software/rgomez_breakseq.sif \
+bowtie2-build 20210325_breakseq/data/use/bowtie_index/human_GRCh38_canonical_analysis_set.fa 20210325_breakseq/data/use/bowtie_index/h_sapiens_asm 2>&1 > 20210325_breakseq/data/use/bowtie_index/log_h_sapiens_asm.txt"
+
+output = tmp/indexGenomecondor.out
+error = tmp/indexGenomecondor.err
+log = tmp/indexGenomecondor.log
+
+
+request_cpus = 1
+request_memory = 16384
+
+queue 1

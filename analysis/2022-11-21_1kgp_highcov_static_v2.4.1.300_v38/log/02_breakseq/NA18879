@@ -1,0 +1,27 @@
+Start looping samples
+# Running BreakSeq on NA18879.
+Breakseq log
+## Breakpoint Library Mapping started at Mon Nov 21 18:13:16 CET 2022 ##
+## Processing query analysis/2022-11-21_1kgp_highcov_static_v2.4.1.300_v38/01_download//NA18879/selected_regions.fastq ##
+## Aligning the query against the library ##
+## Filtering hits for breakpoint coverage ##
+## Converting hits to Fastq ##
+## Aligning the hits against the reference ##
+## Splitting hits for uniqueness ##
+## Scoring and reporting calls ##
+## Breakpoint Library Mapping ended at Mon Nov 21 18:53:02 CET 2022 ##
+Breakseq err
+[W::sam_hdr_parse] Duplicated sequence 'STDHsInv0901BP2HG38'
+[W::sam_hdr_parse] Duplicated sequence 'INVHsInv0901BP0CHM1v2'
+3105238 reads; of these:
+  3105238 (100.00%) were unpaired; of these:
+    3090473 (99.52%) aligned 0 times
+    12082 (0.39%) aligned exactly 1 time
+    2683 (0.09%) aligned >1 times
+0.48% overall alignment rate
+8805 reads; of these:
+  8805 (100.00%) were unpaired; of these:
+    3199 (36.33%) aligned 0 times
+    5431 (61.68%) aligned exactly 1 time
+    175 (1.99%) aligned >1 times
+63.67% overall alignment rate

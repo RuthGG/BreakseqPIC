@@ -15,6 +15,8 @@ source runCommands_config.sh
 
 ## Set ennvironment ##
 # =========================================================================== #
+export APPTAINER_LOCALCACHEDIR=/data/bioinfo/scratch/breakseq_tmp/singularityCache/
+export APPTAINER_TMPDIR=/data/bioinfo/scratch/breakseq_tmp/singularityTmp/
 
 OUTDIR="analysis/${DATE}_${NAME}"
 TMPDIR="tmp/${DATE}_${NAME}"
@@ -143,7 +145,7 @@ echo "# Step 01 - Download
 if [[ $OVERRIDE -gt 1 ]] || [[ ! -z $READ_FASTQS ]]; then
 	echo "This step will not run now. Downloads will not be deleted"
 	mkdir -p ${OUTDIR}/01_download/
-	cp ${READ_FASTQS}_readscount.txt ${OUTDIR}/01_download/readscount.txt
+	# cp ${READ_FASTQS}_readscount.txt ${OUTDIR}/01_download/readscount.txt
 	KEEP_DOWNLOADS="y"
 else
 	> /data/bioinfo/scratch/breakseq_fastqs/${DATE}_${NAME}_readscount.txt
@@ -214,14 +216,34 @@ queue 1 from ${SRALIST}" > ${LOGDIR}/01_download.sub
 
 		# make tmp file
 		if [[ $RESUME == "y" ]]; then
-			echo "RESUMING download"
+			echo "RESUMING download (absent/incomplete samples from 0)" # A failed regions should exist but it will be incomplete because maybe we interrupted the download; resumed individuals will resume from start
 			checkDownload 
 		else
-			echo "STARTING download (data replacement may occur)"
+			echo "STARTING download (all data from 0)"
+			# Make failednames
 			cp $SAMPLESLIST ${TMPDIR}/01_download/failednames
 			TOTEST=1
 		fi
 
+		# Make a base failedregions list
+		> ${TMPDIR}/01_download/failedregions.txt
+		for IND in $(cat ${TMPDIR}/01_download/failednames); do
+		 	# Also remove data for these individuals we are re-running
+		 	if [ -f /data/bioinfo/scratch/breakseq_fastqs/${DATE}_${NAME}/${IND}/selected_regions.fastq ] ; then
+		 		rm /data/bioinfo/scratch/breakseq_fastqs/${DATE}_${NAME}/${IND}/selected_regions.fastq
+		 	fi
+			if [ -f ${TMPDIR}/01_download/readscount/${IND}.txt ] ; then
+			 	rm ${TMPDIR}/01_download/readscount/${IND}.txt
+			fi
+			if [ -f ${LOGDIR}/01_download/${IND} ] ; then
+			 	rm ${LOGDIR}/01_download/${IND}
+			fi
+		 	# Fill first failedregions
+			for INV in $(cat $INVSFILE); do
+				echo "${IND},${INV}" >> ${TMPDIR}/01_download/failedregions.txt
+		 	done
+		 	echo "${IND},Unmapped" >> ${TMPDIR}/01_download/failedregions.txt # Unmapped is also included, if it fails for n loops, it will show as failedregion, if it doesn't have reads it will take a little while, if it has reads it will be downloaded only once
+		done
 
 		# make recipe
 		echo "executable = /bin/singularity
@@ -229,7 +251,7 @@ args = \"exec \\
 --bind /data/bioinfo/scratch/breakseq_fastqs:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${OUTDIR}/01_download/:rw \\
 --bind /data/bioinfo/scratch/breakseq_bam:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${DATADIR}/bamFiles/:rw \\
 /data/bioinfo/software/rgomez_breakseq.sif \\
-bash 20210325_breakseq/runall.sh download -r ${INVSFILE} -s \$(item) -t \$(item) -n ${DATE}_${NAME}\"
+bash 20210325_breakseq/runall.sh download -r ${TMPDIR}/01_download/failedcases -s '\$(item)' -t '\$(item)' -n ${DATE}_${NAME}\"
 
 output = ${LOGDIR}/01_download/condor.out
 error = ${LOGDIR}/01_download/condor.err
@@ -246,10 +268,28 @@ queue 1 from ${TMPDIR}/01_download/failednames" > ${LOGDIR}/01_download.sub
 			LOOPCOUNT=$(($LOOPCOUNT+1))
 			echo "Starting loop $LOOPCOUNT"
 
+			# MAKE LIST OF CASES FROM FAILEDREGIONS, and empty failedregions
+			# The failedcases will be used to download only the necessary; the failedregions is filled in condor_submit with new information
+			cat ${TMPDIR}/01_download/failednames > ${TMPDIR}/01_download/failednames_complete
+			if [[ $MAXJOBS != "" ]]; then
+				# head -n$MAXJOBS ${TMPDIR}/01_download/failednames_complete >  ${TMPDIR}/01_download/failednames
+				# Make failednames with as many rows as MAXJOBS, since it is prepared to make a loop over samples, it whould work!
+				NUMNAMES=$(wc -l ${TMPDIR}/01_download/failednames_complete | cut -d " " -f1)
+				NUMCOLS=$(( ($NUMNAMES + $MAXJOBS -1) / $MAXJOBS)) # This is to make sure that it is rounded upwards
+				awk '{ ORS = " " } { print }' ${TMPDIR}/01_download/failednames_complete | awk -v cols=$NUMCOLS '{for(i = cols+1; i<=NF; i+=cols) $i=RS $i}1' > ${TMPDIR}/01_download/failednames
+			else
+				cat ${TMPDIR}/01_download/failednames_complete >  ${TMPDIR}/01_download/failednames
+			fi
+			grep -v -f ${TMPDIR}/01_download/failednames_complete ${TMPDIR}/01_download/failedregions.txt > ${TMPDIR}/01_download/failedcases_complete # previous failed regions (that will not be run now)
+			grep -f ${TMPDIR}/01_download/failednames_complete ${TMPDIR}/01_download/failedregions.txt > ${TMPDIR}/01_download/failedcases # previous failed regions (to test now )
+			>${TMPDIR}/01_download/failedregions.txt # new failed regions (now empty)
+			
 			condor_submit ${LOGDIR}/01_download.sub
 		
-			waitForCondor 15 
+			waitForCondor 5 
 
+			# at the end failedregions.txt is restored
+			cat ${TMPDIR}/01_download/failedcases_complete >> ${TMPDIR}/01_download/failedregions.txt
 			# CHECK CORRECT DOWNLOAD
 			checkDownload 
 		done
@@ -285,9 +325,35 @@ else
 	# import index path
 	source ${DATADIR}/datos_librerias/specs.sh
 
-	# make tmp file
-	cp $SAMPLESLIST ${TMPDIR}/02_breakseq/failednames
+	# Make analysis list
+	if [[ $RESUME_B == "y" ]]; then
+		echo "Resuming breakeq!"
+		# CHECK CORRECT BREAKSEQ
+		# -----------------------------------------------------
 
+		# how many inds were downloaded?
+		ls -l ${OUTDIR}/02_breakseq/*/*ref.sam | awk '$5>0{print $9}' | sed "s/^.*02_breakseq\///g" | sed 's/\/.*//g' > ${TMPDIR}/02_breakseq/successnames
+
+		# Make a list of fails
+		# This is the list for the queue
+		grep -v -f ${TMPDIR}/02_breakseq/successnames $SAMPLESLIST  > ${TMPDIR}/02_breakseq/failednames
+		# Counter
+		TOTEST=$(cat ${TMPDIR}/02_breakseq/failednames | wc -l)
+
+
+	else
+		echo "Running breakseq!"
+		cp $SAMPLESLIST ${TMPDIR}/02_breakseq/failednames
+		TOTEST=1
+	fi
+
+	# set loop
+	LOOPCOUNT=0
+	MEMORY=2048
+	
+	while [[ $TOTEST -gt 0 ]]; do
+		LOOPCOUNT=$(($LOOPCOUNT+1))
+		echo "Starting loop $LOOPCOUNT"
 
 	echo "executable = /bin/singularity
 args = \"exec \\
@@ -302,26 +368,21 @@ error = ${LOGDIR}/02_breakseq/condor.err
 log = ${LOGDIR}/02_breakseq/condor.log
 
 request_cpus = 1
+request_memory = $MEMORY
+
 
 queue 1 from ${TMPDIR}/02_breakseq/failednames "  >  ${LOGDIR}/02_breakseq.sub
 	
-	# set loop
-	TOTEST=1
-	LOOPCOUNT=0
-	while [[ $TOTEST -gt 0 ]]; do
-		LOOPCOUNT=$(($LOOPCOUNT+1))
-		echo "Starting loop $LOOPCOUNT"
-
 
 		condor_submit ${LOGDIR}/02_breakseq.sub
 	
 		waitForCondor 15 
 
-		# CHECK CORRECT DOWNLOAD
+		# CHECK CORRECT BREAKSEQ
 		# -----------------------------------------------------
 
 		# how many inds were downloaded?
-		ls -l ${OUTDIR}/02_breakseq/*/*uni.sam | awk '$5>0{print $9}' | sed "s/^.*02_breakseq\///g" | sed 's/\/.*//g' > ${TMPDIR}/02_breakseq/successnames
+		ls -l ${OUTDIR}/02_breakseq/*/*ref.sam | awk '$5>0{print $9}' | sed "s/^.*02_breakseq\///g" | sed 's/\/.*//g' > ${TMPDIR}/02_breakseq/successnames
 
 		# Make a list of fails
 		# This is the list for the queue
@@ -329,6 +390,11 @@ queue 1 from ${TMPDIR}/02_breakseq/failednames "  >  ${LOGDIR}/02_breakseq.sub
 
 		# Counter
 		TOTEST=$(cat ${TMPDIR}/02_breakseq/failednames | wc -l)
+
+		#Memory
+		echo "Duplicating memory to $(($MEMORY*2))"
+		MEMORY=$(($MEMORY*2))
+
 
 
 	done
@@ -415,7 +481,6 @@ else
 	
 	echo "executable = /bin/singularity
 args = \"exec \\
---bind /data/bioinfo/scratch/1KGP_hg19_raw/:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/raw/1KGP_data/vcf \\
 --bind /data/bioinfo/scratch/breakseq_tmp/:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${TMPDIR}/:rw \\
 /data/bioinfo/software/rgomez_plots.sif \\
 bash 20210325_breakseq/runall.sh qualityanalysis \\
@@ -431,11 +496,74 @@ queue 1" >  ${LOGDIR}/04_qualityanalysis.sub
 
 	condor_submit ${LOGDIR}/04_qualityanalysis.sub
 		
-	waitForCondor 15 
+	waitForCondor 1 
 
 fi
 
 
 
+#######################################################
+
+
+echo "# Step 05 - TagSNPs
+# =========================================================================== #"
+
+if [[ $OVERRIDE -gt 5 ]] ; then
+	echo "This step will not run now"
+else
+
+	mkdir -p ${LOGDIR}/05_tagsnps/ ${OUTDIR}/05_tagsnps/ ${TMPDIR}/05_tagsnps/
+	
+	# rm -r /data/bioinfo/scratch/breakseq_tmp/05_tagsnps/*
+	# import index path
+	source ${DATADIR}/datos_librerias/specs.sh
+
+	echo "executable = /bin/singularity
+args = \"exec \\
+--bind /data/bioinfo/common/${ASSEMBLY}:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index:rw \\
+--bind /data/bioinfo/scratch/breakseq_tmp/:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${TMPDIR}/:rw \\
+/data/bioinfo/software/rgomez_plots.sif \\
+bash 20210325_breakseq/runall.sh tagsnps -m $MAX_ERROR -g $GENOTYPES_DIR -r \$(Item) -n ${DATE}_${NAME} -t \$(Item)  \"
+
+output = ${LOGDIR}/05_tagsnps/condor.out
+error = ${LOGDIR}/05_tagsnps/condor.err
+log = ${LOGDIR}/05_tagsnps/condor.log
+
+request_cpus = 1
+
+queue 1 from ${INVSFILE}" >  ${LOGDIR}/05_tagsnps.sub
+
+	condor_submit ${LOGDIR}/05_tagsnps.sub
+		
+	waitForCondor 1 
+
+	echo -e "INV\tFILTER_genotypes\tFILTER_LD\tCHR\tPOS\tID\tLD"   > ${OUTDIR}/05_tagsnps/tagSNPs_gt08.txt
+	cat /data/bioinfo/scratch/breakseq_tmp/05_tagsnps/*/tagSNPs_gt08.txt >> ${OUTDIR}/05_tagsnps/tagSNPs_gt08.txt
+    echo -e "INV\tTYPE\tN_SAMPLES_${MAX_ERROR}\tchr_max_SNP_${MAX_ERROR}\tpos_max_SNP\tname_max_SNP\tLD_max_SNP" > ${OUTDIR}/05_tagsnps/tagSNPs_max.txt
+  	cat /data/bioinfo/scratch/breakseq_tmp/05_tagsnps/*/tagSNPs_max.txt >> $OUTDIR/05_tagsnps/tagSNPs_max.txt
+
+mkdir ${LOGDIR}/05_tagsnps_plot
+
+echo "executable = /bin/singularity
+args = \"exec \\
+--bind /data/bioinfo/common/${ASSEMBLY}:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index:rw \\
+--bind /data/bioinfo/scratch/breakseq_tmp/:/nfs/pic.es/user/r/rgomez/20210325_breakseq/${TMPDIR}/:rw \\
+/data/bioinfo/software/rgomez_plots.sif \\
+Rscript 20210325_breakseq/code/rscript/05_tagsnps.R 20210325_breakseq/${OUTDIR}/05_tagsnps/tagSNPs_max.txt 20210325_breakseq/${OUTDIR}/05_tagsnps/  \"
+
+output = ${LOGDIR}/05_tagsnps_plot/condor.out
+error = ${LOGDIR}/05_tagsnps_plot/condor.err
+log = ${LOGDIR}/05_tagsnps_plot/condor.log
+
+request_cpus = 1
+
+queue 1 " >  ${LOGDIR}/05_tagsnps_plot.sub
+
+	condor_submit ${LOGDIR}/05_tagsnps_plot.sub
+		
+	waitForCondor 1 
+	
+
+fi
 
 

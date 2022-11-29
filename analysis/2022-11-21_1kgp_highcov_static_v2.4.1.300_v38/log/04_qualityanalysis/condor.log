@@ -1,0 +1,70 @@
+000 (7105556.000.000) 2022-11-21 23:20:55 Job submitted from host: <193.109.174.82:9618?addrs=193.109.174.82-9618&alias=submit01.pic.es&noUDP&sock=schedd_3366225_f019>
+...
+040 (7105556.000.000) 2022-11-21 23:21:18 Finished transferring input files
+...
+001 (7105556.000.000) 2022-11-21 23:21:18 Job executing on host: <192.168.100.81:9618?addrs=192.168.100.81-9618+[2001-67c-1148-301--279]-9618&alias=tds279.pic.es&noUDP&sock=startd_2787_3a89>
+...
+006 (7105556.000.000) 2022-11-21 23:21:26 Image size of job updated: 211628
+	193  -  MemoryUsage of job (MB)
+	197528  -  ResidentSetSize of job (KB)
+...
+006 (7105556.000.000) 2022-11-21 23:21:33 Image size of job updated: 1857684
+	193  -  MemoryUsage of job (MB)
+	197532  -  ResidentSetSize of job (KB)
+...
+040 (7105556.000.000) 2022-11-21 23:21:33 Started transferring output files
+...
+040 (7105556.000.000) 2022-11-21 23:21:33 Finished transferring output files
+...
+005 (7105556.000.000) 2022-11-21 23:21:33 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:11, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:11, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       14 15728640  21359923 
+	   Memory (MB)          :      193     2048      2048 
+
+	Job terminated of its own accord at 2022-11-21T22:21:33Z.
+...
+000 (7108950.000.000) 2022-11-24 13:10:25 Job submitted from host: <193.109.174.82:9618?addrs=193.109.174.82-9618&alias=submit01.pic.es&noUDP&sock=schedd_3366225_f019>
+...
+040 (7108950.000.000) 2022-11-24 23:00:19 Finished transferring input files
+...
+001 (7108950.000.000) 2022-11-24 23:00:19 Job executing on host: <192.168.100.33:9618?addrs=192.168.100.33-9618+[2001-67c-1148-301--231]-9618&alias=tds231.pic.es&noUDP&sock=startd_2134_5331>
+...
+006 (7108950.000.000) 2022-11-24 23:00:27 Image size of job updated: 234240
+	208  -  MemoryUsage of job (MB)
+	212700  -  ResidentSetSize of job (KB)
+...
+006 (7108950.000.000) 2022-11-24 23:00:31 Image size of job updated: 1803508
+	208  -  MemoryUsage of job (MB)
+	212700  -  ResidentSetSize of job (KB)
+...
+040 (7108950.000.000) 2022-11-24 23:00:31 Started transferring output files
+...
+040 (7108950.000.000) 2022-11-24 23:00:31 Finished transferring output files
+...
+005 (7108950.000.000) 2022-11-24 23:00:31 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:08, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:08, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       14 15728640  15970672 
+	   Memory (MB)          :      208     2048      2048 
+
+	Job terminated of its own accord at 2022-11-24T22:00:31Z.
+...

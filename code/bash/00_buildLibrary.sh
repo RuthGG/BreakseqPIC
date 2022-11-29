@@ -17,7 +17,7 @@ cd $SCRIPTPATH
 
  cp $FASTAFILE data/use/bowtie_index/
  cd data/use/bowtie_index/
-
+ samtools faidx bplib.fa
  bowtie2-build bplib.fa bplib
 
 # Check library within analysis directory

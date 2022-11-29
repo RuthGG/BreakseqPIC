@@ -13,11 +13,11 @@ args = commandArgs(trailingOnly=TRUE)
 
 # # # # Example
 
-# args[1]<-"analysis/2022-07-06_half1kgp_v2.3.3.300/03_processaligned/GTypes_FinalDataSet.txt" # File with results
-# args[2]<-"analysis/2022-07-06_half1kgp_v2.3.3.300/data/samples.txt"  # All sample names
+# args[1]<-"analysis/2022-11-21_1kgp_highcov_static_v2.4.1.300_v38/03_processaligned/GTypes_FinalDataSet.rds" # File with results
+# args[2]<-"analysis/2022-11-21_1kgp_highcov_static_v2.4.1.300_v38/data/samples.txt"  # All sample names
 # args[3]<-"data/raw/GlobalInvGenotypes_v3.2_132Invs_20210528_Genotypes.csv" #InvFEST genotypes
-# args[4]<- "analysis/2022-07-06_half1kgp_v2.3.3.300/04_qualityanalysis"
-# args[5]<-"analysis/2022-07-06_half1kgp_v2.3.3.300/data/regions.txt"
+# args[4]<- "analysis/2022-11-21_1kgp_highcov_static_v2.4.1.300_v38/04_qualityanalysis"
+# args[5]<-"analysis/2022-11-21_1kgp_highcov_static_v2.4.1.300_v38/data/regions.txt"
 # args[6]<-0.03 # maximum error admitted
 
 # # Test if there is at least one argument: if not, return an error
@@ -38,6 +38,7 @@ library(grid)
 
 g.ref<-read.table(args[3], sep = "\t", header = T, stringsAsFactors = F)
 g.break<-read.table(args[1], header = T, stringsAsFactors = F)
+# g.break<-readRDS(args[1])
 inds<-read.table(args[2], stringsAsFactors = F)
 invs<-read.table(args[5], stringsAsFactors = F)
 
@@ -115,7 +116,7 @@ comparison[which(comparison$genotypes_aggregated_count == 1),"Gtype_breakseq"]<-
 # Classify cases
 comparison$class<- ifelse(is.na(comparison$Gtype_experimental), "No Reference",
                           ifelse(is.na(comparison$Total_reads),  "Filter (0 reads)", 
-                                 ifelse(comparison$p.error <= args[6] , 
+                                 ifelse(comparison$p.error <= as.numeric(args[6]) , 
                                         ifelse(comparison$Gtype_experimental == comparison$Gtype_breakseq,
                                                "Same GType", "Different GType"),
                                         "Filter (few reads)" )))
@@ -222,7 +223,7 @@ plot_compare<-ggplot(percentage) +
   changes<-data.frame(table(cs$Inv, cs$change)  )
   
   
-  cplot<-ggplot(changes[changes$Freq > 0,],aes(x = Var1, y = Freq, fill=Var2))+geom_bar(, stat = "identity")+
+  cplot<-ggplot(changes[changes$Freq > 0,],aes(x = Var1, y = Freq, fill=Var2))+geom_bar( stat = "identity")+
     theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))+
     geom_text(aes(label=Freq), position = position_stack(vjust= 0.5),
               colour = "white")+

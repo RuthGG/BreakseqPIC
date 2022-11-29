@@ -1,0 +1,5 @@
+tagSNPs for HsInv0113
+grep: analysis/2022-11-29_1kgp_30x_only133.300_v38/03_processaligned//GTypes_FinalDataSet.txt: No such file or directory
+Monomorphic!
+rm: cannot remove 'tmp/2022-11-29_1kgp_30x_only133.300_v38/05_tagsnps/HsInv0113/*.vcf': No such file or directory
+rm: cannot remove 'tmp/2022-11-29_1kgp_30x_only133.300_v38/05_tagsnps/HsInv0113/plink*': No such file or directory

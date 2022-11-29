@@ -26,7 +26,8 @@ usage()
   download  -s -r -t -b -d -m -n -l      Download a set of reads from 1KGP samples, optionally run breakseq.
   breakseq  -f -s -t -m -n -l            Run breakseq on a list of fastqs.
   processaligned -s -a -t -m -n          Process reads that were aligned to probes.
-  qualityanalysis -g -t -n               Make quality analysis for genotypes, including tagSNPs.
+  qualityanalysis -g -t -n               Make quality analysis for genotypes.
+  tagsnps -g -t -n                       Calculate tagSNPs
   "
   echo "Options:
 
@@ -151,6 +152,20 @@ case "$COMMAND" in
     done
     shift $((OPTIND -1))
   ;;
+    # Make quality analysis for genotypes.
+  tagsnps ) 
+    while getopts "g:t:n:r:s:m:" OPTIONS ; do
+      case "$OPTIONS" in
+        g)  GENOTYPES_DIR=${OPTARG} ;;
+        t)  THREAD=${OPTARG};;
+        n)  NAME=${OPTARG};;
+        r)  REGIONS_FILE=${OPTARG} ;;
+        s)  SAMPLES_FILE=${OPTARG} ;;
+        m)  FILTER=${OPTARG};;
+      esac
+    done
+    shift $((OPTIND -1))
+  ;;
 esac
 
 
@@ -170,6 +185,10 @@ elif [ "$COMMAND" == "processaligned" ]; then
 elif [ "$COMMAND" == "qualityanalysis" ]; then
   if [ -z "$GENOTYPES_DIR" ] && [ -z "$REGIONS_FILE" ] && [ -z "$SAMPLES_FILE" ]  ; then 
     echo "Remember that to use the '${COMMAND}' command, mandatory options are: -g, -r, -s"; usage; exit
+  fi
+elif [ "$COMMAND" == "tagsnps" ]; then
+  if [ -z "$GENOTYPES_DIR" ] && [ -z "$REGIONS_FILE" ]  && [ -z "$FILTER" ]  ; then 
+    echo "Remember that to use the '${COMMAND}' command, mandatory options are: -g, -r, -m"; usage; exit
   fi
 else 
   usage; exit
@@ -193,32 +212,39 @@ STEP=$(printf "%02d" $((${STEP}+1)))
 
 if [ "$COMMAND" == "download" ]; then
 
-  exec 1> analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD} 2>&1
-
   # Make directories
   TMPDIR="tmp/${NAME}/${STEP}_${COMMAND}"
   OUTDIR="analysis/${NAME}/${STEP}_${COMMAND}"
   DATADIR="analysis/${NAME}/data/"
 
   mkdir -p $OUTDIR $TMPDIR/readscount/
-
+  
   # Take samples
-  echo "Take samples"
+  # echo "Take samples"
   SAMPLES=$SAMPLES_FILE
   
-  # Take regions
-  echo "Take regions"
-  # How to create a file with all invs
-  REGIONS=$(cut -f1 $REGIONS_FILE)
-
   ## Loop per sample - align reads
-  echo "Start looping samples"
+  # echo "Start looping samples"
 
   for SAMPLE in $SAMPLES; do
+    THREAD=$SAMPLE
+    if [[ -f analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD} ]]; then
+      # Save existing log
+      cp analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD} analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD}_previousLoop
+    fi
+    exec 1> analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD} 2>&1
+   
     echo "################"
     echo "$SAMPLE"
     echo "################"
     date
+
+      # Take regions
+      echo "Take regions"
+      # How to create a file with all invs
+      REGIONS=$(grep $SAMPLE $REGIONS_FILE | grep -v Unmapped | cut -d "," -f2  )
+      # Unmapped reads
+      RUNUNMAP=$(grep $SAMPLE $REGIONS_FILE | grep Unmapped | cut -d "," -f2  )
 
     # Take path for MAIN_FILE (mapped and/or unmapped fasta or bam) and OTHER_FILE (unmapped bam/general bam with all reads) from index 
     MAIN_FILE=$(grep -w $SAMPLE ${DATADIR}/samples_pathIndex.txt | cut -f2)
@@ -232,12 +258,12 @@ if [ "$COMMAND" == "download" ]; then
     cd ${OUTDIR}/${NAME}/${SAMPLE}
 
     # Remove output files if they exist
-    if [ -f selected_regions.fastq ] ; then
-      rm selected_regions.fastq
-    fi
-    if [ -f ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt ] ; then
-      rm ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt
-    fi
+    # if [ -f selected_regions.fastq ] ; then
+    #   rm selected_regions.fastq
+    # fi
+    # if [ -f ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt ] ; then
+    #   rm ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt
+    # fi
 
     # Check if sample data is in FASTQ or BAM format:
     CONTINUE="no"
@@ -257,12 +283,12 @@ if [ "$COMMAND" == "download" ]; then
       CONTINUE="yes"
     elif [[ $MAIN_FORMAT == "cram" ]]; then
       echo "Processing cram file $MAIN_FILE"
-
       # Check if there is an indexing (crai) file:
       INDEX_FILE=${MAIN_FILE}.crai
       INDEX_FINAL="cram.crai"
       # Mark to continue
       CONTINUE="yes"
+
     else 
       echo "Unknown file format"
     fi
@@ -272,7 +298,7 @@ if [ "$COMMAND" == "download" ]; then
       # Make index if necessary
       if [[ -f $INDEX_FILE ]]; then
         echo "Indexing file for already exists in local: ${INDEX_FILE}"
-      elif [[ $(wget ${IDEX_FILE} --spider -O - 2>&1 | tail -n2 | head -n1) == *"Remote file exists."* ]]; then
+      elif [[ $(curl -l $INDEX_FILE | grep crai | wc -l) -gt 0 ]]; then
         echo "Remote indexing file already exists: ${INDEX_FILE}"
       else
         echo "Creating the indexing file"
@@ -310,7 +336,7 @@ if [ "$COMMAND" == "download" ]; then
           while [ $i -eq 0 ]; do
             echo "# LOOP $l"
 
-            if [[ $l -eq 100 ]]; then
+            if [[ $l -eq 30 ]]; then
               echo "Maximum loop count! Aborting..."
               echo  "$SAMPLE","$REGION" >> ${SCRIPTPATH}/${TMPDIR}/failedregions.txt
               break
@@ -331,8 +357,8 @@ if [ "$COMMAND" == "download" ]; then
                 i=1
               else
                 echo "# Fail!"
-                sleep 1
               fi
+              sleep 1 # para no saturar el sistema y que no nos echen
 
               echo "# Delete tmp file"
               rm tmp_download.txt
@@ -341,59 +367,69 @@ if [ "$COMMAND" == "download" ]; then
         fi
       done
         
-      # Unmapped reads
+      if [[ $RUNUNMAP == "Unmapped" ]]; then
 
-      echo "---------------------"
-      echo " Unmapped reads "
-      echo "---------------------"
-      date
+        echo "---------------------"
+        echo " Unmapped reads "
+        echo "---------------------"
+        date
 
-      # This includes a loop to resume download in case it was interrupted
-      i=0
-      l=0
-      while [ $i -eq 0 ]; do
-        echo "# LOOP $l"
-      
-        if [[ $l -eq 100 ]]; then
-          echo "Maximum loop count! Aborting..."
-          break
-        else
-
-          l=$((l+1))
-
-          # Work into tmp_download (-f 4 selects only unmapped reads in case the bam file provided was a general one)
-          if [[ $OTHER_FILE == $MAIN_FILE ]]; then
-            # Non specific unmapped file
-            samtools view -f 4 $OTHER_FILE > tmp_download.txt # CHANGED FILTER!! previously fas -f12, but -f4 supposedly recovers the most unmapped reads
+        # This includes a loop to resume download in case it was interrupted
+        i=0
+        l=0
+        while [ $i -eq 0 ]; do
+          echo "# LOOP $l"
+        
+          if [[ $l -eq 30 ]]; then
+            echo "Maximum loop count! Aborting..."
+            echo  "$SAMPLE,Unmapped" >> ${SCRIPTPATH}/${TMPDIR}/failedregions.txt
+            break
           else
-            # Specific unmapped file
-            samtools view $OTHER_FILE > tmp_download.txt
-          fi
-          
-      
-          if [ -s tmp_download.txt ]; then 
-            # If file not empty, interrupt loop and concat to output file
-            echo "# Success!"
-            cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' >> selected_regions.fastq
-            READS=$(($(cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' | wc -l ) / 4)) 
-            echo "Reads: " $READS
-            echo "$SAMPLE,Unmapped,$READS" >> ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt 
-            i=1
-          else
-            echo "# Fail!"
-            sleep 1
-          fi
 
-          echo "# Delete tmp file"
-          rm tmp_download.txt
-        fi
-      done
+            l=$((l+1))
+
+            # Work into tmp_download (-f 4 selects only unmapped reads in case the bam file provided was a general one)
+            if [[ $OTHER_FILE == $MAIN_FILE ]]; then
+              # Non specific unmapped file
+              samtools view -f 4 $OTHER_FILE > tmp_download.txt # CHANGED FILTER!! previously fas -f12, but -f4 supposedly recovers the most unmapped reads
+            else
+              # Specific unmapped file
+              samtools view $OTHER_FILE > tmp_download.txt
+            fi
+            
+        
+            if [ -s tmp_download.txt ]; then 
+              # If file not empty, interrupt loop and concat to output file
+              echo "# Success!"
+              cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' >> selected_regions.fastq
+              READS=$(($(cat tmp_download.txt | awk -v FS="\t" '{print "@" $1 "\n" $10 "\n+\n" $11}' | wc -l ) / 4)) 
+              echo "Reads: " $READS
+              echo "$SAMPLE,Unmapped,$READS" >> ${SCRIPTPATH}/${TMPDIR}/readscount/${SAMPLE}.txt 
+              i=1
+            else
+              echo "# Fail!"
+              sleep 1
+            fi
+
+            echo "# Delete tmp file"
+            rm tmp_download.txt
+          fi
+        done
+      fi
 
       # Remove everything but the selected regions and return
       ls | grep -v 'selected_regions.fastq' | xargs rm 
       cd ${SCRIPTPATH}
 
-     
+      # Append log if necessary
+      if [[ -f analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD}_previousLoop ]]; then
+        cp analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD} analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD}_thisLoop
+        cat analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD}_previousLoop > analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD} 
+        cat analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD}_thisLoop >> analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD} 
+        rm analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD}_previousLoop analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD}_thisLoop
+      fi
+      
+
       # if [ "$B_OPTION" == "y" ]; then
       #   ## RUN BREAKSEQ
       
@@ -483,7 +519,7 @@ if [ "$COMMAND" == "processaligned" ]; then
   mkdir -p $OUTDIR $TMPDIR
 
   # Set variables
-  REF_FASTA=$(ls data/use/bowtie_index/human_*.fa*) # Reference fasta
+  REF_FASTA=$(ls data/use/bowtie_index/human_*.fa) # Reference fasta
  # Library data before bowtie build
   DATADIR=analysis/${NAME}/data/datos_librerias
 
@@ -518,10 +554,6 @@ if [ "$COMMAND" == "processaligned" ]; then
     # Para contar estos últimos como evidencia de la presencia del alelo estándard, debemos asegurarnos de que no son
     # reads repetitivos y que no mapan en ningún otro lugar. 
   
-    # Pasamos el template del header a la carpeta del individuo concreto
-      echo "  Creating header for $SAMPLE." 
-      awk -v ID=$SAMPLE '{gsub(/XXX/, ID); print}' $DATADIR/ref.header.template > ${TMPDIR}/${SAMPLE}/ref.header
-
     # Tipos de archivos
     # .ini.sam -> archivo inicial con todos los alineamientos del breakseq sobre las librerias (INV y STD, o REF y DEL)
     # .fil.sam -> archivo filtrado del anterior con el minimo cover alreadedor del breakpoint
@@ -532,10 +564,19 @@ if [ "$COMMAND" == "processaligned" ]; then
     # Unir ref genome header con los reads que mapean en nuestras librerias en STD o REF (y tambien en el genoma) y los ordenamos
       echo "  Collecting and sorting alignments to the reference from individual $SAMPLE."
       if [ -f $ALIGNED_DIR/$SAMPLE/*.ref.sam ]; then
-        awk '(FILENAME ~ /ref.header$/){print}((FILENAME ~ /sam$/) && (/^[^@]/)){print}' ${TMPDIR}/${SAMPLE}/ref.header $ALIGNED_DIR/$SAMPLE/*.ref.sam > ${TMPDIR}/${SAMPLE}/ref.sam
+
+        # Making header for breakseq samfile
+        # Deprecated way to add header!
+        # awk -v ID=$SAMPLE '{gsub(/XXX/, ID); print}' $DATADIR/ref.header.template > ${TMPDIR}/${SAMPLE}/ref.header
+        # awk '(FILENAME ~ /ref.header$/){print}((FILENAME ~ /sam$/) && (/^[^@]/)){print}' ${TMPDIR}/${SAMPLE}/ref.header $ALIGNED_DIR/$SAMPLE/*.ref.sam > ${TMPDIR}/${SAMPLE}/ref.sam
+    
+        echo "  Creating reference header for $SAMPLE." 
+        echo -e "@HD\tVN:1.0\tSO:unsorted\n@RG\tID:${SAMPLE}\tSM:XXX\n@PG\tID:breakseq" > ${TMPDIR}/${SAMPLE}/ref.sam
+        samtools view -ht ${REF_FASTA}.fai $ALIGNED_DIR/$SAMPLE/*.ref.sam  >> ${TMPDIR}/${SAMPLE}/ref.sam
+
         samtools view -Sb  ${TMPDIR}/${SAMPLE}/ref.sam > ${TMPDIR}/${SAMPLE}/ref.bam
         samtools sort -n ${TMPDIR}/${SAMPLE}/ref.bam -o ${TMPDIR}/${SAMPLE}/ref.sorted.bam
-        samtools view ${TMPDIR}/${SAMPLE}/ref.sorted.bam > ${TMPDIR}/${SAMPLE}/ref.sorted.sam
+        samtools view ${TMPDIR}/${SAMPLE}/ref.sorted.bam > ${TMPDIR}/${SAMPLE}/ref.sorted.sam 
         # rm ${TMPDIR}/${SAMPLE}/ref.sam ${TMPDIR}/${SAMPLE}/ref.sorted.bam ${TMPDIR}/${SAMPLE}/ref.bam
                   
       else
@@ -547,9 +588,13 @@ if [ "$COMMAND" == "processaligned" ]; then
         awk -v ID=$SAMPLE '{gsub(/XXX/, ID); print}' $DATADIR/bplib.header.template.txt > ${TMPDIR}/${SAMPLE}/header
 
     # Unir ref header de las libs con los reads que mapean en nuestras librerias en INV o alelo alternativo y los ordenamos
+    # Esta parte la dejamos asi con el header template porque ese sí es automático y cambia con cada nueva librería, hace una lista
+    # de toda las sondas y no solo las que hemos encontrado ahora
     # ADEMAS -> FILTRAR ALELOS STD, YA QUE SOLO LOS STD SON DE REFERENCIA! NO PUEDE HABER STD EN ESTE ARCHIVO! SOLO PUEDE INV!
       if [ -f $ALIGNED_DIR/$SAMPLE/*.uni.sam ]; then
         echo "  Collecting and sorting unique alignments to bplib from individual $SAMPLE."
+
+        # Filtramos todos aquellos en uni que no sean de como mínimo $MIN bp (campo 10 del samfile sin header)
         awk -v RG=$SAMPLE -v OFS="\t" -v MIN=$MIN '(FILENAME ~ /header$/){print}((FILENAME ~ /sam$/) && (/^[^@]/) && (length($10) >= MIN)){
           gsub(/:A$/,"",$3)
           print $0 "\tRG:Z:" RG}' ${TMPDIR}/${SAMPLE}/header $ALIGNED_DIR/$SAMPLE/*.uni.sam > ${TMPDIR}/${SAMPLE}/uni.sam
@@ -812,14 +857,44 @@ if [ "$COMMAND" == "qualityanalysis" ]; then
 
   GENOTYPES_FILE="${OUTDIR}/genotypesClean.txt"
 
+fi
+
+# TAG SNPS
+# =========================================================================== #
+STEP=$(printf "%02d" $((${STEP}+1)))
+
+if [ "$COMMAND" == "tagsnps" ]; then
+
+   exec 1> analysis/${NAME}/log/${STEP}_${COMMAND}/${THREAD} 2>&1
+
+ # Make directories
+  TMPDIR="tmp/${NAME}/${STEP}_${COMMAND}"
+  OUTDIR="analysis/${NAME}/${STEP}_${COMMAND}"
+
+  mkdir -p $OUTDIR $TMPDIR
+
+  REF_INFO=data/use/bowtie_index/vcf_raw/
+  LIBRARY_INFO=analysis/${NAME}/data/datos_librerias/
+
+  # READS_FILE="${GENOTYPES_DIR}/Results_reads.txt"
+  GENOTYPES_FILE="${GENOTYPES_DIR}/GTypes_FinalDataSet.txt"
 
   ########################
   ## CALCULATE TAG SNPS ##
   ########################
  
-  # bash code/bash/05_tagsnps.sh $TMPDIR $OUTDIR $REGIONS_FILE $FILTER $GENOTYPES_FILE $DATADIR $SCRIPTPATH
-  # Rscript code/rscript/05_tagsnps.R $OUTDIR/tagSNPs_max.txt $OUTDIR/
 
-  rm $TMPDIR
+  # code/bash/05_tagsnps.sh
+    # TMPDIR=$1      
+    # REGIONS_FILE=$2   == list of invs, space separated HsInv003, etc
+    # FILTER=$3 == filter for p(error)
+    # GENOTYPES_FILE=$4 == analysis/2022-10-20_1kgp_highcov_static_v2.4.1.300_v38/03_processaligned/GTypes_FinalDataSet.txt 
+    # REF_INFO=$5 == data/use/bowtie_index/vcf_raw/
+    # LIBRARY_INFO=$6 == analysis/2022-10-20_1kgp_highcov_static_v2.4.1.300_v38/data/datos_librerias/
+    # SCRIPTPATH=$7
+
+  bash code/bash/05_tagsnps.sh $TMPDIR $REGIONS_FILE $FILTER $GENOTYPES_FILE $REF_INFO $LIBRARY_INFO $SCRIPTPATH
+
+  # rm $TMPDIR
 fi
 

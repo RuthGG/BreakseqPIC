@@ -1,0 +1,4 @@
+tagSNPs for HsInv0991
+Monomorphic!
+rm: cannot remove 'tmp/2022-10-20_1kgp_highcov_static_v2.4.1.300_v38/05_tagsnps/HsInv0991/*.vcf': No such file or directory
+rm: cannot remove 'tmp/2022-10-20_1kgp_highcov_static_v2.4.1.300_v38/05_tagsnps/HsInv0991/plink*': No such file or directory

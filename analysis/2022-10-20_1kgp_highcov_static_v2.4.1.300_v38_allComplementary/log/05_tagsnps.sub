@@ -1,0 +1,14 @@
+executable = /bin/singularity
+args = "exec \
+--bind /data/bioinfo/common/bowtie2_index_v38:/nfs/pic.es/user/r/rgomez/20210325_breakseq/data/use/bowtie_index:rw \
+--bind /data/bioinfo/scratch/breakseq_tmp/:/nfs/pic.es/user/r/rgomez/20210325_breakseq/tmp/2022-10-20_1kgp_highcov_static_v2.4.1.300_v38/:rw \
+/data/bioinfo/software/rgomez_plots.sif \
+bash 20210325_breakseq/runall.sh tagsnps -m 0.03 -g analysis/2022-10-20_1kgp_highcov_static_v2.4.1.300_v38/03_processaligned/ -r $(Item) -n 2022-10-20_1kgp_highcov_static_v2.4.1.300_v38 -t $(Item)  "
+
+output = analysis/2022-10-20_1kgp_highcov_static_v2.4.1.300_v38/log/05_tagsnps/condor.out
+error = analysis/2022-10-20_1kgp_highcov_static_v2.4.1.300_v38/log/05_tagsnps/condor.err
+log = analysis/2022-10-20_1kgp_highcov_static_v2.4.1.300_v38/log/05_tagsnps/condor.log
+
+request_cpus = 1
+
+queue 1 from analysis/2022-10-20_1kgp_highcov_static_v2.4.1.300_v38/data/regions.txt

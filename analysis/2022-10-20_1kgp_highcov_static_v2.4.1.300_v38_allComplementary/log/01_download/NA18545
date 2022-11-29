@@ -1,0 +1,1593 @@
+Take samples
+Start looping samples
+################
+NA18545
+################
+Tue Oct 25 03:53:19 CEST 2022
+Take regions
+Processing cram file ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR323/ERR3239357/NA18545.final.cram
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    61    0    61    0     0     64      0 --:--:-- --:--:-- --:--:--    64
+Remote indexing file already exists: ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR323/ERR3239357/NA18545.final.cram.crai
+---------------------
+HsInv0004 Mapped reads 
+---------------------
+Tue Oct 25 03:53:21 CEST 2022
+Original coords: chr1:197787511-197789004
+Sampled coords: chr1:197767511-197809004
+# LOOP 0
+
+# Sucess!
+Reads:  11285
+# Delete tmp file
+---------------------
+HsInv0006 Mapped reads 
+---------------------
+Tue Oct 25 03:53:29 CEST 2022
+Original coords: chr1:205209343-205209836
+Sampled coords: chr1:205189343-205229836
+# LOOP 0
+
+# Sucess!
+Reads:  11226
+# Delete tmp file
+---------------------
+HsInv0015 Mapped reads 
+---------------------
+Tue Oct 25 03:53:32 CEST 2022
+Original coords: chr10:13063123-13063422
+Sampled coords: chr10:13043123-13083422
+# LOOP 0
+
+# Sucess!
+Reads:  10951
+# Delete tmp file
+---------------------
+HsInv0016 Mapped reads 
+---------------------
+Tue Oct 25 03:53:35 CEST 2022
+Original coords: chr10:57497752-57498335
+Sampled coords: chr10:57477752-57518335
+# LOOP 0
+
+# Sucess!
+Reads:  9871
+# Delete tmp file
+---------------------
+HsInv0041 Mapped reads 
+---------------------
+Tue Oct 25 03:53:38 CEST 2022
+Original coords: chr2:224428114-224428520
+Sampled coords: chr2:224408114-224448520
+# LOOP 0
+
+# Sucess!
+Reads:  10422
+# Delete tmp file
+---------------------
+HsInv0044 Mapped reads 
+---------------------
+Tue Oct 25 03:53:41 CEST 2022
+Original coords: chr21:26001694-26002534
+Sampled coords: chr21:25981694-26022534
+# LOOP 0
+
+# Sucess!
+Reads:  11244
+# Delete tmp file
+---------------------
+HsInv0058 Mapped reads 
+---------------------
+Tue Oct 25 03:53:45 CEST 2022
+Original coords: chr6:31041296-31042468
+Sampled coords: chr6:31021296-31062468
+# LOOP 0
+
+# Sucess!
+Reads:  11552
+# Delete tmp file
+---------------------
+HsInv0059 Mapped reads 
+---------------------
+Tue Oct 25 03:53:48 CEST 2022
+Original coords: chr6:89213766-89214373
+Sampled coords: chr6:89193766-89234373
+# LOOP 0
+
+# Sucess!
+Reads:  10769
+# Delete tmp file
+---------------------
+HsInv0060 Mapped reads 
+---------------------
+Tue Oct 25 03:53:51 CEST 2022
+Original coords: chr6:94031208-94031844
+Sampled coords: chr6:94011208-94051844
+# LOOP 0
+
+# Sucess!
+Reads:  9863
+# Delete tmp file
+---------------------
+HsInv0068 Mapped reads 
+---------------------
+Tue Oct 25 03:53:54 CEST 2022
+Original coords: chr9:74283075-74283623
+Sampled coords: chr9:74263075-74303623
+# LOOP 0
+
+# Sucess!
+Reads:  10040
+# Delete tmp file
+---------------------
+HsInv0081 Mapped reads 
+---------------------
+Tue Oct 25 03:53:57 CEST 2022
+Original coords: chrX:79667586-79668012
+Sampled coords: chrX:79647586-79688012
+# LOOP 0
+
+# Sucess!
+Reads:  9211
+# Delete tmp file
+---------------------
+HsInv0091 Mapped reads 
+---------------------
+Tue Oct 25 03:54:00 CEST 2022
+Original coords: chr6:12431648-12432597
+Sampled coords: chr6:12411648-12452597
+# LOOP 0
+
+# Sucess!
+Reads:  10772
+# Delete tmp file
+---------------------
+HsInv0092 Mapped reads 
+---------------------
+Tue Oct 25 03:54:03 CEST 2022
+Original coords: chr6:130526892-130531299
+Sampled coords: chr6:130506892-130551299
+# LOOP 0
+
+# Sucess!
+Reads:  11784
+# Delete tmp file
+---------------------
+HsInv0095 Mapped reads 
+---------------------
+Tue Oct 25 03:54:06 CEST 2022
+Original coords: chr4:87925863-87937697
+Sampled coords: chr4:87905863-87957697
+# LOOP 0
+
+# Sucess!
+Reads:  13437
+# Delete tmp file
+---------------------
+HsInv0097 Mapped reads 
+---------------------
+Tue Oct 25 03:54:09 CEST 2022
+Original coords: chr3:108000849-108022356
+Sampled coords: chr3:107980849-108042356
+# LOOP 0
+
+# Sucess!
+Reads:  15481
+# Delete tmp file
+---------------------
+HsInv0098 Mapped reads 
+---------------------
+Tue Oct 25 03:54:13 CEST 2022
+Original coords: chr3:41320502-41321771
+Sampled coords: chr3:41300502-41341771
+# LOOP 0
+
+# Sucess!
+Reads:  10476
+# Delete tmp file
+---------------------
+HsInv0102 Mapped reads 
+---------------------
+Tue Oct 25 03:54:16 CEST 2022
+Original coords: chr4:40233259-40235588
+Sampled coords: chr4:40213259-40255588
+# LOOP 0
+
+# Sucess!
+Reads:  12142
+# Delete tmp file
+---------------------
+HsInv0105 Mapped reads 
+---------------------
+Tue Oct 25 03:54:19 CEST 2022
+Original coords: chr7:40839627-40841020
+Sampled coords: chr7:40819627-40861020
+# LOOP 0
+
+# Sucess!
+Reads:  10360
+# Delete tmp file
+---------------------
+HsInv0113 Mapped reads 
+---------------------
+Tue Oct 25 03:54:22 CEST 2022
+Original coords: chr9:102570103-102570402
+Sampled coords: chr9:102550103-102590402
+# LOOP 0
+
+# Sucess!
+Reads:  9393
+# Delete tmp file
+---------------------
+HsInv0141 Mapped reads 
+---------------------
+Tue Oct 25 03:54:25 CEST 2022
+Original coords: chr2:179550773-179552066
+Sampled coords: chr2:179530773-179572066
+# LOOP 0
+
+# Sucess!
+Reads:  10799
+# Delete tmp file
+---------------------
+HsInv0156 Mapped reads 
+---------------------
+Tue Oct 25 03:54:28 CEST 2022
+Original coords: chr2:122718878-122719951
+Sampled coords: chr2:122698878-122739951
+# LOOP 0
+
+# Sucess!
+Reads:  9365
+# Delete tmp file
+---------------------
+HsInv0163 Mapped reads 
+---------------------
+Tue Oct 25 03:54:31 CEST 2022
+Original coords: chr10:55007281-55013584
+Sampled coords: chr10:54987281-55033584
+# LOOP 0
+
+# Sucess!
+Reads:  11209
+# Delete tmp file
+---------------------
+HsInv0164 Mapped reads 
+---------------------
+Tue Oct 25 03:54:34 CEST 2022
+Original coords: chr5:144026900-144027329
+Sampled coords: chr5:144006900-144047329
+# LOOP 0
+
+# Sucess!
+Reads:  10544
+# Delete tmp file
+---------------------
+HsInv0174 Mapped reads 
+---------------------
+Tue Oct 25 03:54:37 CEST 2022
+Original coords: chr1:43593495-43594291
+Sampled coords: chr1:43573495-43614291
+# LOOP 0
+
+# Sucess!
+Reads:  12147
+# Delete tmp file
+---------------------
+HsInv0181 Mapped reads 
+---------------------
+Tue Oct 25 03:54:40 CEST 2022
+Original coords: chr8:102423115-102423939
+Sampled coords: chr8:102403115-102443939
+# LOOP 0
+
+# Sucess!
+Reads:  10931
+# Delete tmp file
+---------------------
+HsInv0191 Mapped reads 
+---------------------
+Tue Oct 25 03:54:43 CEST 2022
+Original coords: chr10:73659808-73660300
+Sampled coords: chr10:73639808-73680300
+# LOOP 0
+
+# Sucess!
+Reads:  11735
+# Delete tmp file
+---------------------
+HsInv0201 Mapped reads 
+---------------------
+Tue Oct 25 03:54:46 CEST 2022
+Original coords: chr5:148174527-148175202
+Sampled coords: chr5:148154527-148195202
+# LOOP 0
+
+# Sucess!
+Reads:  10023
+# Delete tmp file
+---------------------
+HsInv0212 Mapped reads 
+---------------------
+Tue Oct 25 03:54:49 CEST 2022
+Original coords: chr4:167193774-167194261
+Sampled coords: chr4:167173774-167214261
+# LOOP 0
+
+# Sucess!
+Reads:  9682
+# Delete tmp file
+---------------------
+HsInv0213 Mapped reads 
+---------------------
+Tue Oct 25 03:54:52 CEST 2022
+Original coords: chr9:111086767-111087407
+Sampled coords: chr9:111066767-111107407
+# LOOP 0
+
+# Sucess!
+Reads:  10651
+# Delete tmp file
+---------------------
+HsInv0260 Mapped reads 
+---------------------
+Tue Oct 25 03:54:55 CEST 2022
+Original coords: chr2:183704320-183704619
+Sampled coords: chr2:183684320-183724619
+# LOOP 0
+
+# Sucess!
+Reads:  9821
+# Delete tmp file
+---------------------
+HsInv0284 Mapped reads 
+---------------------
+Tue Oct 25 03:54:58 CEST 2022
+Original coords: chr6:141866175-141898862
+Sampled coords: chr6:141846175-141918862
+# LOOP 0
+
+# Sucess!
+Reads:  18409
+# Delete tmp file
+---------------------
+HsInv0379 Mapped reads 
+---------------------
+Tue Oct 25 03:55:01 CEST 2022
+Original coords: chr19:21647182-22062608
+Sampled coords: chr19:21627182-22082608
+# LOOP 0
+
+# Sucess!
+Reads:  115387
+# Delete tmp file
+---------------------
+HsInv0409 Mapped reads 
+---------------------
+Tue Oct 25 03:55:05 CEST 2022
+Original coords: chrX:6218859-6220493
+Sampled coords: chrX:6198859-6240493
+# LOOP 0
+
+# Sucess!
+Reads:  10305
+# Delete tmp file
+---------------------
+HsInv0442 Mapped reads 
+---------------------
+Tue Oct 25 03:55:08 CEST 2022
+Original coords: chr18:11511144-11511616
+Sampled coords: chr18:11491144-11531616
+# LOOP 0
+
+# Sucess!
+Reads:  10660
+# Delete tmp file
+---------------------
+HsInv0553 Mapped reads 
+---------------------
+Tue Oct 25 03:55:11 CEST 2022
+Original coords: chr16:35157591-35157890
+Sampled coords: chr16:35137591-35177890
+# LOOP 0
+
+# Sucess!
+Reads:  10029
+# Delete tmp file
+---------------------
+HsInv0901 Mapped reads 
+---------------------
+Tue Oct 25 03:55:14 CEST 2022
+Original coords: chr3:82154315-82155005
+Sampled coords: chr3:82134315-82175005
+# LOOP 0
+
+# Sucess!
+Reads:  10125
+# Delete tmp file
+---------------------
+HsInv0960 Mapped reads 
+---------------------
+Tue Oct 25 03:55:17 CEST 2022
+Original coords: chr7:156594240-156594675
+Sampled coords: chr7:156574240-156614675
+# LOOP 0
+
+# Sucess!
+Reads:  10728
+# Delete tmp file
+---------------------
+HsInv0965 Mapped reads 
+---------------------
+Tue Oct 25 03:55:21 CEST 2022
+Original coords: chr2:195119556-195120040
+Sampled coords: chr2:195099556-195140040
+# LOOP 0
+
+# Sucess!
+Reads:  9764
+# Delete tmp file
+---------------------
+HsInv0989 Mapped reads 
+---------------------
+Tue Oct 25 03:55:52 CEST 2022
+Original coords: chr10:130837277-130837933
+Sampled coords: chr10:130817277-130857933
+# LOOP 0
+
+# Sucess!
+Reads:  10368
+# Delete tmp file
+---------------------
+HsInv0991 Mapped reads 
+---------------------
+Tue Oct 25 03:55:55 CEST 2022
+Original coords: chr5:29069080-29069668
+Sampled coords: chr5:29049080-29089668
+# LOOP 0
+
+# Sucess!
+Reads:  9721
+# Delete tmp file
+---------------------
+HsInv1053 Mapped reads 
+---------------------
+Tue Oct 25 03:55:58 CEST 2022
+Original coords: chr7:70961050-70974043
+Sampled coords: chr7:70941050-70994043
+# LOOP 0
+
+# Sucess!
+Reads:  12064
+# Delete tmp file
+---------------------
+HsInv1065 Mapped reads 
+---------------------
+Tue Oct 25 03:56:01 CEST 2022
+Original coords: chr11:55663925-55678538
+Sampled coords: chr11:55643925-55698538
+# LOOP 0
+
+# Sucess!
+Reads:  8464
+# Delete tmp file
+---------------------
+HsInv1066 Mapped reads 
+---------------------
+Tue Oct 25 03:56:04 CEST 2022
+Original coords: chr12:46896550-46916118
+Sampled coords: chr12:46876550-46936118
+# LOOP 0
+
+# Sucess!
+Reads:  15452
+# Delete tmp file
+---------------------
+HsInv1070 Mapped reads 
+---------------------
+Tue Oct 25 03:56:07 CEST 2022
+Original coords: chr1:21203854-21204867
+Sampled coords: chr1:21183854-21224867
+# LOOP 0
+
+# Sucess!
+Reads:  11459
+# Delete tmp file
+---------------------
+HsInv1075 Mapped reads 
+---------------------
+Tue Oct 25 03:56:10 CEST 2022
+Original coords: chr11:66251453-66252566
+Sampled coords: chr11:66231453-66272566
+# LOOP 0
+
+# Sucess!
+Reads:  12448
+# Delete tmp file
+---------------------
+HsInv1116 Mapped reads 
+---------------------
+Tue Oct 25 03:56:14 CEST 2022
+Original coords: chr1:187497197-187497745
+Sampled coords: chr1:187477197-187517745
+# LOOP 0
+
+# Sucess!
+Reads:  9597
+# Delete tmp file
+---------------------
+HsInv1122 Mapped reads 
+---------------------
+Tue Oct 25 03:56:17 CEST 2022
+Original coords: chr3:162827427-162830003
+Sampled coords: chr3:162807427-162850003
+# LOOP 0
+
+# Sucess!
+Reads:  5037
+# Delete tmp file
+---------------------
+HsInv1127 Mapped reads 
+---------------------
+Tue Oct 25 03:56:20 CEST 2022
+Original coords: chr10:85483839-85484257
+Sampled coords: chr10:85463839-85504257
+# LOOP 0
+
+# Sucess!
+Reads:  10063
+# Delete tmp file
+---------------------
+HsInv1128 Mapped reads 
+---------------------
+Tue Oct 25 03:56:24 CEST 2022
+Original coords: chr14:25143047-25143528
+Sampled coords: chr14:25123047-25163528
+# LOOP 0
+
+# Sucess!
+Reads:  10367
+# Delete tmp file
+---------------------
+HsInv1129 Mapped reads 
+---------------------
+Tue Oct 25 03:56:27 CEST 2022
+Original coords: chr4:100680183-100680583
+Sampled coords: chr4:100660183-100700583
+# LOOP 0
+
+# Sucess!
+Reads:  10020
+# Delete tmp file
+---------------------
+HsInv1143 Mapped reads 
+---------------------
+Tue Oct 25 03:56:30 CEST 2022
+Original coords: chr1:48475128-48475723
+Sampled coords: chr1:48455128-48495723
+# LOOP 0
+
+# Sucess!
+Reads:  10135
+# Delete tmp file
+---------------------
+HsInv1222 Mapped reads 
+---------------------
+Tue Oct 25 03:56:34 CEST 2022
+Original coords: chr11:24263037-24266517
+Sampled coords: chr11:24243037-24286517
+# LOOP 0
+
+# Sucess!
+Reads:  10462
+# Delete tmp file
+---------------------
+HsInv1256 Mapped reads 
+---------------------
+Tue Oct 25 03:56:38 CEST 2022
+Original coords: chr12:39466175-39466643
+Sampled coords: chr12:39446175-39486643
+# LOOP 0
+
+# Sucess!
+Reads:  9990
+# Delete tmp file
+---------------------
+HsInv1258 Mapped reads 
+---------------------
+Tue Oct 25 03:56:42 CEST 2022
+Original coords: chr12:46636537-46636990
+Sampled coords: chr12:46616537-46656990
+# LOOP 0
+
+# Sucess!
+Reads:  10630
+# Delete tmp file
+---------------------
+HsInv1263 Mapped reads 
+---------------------
+Tue Oct 25 03:56:46 CEST 2022
+Original coords: chr12:70286687-70287344
+Sampled coords: chr12:70266687-70307344
+# LOOP 0
+
+# Sucess!
+Reads:  10239
+# Delete tmp file
+---------------------
+HsInv1264 Mapped reads 
+---------------------
+Tue Oct 25 03:56:50 CEST 2022
+Original coords: chr12:71316388-71316687
+Sampled coords: chr12:71296388-71336687
+# LOOP 0
+
+# Sucess!
+Reads:  10009
+# Delete tmp file
+---------------------
+HsInv1306 Mapped reads 
+---------------------
+Tue Oct 25 03:56:54 CEST 2022
+Original coords: chr13:97456136-97456869
+Sampled coords: chr13:97436136-97476869
+# LOOP 0
+
+# Sucess!
+Reads:  10916
+# Delete tmp file
+---------------------
+HsInv1314 Mapped reads 
+---------------------
+Tue Oct 25 03:56:59 CEST 2022
+Original coords: chr14:48912551-48913196
+Sampled coords: chr14:48892551-48933196
+# LOOP 0
+
+# Sucess!
+Reads:  10328
+# Delete tmp file
+---------------------
+HsInv1321 Mapped reads 
+---------------------
+Tue Oct 25 03:57:03 CEST 2022
+Original coords: chr14:65375670-65376565
+Sampled coords: chr14:65355670-65396565
+# LOOP 0
+
+# Sucess!
+Reads:  11063
+# Delete tmp file
+---------------------
+HsInv1348 Mapped reads 
+---------------------
+Tue Oct 25 03:57:06 CEST 2022
+Original coords: chr16:48871753-48872464
+Sampled coords: chr16:48851753-48892464
+# LOOP 0
+
+# Sucess!
+Reads:  10827
+# Delete tmp file
+---------------------
+HsInv1358 Mapped reads 
+---------------------
+Tue Oct 25 03:57:33 CEST 2022
+Original coords: chr17:5691815-5692382
+Sampled coords: chr17:5671815-5712382
+# LOOP 0
+
+# Sucess!
+Reads:  10879
+# Delete tmp file
+---------------------
+HsInv1360 Mapped reads 
+---------------------
+Tue Oct 25 03:57:36 CEST 2022
+Original coords: chr17:11127646-11128161
+Sampled coords: chr17:11107646-11148161
+# LOOP 0
+
+# Sucess!
+Reads:  10550
+# Delete tmp file
+---------------------
+HsInv1402 Mapped reads 
+---------------------
+Tue Oct 25 03:57:39 CEST 2022
+Original coords: chr2:33539407-33542959
+Sampled coords: chr2:33519407-33562959
+# LOOP 0
+
+# Sucess!
+Reads:  11296
+# Delete tmp file
+---------------------
+HsInv1421 Mapped reads 
+---------------------
+Tue Oct 25 03:57:42 CEST 2022
+Original coords: chr2:120382981-120384268
+Sampled coords: chr2:120362981-120404268
+# LOOP 0
+
+# Sucess!
+Reads:  11790
+# Delete tmp file
+---------------------
+HsInv1427 Mapped reads 
+---------------------
+Tue Oct 25 03:57:45 CEST 2022
+Original coords: chr2:152604434-152605067
+Sampled coords: chr2:152584434-152625067
+# LOOP 0
+
+# Sucess!
+Reads:  10504
+# Delete tmp file
+---------------------
+HsInv1474 Mapped reads 
+---------------------
+Tue Oct 25 03:57:49 CEST 2022
+Original coords: chr3:7358811-7359240
+Sampled coords: chr3:7338811-7379240
+# LOOP 0
+
+# Sucess!
+Reads:  9995
+# Delete tmp file
+---------------------
+HsInv1569 Mapped reads 
+---------------------
+Tue Oct 25 03:57:52 CEST 2022
+Original coords: chr5:8257294-8257944
+Sampled coords: chr5:8237294-8277944
+# LOOP 0
+
+# Sucess!
+Reads:  9752
+# Delete tmp file
+---------------------
+HsInv1590 Mapped reads 
+---------------------
+Tue Oct 25 03:57:55 CEST 2022
+Original coords: chr5:114922238-114922689
+Sampled coords: chr5:114902238-114942689
+# LOOP 0
+
+# Sucess!
+Reads:  10201
+# Delete tmp file
+---------------------
+HsInv1785 Mapped reads 
+---------------------
+Tue Oct 25 03:57:58 CEST 2022
+Original coords: chr1:91666099-91667227
+Sampled coords: chr1:91646099-91687227
+# LOOP 0
+
+# Sucess!
+Reads:  10916
+# Delete tmp file
+---------------------
+HsInv1790 Mapped reads 
+---------------------
+Tue Oct 25 03:58:01 CEST 2022
+Original coords: chr10:15742656-15760576
+Sampled coords: chr10:15722656-15780576
+# LOOP 0
+
+# Sucess!
+Reads:  15045
+# Delete tmp file
+---------------------
+HsInv1798 Mapped reads 
+---------------------
+Tue Oct 25 03:58:04 CEST 2022
+Original coords: chr12:49788679-49788978
+Sampled coords: chr12:49768679-49808978
+# LOOP 0
+
+# Sucess!
+Reads:  11725
+# Delete tmp file
+---------------------
+HsInv1808 Mapped reads 
+---------------------
+Tue Oct 25 03:58:08 CEST 2022
+Original coords: chr17:37414988-37415826
+Sampled coords: chr17:37394988-37435826
+# LOOP 0
+
+# Sucess!
+Reads:  11121
+# Delete tmp file
+---------------------
+HsInv1819 Mapped reads 
+---------------------
+Tue Oct 25 03:58:12 CEST 2022
+Original coords: chr3:70667130-70667819
+Sampled coords: chr3:70647130-70687819
+# LOOP 0
+
+# Sucess!
+Reads:  10035
+# Delete tmp file
+---------------------
+HsInv1820 Mapped reads 
+---------------------
+Tue Oct 25 03:58:15 CEST 2022
+Original coords: chr3:75454359-75455778
+Sampled coords: chr3:75434359-75475778
+# LOOP 0
+
+# Sucess!
+Reads:  10191
+# Delete tmp file
+---------------------
+HsInv1838 Mapped reads 
+---------------------
+Tue Oct 25 03:58:18 CEST 2022
+Original coords: chr7:47614368-47615412
+Sampled coords: chr7:47594368-47635412
+# LOOP 0
+
+# Sucess!
+Reads:  10998
+# Delete tmp file
+---------------------
+HsInv1848 Mapped reads 
+---------------------
+Tue Oct 25 03:58:21 CEST 2022
+Original coords: chr9:91958822-91959810
+Sampled coords: chr9:91938822-91979810
+# LOOP 0
+
+# Sucess!
+Reads:  11094
+# Delete tmp file
+---------------------
+HsInv1867 Mapped reads 
+---------------------
+Tue Oct 25 03:58:24 CEST 2022
+Original coords: chr1:181074618-181075091
+Sampled coords: chr1:181054618-181095091
+# LOOP 0
+
+# Sucess!
+Reads:  11341
+# Delete tmp file
+---------------------
+HsInv1868 Mapped reads 
+---------------------
+Tue Oct 25 03:58:27 CEST 2022
+Original coords: chr8:111062718-111063878
+Sampled coords: chr8:111042718-111083878
+# LOOP 0
+
+# Sucess!
+Reads:  9922
+# Delete tmp file
+---------------------
+HsInv1874 Mapped reads 
+---------------------
+Tue Oct 25 03:58:30 CEST 2022
+Original coords: chr4:92648862-92649161
+Sampled coords: chr4:92628862-92669161
+# LOOP 0
+
+# Sucess!
+Reads:  9460
+# Delete tmp file
+---------------------
+HsInv1875 Mapped reads 
+---------------------
+Tue Oct 25 03:58:33 CEST 2022
+Original coords: chr7:102084108-102084570
+Sampled coords: chr7:102064108-102104570
+# LOOP 0
+
+# Sucess!
+Reads:  11284
+# Delete tmp file
+---------------------
+HsOtb1874 Mapped reads 
+---------------------
+Tue Oct 25 03:58:36 CEST 2022
+Original coords: chr4:92648988-92649287
+Sampled coords: chr4:92628988-92669287
+# LOOP 0
+
+# Sucess!
+Reads:  9452
+# Delete tmp file
+---------------------
+HsOth0154 Mapped reads 
+---------------------
+Tue Oct 25 03:58:39 CEST 2022
+Original coords: chr5:170171600-170171899
+Sampled coords: chr5:170151600-170191899
+# LOOP 0
+
+# Sucess!
+Reads:  10772
+# Delete tmp file
+---------------------
+HsOth0170 Mapped reads 
+---------------------
+Tue Oct 25 03:58:42 CEST 2022
+Original coords: chr12:71139824-71140123
+Sampled coords: chr12:71119824-71160123
+# LOOP 0
+
+# Sucess!
+Reads:  9668
+# Delete tmp file
+---------------------
+HsOth0171 Mapped reads 
+---------------------
+Tue Oct 25 03:58:45 CEST 2022
+Original coords: chr2:128927452-128927751
+Sampled coords: chr2:128907452-128947751
+# LOOP 0
+
+# Sucess!
+Reads:  10403
+# Delete tmp file
+---------------------
+HsOth0178 Mapped reads 
+---------------------
+Tue Oct 25 03:58:48 CEST 2022
+Original coords: chr11:24883183-24883482
+Sampled coords: chr11:24863183-24903482
+# LOOP 0
+
+# Sucess!
+Reads:  9672
+# Delete tmp file
+---------------------
+HsOth0182 Mapped reads 
+---------------------
+Tue Oct 25 03:58:51 CEST 2022
+Original coords: chr9:105054914-105055213
+Sampled coords: chr9:105034914-105075213
+# LOOP 0
+
+# Sucess!
+Reads:  10338
+# Delete tmp file
+---------------------
+HsOth0186 Mapped reads 
+---------------------
+Tue Oct 25 03:58:54 CEST 2022
+Original coords: chr9:84520983-84521282
+Sampled coords: chr9:84500983-84541282
+# LOOP 0
+
+# Sucess!
+Reads:  10455
+# Delete tmp file
+---------------------
+HsOth0190 Mapped reads 
+---------------------
+Tue Oct 25 03:58:57 CEST 2022
+Original coords: chr14:40907400-40907699
+Sampled coords: chr14:40887400-40927699
+# LOOP 0
+
+# Sucess!
+Reads:  9844
+# Delete tmp file
+---------------------
+HsOth0211 Mapped reads 
+---------------------
+Tue Oct 25 03:59:00 CEST 2022
+Original coords: chr5:144660127-144660426
+Sampled coords: chr5:144640127-144680426
+# LOOP 0
+
+# Sucess!
+Reads:  10286
+# Delete tmp file
+---------------------
+HsOth0224 Mapped reads 
+---------------------
+Tue Oct 25 03:59:03 CEST 2022
+Original coords: chr8:99145440-99145739
+Sampled coords: chr8:99125440-99165739
+# LOOP 0
+
+# Sucess!
+Reads:  10867
+# Delete tmp file
+---------------------
+HsOth0310 Mapped reads 
+---------------------
+Tue Oct 25 03:59:06 CEST 2022
+Original coords: chr12:37924574-37924873
+Sampled coords: chr12:37904574-37944873
+# LOOP 0
+
+# Sucess!
+Reads:  9873
+# Delete tmp file
+---------------------
+HsOth0324 Mapped reads 
+---------------------
+Tue Oct 25 03:59:09 CEST 2022
+Original coords: chr5:116010882-116011181
+Sampled coords: chr5:115990882-116031181
+# LOOP 0
+
+# Sucess!
+Reads:  10373
+# Delete tmp file
+---------------------
+HsOth0335 Mapped reads 
+---------------------
+Tue Oct 25 03:59:12 CEST 2022
+Original coords: chr12:7810964-7811263
+Sampled coords: chr12:7790964-7831263
+# LOOP 0
+
+# Sucess!
+Reads:  10746
+# Delete tmp file
+---------------------
+HsOth0463 Mapped reads 
+---------------------
+Tue Oct 25 03:59:16 CEST 2022
+Original coords: chr3:191115634-191115933
+Sampled coords: chr3:191095634-191135933
+# LOOP 0
+
+# Sucess!
+Reads:  10284
+# Delete tmp file
+---------------------
+HsOth0574 Mapped reads 
+---------------------
+Tue Oct 25 03:59:19 CEST 2022
+Original coords: chr16:69728840-69729139
+Sampled coords: chr16:69708840-69749139
+# LOOP 0
+
+# Sucess!
+Reads:  11384
+# Delete tmp file
+---------------------
+HsOth0589 Mapped reads 
+---------------------
+Tue Oct 25 03:59:22 CEST 2022
+Original coords: chr7:151314869-151315168
+Sampled coords: chr7:151294869-151335168
+# LOOP 0
+
+# Sucess!
+Reads:  10993
+# Delete tmp file
+---------------------
+HsOth0612 Mapped reads 
+---------------------
+Tue Oct 25 03:59:25 CEST 2022
+Original coords: chr4:111087157-111087456
+Sampled coords: chr4:111067157-111107456
+# LOOP 0
+
+# Sucess!
+Reads:  10341
+# Delete tmp file
+---------------------
+HsOth0968 Mapped reads 
+---------------------
+Tue Oct 25 03:59:28 CEST 2022
+Original coords: chr1:239953232-239953531
+Sampled coords: chr1:239933232-239973531
+# LOOP 0
+
+# Sucess!
+Reads:  9757
+# Delete tmp file
+---------------------
+HsOth0987 Mapped reads 
+---------------------
+Tue Oct 25 03:59:31 CEST 2022
+Original coords: chr2:131129573-131129872
+Sampled coords: chr2:131109573-131149872
+# LOOP 0
+
+# Sucess!
+Reads:  10471
+# Delete tmp file
+---------------------
+HsOth0997 Mapped reads 
+---------------------
+Tue Oct 25 03:59:34 CEST 2022
+Original coords: chr14:66703465-66703764
+Sampled coords: chr14:66683465-66723764
+# LOOP 0
+
+# Sucess!
+Reads:  10824
+# Delete tmp file
+---------------------
+HsOth1004 Mapped reads 
+---------------------
+Tue Oct 25 03:59:38 CEST 2022
+Original coords: chr10:125508512-125508811
+Sampled coords: chr10:125488512-125528811
+# LOOP 0
+
+# Sucess!
+Reads:  10878
+# Delete tmp file
+---------------------
+HsOth1013 Mapped reads 
+---------------------
+Tue Oct 25 03:59:41 CEST 2022
+Original coords: chr5:79753582-79753881
+Sampled coords: chr5:79733582-79773881
+# LOOP 0
+
+# Sucess!
+Reads:  10470
+# Delete tmp file
+---------------------
+HsOth1112 Mapped reads 
+---------------------
+Tue Oct 25 03:59:44 CEST 2022
+Original coords: chr2:10685767-10686066
+Sampled coords: chr2:10665767-10706066
+# LOOP 0
+
+# Sucess!
+Reads:  10638
+# Delete tmp file
+---------------------
+HsOth1122 Mapped reads 
+---------------------
+Tue Oct 25 03:59:47 CEST 2022
+Original coords: chr3:162794197-162908696
+Sampled coords: chr3:162774197-162928696
+# LOOP 0
+
+# Sucess!
+Reads:  23256
+# Delete tmp file
+---------------------
+HsOth1130 Mapped reads 
+---------------------
+Tue Oct 25 03:59:51 CEST 2022
+Original coords: chr2:116220576-116220875
+Sampled coords: chr2:116200576-116240875
+# LOOP 0
+
+# Sucess!
+Reads:  10083
+# Delete tmp file
+---------------------
+HsOth1141 Mapped reads 
+---------------------
+Tue Oct 25 03:59:54 CEST 2022
+Original coords: chr1:44357347-44358168
+Sampled coords: chr1:44337347-44378168
+# LOOP 0
+
+# Sucess!
+Reads:  11013
+# Delete tmp file
+---------------------
+HsOth1146 Mapped reads 
+---------------------
+Tue Oct 25 03:59:57 CEST 2022
+Original coords: chr16:77754913-77755212
+Sampled coords: chr16:77734913-77775212
+# LOOP 0
+
+# Sucess!
+Reads:  9704
+# Delete tmp file
+---------------------
+HsOth1153 Mapped reads 
+---------------------
+Tue Oct 25 04:00:00 CEST 2022
+Original coords: chr1:104037722-104038021
+Sampled coords: chr1:104017722-104058021
+# LOOP 0
+
+# Sucess!
+Reads:  9750
+# Delete tmp file
+---------------------
+HsOth1216 Mapped reads 
+---------------------
+Tue Oct 25 04:00:03 CEST 2022
+Original coords: chr10:131281639-131281938
+Sampled coords: chr10:131261639-131301938
+# LOOP 0
+
+# Sucess!
+Reads:  10363
+# Delete tmp file
+---------------------
+HsOth1225 Mapped reads 
+---------------------
+Tue Oct 25 04:00:06 CEST 2022
+Original coords: chr11:41145339-41145638
+Sampled coords: chr11:41125339-41165638
+# LOOP 0
+
+# Sucess!
+Reads:  9660
+# Delete tmp file
+---------------------
+HsOth1240 Mapped reads 
+---------------------
+Tue Oct 25 04:00:09 CEST 2022
+Original coords: chr11:98977155-98977454
+Sampled coords: chr11:98957155-98997454
+# LOOP 0
+
+# Sucess!
+Reads:  10023
+# Delete tmp file
+---------------------
+HsOth1269 Mapped reads 
+---------------------
+Tue Oct 25 04:00:12 CEST 2022
+Original coords: chr12:95559816-95560115
+Sampled coords: chr12:95539816-95580115
+# LOOP 0
+
+# Sucess!
+Reads:  16829
+# Delete tmp file
+---------------------
+HsOth1275 Mapped reads 
+---------------------
+Tue Oct 25 04:00:16 CEST 2022
+Original coords: chr12:117151868-117152167
+Sampled coords: chr12:117131868-117172167
+# LOOP 0
+
+# Sucess!
+Reads:  10778
+# Delete tmp file
+---------------------
+HsOth1306 Mapped reads 
+---------------------
+Tue Oct 25 04:00:19 CEST 2022
+Original coords: chr13:97451493-97456304
+Sampled coords: chr13:97431493-97476304
+# LOOP 0
+
+# Sucess!
+Reads:  12036
+# Delete tmp file
+---------------------
+HsOth1313 Mapped reads 
+---------------------
+Tue Oct 25 04:00:22 CEST 2022
+Original coords: chr14:47854622-47854921
+Sampled coords: chr14:47834622-47874921
+# LOOP 0
+
+# Sucess!
+Reads:  10117
+# Delete tmp file
+---------------------
+HsOth1329 Mapped reads 
+---------------------
+Tue Oct 25 04:00:25 CEST 2022
+Original coords: chr15:28003406-28003705
+Sampled coords: chr15:27983406-28023705
+# LOOP 0
+
+# Sucess!
+Reads:  10305
+# Delete tmp file
+---------------------
+HsOth1376 Mapped reads 
+---------------------
+Tue Oct 25 04:00:29 CEST 2022
+Original coords: chr18:13919596-13919895
+Sampled coords: chr18:13899596-13939895
+# LOOP 0
+
+# Sucess!
+Reads:  10863
+# Delete tmp file
+---------------------
+HsOth1408 Mapped reads 
+---------------------
+Tue Oct 25 04:00:32 CEST 2022
+Original coords: chr2:50538639-50538938
+Sampled coords: chr2:50518639-50558938
+# LOOP 0
+
+# Sucess!
+Reads:  9854
+# Delete tmp file
+---------------------
+HsOth1411 Mapped reads 
+---------------------
+Tue Oct 25 04:00:35 CEST 2022
+Original coords: chr2:61473479-61473778
+Sampled coords: chr2:61453479-61493778
+# LOOP 0
+
+# Sucess!
+Reads:  11459
+# Delete tmp file
+---------------------
+HsOth1414 Mapped reads 
+---------------------
+Tue Oct 25 04:00:38 CEST 2022
+Original coords: chr2:72214084-72214383
+Sampled coords: chr2:72194084-72234383
+# LOOP 0
+
+# Sucess!
+Reads:  10549
+# Delete tmp file
+---------------------
+HsOth1422 Mapped reads 
+---------------------
+Tue Oct 25 04:00:42 CEST 2022
+Original coords: chr2:124294031-124294330
+Sampled coords: chr2:124274031-124314330
+# LOOP 0
+
+# Sucess!
+Reads:  9744
+# Delete tmp file
+---------------------
+HsOth1425 Mapped reads 
+---------------------
+Tue Oct 25 04:00:45 CEST 2022
+Original coords: chr2:132762101-132762400
+Sampled coords: chr2:132742101-132782400
+# LOOP 0
+
+# Sucess!
+Reads:  10522
+# Delete tmp file
+---------------------
+HsOth1428 Mapped reads 
+---------------------
+Tue Oct 25 04:00:48 CEST 2022
+Original coords: chr2:159241344-159243801
+Sampled coords: chr2:159221344-159263801
+# LOOP 0
+
+# Sucess!
+Reads:  11665
+# Delete tmp file
+---------------------
+HsOth1432 Mapped reads 
+---------------------
+Tue Oct 25 04:00:51 CEST 2022
+Original coords: chr2:176508802-176512857
+Sampled coords: chr2:176488802-176532857
+# LOOP 0
+
+# Sucess!
+Reads:  11619
+# Delete tmp file
+---------------------
+HsOth1454 Mapped reads 
+---------------------
+Tue Oct 25 04:00:54 CEST 2022
+Original coords: chr20:44677057-44680400
+Sampled coords: chr20:44657057-44700400
+# LOOP 0
+
+# Sucess!
+Reads:  11729
+# Delete tmp file
+---------------------
+HsOth1468 Mapped reads 
+---------------------
+Tue Oct 25 04:00:57 CEST 2022
+Original coords: chr22:36538080-36538379
+Sampled coords: chr22:36518080-36558379
+# LOOP 0
+
+# Sucess!
+Reads:  11433
+# Delete tmp file
+---------------------
+HsOth1471 Mapped reads 
+---------------------
+Tue Oct 25 04:01:00 CEST 2022
+Original coords: chr22:48476319-48476618
+Sampled coords: chr22:48456319-48496618
+# LOOP 0
+
+# Sucess!
+Reads:  10885
+# Delete tmp file
+---------------------
+HsOth1484 Mapped reads 
+---------------------
+Tue Oct 25 04:01:04 CEST 2022
+Original coords: chr3:43794352-43794651
+Sampled coords: chr3:43774352-43814651
+# LOOP 0
+
+# Sucess!
+Reads:  10325
+# Delete tmp file
+---------------------
+HsOth1497 Mapped reads 
+---------------------
+Tue Oct 25 04:01:07 CEST 2022
+Original coords: chr3:127777530-127777829
+Sampled coords: chr3:127757530-127797829
+# LOOP 0
+
+# Sucess!
+Reads:  11494
+# Delete tmp file
+---------------------
+HsOth1511 Mapped reads 
+---------------------
+Tue Oct 25 04:01:10 CEST 2022
+Original coords: chr3:172455388-172455687
+Sampled coords: chr3:172435388-172475687
+# LOOP 0
+
+# Sucess!
+Reads:  11106
+# Delete tmp file
+---------------------
+HsOth1579 Mapped reads 
+---------------------
+Tue Oct 25 04:01:13 CEST 2022
+Original coords: chr5:31190927-31191226
+Sampled coords: chr5:31170927-31211226
+# LOOP 0
+
+# Sucess!
+Reads:  10445
+# Delete tmp file
+---------------------
+HsOth1614 Mapped reads 
+---------------------
+Tue Oct 25 04:01:17 CEST 2022
+Original coords: chr6:12439568-12439867
+Sampled coords: chr6:12419568-12459867
+# LOOP 0
+
+# Sucess!
+Reads:  10802
+# Delete tmp file
+---------------------
+HsOth1637 Mapped reads 
+---------------------
+Tue Oct 25 04:01:20 CEST 2022
+Original coords: chr6:121197889-121204982
+Sampled coords: chr6:121177889-121224982
+# LOOP 0
+
+# Sucess!
+Reads:  11393
+# Delete tmp file
+---------------------
+HsOth1667 Mapped reads 
+---------------------
+Tue Oct 25 04:01:23 CEST 2022
+Original coords: chr7:31550543-31552531
+Sampled coords: chr7:31530543-31572531
+# LOOP 0
+
+# Sucess!
+Reads:  10736
+# Delete tmp file
+---------------------
+HsOth1681 Mapped reads 
+---------------------
+Tue Oct 25 04:01:27 CEST 2022
+Original coords: chr7:56559607-56560252
+Sampled coords: chr7:56539607-56580252
+# LOOP 0
+
+# Sucess!
+Reads:  10110
+# Delete tmp file
+---------------------
+HsOth1700 Mapped reads 
+---------------------
+Tue Oct 25 04:01:30 CEST 2022
+Original coords: chr7:129180975-129181274
+Sampled coords: chr7:129160975-129201274
+# LOOP 0
+
+# Sucess!
+Reads:  11127
+# Delete tmp file
+---------------------
+HsOth1751 Mapped reads 
+---------------------
+Tue Oct 25 04:01:33 CEST 2022
+Original coords: chr8:137118575-137118874
+Sampled coords: chr8:137098575-137138874
+# LOOP 0
+
+# Sucess!
+Reads:  9481
+# Delete tmp file
+---------------------
+HsOth1794 Mapped reads 
+---------------------
+Tue Oct 25 04:01:36 CEST 2022
+Original coords: chr10:113411843-113412142
+Sampled coords: chr10:113391843-113432142
+# LOOP 0
+
+# Sucess!
+Reads:  10440
+# Delete tmp file
+---------------------
+HsOth1853 Mapped reads 
+---------------------
+Tue Oct 25 04:01:40 CEST 2022
+Original coords: chr1:182305037-182305336
+Sampled coords: chr1:182285037-182325336
+# LOOP 0
+
+# Sucess!
+Reads:  11212
+# Delete tmp file
+---------------------
+HsOth1856 Mapped reads 
+---------------------
+Tue Oct 25 04:01:43 CEST 2022
+Original coords: chr12:125316461-125316760
+Sampled coords: chr12:125296461-125336760
+# LOOP 0
+
+# Sucess!
+Reads:  11099
+# Delete tmp file
+---------------------
+HsOth1857 Mapped reads 
+---------------------
+Tue Oct 25 04:01:46 CEST 2022
+Original coords: chr12:77989954-77990253
+Sampled coords: chr12:77969954-78010253
+# LOOP 0
+
+# Sucess!
+Reads:  9794
+# Delete tmp file
+---------------------
+HsOth1858 Mapped reads 
+---------------------
+Tue Oct 25 04:01:49 CEST 2022
+Original coords: chr18:29783793-29784102
+Sampled coords: chr18:29763793-29804102
+# LOOP 0
+
+# Sucess!
+Reads:  9508
+# Delete tmp file
+---------------------
+HsOth1865 Mapped reads 
+---------------------
+Tue Oct 25 04:01:52 CEST 2022
+Original coords: chrX:26781870-26782169
+Sampled coords: chrX:26761870-26802169
+# LOOP 0
+
+# Sucess!
+Reads:  9655
+# Delete tmp file
+---------------------
+ Unmapped reads 
+---------------------
+Tue Oct 25 04:01:56 CEST 2022
+# LOOP 0
+# Success!
+Reads:  873611
+# Delete tmp file

@@ -1,0 +1,93 @@
+#!/bin/bash
+
+# Set here all the variables for runCommands.sh
+
+# Name of the process 
+# ALERT!!! YOU WON'T BE WARNED IF THIS ALREADY EXISTS!
+# =========================================================================== #
+
+NAME="1kgp_phase3_static_v2.4.1.300_v37"
+
+# Manually set date, comment if we want it automatic
+DATE="2022-10-14"
+
+# To override some parts
+
+OVERRIDE=3 # This is the first process number we want to run, e.g. 2 will not run 0, and 1
+
+# To override:
+	# 0 library -> nothing needed, library is always in the same place /data/bioinfo/scratch/breakseq_fastqs
+	# 1 download -> we can override it by just having a FASTQ variable, even with 0 value override
+		# If we want to override the download, we can set a directory with previous downloads
+		# It has to be the directory with individual directories
+		READ_FASTQS="/data/bioinfo/common/breakseq_data/2022-10-10_1kgp_phase3_static"
+	# 2 breakseq
+		# BREAKSEQ_RESULTS="analysis/" 
+	# 3 alignment analysis - it can be automatically assigned!
+		# GENOTYPES_DIR="analysis/2021-06-30_basicRun/03_processaligned/"
+	# 4 quality control 
+		# It is automatically assigned!
+	# 5 tagsnps
+		# automatically assigned
+
+
+
+# STEP 00 - Library
+# =========================================================================== #
+
+# library seed name
+# this name must exist in data/raw/seed_librerias
+LIBRARY_SEED="v2.4.1.300_v37"
+
+# Do we want to update all library or just to make the base files?
+LIBRARY_UPDATE="yes"
+
+# STEP 01 - Download
+# =========================================================================== #
+
+# individuals to test"
+SAMPLESLIST="data/use/1KGP_data/static_dataset_list.txt"
+SAMPLESFILE="data/use/1KGP_data/pathIndex.txt"
+NGC_PATH="data/raw/avery_data/prj_21579.ngc"
+
+# inversions to test - it can be empty to analyze all
+INVSFILE=""
+
+# maximum jobs in queue (can be left empty to make 1 ind = job)
+MAXJOBS=20
+
+# Set whether I want to delete individual files (y or n)
+KEEP_DOWNLOADS="y"
+
+# Resume download with the same name (y or n)
+# To resume download we need a TMP dir with a path equivalent to this process that contains a readscount summary for each individual
+RESUME="n"
+
+
+# Step 02 - Breakseq
+# =========================================================================== #
+
+# Coverage around the breakpoint that we want to take into account
+# Later I can modify it to be a list
+COV_AROUND=20
+
+# --score-min option in BOWTIE2 for the breakseq run
+SCORE_MIN=L,0,-0.3
+RESUME_B="n"
+# Step 03 - ProcessAligned
+# =========================================================================== #
+
+# Later I can modify it to be a list
+MIN_LENGTH=30
+
+# Allele names, separated with |
+INREF="STD|REF"
+NOTINREF="INV|INS|DEL|ALT|ANC"
+
+# Step 04 - QualityAnalysis
+# =========================================================================== #
+# Later I can modify this to accept several breakseq + alignment results
+
+# the maximum error accepted (<=)
+MAX_ERROR=0.03
+

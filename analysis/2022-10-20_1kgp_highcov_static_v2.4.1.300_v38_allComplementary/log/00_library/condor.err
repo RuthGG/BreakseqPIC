@@ -1,0 +1,9 @@
+[W::fai_insert_index] Ignoring duplicate sequence "STDHsInv0901BP2HG38" at byte offset 68520
+[W::fai_insert_index] Ignoring duplicate sequence "INVHsInv0901BP0CHM1v2" at byte offset 68844
+Building a SMALL index
+521 reads; of these:
+  521 (100.00%) were unpaired; of these:
+    273 (52.40%) aligned 0 times
+    230 (44.15%) aligned exactly 1 time
+    18 (3.45%) aligned >1 times
+47.60% overall alignment rate

@@ -129,7 +129,7 @@ summary_probes<-summary_probes[order(summary_probes$inversion, summary_probes$pr
 write.table(summary_probes, paste0(args[3], "/readFiltering.txt"), quote = F, sep = "\t", row.names = F)
 
 # + Summary for downloads
-path<-gsub("04_qualityanalysis/","",args[3])
+path<-gsub("03_processaligned/","",args[3])
 readcounts<-read.table(paste0(path,"01_download/readscount.txt"), sep = ",", stringsAsFactors = F)
 readcounts_agg<-aggregate( V3  ~ V2, rc , sum )
 colnameS(readcounts_agg)<-c("Inversion", "reads.download")

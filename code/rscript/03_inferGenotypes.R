@@ -12,7 +12,7 @@
 args = commandArgs(trailingOnly=TRUE)
 
 # Example
-# args[1]<-"analysis/2021-09-29_v2.3.2_deftest/"  # Final read counts
+# args[1]<-"analysis/2022-11-21_1kgp_highcov_static_v2.4.1.300_v38//"  # Final read counts
 
 # Test if there is at least one argument: if not, return an error
 if (length(args)<1) {
@@ -101,10 +101,16 @@ genotable<-Reduce(function(x,y) merge(x = x, y = y, all = TRUE), list(general, a
   tmp<-genotable[genotable$genotypes_aggregated_count > 1,]
   tmp$inversion<-as.character(tmp$inversion)
   tmp$individual<-as.character(tmp$individual)
-
+  reads$individual<-as.character(reads$individual)
+  reads$inversion<-as.character(reads$inversion)
+  
   tmp$p.error<-apply(tmp, 1, function(x){
-    counts<-data.frame(table(as.character(reads[reads$inversion ==  x["inversion"] & reads$individual == x["individual"], "genotype"] )))
-    x["p.error"] <- ifelse(  (nrow(counts)  ==   nrow(counts[counts$Freq >= 2,])), 0, 1 )
+    # esto solo mira que haya mas de una sonda!!
+    # counts<-data.frame(table(as.character(reads[reads$inversion %in%  x["inversion"] & reads$individual %in% x["individual"], "genotype"] )))
+    # x["p.error"] <- ifelse(  (nrow(counts)  ==   nrow(counts[counts$Freq >= 2,])), 0, 1 )
+    counts<-aggregate( Total_reads ~ genotype ,  reads[reads$inversion %in%  x["inversion"] & reads$individual %in% x["individual"],] , sum)
+    x["p.error"] <- ifelse(  (nrow(counts)  ==   nrow(counts[counts$Total_reads >= 2,])), 0, 1 )
+    
   })
   
   genotable<-merge(genotable, tmp[,c("inversion", "individual", "p.error")], by = c("inversion", "individual"), all=TRUE)
@@ -114,3 +120,4 @@ genotable<-Reduce(function(x,y) merge(x = x, y = y, all = TRUE), list(general, a
   
 # Save
 write.table(genotable, paste0(args[1],"/03_processaligned/GTypes_FinalDataSet.txt"), col.names = T, row.names = F, quote = F, sep = "\t" )
+# saveRDS(genotable, file =  paste0(args[1],"/03_processaligned/GTypes_FinalDataSet.rds"))
